@@ -1,0 +1,5 @@
+.venv/
+output/
+songs/
+.DS_Store
+__pycache__/
