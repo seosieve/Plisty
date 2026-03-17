@@ -16,18 +16,29 @@ import wave
 import re
 import tempfile
 import shutil
+import urllib.request
 
 # ============================================================
 # 설정
 # ============================================================
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SONGS_DIR = os.path.join(SCRIPT_DIR, "songs")
-IMAGES_DIR = os.path.join(SCRIPT_DIR, "images")
-LYRICS_DIR = os.path.join(SCRIPT_DIR, "lyrics")
-OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
-TRACKLIST = os.path.join(SCRIPT_DIR, "tracklist.json")
+
+# EP 폴더를 인자로 받음
+if len(sys.argv) < 2:
+    print("사용법: python generate.py <EP 폴더 경로>")
+    print("예: python generate.py ../EP01_000000")
+    sys.exit(1)
+
+EP_DIR = os.path.abspath(sys.argv[1])
+SONGS_DIR = os.path.join(EP_DIR, "songs")
+IMAGES_DIR = os.path.join(EP_DIR, "images")
+LYRICS_DIR = os.path.join(EP_DIR, "lyrics")
+OUTPUT_DIR = os.path.join(EP_DIR, "output")
 
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "playlist_output.mp4")
+
+ARTIST = "SEOUL LABS"
+AUDIO_EXTENSIONS = {'.wav', '.mp3', '.flac', '.m4a', '.aac'}
 
 # 테스트 모드 (0 = 전체 렌더, 양수 = 해당 초만 렌더)
 TEST_DURATION = 0
@@ -78,6 +89,136 @@ DRIFT_FREQ_MIN = 0.02
 DRIFT_FREQ_MAX = 0.06
 PARTICLE_COLOR = (238, 238, 238)
 BLUR_RADIUS = 1.5
+
+
+# ============================================================
+# 가사 싱크 (SUNO API)
+# ============================================================
+SUNO_API_BASE = "https://studio-api.prod.suno.com/api/gen/{}/aligned_lyrics/v2/"
+
+
+def get_token_from_safari():
+    """Safari에서 SUNO __session 쿠키 자동 추출"""
+    try:
+        result = subprocess.run(
+            ["osascript", "-e",
+             'tell application "Safari" to do JavaScript "document.cookie" in current tab of front window'],
+            capture_output=True, text=True, timeout=5
+        )
+        if result.returncode != 0:
+            return None
+        for part in result.stdout.split(";"):
+            part = part.strip()
+            if part.startswith("__session=") and not part.startswith("__session_"):
+                return part[len("__session="):]
+    except Exception:
+        pass
+    return None
+
+
+def get_suno_id(filepath):
+    """오디오 메타데이터에서 SUNO ID 추출"""
+    result = subprocess.run(
+        ["ffprobe", "-v", "quiet", "-show_entries", "format_tags", filepath],
+        capture_output=True, text=True
+    )
+    for line in result.stdout.splitlines():
+        if "id=" in line and "made with suno" in line:
+            for part in line.split(";"):
+                part = part.strip()
+                if part.startswith("id="):
+                    return part[3:]
+    return None
+
+
+def fetch_aligned_lyrics(suno_id, token):
+    """SUNO API에서 가사 싱크 데이터 가져오기"""
+    url = SUNO_API_BASE.format(suno_id)
+    req = urllib.request.Request(url)
+    req.add_header("Authorization", f"Bearer {token}")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            print(f"  [오류] 인증 실패 (HTTP {e.code}) - 쿠키가 만료되었습니다.")
+        else:
+            print(f"  [오류] HTTP {e.code}: {e.reason}")
+        return None
+
+
+def sync_lyrics(song_files):
+    """songs/ 폴더와 lyrics/ 폴더를 자동 싱크"""
+    os.makedirs(LYRICS_DIR, exist_ok=True)
+
+    song_names = {os.path.splitext(f)[0] for f in song_files}
+    existing_lyrics = {
+        os.path.splitext(f)[0]
+        for f in os.listdir(LYRICS_DIR) if f.endswith('.json')
+    } if os.path.isdir(LYRICS_DIR) else set()
+
+    # 삭제된 곡의 가사 정리
+    removed = existing_lyrics - song_names
+    for name in removed:
+        for ext in ('.json', '.lrc', '.srt'):
+            path = os.path.join(LYRICS_DIR, f"{name}{ext}")
+            if os.path.exists(path):
+                os.remove(path)
+                print(f"  🗑  가사 삭제: {name}{ext}")
+
+    # 새 곡의 가사 다운로드
+    missing = song_names - existing_lyrics
+    if not missing:
+        print("  ✅ 가사 싱크 완료 (변경 없음)")
+        return
+
+    # 토큰 가져오기
+    print("  🔑 Safari에서 SUNO 토큰 추출 중...")
+    token = get_token_from_safari()
+    if not token:
+        print("  ⚠️  토큰을 가져올 수 없습니다. Safari에서 suno.com이 열려있는지 확인해주세요.")
+        print("  가사 없이 영상을 생성합니다.")
+        return
+
+    for song_file in song_files:
+        name = os.path.splitext(song_file)[0]
+        if name not in missing:
+            continue
+
+        filepath = os.path.join(SONGS_DIR, song_file)
+        print(f"  🎤 가사 다운로드: {name}")
+
+        suno_id = get_suno_id(filepath)
+        if not suno_id:
+            print(f"    SUNO ID를 찾을 수 없습니다. 스킵.")
+            continue
+
+        data = fetch_aligned_lyrics(suno_id, token)
+        if not data or "aligned_words" not in data:
+            print(f"    가사 데이터를 가져올 수 없습니다.")
+            continue
+
+        # 대괄호 태그 제거
+        words = data["aligned_words"]
+        full = ''.join(w["word"] for w in words)
+        remove_indices = set()
+        for m in re.finditer(r'\[.*?\]', full, flags=re.DOTALL):
+            for i in range(m.start(), m.end()):
+                remove_indices.add(i)
+        pos = 0
+        for w in words:
+            cleaned = []
+            for ch in w["word"]:
+                if pos not in remove_indices:
+                    cleaned.append(ch)
+                pos += 1
+            w["word"] = ''.join(cleaned)
+        data["aligned_words"] = [w for w in words if w["word"].strip()]
+
+        json_path = os.path.join(LYRICS_DIR, f"{name}.json")
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"    ✅ 저장 완료 ({len(data['aligned_words'])}개 단어)")
 
 
 # ============================================================
@@ -344,12 +485,32 @@ def main():
     print("🎬 SEOUL LABS Playlist Video Generator")
     print("========================================")
 
-    # tracklist 로드
-    with open(TRACKLIST, 'r', encoding='utf-8') as f:
-        tracklist = json.load(f)
+    # songs/ 폴더 자동 스캔
+    if not os.path.isdir(SONGS_DIR):
+        print(f"❌ songs 폴더를 찾을 수 없습니다: {SONGS_DIR}")
+        return
+
+    song_files = sorted([
+        f for f in os.listdir(SONGS_DIR)
+        if os.path.splitext(f)[1].lower() in AUDIO_EXTENSIONS
+    ])
+
+    if not song_files:
+        print(f"❌ songs 폴더에 오디오 파일이 없습니다: {SONGS_DIR}")
+        return
+
+    tracklist = [
+        {"title": os.path.splitext(f)[0], "artist": ARTIST, "file": f}
+        for f in song_files
+    ]
 
     track_count = len(tracklist)
+    print(f"📂 EP: {os.path.basename(EP_DIR)}")
     print(f"📋 트랙 수: {track_count}")
+
+    # 가사 자동 싱크
+    print("\n🎵 가사 싱크 확인 중...")
+    sync_lyrics(song_files)
 
     # 배경 이미지 로드
     if not os.path.exists(BG_IMAGE):

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 generate.py \"../EP01_000000\")",
+      "Bash(git add:*)"
+    ]
+  }
+}
