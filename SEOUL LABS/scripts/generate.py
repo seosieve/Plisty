@@ -16,7 +16,8 @@ import wave
 import re
 import tempfile
 import shutil
-import urllib.request
+
+from lyrics import sync_lyrics, parse_lyrics_json
 
 # ============================================================
 # 설정
@@ -91,134 +92,6 @@ PARTICLE_COLOR = (238, 238, 238)
 BLUR_RADIUS = 1.5
 
 
-# ============================================================
-# 가사 싱크 (SUNO API)
-# ============================================================
-SUNO_API_BASE = "https://studio-api.prod.suno.com/api/gen/{}/aligned_lyrics/v2/"
-
-
-def get_token_from_safari():
-    """Safari에서 SUNO __session 쿠키 자동 추출"""
-    try:
-        result = subprocess.run(
-            ["osascript", "-e",
-             'tell application "Safari" to do JavaScript "document.cookie" in current tab of front window'],
-            capture_output=True, text=True, timeout=5
-        )
-        if result.returncode != 0:
-            return None
-        for part in result.stdout.split(";"):
-            part = part.strip()
-            if part.startswith("__session=") and not part.startswith("__session_"):
-                return part[len("__session="):]
-    except Exception:
-        pass
-    return None
-
-
-def get_suno_id(filepath):
-    """오디오 메타데이터에서 SUNO ID 추출"""
-    result = subprocess.run(
-        ["ffprobe", "-v", "quiet", "-show_entries", "format_tags", filepath],
-        capture_output=True, text=True
-    )
-    for line in result.stdout.splitlines():
-        if "id=" in line and "made with suno" in line:
-            for part in line.split(";"):
-                part = part.strip()
-                if part.startswith("id="):
-                    return part[3:]
-    return None
-
-
-def fetch_aligned_lyrics(suno_id, token):
-    """SUNO API에서 가사 싱크 데이터 가져오기"""
-    url = SUNO_API_BASE.format(suno_id)
-    req = urllib.request.Request(url)
-    req.add_header("Authorization", f"Bearer {token}")
-    try:
-        with urllib.request.urlopen(req) as resp:
-            return json.loads(resp.read().decode())
-    except urllib.error.HTTPError as e:
-        if e.code in (401, 403):
-            print(f"  [오류] 인증 실패 (HTTP {e.code}) - 쿠키가 만료되었습니다.")
-        else:
-            print(f"  [오류] HTTP {e.code}: {e.reason}")
-        return None
-
-
-def sync_lyrics(song_files):
-    """songs/ 폴더와 lyrics/ 폴더를 자동 싱크"""
-    os.makedirs(LYRICS_DIR, exist_ok=True)
-
-    song_names = {os.path.splitext(f)[0] for f in song_files}
-    existing_lyrics = {
-        os.path.splitext(f)[0]
-        for f in os.listdir(LYRICS_DIR) if f.endswith('.json')
-    } if os.path.isdir(LYRICS_DIR) else set()
-
-    # 삭제된 곡의 가사 정리
-    removed = existing_lyrics - song_names
-    for name in removed:
-        for ext in ('.json', '.lrc', '.srt'):
-            path = os.path.join(LYRICS_DIR, f"{name}{ext}")
-            if os.path.exists(path):
-                os.remove(path)
-                print(f"  🗑  가사 삭제: {name}{ext}")
-
-    # 새 곡의 가사 다운로드
-    missing = song_names - existing_lyrics
-    if not missing:
-        print("  ✅ 가사 싱크 완료 (변경 없음)")
-        return
-
-    # 토큰 가져오기
-    print("  🔑 Safari에서 SUNO 토큰 추출 중...")
-    token = get_token_from_safari()
-    if not token:
-        print("  ⚠️  토큰을 가져올 수 없습니다. Safari에서 suno.com이 열려있는지 확인해주세요.")
-        print("  가사 없이 영상을 생성합니다.")
-        return
-
-    for song_file in song_files:
-        name = os.path.splitext(song_file)[0]
-        if name not in missing:
-            continue
-
-        filepath = os.path.join(SONGS_DIR, song_file)
-        print(f"  🎤 가사 다운로드: {name}")
-
-        suno_id = get_suno_id(filepath)
-        if not suno_id:
-            print(f"    SUNO ID를 찾을 수 없습니다. 스킵.")
-            continue
-
-        data = fetch_aligned_lyrics(suno_id, token)
-        if not data or "aligned_words" not in data:
-            print(f"    가사 데이터를 가져올 수 없습니다.")
-            continue
-
-        # 대괄호 태그 제거
-        words = data["aligned_words"]
-        full = ''.join(w["word"] for w in words)
-        remove_indices = set()
-        for m in re.finditer(r'\[.*?\]', full, flags=re.DOTALL):
-            for i in range(m.start(), m.end()):
-                remove_indices.add(i)
-        pos = 0
-        for w in words:
-            cleaned = []
-            for ch in w["word"]:
-                if pos not in remove_indices:
-                    cleaned.append(ch)
-                pos += 1
-            w["word"] = ''.join(cleaned)
-        data["aligned_words"] = [w for w in words if w["word"].strip()]
-
-        json_path = os.path.join(LYRICS_DIR, f"{name}.json")
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"    ✅ 저장 완료 ({len(data['aligned_words'])}개 단어)")
 
 
 # ============================================================
@@ -361,74 +234,6 @@ def precompute_bar_heights(all_samples, sample_rate, total_frames):
     return smoothed
 
 
-def parse_lyrics_json(json_path):
-    """JSON에서 라인별 (start_s, end_s, text) 리스트 반환"""
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    words = data['aligned_words']
-    lines = []
-    current_line = ""
-    current_start = None
-    current_end = None
-
-    for w in words:
-        word = w['word']
-        start = w['start_s']
-        end = w['end_s']
-
-        word = re.sub(r'\[.*?\]', '', word, flags=re.DOTALL)
-
-        if current_start is None:
-            current_start = start
-
-        if word.endswith('\n'):
-            current_line += word.rstrip('\n')
-            current_end = end
-            text = current_line.strip()
-            # 대괄호 태그만 있던 줄이나 빈 줄 스킵
-            if text and not re.match(r'^\[.*\]$', text, re.DOTALL):
-                lines.append((current_start, current_end, text))
-            current_line = ""
-            current_start = None
-            current_end = None
-        else:
-            current_line += word
-            current_end = end
-
-    if current_line.strip() and current_start is not None:
-        lines.append((current_start, current_end, current_line.strip()))
-
-    # 짧은 줄 합치기 (3단어 이하면 다음 줄과 병합)
-    merged = []
-    i = 0
-    while i < len(lines):
-        start_s, end_s, text = lines[i]
-        word_count = len(text.split())
-        # 현재 줄이 3단어 이하이고 다음 줄도 있으면 병합
-        if word_count <= 3 and i + 1 < len(lines):
-            next_start, next_end, next_text = lines[i + 1]
-            next_word_count = len(next_text.split())
-            # 다음 줄도 짧으면 합치기 (합쳐서 8단어 이하일 때만)
-            if next_word_count <= 3 and word_count + next_word_count <= 8:
-                merged.append((start_s, next_end, f"{text} {next_text}"))
-                i += 2
-                continue
-        merged.append((start_s, end_s, text))
-        i += 1
-
-    # end_s 여유 추가 (다음 줄 시작을 넘지 않도록)
-    LYRICS_EXTEND = 0.8
-    for i in range(len(merged)):
-        start_s, end_s, text = merged[i]
-        extended_end = end_s + LYRICS_EXTEND
-        if i + 1 < len(merged):
-            next_start = merged[i + 1][0]
-            extended_end = min(extended_end, next_start)
-        merged[i] = (start_s, extended_end, text)
-
-    return merged
-
 
 def render_particles(particles, particle_layer):
     """파티클을 레이어에 렌더링"""
@@ -510,7 +315,7 @@ def main():
 
     # 가사 자동 싱크
     print("\n🎵 가사 싱크 확인 중...")
-    sync_lyrics(song_files)
+    sync_lyrics(SONGS_DIR, LYRICS_DIR, song_files)
 
     # 배경 이미지 로드
     if not os.path.exists(BG_IMAGE):
