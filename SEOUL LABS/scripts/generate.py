@@ -36,7 +36,8 @@ IMAGES_DIR = os.path.join(EP_DIR, "images")
 LYRICS_DIR = os.path.join(EP_DIR, "lyrics")
 OUTPUT_DIR = os.path.join(EP_DIR, "output")
 
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "playlist_output.mp4")
+EP_NAME = os.path.basename(EP_DIR)
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{EP_NAME}.mp4")
 
 ARTIST = "SEOUL LABS"
 AUDIO_EXTENSIONS = {'.wav', '.mp3', '.flac', '.m4a', '.aac'}
@@ -44,13 +45,23 @@ AUDIO_EXTENSIONS = {'.wav', '.mp3', '.flac', '.m4a', '.aac'}
 # 테스트 모드 (0 = 전체 렌더, 양수 = 해당 초만 렌더)
 TEST_DURATION = 0
 
-# 배경 이미지 (1장 고정)
-BG_IMAGE = os.path.join(IMAGES_DIR, "SnowFlake_Extend.png")
+# 배경 이미지 (images/ 폴더에서 자동 탐색)
+BG_IMAGE = None
+if os.path.isdir(IMAGES_DIR):
+    _bg_files = sorted(f for f in os.listdir(IMAGES_DIR)
+                        if f.lower().endswith(('.png', '.jpg', '.jpeg')))
+    if _bg_files:
+        BG_IMAGE = os.path.join(IMAGES_DIR, _bg_files[0])
 
 # 영상 설정
 WIDTH = 1920
 HEIGHT = 1080
 FPS = 30
+
+# 하단 레이아웃 (상대 간격)
+BOTTOM_MARGIN = 90         # 화면 하단 → 가사
+LYRICS_TO_TITLE = 60       # 가사 → 제목
+TITLE_TO_VIS = 30          # 제목 → visualizer 중심
 
 # 바 비주얼라이저 설정
 NUM_BARS = 48
@@ -59,7 +70,7 @@ BAR_GAP = 4
 BAR_MAX_HEIGHT = 70
 BAR_MIN_HEIGHT = 2
 BAR_ALPHA = 204  # 80% 투명도
-BAR_Y_CENTER = HEIGHT - 180
+BAR_Y_CENTER = HEIGHT - BOTTOM_MARGIN - LYRICS_TO_TITLE - TITLE_TO_VIS
 SMOOTHING = 0.3
 
 # 텍스트 오버레이 설정
@@ -67,14 +78,14 @@ FONT_PATH = os.path.expanduser("~/Library/Fonts/Roboto-LightItalic.ttf")
 TEXT_FONT_SIZE = 38
 TEXT_COLOR = "0xEEEEEE"
 TEXT_X = "(w-text_w)/2"
-TEXT_Y = "h-150"
+TEXT_Y = f"h-{BOTTOM_MARGIN + LYRICS_TO_TITLE}"
 TEXT_FADE_IN = 1
 TEXT_FADE_OUT = 1
 
 # 가사 오버레이 설정
 LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/MapoFlowerIsland.otf")
 LYRICS_FONT_SIZE = 32
-LYRICS_Y = "h-90"
+LYRICS_Y = f"h-{BOTTOM_MARGIN}"
 LYRICS_FADE = 0.2
 
 # 파티클 설정
@@ -348,7 +359,7 @@ def main():
     total_duration = len(all_samples) / sample_rate
     if TEST_DURATION > 0:
         total_duration = min(total_duration, TEST_DURATION)
-        OUTPUT_FILE_USED = os.path.join(OUTPUT_DIR, f"playlist_test_{TEST_DURATION}s.mp4")
+        OUTPUT_FILE_USED = os.path.join(OUTPUT_DIR, f"{EP_NAME}_test_{TEST_DURATION}s.mp4")
     else:
         OUTPUT_FILE_USED = OUTPUT_FILE
     total_frames = int(total_duration * FPS)
@@ -402,7 +413,7 @@ def main():
 
     # 곡 제목
     for i, track in enumerate(tracklist):
-        title = track['title']
+        title = f"{i+1:02d}. {track['title']}"
         start = track_starts[i]
         duration = track_durations[i]
 
