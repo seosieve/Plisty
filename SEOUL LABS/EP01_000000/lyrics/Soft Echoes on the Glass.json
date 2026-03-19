@@ -88,13 +88,13 @@
       "word": "on ",
       "success": true,
       "start_s": 21.78,
-      "end_s": 21.98,
+      "end_s": 22.0,
       "p_align": 0.99
     },
     {
       "word": "your ",
       "success": true,
-      "start_s": 21.98,
+      "start_s": 22.0,
       "end_s": 22.14,
       "p_align": 0.99
     },
@@ -214,69 +214,69 @@
       "word": "turn ",
       "success": true,
       "start_s": 35.44,
-      "end_s": 35.959999999999994,
+      "end_s": 35.98,
       "p_align": 0.99
     },
     {
       "word": "back\n\n",
       "success": true,
-      "start_s": 35.959999999999994,
+      "start_s": 35.98,
       "end_s": 36.959999999999994,
       "p_align": 0.99
     },
     {
       "word": "\nHold ",
       "success": true,
-      "start_s": 36.66,
-      "end_s": 37.14,
+      "start_s": 35.66,
+      "end_s": 37.12,
       "p_align": 0.99
     },
     {
       "word": "me ",
       "success": true,
-      "start_s": 37.14,
-      "end_s": 37.52,
+      "start_s": 37.12,
+      "end_s": 37.5,
       "p_align": 0.99
     },
     {
       "word": "like ",
       "success": true,
-      "start_s": 37.52,
-      "end_s": 37.88,
+      "start_s": 37.5,
+      "end_s": 37.9,
       "p_align": 0.99
     },
     {
       "word": "a ",
       "success": true,
-      "start_s": 37.88,
-      "end_s": 38.4,
+      "start_s": 37.9,
+      "end_s": 38.36,
       "p_align": 0.99
     },
     {
-      "word": "long\n",
+      "word": "long ",
       "success": true,
-      "start_s": 38.4,
-      "end_s": 38.9,
+      "start_s": 38.36,
+      "end_s": 38.919999999999995,
       "p_align": 0.99
     },
     {
-      "word": "Long ",
+      "word": "long ",
       "success": true,
-      "start_s": 38.379999999999995,
-      "end_s": 39.17999999999999,
+      "start_s": 38.919999999999995,
+      "end_s": 39.839999999999996,
       "p_align": 0.99
     },
     {
       "word": "echo\n",
       "success": true,
-      "start_s": 39.17999999999999,
-      "end_s": 40.839999999999996,
+      "start_s": 39.839999999999996,
+      "end_s": 40.64,
       "p_align": 0.99
     },
     {
       "word": "지워지지 ",
       "success": true,
-      "start_s": 40.839999999999996,
+      "start_s": 40.94,
       "end_s": 42.16,
       "p_align": 0.99
     },
@@ -284,49 +284,49 @@
       "word": "않는 ",
       "success": true,
       "start_s": 42.16,
-      "end_s": 42.599999999999994,
+      "end_s": 42.61999999999999,
       "p_align": 0.99
     },
     {
       "word": "온기처럼\n",
       "success": true,
-      "start_s": 42.599999999999994,
-      "end_s": 44.019999999999996,
+      "start_s": 42.61999999999999,
+      "end_s": 44.03999999999999,
       "p_align": 0.99
     },
     {
       "word": "Fading ",
       "success": true,
-      "start_s": 44.019999999999996,
-      "end_s": 44.81999999999999,
+      "start_s": 44.03999999999999,
+      "end_s": 44.8,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 44.81999999999999,
-      "end_s": 45.08,
+      "start_s": 44.8,
+      "end_s": 45.059999999999995,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 45.08,
-      "end_s": 45.279999999999994,
+      "start_s": 45.059999999999995,
+      "end_s": 45.25999999999999,
       "p_align": 0.99
     },
     {
       "word": "rearview ",
       "success": true,
-      "start_s": 45.279999999999994,
-      "end_s": 46.519999999999996,
+      "start_s": 45.25999999999999,
+      "end_s": 46.49999999999999,
       "p_align": 0.99
     },
     {
       "word": "window\n",
       "success": true,
-      "start_s": 46.519999999999996,
-      "end_s": 47.279999999999994,
+      "start_s": 46.49999999999999,
+      "end_s": 47.339999999999996,
       "p_align": 0.99
     },
     {
@@ -620,7 +620,7 @@
       "word": "think\n",
       "success": true,
       "start_s": 86.2,
-      "end_s": 87.3,
+      "end_s": 87.32,
       "p_align": 0.99
     },
     {
@@ -739,13 +739,13 @@
       "word": "coat\n\n",
       "success": true,
       "start_s": 99.38,
-      "end_s": 100.11999999999999,
+      "end_s": 100.14,
       "p_align": 0.99
     },
     {
       "word": "\nHold ",
       "success": true,
-      "start_s": 99.82,
+      "start_s": 99.84,
       "end_s": 100.3,
       "p_align": 0.99
     },
@@ -771,24 +771,24 @@
       "p_align": 0.99
     },
     {
-      "word": "long\n",
+      "word": "long ",
       "success": true,
       "start_s": 101.56,
       "end_s": 101.96,
       "p_align": 0.99
     },
     {
-      "word": "Long ",
+      "word": "long ",
       "success": true,
-      "start_s": 103.08,
-      "end_s": 103.46,
+      "start_s": 101.96,
+      "end_s": 102.8,
       "p_align": 0.99
     },
     {
       "word": "echo\n",
       "success": true,
-      "start_s": 103.46,
-      "end_s": 104.1,
+      "start_s": 103.16,
+      "end_s": 103.8,
       "p_align": 0.99
     },
     {
@@ -809,13 +809,13 @@
       "word": "온기처럼\n",
       "success": true,
       "start_s": 105.8,
-      "end_s": 107.17999999999999,
+      "end_s": 107.16,
       "p_align": 0.99
     },
     {
       "word": "Fading ",
       "success": true,
-      "start_s": 107.17999999999999,
+      "start_s": 107.16,
       "end_s": 107.92,
       "p_align": 0.99
     },
@@ -844,13 +844,13 @@
       "word": "window\n",
       "success": true,
       "start_s": 109.5,
-      "end_s": 110.58,
+      "end_s": 110.61999999999999,
       "p_align": 0.99
     },
     {
       "word": "멀어져도 ",
       "success": true,
-      "start_s": 110.58,
+      "start_s": 110.61999999999999,
       "end_s": 112.14,
       "p_align": 0.99
     },
@@ -935,13 +935,13 @@
       "word": "glass\n",
       "success": true,
       "start_s": 119.42,
-      "end_s": 119.61999999999999,
+      "end_s": 119.6,
       "p_align": 0.99
     },
     {
       "word": "Stay ",
       "success": true,
-      "start_s": 119.61999999999999,
+      "start_s": 119.6,
       "end_s": 120.36,
       "p_align": 0.99
     },
@@ -949,7 +949,7 @@
       "word": "with ",
       "success": true,
       "start_s": 120.36,
-      "end_s": 120.74,
+      "end_s": 120.72,
       "p_align": 0.99
     },
     {
@@ -991,13 +991,13 @@
       "word": "with ",
       "success": true,
       "start_s": 124.5,
-      "end_s": 124.8,
+      "end_s": 124.78,
       "p_align": 0.99
     },
     {
       "word": "me\n",
       "success": true,
-      "start_s": 124.8,
+      "start_s": 124.78,
       "end_s": 125.52,
       "p_align": 0.99
     },
@@ -1012,13 +1012,13 @@
       "word": "this ",
       "success": true,
       "start_s": 126.1,
-      "end_s": 126.89999999999999,
+      "end_s": 126.86,
       "p_align": 0.99
     },
     {
       "word": "last (",
       "success": true,
-      "start_s": 127.06,
+      "start_s": 127.08,
       "end_s": 127.38,
       "p_align": 0.99
     },
@@ -1026,20 +1026,20 @@
       "word": "yeah)\n\n",
       "success": true,
       "start_s": 127.38,
-      "end_s": 127.89999999999999,
+      "end_s": 127.88,
       "p_align": 0.99
     },
     {
       "word": "\n조용한 ",
       "success": true,
-      "start_s": 127.6,
-      "end_s": 128.54,
+      "start_s": 127.58,
+      "end_s": 128.56,
       "p_align": 0.99
     },
     {
       "word": "밤\n",
       "success": true,
-      "start_s": 128.54,
+      "start_s": 128.56,
       "end_s": 128.82,
       "p_align": 0.99
     },
@@ -1067,7 +1067,7 @@
     {
       "word": "Taxi ",
       "success": true,
-      "start_s": 133.18,
+      "start_s": 134.68,
       "end_s": 134.86,
       "p_align": 0.99
     },
@@ -1075,13 +1075,13 @@
       "word": "lights ",
       "success": true,
       "start_s": 134.86,
-      "end_s": 135.12,
+      "end_s": 135.16000000000003,
       "p_align": 0.99
     },
     {
       "word": "paint ",
       "success": true,
-      "start_s": 135.12,
+      "start_s": 135.16000000000003,
       "end_s": 135.64000000000001,
       "p_align": 0.99
     },
@@ -1089,13 +1089,13 @@
       "word": "us ",
       "success": true,
       "start_s": 135.64000000000001,
-      "end_s": 136.12,
+      "end_s": 136.14000000000001,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 136.12,
+      "start_s": 136.14000000000001,
       "end_s": 136.60000000000002,
       "p_align": 0.99
     },
@@ -1103,13 +1103,13 @@
       "word": "blush\n",
       "success": true,
       "start_s": 136.60000000000002,
-      "end_s": 137.60000000000002,
+      "end_s": 137.62,
       "p_align": 0.99
     },
     {
       "word": "마지막 ",
       "success": true,
-      "start_s": 137.64000000000001,
+      "start_s": 137.62,
       "end_s": 140.8,
       "p_align": 0.99
     },
@@ -1124,13 +1124,13 @@
       "word": "못 ",
       "success": true,
       "start_s": 142.76000000000002,
-      "end_s": 143.52,
+      "end_s": 143.54000000000002,
       "p_align": 0.99
     },
     {
       "word": "한 ",
       "success": true,
-      "start_s": 143.52,
+      "start_s": 143.54000000000002,
       "end_s": 144.10000000000002,
       "p_align": 0.99
     },
@@ -1229,20 +1229,20 @@
       "word": "trains\n",
       "success": true,
       "start_s": 158.62,
-      "end_s": 159.3,
+      "end_s": 159.32000000000002,
       "p_align": 0.99
     },
     {
       "word": "같은 ",
       "success": true,
-      "start_s": 159.3,
+      "start_s": 159.32000000000002,
       "end_s": 160.24,
       "p_align": 0.99
     },
     {
       "word": "창가\n",
       "success": true,
-      "start_s": 160.26000000000002,
+      "start_s": 160.24,
       "end_s": 161.08,
       "p_align": 0.99
     },
@@ -1264,13 +1264,13 @@
       "word": "머문 ",
       "success": true,
       "start_s": 162.72,
-      "end_s": 163.22,
+      "end_s": 163.24,
       "p_align": 0.99
     },
     {
       "word": "말\n",
       "success": true,
-      "start_s": 163.22,
+      "start_s": 163.24,
       "end_s": 163.76000000000002,
       "p_align": 0.99
     },
@@ -1345,30 +1345,30 @@
       "p_align": 0.99
     },
     {
-      "word": "long\n",
+      "word": "long ",
       "success": true,
       "start_s": 174.12,
       "end_s": 174.64,
       "p_align": 0.99
     },
     {
-      "word": "Long ",
+      "word": "long ",
       "success": true,
-      "start_s": 174.94,
-      "end_s": 175.84,
+      "start_s": 174.64,
+      "end_s": 175.54,
       "p_align": 0.99
     },
     {
       "word": "echo\n",
       "success": true,
-      "start_s": 175.84,
-      "end_s": 176.78,
+      "start_s": 175.54,
+      "end_s": 176.42,
       "p_align": 0.99
     },
     {
       "word": "지워지지 ",
       "success": true,
-      "start_s": 176.78,
+      "start_s": 176.72,
       "end_s": 177.94,
       "p_align": 0.99
     },
@@ -1383,13 +1383,13 @@
       "word": "온기처럼\n",
       "success": true,
       "start_s": 178.4,
-      "end_s": 179.86,
+      "end_s": 179.84,
       "p_align": 0.99
     },
     {
       "word": "Fading ",
       "success": true,
-      "start_s": 179.86,
+      "start_s": 179.84,
       "end_s": 180.58,
       "p_align": 0.99
     },
@@ -1530,13 +1530,13 @@
       "word": "me\n",
       "success": true,
       "start_s": 193.38000000000002,
-      "end_s": 194.78,
+      "end_s": 194.48000000000002,
       "p_align": 0.99
     },
     {
       "word": "Just ",
       "success": true,
-      "start_s": 194.78,
+      "start_s": 194.5,
       "end_s": 195.78,
       "p_align": 0.99
     },
@@ -2683,7 +2683,7 @@
     1e-05,
     1e-05
   ],
-  "hoot_cer": 0.14889867841409693,
+  "hoot_cer": 0.14625550660792952,
   "is_streamed": false,
   "aligned_lyrics": [
     {
@@ -2957,9 +2957,9 @@
       ]
     },
     {
-      "text": "Hold me like a long",
+      "text": "Hold me like a long long echo",
       "start_s": 37.261,
-      "end_s": 39.176,
+      "end_s": 40.851,
       "section": "Chorus",
       "words": [
         {
@@ -2986,17 +2986,9 @@
           "text": " long",
           "start_s": 38.777,
           "end_s": 39.176
-        }
-      ]
-    },
-    {
-      "text": "Long echo",
-      "start_s": 39.574,
-      "end_s": 40.851,
-      "section": "Chorus",
-      "words": [
+        },
         {
-          "text": "Long",
+          "text": " long",
           "start_s": 39.574,
           "end_s": 39.973
         },
@@ -3397,22 +3389,27 @@
         {
           "text": "Cat",
           "start_s": 69.176,
-          "end_s": 69.415
+          "end_s": 69.255
         },
         {
           "text": "che",
+          "start_s": 69.255,
+          "end_s": 69.415
+        },
+        {
+          "text": "s",
           "start_s": 69.415,
           "end_s": 69.495
         },
         {
-          "text": "s",
+          "text": " you",
           "start_s": 69.495,
           "end_s": 69.574
         },
         {
-          "text": " your",
+          "text": "r",
           "start_s": 69.574,
-          "end_s": 69.734
+          "end_s": 69.654
         },
         {
           "text": " scar",
@@ -3440,17 +3437,12 @@
         {
           "text": " me",
           "start_s": 70.372,
-          "end_s": 70.452
-        },
-        {
-          "text": " th",
-          "start_s": 70.452,
           "end_s": 70.532
         },
         {
-          "text": "in",
+          "text": " thin",
           "start_s": 70.532,
-          "end_s": 70.691
+          "end_s": 70.931
         },
         {
           "text": "k",
@@ -3472,8 +3464,8 @@
         },
         {
           "text": "목",
-          "start_s": 71.968,
-          "end_s": 72.048
+          "start_s": 71.888,
+          "end_s": 71.968
         },
         {
           "text": " 끝",
@@ -3610,9 +3602,9 @@
       ]
     },
     {
-      "text": "Hold me like a long",
+      "text": "Hold me like a long long echo",
       "start_s": 100.293,
-      "end_s": 102.287,
+      "end_s": 103.963,
       "section": "Chorus",
       "words": [
         {
@@ -3639,17 +3631,9 @@
           "text": " long",
           "start_s": 101.888,
           "end_s": 102.287
-        }
-      ]
-    },
-    {
-      "text": "Long echo",
-      "start_s": 102.686,
-      "end_s": 103.963,
-      "section": "Chorus",
-      "words": [
+        },
         {
-          "text": "Long",
+          "text": " long",
           "start_s": 102.686,
           "end_s": 103.085
         },
@@ -3688,8 +3672,8 @@
         },
         {
           "text": " 온",
-          "start_s": 105.638,
-          "end_s": 105.798
+          "start_s": 105.718,
+          "end_s": 105.878
         },
         {
           "text": "기",
@@ -4332,9 +4316,9 @@
       ]
     },
     {
-      "text": "Hold me like a long",
+      "text": "Hold me like a long long echo",
       "start_s": 172.899,
-      "end_s": 174.894,
+      "end_s": 176.649,
       "section": "Chorus",
       "words": [
         {
@@ -4361,17 +4345,9 @@
           "text": " long",
           "start_s": 174.495,
           "end_s": 174.894
-        }
-      ]
-    },
-    {
-      "text": "Long echo",
-      "start_s": 175.293,
-      "end_s": 176.649,
-      "section": "Chorus",
-      "words": [
+        },
         {
-          "text": "Long",
+          "text": " long",
           "start_s": 175.293,
           "end_s": 175.691
         },

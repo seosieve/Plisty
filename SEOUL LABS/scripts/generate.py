@@ -5,7 +5,7 @@ SEOUL LABS Playlist Video Generator (Python 통합 버전)
 """
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
 import subprocess
 import os
 import sys
@@ -54,53 +54,58 @@ if os.path.isdir(IMAGES_DIR):
         BG_IMAGE = os.path.join(IMAGES_DIR, _bg_files[0])
 
 # 영상 설정
-WIDTH = 1920
-HEIGHT = 1080
+SCALE = 2  # 1 = 1080p, 2 = 4K
+WIDTH = 1920 * SCALE
+HEIGHT = 1080 * SCALE
 FPS = 30
 
 # 하단 레이아웃 (상대 간격)
-BOTTOM_MARGIN = 90         # 화면 하단 → 가사
-LYRICS_TO_TITLE = 60       # 가사 → 제목
-TITLE_TO_VIS = 30          # 제목 → visualizer 중심
+BOTTOM_MARGIN = 90 * SCALE
+LYRICS_TO_TITLE = 60 * SCALE
+TITLE_TO_VIS = 30 * SCALE
 
 # 바 비주얼라이저 설정
 NUM_BARS = 48
-BAR_WIDTH = 2
-BAR_GAP = 4
-BAR_MAX_HEIGHT = 70
-BAR_MIN_HEIGHT = 2
-BAR_ALPHA = 204  # 80% 투명도
-BAR_Y_CENTER = HEIGHT - BOTTOM_MARGIN - LYRICS_TO_TITLE - TITLE_TO_VIS
+BAR_WIDTH = 2 * SCALE
+BAR_GAP = 4 * SCALE
+BAR_MAX_HEIGHT = 70 * SCALE
+BAR_MIN_HEIGHT = 2 * SCALE
+BAR_COLOR = (222, 242, 244)  # #DEF2F4
+BAR_ALPHA = 128  # 50% 투명도
+BAR_Y_CENTER = HEIGHT - (80 + 36 + 28 + 64 + 28) * SCALE
 SMOOTHING = 0.3
 
 # 텍스트 오버레이 설정
-FONT_PATH = os.path.expanduser("~/Library/Fonts/Roboto-LightItalic.ttf")
-TEXT_FONT_SIZE = 38
-TEXT_COLOR = "0xEEEEEE"
-TEXT_X = "(w-text_w)/2"
-TEXT_Y = f"h-{BOTTOM_MARGIN + LYRICS_TO_TITLE}"
+FONT_PATH = os.path.expanduser("~/Library/Fonts/Anton-Regular.ttf")
+TEXT_FONT_SIZE = 64 * SCALE
+TEXT_COLOR = "0xDEF2F4"
+TEXT_ALPHA = 0.5
+TEXT_X = f"{80 * SCALE}"
+TEXT_Y = f"h-{(80 + 36 + 28) * SCALE}-text_h"
 TEXT_FADE_IN = 1
 TEXT_FADE_OUT = 1
 
 # 가사 오버레이 설정
-LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/MapoFlowerIsland.otf")
-LYRICS_FONT_SIZE = 32
-LYRICS_Y = f"h-{BOTTOM_MARGIN}"
+LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/SpoqaHanSansNeo-Bold-Tight.otf")
+LYRICS_FONT_SIZE = 36 * SCALE
+LYRICS_COLOR = "0xDEF2F4"
+LYRICS_X = f"{80 * SCALE}"
+LYRICS_Y = f"h-{80 * SCALE}-{LYRICS_FONT_SIZE}"
 LYRICS_FADE = 0.2
 
 # 파티클 설정
 NUM_PARTICLES = 80
-MIN_SIZE = 1
-MAX_SIZE = 8
-MIN_SPEED = 0.3
-MAX_SPEED = 1.5
+MIN_SIZE = 1 * SCALE
+MAX_SIZE = 8 * SCALE
+MIN_SPEED = 0.3 * SCALE
+MAX_SPEED = 1.5 * SCALE
 MIN_ALPHA = 30
 MAX_ALPHA = 100
-DRIFT_AMP = 1.5
+DRIFT_AMP = 1.5 * SCALE
 DRIFT_FREQ_MIN = 0.02
 DRIFT_FREQ_MAX = 0.06
 PARTICLE_COLOR = (238, 238, 238)
-BLUR_RADIUS = 1.5
+BLUR_RADIUS = 1.5 * SCALE
 
 
 
@@ -284,14 +289,14 @@ def render_bars(draw, bar_heights, bar_positions, total_bars, static_bars):
         y_top = max(0, y_top)
         y_bottom = min(HEIGHT, y_bottom)
 
-        draw.rectangle([x, y_top, x + BAR_WIDTH, y_bottom], fill=(238, 238, 238, BAR_ALPHA))
+        draw.rectangle([x, y_top, x + BAR_WIDTH, y_bottom], fill=(*BAR_COLOR, BAR_ALPHA))
 
         if y_bottom - y_top >= 2 and BAR_WIDTH >= 2:
             half_alpha = BAR_ALPHA // 2
             for cx, cy in [(x, y_top), (x + BAR_WIDTH, y_top),
                            (x, y_bottom), (x + BAR_WIDTH, y_bottom)]:
                 if 0 <= cx < WIDTH and 0 <= cy < HEIGHT:
-                    draw.point((cx, cy), fill=(238, 238, 238, half_alpha))
+                    draw.point((cx, cy), fill=(*BAR_COLOR, half_alpha))
 
 
 # ============================================================
@@ -385,7 +390,7 @@ def main():
     STATIC_BARS = 3
     total_bars = STATIC_BARS + NUM_BARS + STATIC_BARS
     total_bar_width = total_bars * BAR_WIDTH + (total_bars - 1) * BAR_GAP
-    start_x = (WIDTH - total_bar_width) // 2
+    start_x = 80 * SCALE
     bar_positions = [start_x + i * (BAR_WIDTH + BAR_GAP) for i in range(total_bars)]
 
     # 오디오 합치기
@@ -413,7 +418,7 @@ def main():
 
     # 곡 제목
     for i, track in enumerate(tracklist):
-        title = f"{i+1:02d}. {track['title']}"
+        title = f"{i+1:02d}. {track['title']}".upper()
         start = track_starts[i]
         duration = track_durations[i]
 
@@ -428,9 +433,9 @@ def main():
 
         alpha = (
             f"if(lt(t\\,{fade_in_start})\\,0\\,"
-            f" if(lt(t\\,{fade_in_end})\\,(t-{fade_in_start})/{TEXT_FADE_IN}\\,"
-            f" if(lt(t\\,{fade_out_start})\\,1\\,"
-            f" if(lt(t\\,{fade_out_end})\\,1-(t-{fade_out_start})/{TEXT_FADE_OUT}\\,"
+            f" if(lt(t\\,{fade_in_end})\\,{TEXT_ALPHA}*(t-{fade_in_start})/{TEXT_FADE_IN}\\,"
+            f" if(lt(t\\,{fade_out_start})\\,{TEXT_ALPHA}\\,"
+            f" if(lt(t\\,{fade_out_end})\\,{TEXT_ALPHA}-{TEXT_ALPHA}*(t-{fade_out_start})/{TEXT_FADE_OUT}\\,"
             f" 0))))"
         )
 
@@ -438,7 +443,6 @@ def main():
             f"drawtext=fontfile='{FONT_PATH}'"
             f":textfile='{text_file}'"
             f":fontsize={TEXT_FONT_SIZE}:fontcolor={TEXT_COLOR}"
-            f":borderw=1:bordercolor=0x373737"
             f":x={TEXT_X}:y={TEXT_Y}"
             f":alpha='{alpha}'"
         )
@@ -474,14 +478,13 @@ def main():
 
             lyric_text_file = os.path.join(temp_dir, f'lyric_{i}_{j}.txt')
             with open(lyric_text_file, 'w', encoding='utf-8') as lf:
-                lf.write(f"♪ {text}")
+                lf.write(text)
 
             drawtext_filters.append(
                 f"drawtext=fontfile='{LYRICS_FONT_PATH}'"
                 f":textfile='{lyric_text_file}'"
-                f":fontsize={LYRICS_FONT_SIZE}:fontcolor=0xEEEEEE"
-                f":borderw=1:bordercolor=0x373737"
-                f":x=(w-text_w)/2:y={LYRICS_Y}"
+                f":fontsize={LYRICS_FONT_SIZE}:fontcolor={LYRICS_COLOR}"
+                f":x={LYRICS_X}:y={LYRICS_Y}"
                 f":alpha='{alpha}'"
             )
 
@@ -518,11 +521,33 @@ def main():
     for frame_idx in range(total_frames):
         frame = bg_image.copy()
 
-        # 바 비주얼라이저 레이어
-        bar_layer = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))
-        draw = ImageDraw.Draw(bar_layer)
-        render_bars(draw, all_bar_heights[frame_idx], bar_positions, total_bars, STATIC_BARS)
-        frame = Image.alpha_composite(frame, bar_layer)
+        # 바 비주얼라이저 레이어 (트랙에 맞춰 fade in/out)
+        current_time = frame_idx / FPS
+        vis_alpha = 0.0
+        VIS_DELAY = 1.0  # 제목보다 1초 늦게 등장, 1초 먼저 퇴장
+        for ti, (ts_start, ts_dur) in enumerate(zip(track_starts, track_durations)):
+            ts_end = ts_start + ts_dur
+            vis_start = ts_start + VIS_DELAY
+            vis_end = ts_end - 1 - VIS_DELAY
+            if vis_start <= current_time < vis_end + TEXT_FADE_OUT:
+                fade_in_end = vis_start + TEXT_FADE_IN
+                fade_out_start = vis_end - TEXT_FADE_OUT
+                if current_time < fade_in_end:
+                    vis_alpha = (current_time - vis_start) / TEXT_FADE_IN
+                elif current_time > fade_out_start:
+                    vis_alpha = (vis_end - current_time) / TEXT_FADE_OUT
+                else:
+                    vis_alpha = 1.0
+                vis_alpha = max(0.0, min(1.0, vis_alpha))
+                break
+
+        if vis_alpha > 0:
+            bar_layer = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))
+            draw = ImageDraw.Draw(bar_layer)
+            render_bars(draw, all_bar_heights[frame_idx], bar_positions, total_bars, STATIC_BARS)
+            if vis_alpha < 1.0:
+                bar_layer.putalpha(ImageEnhance.Brightness(bar_layer.split()[3]).enhance(vis_alpha))
+            frame = Image.alpha_composite(frame, bar_layer)
 
         # 파티클 레이어
         particle_layer = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))

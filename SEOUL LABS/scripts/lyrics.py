@@ -535,16 +535,16 @@ def parse_lyrics_json(json_path):
         quote_merged.append((start_s, end_s, text, is_section_end))
         i += 1
 
-    # 짧은 줄 합치기 (3단어 이하면 다음 줄과 병합, 섹션 경계는 넘지 않음)
+    # 짧은 줄 합치기 (4단어 이하면 다음 줄과 병합, 섹션 경계는 넘지 않음)
     merged = []
     i = 0
     while i < len(quote_merged):
         start_s, end_s, text, is_section_end = quote_merged[i]
         word_count = len(text.split())
-        if word_count <= 3 and i + 1 < len(quote_merged) and not is_section_end:
+        if word_count <= 4 and i + 1 < len(quote_merged) and not is_section_end:
             next_start, next_end, next_text, next_section_end = quote_merged[i + 1]
             next_word_count = len(next_text.split())
-            if next_word_count <= 3 and word_count + next_word_count <= 8:
+            if next_word_count <= 4 and word_count + next_word_count <= 8:
                 merged.append((start_s, next_end, f"{text} {decap_for_merge(next_text)}"))
                 i += 2
                 continue

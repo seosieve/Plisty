@@ -27,12 +27,12 @@ OUTPUT_DIR = os.path.join(EP_DIR, "output")
 # generate.py와 동일한 설정 import
 sys.path.insert(0, SCRIPT_DIR)
 from generate import (
-    WIDTH, HEIGHT,
+    WIDTH, HEIGHT, SCALE,
     BOTTOM_MARGIN, LYRICS_TO_TITLE, TITLE_TO_VIS,
     NUM_BARS, BAR_WIDTH, BAR_GAP, BAR_MAX_HEIGHT, BAR_MIN_HEIGHT,
     BAR_ALPHA, BAR_Y_CENTER,
-    FONT_PATH, TEXT_FONT_SIZE, TEXT_COLOR, TEXT_X, TEXT_Y,
-    LYRICS_FONT_PATH, LYRICS_FONT_SIZE, LYRICS_Y,
+    FONT_PATH, TEXT_FONT_SIZE, TEXT_COLOR, TEXT_ALPHA, TEXT_X, TEXT_Y,
+    LYRICS_FONT_PATH, LYRICS_FONT_SIZE, LYRICS_COLOR, LYRICS_X, LYRICS_Y,
     NUM_PARTICLES, MIN_SIZE, MAX_SIZE, MIN_ALPHA, MAX_ALPHA,
     PARTICLE_COLOR, BLUR_RADIUS,
     AUDIO_EXTENSIONS,
@@ -88,7 +88,7 @@ def main():
     STATIC_BARS = 3
     total_bars = STATIC_BARS + NUM_BARS + STATIC_BARS
     total_bar_width = total_bars * BAR_WIDTH + (total_bars - 1) * BAR_GAP
-    start_x = (WIDTH - total_bar_width) // 2
+    start_x = 80 * SCALE
     bar_positions = [start_x + i * (BAR_WIDTH + BAR_GAP) for i in range(total_bars)]
 
     bar_heights = np.zeros(NUM_BARS)
@@ -110,7 +110,7 @@ def main():
     canvas.alpha_composite(bar_layer)
 
     # 제목/가사 텍스트 준비
-    title_text = f"01. {song_name}"
+    title_text = f"01. {song_name}".upper()
 
     lyrics_text = ""
     lyrics_path = os.path.join(LYRICS_DIR, f"{song_name}.json")
@@ -143,22 +143,21 @@ def main():
 
     lyrics_file = os.path.join(tmp_dir, 'lyrics.txt')
     with open(lyrics_file, 'w', encoding='utf-8') as f:
-        f.write(f"♪ {lyrics_text}")
+        f.write(lyrics_text)
 
     # ffmpeg drawtext — generate.py와 동일한 필터
     vf = (
         f"drawtext=fontfile='{FONT_PATH}'"
         f":textfile='{title_file}'"
         f":fontsize={TEXT_FONT_SIZE}:fontcolor={TEXT_COLOR}"
-        f":borderw=1:bordercolor=0x373737"
         f":x={TEXT_X}:y={TEXT_Y}"
+        f":alpha={TEXT_ALPHA}"
         f","
         f"drawtext=fontfile='{LYRICS_FONT_PATH}'"
         f":textfile='{lyrics_file}'"
-        f":fontsize={LYRICS_FONT_SIZE}:fontcolor=0xEEEEEE"
-        f":borderw=1:bordercolor=0x373737"
-        f":x=(w-text_w)/2:y={LYRICS_Y}"
-        f":alpha=0.8"
+        f":fontsize={LYRICS_FONT_SIZE}:fontcolor={LYRICS_COLOR}"
+        f":x={LYRICS_X}:y={LYRICS_Y}"
+
     )
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
