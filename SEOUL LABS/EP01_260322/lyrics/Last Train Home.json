@@ -1,0 +1,5281 @@
+{
+  "aligned_words": [
+    {
+      "word": "\nLast ",
+      "success": true,
+      "start_s": 0.58,
+      "end_s": 0.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 0.82,
+      "end_s": 1.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 1.32,
+      "end_s": 1.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "Empty ",
+      "success": true,
+      "start_s": 2.2399999999999998,
+      "end_s": 2.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "car\n",
+      "success": true,
+      "start_s": 2.92,
+      "end_s": 3.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 3.54,
+      "end_s": 4.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 4.38,
+      "end_s": 4.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "and ",
+      "success": true,
+      "start_s": 4.8,
+      "end_s": 5.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 5.1,
+      "end_s": 5.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "hum\n",
+      "success": true,
+      "start_s": 5.3,
+      "end_s": 5.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "Fogged ",
+      "success": true,
+      "start_s": 5.56,
+      "end_s": 8.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass\n",
+      "success": true,
+      "start_s": 8.46,
+      "end_s": 8.940000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Fingertip ",
+      "success": true,
+      "start_s": 9.0,
+      "end_s": 9.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "circles\n",
+      "success": true,
+      "start_s": 9.92,
+      "end_s": 10.620000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "네 ",
+      "success": true,
+      "start_s": 10.620000000000001,
+      "end_s": 11.180000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴\n",
+      "success": true,
+      "start_s": 11.180000000000001,
+      "end_s": 11.520000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "내 ",
+      "success": true,
+      "start_s": 11.520000000000001,
+      "end_s": 12.020000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴\n",
+      "success": true,
+      "start_s": 12.020000000000001,
+      "end_s": 12.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 12.34,
+      "end_s": 12.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "one\n\n",
+      "success": true,
+      "start_s": 12.96,
+      "end_s": 13.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "Station ",
+      "success": true,
+      "start_s": 13.54,
+      "end_s": 15.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "names ",
+      "success": true,
+      "start_s": 15.68,
+      "end_s": 16.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "slide ",
+      "success": true,
+      "start_s": 16.14,
+      "end_s": 16.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "by\n",
+      "success": true,
+      "start_s": 16.6,
+      "end_s": 17.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 17.34,
+      "end_s": 17.720000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "never ",
+      "success": true,
+      "start_s": 17.720000000000002,
+      "end_s": 18.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "read\n",
+      "success": true,
+      "start_s": 18.12,
+      "end_s": 18.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 18.62,
+      "end_s": 19.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "watch ",
+      "success": true,
+      "start_s": 19.1,
+      "end_s": 19.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "them ",
+      "success": true,
+      "start_s": 19.42,
+      "end_s": 19.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "blur\n",
+      "success": true,
+      "start_s": 19.88,
+      "end_s": 20.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "One ",
+      "success": true,
+      "start_s": 20.46,
+      "end_s": 23.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "more ",
+      "success": true,
+      "start_s": 23.28,
+      "end_s": 23.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "stop\n",
+      "success": true,
+      "start_s": 23.52,
+      "end_s": 24.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "Then ",
+      "success": true,
+      "start_s": 24.04,
+      "end_s": 24.720000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "another\n",
+      "success": true,
+      "start_s": 24.720000000000002,
+      "end_s": 25.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "익숙한 ",
+      "success": true,
+      "start_s": 25.3,
+      "end_s": 26.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "듯 ",
+      "success": true,
+      "start_s": 26.52,
+      "end_s": 26.740000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "낯선 ",
+      "success": true,
+      "start_s": 26.740000000000002,
+      "end_s": 27.220000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "거리들\n\n",
+      "success": true,
+      "start_s": 27.220000000000002,
+      "end_s": 28.060000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nLast ",
+      "success": true,
+      "start_s": 29.98,
+      "end_s": 30.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 30.44,
+      "end_s": 30.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 30.84,
+      "end_s": 31.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "어디쯤일까\n",
+      "success": true,
+      "start_s": 31.6,
+      "end_s": 32.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "빈 ",
+      "success": true,
+      "start_s": 32.94,
+      "end_s": 33.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "객실 ",
+      "success": true,
+      "start_s": 33.22,
+      "end_s": 33.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "창에 ",
+      "success": true,
+      "start_s": 33.58,
+      "end_s": 34.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "비친 ",
+      "success": true,
+      "start_s": 34.12,
+      "end_s": 34.519999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "내 ",
+      "success": true,
+      "start_s": 34.519999999999996,
+      "end_s": 34.839999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴\n",
+      "success": true,
+      "start_s": 34.839999999999996,
+      "end_s": 35.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 35.18,
+      "end_s": 35.699999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "tired\n",
+      "success": true,
+      "start_s": 35.699999999999996,
+      "end_s": 36.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 36.54,
+      "end_s": 36.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "try ",
+      "success": true,
+      "start_s": 36.86,
+      "end_s": 37.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 37.14,
+      "end_s": 37.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "smile\n",
+      "success": true,
+      "start_s": 37.58,
+      "end_s": 37.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "입술은 ",
+      "success": true,
+      "start_s": 37.94,
+      "end_s": 38.739999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "느리게\n",
+      "success": true,
+      "start_s": 38.739999999999995,
+      "end_s": 39.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "Mumbling ",
+      "success": true,
+      "start_s": 39.4,
+      "end_s": 40.019999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 40.019999999999996,
+      "end_s": 40.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "name\n",
+      "success": true,
+      "start_s": 40.36,
+      "end_s": 40.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "Slurred ",
+      "success": true,
+      "start_s": 40.779999999999994,
+      "end_s": 41.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 41.86,
+      "end_s": 42.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 42.0,
+      "end_s": 42.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass\n",
+      "success": true,
+      "start_s": 44.809999999999995,
+      "end_s": 45.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "Last ",
+      "success": true,
+      "start_s": 45.66,
+      "end_s": 45.739999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 45.739999999999995,
+      "end_s": 45.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 45.94,
+      "end_s": 46.419999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "잔상만 ",
+      "success": true,
+      "start_s": 46.419999999999995,
+      "end_s": 47.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "남아\n",
+      "success": true,
+      "start_s": 47.22,
+      "end_s": 48.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "Every ",
+      "success": true,
+      "start_s": 48.0,
+      "end_s": 48.339999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "turn ",
+      "success": true,
+      "start_s": 48.339999999999996,
+      "end_s": 48.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "shaking ",
+      "success": true,
+      "start_s": 48.64,
+      "end_s": 49.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 49.3,
+      "end_s": 49.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "words ",
+      "success": true,
+      "start_s": 49.599999999999994,
+      "end_s": 49.879999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "loose\n",
+      "success": true,
+      "start_s": 49.879999999999995,
+      "end_s": 50.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 50.14,
+      "end_s": 50.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 50.64,
+      "end_s": 51.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "forget\n",
+      "success": true,
+      "start_s": 51.04,
+      "end_s": 51.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "널 ",
+      "success": true,
+      "start_s": 51.599999999999994,
+      "end_s": 52.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "두 ",
+      "success": true,
+      "start_s": 52.16,
+      "end_s": 52.339999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "번 ",
+      "success": true,
+      "start_s": 52.339999999999996,
+      "end_s": 52.559999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "떠나겠지\n",
+      "success": true,
+      "start_s": 52.559999999999995,
+      "end_s": 54.099999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 54.099999999999994,
+      "end_s": 54.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 54.86,
+      "end_s": 55.059999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "stay ",
+      "success": true,
+      "start_s": 55.059999999999995,
+      "end_s": 55.419999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "awake ",
+      "success": true,
+      "start_s": 55.419999999999995,
+      "end_s": 55.919999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "between ",
+      "success": true,
+      "start_s": 55.919999999999995,
+      "end_s": 56.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 56.48,
+      "end_s": 57.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "lights\n\n",
+      "success": true,
+      "start_s": 57.04,
+      "end_s": 58.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nHead ",
+      "success": true,
+      "start_s": 59.8,
+      "end_s": 60.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 60.9,
+      "end_s": 61.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 61.3,
+      "end_s": 61.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "seat\n",
+      "success": true,
+      "start_s": 61.48,
+      "end_s": 61.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "Earphones ",
+      "success": true,
+      "start_s": 62.08,
+      "end_s": 62.699999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 62.699999999999996,
+      "end_s": 63.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "but ",
+      "success": true,
+      "start_s": 63.04,
+      "end_s": 63.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "nothing ",
+      "success": true,
+      "start_s": 63.48,
+      "end_s": 64.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "plays\n",
+      "success": true,
+      "start_s": 64.1,
+      "end_s": 65.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "Silence ",
+      "success": true,
+      "start_s": 65.1,
+      "end_s": 67.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "with ",
+      "success": true,
+      "start_s": 67.75999999999999,
+      "end_s": 68.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 68.06,
+      "end_s": 68.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "heartbeat\n",
+      "success": true,
+      "start_s": 68.32,
+      "end_s": 68.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "Car ",
+      "success": true,
+      "start_s": 68.58,
+      "end_s": 68.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "door ",
+      "success": true,
+      "start_s": 68.58,
+      "end_s": 69.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "rattles ",
+      "success": true,
+      "start_s": 69.86,
+      "end_s": 70.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "time ",
+      "success": true,
+      "start_s": 70.78,
+      "end_s": 71.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "away\n\n",
+      "success": true,
+      "start_s": 71.12,
+      "end_s": 72.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Late ",
+      "success": true,
+      "start_s": 74.78,
+      "end_s": 75.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "text ",
+      "success": true,
+      "start_s": 75.88,
+      "end_s": 76.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "drafts ",
+      "success": true,
+      "start_s": 76.22,
+      "end_s": 76.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "unsent\n“",
+      "success": true,
+      "start_s": 76.84,
+      "end_s": 77.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "잘 ",
+      "success": true,
+      "start_s": 77.22,
+      "end_s": 77.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "지내?” ",
+      "success": true,
+      "start_s": 77.66,
+      "end_s": 78.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "typed ",
+      "success": true,
+      "start_s": 78.5,
+      "end_s": 78.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "then ",
+      "success": true,
+      "start_s": 78.5,
+      "end_s": 78.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "erased\n",
+      "success": true,
+      "start_s": 78.72,
+      "end_s": 79.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "Tiny ",
+      "success": true,
+      "start_s": 80.28,
+      "end_s": 81.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "screen ",
+      "success": true,
+      "start_s": 81.94,
+      "end_s": 82.32000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 82.32000000000001,
+      "end_s": 82.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 82.72,
+      "end_s": 83.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "lap\n",
+      "success": true,
+      "start_s": 83.02,
+      "end_s": 83.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "My ",
+      "success": true,
+      "start_s": 83.61999999999999,
+      "end_s": 84.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "thumb ",
+      "success": true,
+      "start_s": 84.82,
+      "end_s": 85.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "hovering ",
+      "success": true,
+      "start_s": 85.08,
+      "end_s": 85.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 85.72,
+      "end_s": 86.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "it’",
+      "success": true,
+      "start_s": 86.08,
+      "end_s": 86.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "s ",
+      "success": true,
+      "start_s": 86.4,
+      "end_s": 86.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "afraid\n\n",
+      "success": true,
+      "start_s": 86.75999999999999,
+      "end_s": 87.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nLast ",
+      "success": true,
+      "start_s": 86.82,
+      "end_s": 89.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 89.4,
+      "end_s": 89.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 89.94,
+      "end_s": 90.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "어디쯤일까\n",
+      "success": true,
+      "start_s": 90.75999999999999,
+      "end_s": 92.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "빈 ",
+      "success": true,
+      "start_s": 92.0,
+      "end_s": 92.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "객실 ",
+      "success": true,
+      "start_s": 92.3,
+      "end_s": 92.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "창에 ",
+      "success": true,
+      "start_s": 92.67999999999999,
+      "end_s": 93.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "비친 ",
+      "success": true,
+      "start_s": 93.2,
+      "end_s": 93.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "내 ",
+      "success": true,
+      "start_s": 93.6,
+      "end_s": 93.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴\n",
+      "success": true,
+      "start_s": 93.89999999999999,
+      "end_s": 94.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 94.2,
+      "end_s": 94.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "tired\n",
+      "success": true,
+      "start_s": 94.78,
+      "end_s": 95.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 95.52,
+      "end_s": 96.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "try ",
+      "success": true,
+      "start_s": 96.02,
+      "end_s": 96.25999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 96.25999999999999,
+      "end_s": 96.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "smile\n",
+      "success": true,
+      "start_s": 96.56,
+      "end_s": 96.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "입술은 ",
+      "success": true,
+      "start_s": 96.88,
+      "end_s": 97.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "느리게\n",
+      "success": true,
+      "start_s": 97.82,
+      "end_s": 98.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Mumbling ",
+      "success": true,
+      "start_s": 98.5,
+      "end_s": 99.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 99.14,
+      "end_s": 99.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "name\n",
+      "success": true,
+      "start_s": 99.38,
+      "end_s": 99.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "Slurred ",
+      "success": true,
+      "start_s": 100.16,
+      "end_s": 100.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 100.96,
+      "end_s": 101.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 101.08,
+      "end_s": 101.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass\n",
+      "success": true,
+      "start_s": 101.24,
+      "end_s": 101.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "Last ",
+      "success": true,
+      "start_s": 101.6,
+      "end_s": 104.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 104.53999999999999,
+      "end_s": 105.03999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 105.03999999999999,
+      "end_s": 105.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "잔상만 ",
+      "success": true,
+      "start_s": 105.31,
+      "end_s": 106.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "남아\n",
+      "success": true,
+      "start_s": 106.36,
+      "end_s": 107.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "Every ",
+      "success": true,
+      "start_s": 107.04,
+      "end_s": 107.38000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "turn ",
+      "success": true,
+      "start_s": 107.38000000000001,
+      "end_s": 107.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "shaking ",
+      "success": true,
+      "start_s": 107.78,
+      "end_s": 108.38000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 108.38000000000001,
+      "end_s": 108.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "words ",
+      "success": true,
+      "start_s": 108.68,
+      "end_s": 109.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "loose\n",
+      "success": true,
+      "start_s": 109.0,
+      "end_s": 109.24000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 109.24000000000001,
+      "end_s": 109.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 109.68,
+      "end_s": 110.10000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "forget\n",
+      "success": true,
+      "start_s": 110.10000000000001,
+      "end_s": 110.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "널 ",
+      "success": true,
+      "start_s": 110.72,
+      "end_s": 111.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "두 ",
+      "success": true,
+      "start_s": 111.22,
+      "end_s": 111.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "번 ",
+      "success": true,
+      "start_s": 111.44,
+      "end_s": 111.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "떠나겠지\n",
+      "success": true,
+      "start_s": 111.61999999999999,
+      "end_s": 113.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 113.06,
+      "end_s": 113.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 113.94,
+      "end_s": 114.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "stay ",
+      "success": true,
+      "start_s": 114.11999999999999,
+      "end_s": 114.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "awake ",
+      "success": true,
+      "start_s": 114.52,
+      "end_s": 115.03999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "between ",
+      "success": true,
+      "start_s": 115.03999999999999,
+      "end_s": 115.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 115.56,
+      "end_s": 116.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "lights\n\n",
+      "success": true,
+      "start_s": 116.08,
+      "end_s": 117.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "\n숨을 ",
+      "success": true,
+      "start_s": 117.4,
+      "end_s": 119.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "쉬고\n",
+      "success": true,
+      "start_s": 119.16,
+      "end_s": 119.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "Let ",
+      "success": true,
+      "start_s": 120.08,
+      "end_s": 121.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 121.16,
+      "end_s": 121.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "window ",
+      "success": true,
+      "start_s": 121.42,
+      "end_s": 121.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "breathe ",
+      "success": true,
+      "start_s": 121.75999999999999,
+      "end_s": 122.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 122.74,
+      "end_s": 123.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "doubt\n",
+      "success": true,
+      "start_s": 123.32,
+      "end_s": 123.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "Blur ",
+      "success": true,
+      "start_s": 123.98,
+      "end_s": 124.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 124.86,
+      "end_s": 125.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "out\n",
+      "success": true,
+      "start_s": 125.1,
+      "end_s": 126.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Blur ",
+      "success": true,
+      "start_s": 126.75999999999999,
+      "end_s": 128.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 128.52,
+      "end_s": 128.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "out\n(",
+      "success": true,
+      "start_s": 128.8,
+      "end_s": 130.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "yeah)\n\n",
+      "success": true,
+      "start_s": 130.34,
+      "end_s": 132.54000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "When ",
+      "success": true,
+      "start_s": 133.14,
+      "end_s": 133.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 133.24,
+      "end_s": 133.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "doors ",
+      "success": true,
+      "start_s": 133.48,
+      "end_s": 133.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "slide ",
+      "success": true,
+      "start_s": 133.82,
+      "end_s": 134.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "open\n",
+      "success": true,
+      "start_s": 134.34,
+      "end_s": 135.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 135.4,
+      "end_s": 136.32000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "pretend ",
+      "success": true,
+      "start_s": 136.32000000000002,
+      "end_s": 136.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "you’",
+      "success": true,
+      "start_s": 136.8,
+      "end_s": 137.364,
+      "p_align": 0.99
+    },
+    {
+      "word": "re ",
+      "success": true,
+      "start_s": 137.364,
+      "end_s": 137.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "waiting ",
+      "success": true,
+      "start_s": 137.74,
+      "end_s": 138.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "there\n",
+      "success": true,
+      "start_s": 138.12,
+      "end_s": 139.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "한 ",
+      "success": true,
+      "start_s": 140.82000000000002,
+      "end_s": 141.48000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "번만\n",
+      "success": true,
+      "start_s": 141.48000000000002,
+      "end_s": 142.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 142.08,
+      "end_s": 143.04000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 143.04000000000002,
+      "end_s": 143.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "once\n",
+      "success": true,
+      "start_s": 143.84,
+      "end_s": 144.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "But ",
+      "success": true,
+      "start_s": 144.06,
+      "end_s": 144.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "it’",
+      "success": true,
+      "start_s": 144.66000000000003,
+      "end_s": 144.83333333333334,
+      "p_align": 0.99
+    },
+    {
+      "word": "s ",
+      "success": true,
+      "start_s": 144.83333333333334,
+      "end_s": 144.92000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "only ",
+      "success": true,
+      "start_s": 144.94,
+      "end_s": 145.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "colder ",
+      "success": true,
+      "start_s": 145.36,
+      "end_s": 146.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "air\n\n",
+      "success": true,
+      "start_s": 146.24,
+      "end_s": 148.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nLast ",
+      "success": true,
+      "start_s": 147.92,
+      "end_s": 148.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 148.54,
+      "end_s": 149.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 149.04,
+      "end_s": 149.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "어디쯤일까\n",
+      "success": true,
+      "start_s": 149.86,
+      "end_s": 151.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "빈 ",
+      "success": true,
+      "start_s": 151.06,
+      "end_s": 151.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "객실 ",
+      "success": true,
+      "start_s": 151.4,
+      "end_s": 151.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "창에 ",
+      "success": true,
+      "start_s": 151.76000000000002,
+      "end_s": 152.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "비친 ",
+      "success": true,
+      "start_s": 152.28,
+      "end_s": 152.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "내 ",
+      "success": true,
+      "start_s": 152.68,
+      "end_s": 152.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴\n",
+      "success": true,
+      "start_s": 152.98000000000002,
+      "end_s": 153.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 153.3,
+      "end_s": 153.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "tired\n",
+      "success": true,
+      "start_s": 153.86,
+      "end_s": 154.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 154.68,
+      "end_s": 155.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "try ",
+      "success": true,
+      "start_s": 155.08,
+      "end_s": 155.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 155.36,
+      "end_s": 155.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "smile\n",
+      "success": true,
+      "start_s": 155.68,
+      "end_s": 155.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "입술은 ",
+      "success": true,
+      "start_s": 155.96,
+      "end_s": 156.92000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "느리게\n",
+      "success": true,
+      "start_s": 156.92000000000002,
+      "end_s": 157.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "Mumbling ",
+      "success": true,
+      "start_s": 157.62,
+      "end_s": 158.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 158.22,
+      "end_s": 158.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "name\n",
+      "success": true,
+      "start_s": 158.46,
+      "end_s": 158.88000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Slurred ",
+      "success": true,
+      "start_s": 158.88000000000002,
+      "end_s": 160.04000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 160.04000000000002,
+      "end_s": 160.16000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 160.16000000000003,
+      "end_s": 160.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass\n",
+      "success": true,
+      "start_s": 160.3,
+      "end_s": 160.70000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Last ",
+      "success": true,
+      "start_s": 160.70000000000002,
+      "end_s": 163.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 163.62,
+      "end_s": 164.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 164.12,
+      "end_s": 164.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "잔상만 ",
+      "success": true,
+      "start_s": 164.62,
+      "end_s": 165.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "남아\n",
+      "success": true,
+      "start_s": 165.44,
+      "end_s": 165.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "Every ",
+      "success": true,
+      "start_s": 165.96,
+      "end_s": 166.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "turn ",
+      "success": true,
+      "start_s": 166.78,
+      "end_s": 166.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "shaking ",
+      "success": true,
+      "start_s": 166.96,
+      "end_s": 167.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 167.44,
+      "end_s": 167.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "words ",
+      "success": true,
+      "start_s": 167.76000000000002,
+      "end_s": 168.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "loose\n",
+      "success": true,
+      "start_s": 168.06,
+      "end_s": 168.32000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 168.32000000000002,
+      "end_s": 168.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 168.78,
+      "end_s": 169.16000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "forget\n",
+      "success": true,
+      "start_s": 169.16000000000003,
+      "end_s": 169.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "널 ",
+      "success": true,
+      "start_s": 169.76000000000002,
+      "end_s": 170.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "두 ",
+      "success": true,
+      "start_s": 170.3,
+      "end_s": 170.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "번 ",
+      "success": true,
+      "start_s": 170.52,
+      "end_s": 170.70000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "떠나겠지\n",
+      "success": true,
+      "start_s": 170.70000000000002,
+      "end_s": 172.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "So ",
+      "success": true,
+      "start_s": 172.60000000000002,
+      "end_s": 173.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 173.02,
+      "end_s": 173.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "ride ",
+      "success": true,
+      "start_s": 173.28,
+      "end_s": 173.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 173.66000000000003,
+      "end_s": 174.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "loop ",
+      "success": true,
+      "start_s": 174.0,
+      "end_s": 174.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "inside ",
+      "success": true,
+      "start_s": 174.22,
+      "end_s": 174.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 174.76000000000002,
+      "end_s": 175.16000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "mind\n\n",
+      "success": true,
+      "start_s": 175.16000000000003,
+      "end_s": 176.11,
+      "p_align": 0.99
+    }
+  ],
+  "waveform_data": [
+    6e-05,
+    1e-05,
+    0.00419,
+    0.15191,
+    0.10749,
+    0.07251,
+    0.14264,
+    0.13368,
+    0.10978,
+    0.09478,
+    0.10856,
+    0.13589,
+    0.06851,
+    0.18004,
+    0.09835,
+    0.11361,
+    0.12584,
+    0.08352,
+    0.05356,
+    0.09411,
+    0.15864,
+    0.05121,
+    0.1609,
+    0.14619,
+    0.11683,
+    0.03824,
+    0.07651,
+    0.04455,
+    0.03356,
+    0.02647,
+    0.02107,
+    0.0662,
+    0.05277,
+    0.04541,
+    0.03858,
+    0.07504,
+    0.06183,
+    0.04588,
+    0.14704,
+    0.09195,
+    0.1198,
+    0.12652,
+    0.05576,
+    0.02048,
+    0.04113,
+    0.14646,
+    0.08449,
+    0.10124,
+    0.0771,
+    0.12284,
+    0.13125,
+    0.13618,
+    0.11503,
+    0.12657,
+    0.15143,
+    0.11093,
+    0.13603,
+    0.15185,
+    0.1663,
+    0.14009,
+    0.08485,
+    0.08811,
+    0.10816,
+    0.07771,
+    0.04253,
+    0.06589,
+    0.11801,
+    0.01999,
+    0.0618,
+    0.04002,
+    0.02939,
+    0.03224,
+    0.03066,
+    0.0319,
+    0.04493,
+    0.04397,
+    0.04552,
+    0.15748,
+    0.1093,
+    0.15547,
+    0.15845,
+    0.10386,
+    0.16161,
+    0.08974,
+    0.14221,
+    0.15106,
+    0.12542,
+    0.14104,
+    0.15225,
+    0.17651,
+    0.1521,
+    0.11213,
+    0.03537,
+    0.07536,
+    0.08461,
+    0.14585,
+    0.08965,
+    0.13031,
+    0.15298,
+    0.12147,
+    0.13593,
+    0.05586,
+    0.02976,
+    0.0214,
+    0.0239,
+    0.08295,
+    0.06389,
+    0.05339,
+    0.05057,
+    0.06141,
+    0.04935,
+    0.05911,
+    0.05003,
+    0.03586,
+    0.1664,
+    0.16983,
+    0.06903,
+    0.06182,
+    0.14987,
+    0.11913,
+    0.07903,
+    0.13417,
+    0.15102,
+    0.15489,
+    0.08083,
+    0.10637,
+    0.05695,
+    0.04455,
+    0.13776,
+    0.10011,
+    0.09415,
+    0.10201,
+    0.14028,
+    0.10464,
+    0.11508,
+    0.06241,
+    0.12229,
+    0.11255,
+    0.10566,
+    0.07058,
+    0.01772,
+    0.01393,
+    0.01954,
+    0.01351,
+    0.01477,
+    0.02607,
+    0.04365,
+    0.0441,
+    0.0398,
+    0.03051,
+    0.03362,
+    0.20154,
+    0.12031,
+    0.13795,
+    0.15772,
+    0.22872,
+    0.22501,
+    0.16914,
+    0.18647,
+    0.16574,
+    0.1822,
+    0.13318,
+    0.07591,
+    0.13191,
+    0.27782,
+    0.13098,
+    0.12898,
+    0.27613,
+    0.19309,
+    0.17916,
+    0.17339,
+    0.17848,
+    0.20481,
+    0.18132,
+    0.25806,
+    0.16429,
+    0.16621,
+    0.15725,
+    0.15699,
+    0.1247,
+    0.12084,
+    0.10161,
+    0.25414,
+    0.13824,
+    0.14347,
+    0.23322,
+    0.18946,
+    0.16572,
+    0.19126,
+    0.16829,
+    0.14916,
+    0.16079,
+    0.24815,
+    0.18393,
+    0.15565,
+    0.15995,
+    0.14743,
+    0.17263,
+    0.14606,
+    0.12061,
+    0.15353,
+    0.25949,
+    0.04397,
+    0.07521,
+    0.28301,
+    0.16744,
+    0.19967,
+    0.17705,
+    0.17006,
+    0.15529,
+    0.16132,
+    0.26423,
+    0.16545,
+    0.14762,
+    0.15502,
+    0.1729,
+    0.15419,
+    0.12333,
+    0.13114,
+    0.26971,
+    0.13345,
+    0.13887,
+    0.25971,
+    0.15699,
+    0.18778,
+    0.22964,
+    0.13528,
+    0.18417,
+    0.18079,
+    0.28512,
+    0.19197,
+    0.16126,
+    0.19015,
+    0.15386,
+    0.17252,
+    0.17196,
+    0.15345,
+    0.20249,
+    0.23056,
+    0.14009,
+    0.1049,
+    0.28163,
+    0.18639,
+    0.16871,
+    0.17532,
+    0.1782,
+    0.19337,
+    0.167,
+    0.28404,
+    0.16558,
+    0.16453,
+    0.14426,
+    0.15929,
+    0.13006,
+    0.07307,
+    0.12094,
+    0.26321,
+    0.08489,
+    0.12209,
+    0.26588,
+    0.15754,
+    0.17099,
+    0.18917,
+    0.15974,
+    0.14123,
+    0.1495,
+    0.26243,
+    0.14723,
+    0.146,
+    0.14871,
+    0.14664,
+    0.15685,
+    0.16985,
+    0.15192,
+    0.21004,
+    0.21869,
+    0.136,
+    0.17068,
+    0.28189,
+    0.17289,
+    0.19297,
+    0.18412,
+    0.17095,
+    0.17225,
+    0.15755,
+    0.28094,
+    0.15641,
+    0.14846,
+    0.15043,
+    0.16414,
+    0.13394,
+    0.14224,
+    0.13595,
+    0.27159,
+    0.13609,
+    0.13024,
+    0.27633,
+    0.06849,
+    0.16687,
+    0.1693,
+    0.19131,
+    0.20208,
+    0.18093,
+    0.24248,
+    0.19535,
+    0.19134,
+    0.19546,
+    0.17352,
+    0.16716,
+    0.0984,
+    0.10136,
+    0.07159,
+    0.11664,
+    0.12905,
+    0.13787,
+    0.17024,
+    0.15978,
+    0.16901,
+    0.05005,
+    0.13488,
+    0.0768,
+    0.16291,
+    0.22946,
+    0.1791,
+    0.1568,
+    0.15113,
+    0.1501,
+    0.04985,
+    0.03515,
+    0.0268,
+    0.26137,
+    0.05308,
+    0.06827,
+    0.26134,
+    0.13554,
+    0.17539,
+    0.1811,
+    0.15181,
+    0.15567,
+    0.15695,
+    0.24361,
+    0.13335,
+    0.12644,
+    0.13386,
+    0.13176,
+    0.12175,
+    0.06738,
+    0.08078,
+    0.24975,
+    0.12185,
+    0.08372,
+    0.17501,
+    0.23277,
+    0.14603,
+    0.17953,
+    0.16278,
+    0.16718,
+    0.16111,
+    0.19395,
+    0.2002,
+    0.15324,
+    0.13058,
+    0.13216,
+    0.14746,
+    0.1116,
+    0.10456,
+    0.10549,
+    0.25311,
+    0.13583,
+    0.13227,
+    0.2684,
+    0.12473,
+    0.16124,
+    0.14042,
+    0.12767,
+    0.14308,
+    0.12821,
+    0.26434,
+    0.1319,
+    0.12319,
+    0.14727,
+    0.12092,
+    0.16033,
+    0.07222,
+    0.10671,
+    0.25398,
+    0.13196,
+    0.11081,
+    0.21282,
+    0.2282,
+    0.14591,
+    0.1751,
+    0.13062,
+    0.15949,
+    0.14706,
+    0.23367,
+    0.16876,
+    0.12478,
+    0.12535,
+    0.12376,
+    0.1367,
+    0.06775,
+    0.05776,
+    0.06623,
+    0.2531,
+    0.05395,
+    0.07456,
+    0.27387,
+    0.16431,
+    0.17037,
+    0.18771,
+    0.17204,
+    0.16827,
+    0.16672,
+    0.23762,
+    0.14042,
+    0.14139,
+    0.13934,
+    0.16099,
+    0.13086,
+    0.12376,
+    0.11811,
+    0.13358,
+    0.11371,
+    0.0786,
+    0.08197,
+    0.03255,
+    0.11994,
+    0.09156,
+    0.02887,
+    0.0632,
+    0.03965,
+    0.25511,
+    0.17064,
+    0.14987,
+    0.13118,
+    0.14856,
+    0.25991,
+    0.11619,
+    0.13653,
+    0.15122,
+    0.19248,
+    0.21029,
+    0.14927,
+    0.16057,
+    0.26017,
+    0.20422,
+    0.19982,
+    0.14567,
+    0.18861,
+    0.13895,
+    0.26308,
+    0.20729,
+    0.19474,
+    0.18698,
+    0.16881,
+    0.12059,
+    0.09785,
+    0.09667,
+    0.26857,
+    0.15044,
+    0.08505,
+    0.24791,
+    0.17699,
+    0.1501,
+    0.17797,
+    0.14965,
+    0.17895,
+    0.18302,
+    0.25304,
+    0.16813,
+    0.1483,
+    0.16173,
+    0.13554,
+    0.14783,
+    0.09783,
+    0.0797,
+    0.15614,
+    0.21266,
+    0.12614,
+    0.12102,
+    0.26277,
+    0.15487,
+    0.18114,
+    0.17961,
+    0.13516,
+    0.16763,
+    0.16792,
+    0.24534,
+    0.14187,
+    0.13697,
+    0.14557,
+    0.16711,
+    0.12556,
+    0.10219,
+    0.10354,
+    0.26121,
+    0.07155,
+    0.06366,
+    0.23864,
+    0.15683,
+    0.19853,
+    0.18028,
+    0.18723,
+    0.17155,
+    0.15648,
+    0.22456,
+    0.19355,
+    0.18329,
+    0.15487,
+    0.16876,
+    0.16606,
+    0.13612,
+    0.14428,
+    0.21581,
+    0.20305,
+    0.16242,
+    0.15216,
+    0.2659,
+    0.16388,
+    0.21317,
+    0.19193,
+    0.14745,
+    0.17555,
+    0.19764,
+    0.26807,
+    0.20343,
+    0.17717,
+    0.15652,
+    0.16445,
+    0.14513,
+    0.1412,
+    0.13681,
+    0.24948,
+    0.14138,
+    0.11557,
+    0.25253,
+    0.18233,
+    0.16219,
+    0.17987,
+    0.17068,
+    0.18511,
+    0.16267,
+    0.26133,
+    0.16986,
+    0.14707,
+    0.13434,
+    0.11921,
+    0.15477,
+    0.10724,
+    0.11487,
+    0.21526,
+    0.14819,
+    0.0626,
+    0.17044,
+    0.23587,
+    0.15603,
+    0.18077,
+    0.18259,
+    0.1543,
+    0.15453,
+    0.19272,
+    0.19739,
+    0.14943,
+    0.15216,
+    0.15337,
+    0.17141,
+    0.13508,
+    0.0997,
+    0.04686,
+    0.26048,
+    0.10306,
+    0.10686,
+    0.26885,
+    0.17297,
+    0.18247,
+    0.20147,
+    0.19145,
+    0.17263,
+    0.1628,
+    0.26292,
+    0.11568,
+    0.08526,
+    0.07559,
+    0.11325,
+    0.08418,
+    0.04728,
+    0.07022,
+    0.27268,
+    0.10202,
+    0.03094,
+    0.18224,
+    0.21096,
+    0.07417,
+    0.16846,
+    0.18955,
+    0.1637,
+    0.18459,
+    0.16666,
+    0.18493,
+    0.17821,
+    0.17825,
+    0.13688,
+    0.10334,
+    0.053,
+    0.11433,
+    0.13009,
+    0.15329,
+    0.11183,
+    0.0841,
+    0.09871,
+    0.17622,
+    0.10433,
+    0.04361,
+    0.08831,
+    0.08109,
+    0.02307,
+    0.05076,
+    0.03509,
+    0.02048,
+    0.01486,
+    0.01208,
+    0.11941,
+    0.0797,
+    0.09345,
+    0.08877,
+    0.06651,
+    0.06043,
+    0.0614,
+    0.05665,
+    0.06359,
+    0.07068,
+    0.06373,
+    0.05541,
+    0.04941,
+    0.05677,
+    0.07555,
+    0.04825,
+    0.04004,
+    0.04349,
+    0.08151,
+    0.09738,
+    0.09439,
+    0.091,
+    0.0701,
+    0.04547,
+    0.04234,
+    0.04079,
+    0.05056,
+    0.0538,
+    0.04967,
+    0.0451,
+    0.05249,
+    0.07089,
+    0.08642,
+    0.05768,
+    0.04654,
+    0.0383,
+    0.01604,
+    0.00484,
+    0.00472,
+    0.02833,
+    0.03923,
+    0.01823,
+    0.00294,
+    0.04025,
+    0.12267,
+    0.07498,
+    0.11054,
+    0.07513,
+    0.06927,
+    0.10286,
+    0.0863,
+    0.07542,
+    0.04141,
+    0.07627,
+    0.03896,
+    0.03001,
+    0.01743,
+    0.03629,
+    0.03265,
+    0.03381,
+    0.1276,
+    0.12643,
+    0.0954,
+    0.07947,
+    0.08181,
+    0.06752,
+    0.09292,
+    0.09192,
+    0.06276,
+    0.04852,
+    0.02353,
+    0.00785,
+    0.00583,
+    0.013,
+    0.03009,
+    0.01683,
+    0.01425,
+    0.01931,
+    0.01687,
+    0.01127,
+    0.02123,
+    0.02038,
+    0.01913,
+    0.06742,
+    0.10979,
+    0.08789,
+    0.06105,
+    0.12053,
+    0.10288,
+    0.06581,
+    0.03289,
+    0.0479,
+    0.02888,
+    0.04386,
+    0.047,
+    0.01677,
+    0.09242,
+    0.0185,
+    0.01349,
+    0.07671,
+    0.05686,
+    0.06999,
+    0.13498,
+    0.09827,
+    0.02301,
+    0.05899,
+    0.04777,
+    0.04864,
+    0.05479,
+    0.04699,
+    0.0426,
+    0.0262,
+    0.05817,
+    0.03864,
+    0.0519,
+    0.03997,
+    0.06017,
+    0.10576,
+    0.10464,
+    0.18041,
+    0.24062,
+    0.2118,
+    0.2254,
+    0.23058,
+    0.26145,
+    0.21367,
+    0.23256,
+    0.20933,
+    0.18454,
+    0.16595,
+    0.19315,
+    0.09297,
+    0.25926,
+    0.18926,
+    0.08709,
+    0.09873,
+    0.2918,
+    0.18453,
+    0.17898,
+    0.16953,
+    0.18808,
+    0.21999,
+    0.22843,
+    0.2712,
+    0.18015,
+    0.18417,
+    0.16554,
+    0.15649,
+    0.1448,
+    0.1199,
+    0.08782,
+    0.26449,
+    0.12494,
+    0.15334,
+    0.27818,
+    0.1549,
+    0.20168,
+    0.18864,
+    0.16837,
+    0.18941,
+    0.18794,
+    0.27442,
+    0.16239,
+    0.15575,
+    0.16219,
+    0.1655,
+    0.17853,
+    0.12352,
+    0.15595,
+    0.26894,
+    0.12251,
+    0.02601,
+    0.1576,
+    0.25766,
+    0.18928,
+    0.20439,
+    0.18904,
+    0.18702,
+    0.17571,
+    0.25414,
+    0.2356,
+    0.17291,
+    0.16468,
+    0.17013,
+    0.18965,
+    0.17619,
+    0.16273,
+    0.14865,
+    0.2586,
+    0.1617,
+    0.16346,
+    0.28064,
+    0.12044,
+    0.19332,
+    0.18908,
+    0.13308,
+    0.15504,
+    0.17598,
+    0.28037,
+    0.23008,
+    0.19319,
+    0.19838,
+    0.18085,
+    0.16943,
+    0.16863,
+    0.17661,
+    0.27253,
+    0.15773,
+    0.11364,
+    0.19848,
+    0.25119,
+    0.18446,
+    0.18333,
+    0.16389,
+    0.19811,
+    0.19928,
+    0.26813,
+    0.22705,
+    0.18302,
+    0.17785,
+    0.16211,
+    0.15467,
+    0.14054,
+    0.07728,
+    0.12536,
+    0.26299,
+    0.06932,
+    0.16439,
+    0.28096,
+    0.18085,
+    0.18129,
+    0.20866,
+    0.19542,
+    0.17139,
+    0.16241,
+    0.2795,
+    0.15091,
+    0.16137,
+    0.16483,
+    0.17655,
+    0.17035,
+    0.14877,
+    0.13777,
+    0.25952,
+    0.10533,
+    0.08636,
+    0.24337,
+    0.20456,
+    0.18528,
+    0.18768,
+    0.18418,
+    0.20572,
+    0.19598,
+    0.26675,
+    0.15861,
+    0.09389,
+    0.09314,
+    0.07929,
+    0.09027,
+    0.08445,
+    0.09457,
+    0.09762,
+    0.09194,
+    0.09311,
+    0.1011,
+    0.11838,
+    0.24698,
+    0.1879,
+    0.10533,
+    0.05667,
+    0.14393,
+    0.07654,
+    0.28824,
+    0.21516,
+    0.22002,
+    0.21738,
+    0.18785,
+    0.10185,
+    0.05861,
+    0.06965,
+    0.29651,
+    0.11399,
+    0.07109,
+    0.25987,
+    0.17379,
+    0.16382,
+    0.1889,
+    0.1765,
+    0.18251,
+    0.19685,
+    0.31263,
+    0.19237,
+    0.20523,
+    0.18998,
+    0.18682,
+    0.14937,
+    0.06372,
+    0.04121,
+    0.16496,
+    0.22236,
+    0.07666,
+    0.09352,
+    0.28194,
+    0.16904,
+    0.1619,
+    0.17566,
+    0.17267,
+    0.17787,
+    0.16415,
+    0.28336,
+    0.18406,
+    0.17908,
+    0.17789,
+    0.1804,
+    0.05388,
+    0.03857,
+    0.0477,
+    0.28527,
+    0.07556,
+    0.03805,
+    0.27952,
+    0.158,
+    0.19514,
+    0.18797,
+    0.18941,
+    0.19391,
+    0.18371,
+    0.30354,
+    0.19343,
+    0.21141,
+    0.1906,
+    0.18105,
+    0.18007,
+    0.16848,
+    0.16013,
+    0.24884,
+    0.19726,
+    0.18073,
+    0.17749,
+    0.28567,
+    0.16316,
+    0.16261,
+    0.17883,
+    0.18292,
+    0.16397,
+    0.19729,
+    0.25921,
+    0.20886,
+    0.18419,
+    0.16873,
+    0.15519,
+    0.05656,
+    0.04887,
+    0.05994,
+    0.27663,
+    0.09631,
+    0.06456,
+    0.27474,
+    0.15014,
+    0.15886,
+    0.1776,
+    0.1823,
+    0.18218,
+    0.18873,
+    0.29689,
+    0.17671,
+    0.19144,
+    0.1737,
+    0.16942,
+    0.12309,
+    0.04815,
+    0.03379,
+    0.22095,
+    0.18332,
+    0.0691,
+    0.13192,
+    0.2677,
+    0.15724,
+    0.16066,
+    0.17333,
+    0.1609,
+    0.1725,
+    0.214,
+    0.25733,
+    0.18571,
+    0.18925,
+    0.17809,
+    0.18829,
+    0.18062,
+    0.16757,
+    0.05201,
+    0.28417,
+    0.04834,
+    0.05037,
+    0.28536,
+    0.17409,
+    0.1964,
+    0.19042,
+    0.19469,
+    0.19252,
+    0.18699,
+    0.28926,
+    0.16584,
+    0.17694,
+    0.16674,
+    0.16741,
+    0.15929,
+    0.15371,
+    0.14858,
+    0.28316,
+    0.14124,
+    0.13368,
+    0.19797,
+    0.2431,
+    0.06154,
+    0.139,
+    0.13834,
+    0.15171,
+    0.1433,
+    0.12147,
+    0.02792,
+    0.01966,
+    0.02109,
+    0.01685,
+    0.01263,
+    0.01036,
+    0.00689
+  ],
+  "hoot_cer": 0.17261904761904762,
+  "is_streamed": false,
+  "aligned_lyrics": [
+    {
+      "text": "Last train home",
+      "start_s": 0.718,
+      "end_s": 1.995,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 0.718,
+          "end_s": 1.117
+        },
+        {
+          "text": " train",
+          "start_s": 1.117,
+          "end_s": 1.596
+        },
+        {
+          "text": " home",
+          "start_s": 1.596,
+          "end_s": 1.995
+        }
+      ]
+    },
+    {
+      "text": "Empty car",
+      "start_s": 2.154,
+      "end_s": 3.271,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Empty",
+          "start_s": 2.154,
+          "end_s": 2.633
+        },
+        {
+          "text": " car",
+          "start_s": 2.952,
+          "end_s": 3.271
+        }
+      ]
+    },
+    {
+      "text": "Just me and the hum",
+      "start_s": 3.989,
+      "end_s": 5.426,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 3.989,
+          "end_s": 4.388
+        },
+        {
+          "text": " me",
+          "start_s": 4.388,
+          "end_s": 4.628
+        },
+        {
+          "text": " and",
+          "start_s": 4.628,
+          "end_s": 4.867
+        },
+        {
+          "text": " the",
+          "start_s": 4.867,
+          "end_s": 5.106
+        },
+        {
+          "text": " hum",
+          "start_s": 5.106,
+          "end_s": 5.426
+        }
+      ]
+    },
+    {
+      "text": "Fogged glass",
+      "start_s": 7.58,
+      "end_s": 8.537,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Fo",
+          "start_s": 7.58,
+          "end_s": 7.66
+        },
+        {
+          "text": "gged",
+          "start_s": 7.66,
+          "end_s": 7.979
+        },
+        {
+          "text": " glass",
+          "start_s": 8.059,
+          "end_s": 8.537
+        }
+      ]
+    },
+    {
+      "text": "Fingertip circles",
+      "start_s": 8.936,
+      "end_s": 10.452,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Finger",
+          "start_s": 8.936,
+          "end_s": 9.495
+        },
+        {
+          "text": "ti",
+          "start_s": 9.495,
+          "end_s": 9.574
+        },
+        {
+          "text": "p ",
+          "start_s": 9.574,
+          "end_s": 9.734
+        },
+        {
+          "text": "circles",
+          "start_s": 9.894,
+          "end_s": 10.452
+        }
+      ]
+    },
+    {
+      "text": "네 얼굴",
+      "start_s": 10.691,
+      "end_s": 11.17,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "네",
+          "start_s": 10.691,
+          "end_s": 10.851
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 10.931,
+          "end_s": 11.17
+        }
+      ]
+    },
+    {
+      "text": "내 얼굴",
+      "start_s": 11.569,
+      "end_s": 12.048,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "내",
+          "start_s": 11.569,
+          "end_s": 11.729
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 11.809,
+          "end_s": 12.048
+        }
+      ]
+    },
+    {
+      "text": "Just one",
+      "start_s": 12.527,
+      "end_s": 13.404,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 12.527,
+          "end_s": 12.926
+        },
+        {
+          "text": " one",
+          "start_s": 13.085,
+          "end_s": 13.404
+        }
+      ]
+    },
+    {
+      "text": "Station names slide by",
+      "start_s": 15.399,
+      "end_s": 17.074,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "St",
+          "start_s": 15.399,
+          "end_s": 15.718
+        },
+        {
+          "text": "ation",
+          "start_s": 15.718,
+          "end_s": 15.878
+        },
+        {
+          "text": " names",
+          "start_s": 15.878,
+          "end_s": 16.356
+        },
+        {
+          "text": " slide",
+          "start_s": 16.356,
+          "end_s": 16.835
+        },
+        {
+          "text": " by",
+          "start_s": 16.835,
+          "end_s": 17.074
+        }
+      ]
+    },
+    {
+      "text": "I never read",
+      "start_s": 17.314,
+      "end_s": 18.431,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 17.314,
+          "end_s": 17.473
+        },
+        {
+          "text": " never",
+          "start_s": 17.553,
+          "end_s": 18.032
+        },
+        {
+          "text": " read",
+          "start_s": 18.032,
+          "end_s": 18.431
+        }
+      ]
+    },
+    {
+      "text": "Just watch them blur",
+      "start_s": 18.67,
+      "end_s": 20.186,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 18.67,
+          "end_s": 18.989
+        },
+        {
+          "text": " watch",
+          "start_s": 18.989,
+          "end_s": 19.388
+        },
+        {
+          "text": " them",
+          "start_s": 19.388,
+          "end_s": 19.787
+        },
+        {
+          "text": " blur",
+          "start_s": 19.787,
+          "end_s": 20.186
+        }
+      ]
+    },
+    {
+      "text": "One more stop",
+      "start_s": 22.739,
+      "end_s": 23.936,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "One",
+          "start_s": 22.739,
+          "end_s": 23.059
+        },
+        {
+          "text": " more",
+          "start_s": 23.059,
+          "end_s": 23.457
+        },
+        {
+          "text": " stop",
+          "start_s": 23.537,
+          "end_s": 23.936
+        }
+      ]
+    },
+    {
+      "text": "Then another",
+      "start_s": 24.176,
+      "end_s": 25.532,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Then",
+          "start_s": 24.176,
+          "end_s": 24.574
+        },
+        {
+          "text": " an",
+          "start_s": 24.654,
+          "end_s": 24.894
+        },
+        {
+          "text": "other",
+          "start_s": 25.452,
+          "end_s": 25.532
+        }
+      ]
+    },
+    {
+      "text": "익숙한 듯 낯선 거리들",
+      "start_s": 25.532,
+      "end_s": 27.606,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "익",
+          "start_s": 25.532,
+          "end_s": 25.691
+        },
+        {
+          "text": "숙",
+          "start_s": 25.851,
+          "end_s": 25.931
+        },
+        {
+          "text": "한",
+          "start_s": 26.011,
+          "end_s": 26.09
+        },
+        {
+          "text": " 듯",
+          "start_s": 26.33,
+          "end_s": 26.489
+        },
+        {
+          "text": " 낯",
+          "start_s": 26.489,
+          "end_s": 26.649
+        },
+        {
+          "text": "선",
+          "start_s": 26.809,
+          "end_s": 26.888
+        },
+        {
+          "text": " 거리",
+          "start_s": 27.048,
+          "end_s": 27.287
+        },
+        {
+          "text": "들",
+          "start_s": 27.527,
+          "end_s": 27.606
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 30.399,
+      "end_s": 31.516,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 30.399,
+          "end_s": 30.638
+        },
+        {
+          "text": " train",
+          "start_s": 30.638,
+          "end_s": 31.117
+        },
+        {
+          "text": " home",
+          "start_s": 31.117,
+          "end_s": 31.516
+        }
+      ]
+    },
+    {
+      "text": "어디쯤일까",
+      "start_s": 31.596,
+      "end_s": 32.553,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "어디",
+          "start_s": 31.596,
+          "end_s": 31.835
+        },
+        {
+          "text": "쯤",
+          "start_s": 31.995,
+          "end_s": 32.074
+        },
+        {
+          "text": "일",
+          "start_s": 32.234,
+          "end_s": 32.314
+        },
+        {
+          "text": "까",
+          "start_s": 32.473,
+          "end_s": 32.553
+        }
+      ]
+    },
+    {
+      "text": "빈 객실 창에 비친 내 얼굴",
+      "start_s": 32.713,
+      "end_s": 34.787,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "빈",
+          "start_s": 32.713,
+          "end_s": 32.872
+        },
+        {
+          "text": " 객실",
+          "start_s": 32.952,
+          "end_s": 33.191
+        },
+        {
+          "text": " 창",
+          "start_s": 33.431,
+          "end_s": 33.59
+        },
+        {
+          "text": "에",
+          "start_s": 33.67,
+          "end_s": 33.75
+        },
+        {
+          "text": " 비",
+          "start_s": 33.91,
+          "end_s": 34.069
+        },
+        {
+          "text": "친",
+          "start_s": 34.149,
+          "end_s": 34.229
+        },
+        {
+          "text": " 내",
+          "start_s": 34.309,
+          "end_s": 34.468
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 34.548,
+          "end_s": 34.787
+        }
+      ]
+    },
+    {
+      "text": "So tired",
+      "start_s": 35.266,
+      "end_s": 36.144,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 35.266,
+          "end_s": 35.505
+        },
+        {
+          "text": " tired",
+          "start_s": 35.665,
+          "end_s": 36.144
+        }
+      ]
+    },
+    {
+      "text": "I try to smile",
+      "start_s": 36.383,
+      "end_s": 37.819,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 36.383,
+          "end_s": 36.543
+        },
+        {
+          "text": " try",
+          "start_s": 36.702,
+          "end_s": 37.021
+        },
+        {
+          "text": " to",
+          "start_s": 37.101,
+          "end_s": 37.34
+        },
+        {
+          "text": " smile",
+          "start_s": 37.34,
+          "end_s": 37.819
+        }
+      ]
+    },
+    {
+      "text": "입술은 느리게",
+      "start_s": 37.819,
+      "end_s": 39.016,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "입",
+          "start_s": 37.819,
+          "end_s": 37.979
+        },
+        {
+          "text": "술",
+          "start_s": 38.059,
+          "end_s": 38.138
+        },
+        {
+          "text": "은",
+          "start_s": 38.298,
+          "end_s": 38.378
+        },
+        {
+          "text": " 느",
+          "start_s": 38.537,
+          "end_s": 38.697
+        },
+        {
+          "text": "리",
+          "start_s": 38.777,
+          "end_s": 38.856
+        },
+        {
+          "text": "게",
+          "start_s": 38.936,
+          "end_s": 39.016
+        }
+      ]
+    },
+    {
+      "text": "Mumbling your name",
+      "start_s": 39.335,
+      "end_s": 40.532,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Mum",
+          "start_s": 39.335,
+          "end_s": 39.654
+        },
+        {
+          "text": "bling",
+          "start_s": 39.654,
+          "end_s": 39.894
+        },
+        {
+          "text": " your",
+          "start_s": 39.894,
+          "end_s": 40.133
+        },
+        {
+          "text": " name",
+          "start_s": 40.133,
+          "end_s": 40.532
+        }
+      ]
+    },
+    {
+      "text": "Slurred in the glass",
+      "start_s": 41.09,
+      "end_s": 42.367,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Sl",
+          "start_s": 41.09,
+          "end_s": 41.17
+        },
+        {
+          "text": "ur",
+          "start_s": 41.17,
+          "end_s": 41.25
+        },
+        {
+          "text": "r",
+          "start_s": 41.25,
+          "end_s": 41.33
+        },
+        {
+          "text": "ed",
+          "start_s": 41.33,
+          "end_s": 41.489
+        },
+        {
+          "text": " in",
+          "start_s": 41.489,
+          "end_s": 41.649
+        },
+        {
+          "text": " the",
+          "start_s": 41.649,
+          "end_s": 41.888
+        },
+        {
+          "text": " glass",
+          "start_s": 41.888,
+          "end_s": 42.367
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 45.0,
+      "end_s": 46.197,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 45.0,
+          "end_s": 45.319
+        },
+        {
+          "text": " train",
+          "start_s": 45.319,
+          "end_s": 45.798
+        },
+        {
+          "text": " home",
+          "start_s": 45.798,
+          "end_s": 46.197
+        }
+      ]
+    },
+    {
+      "text": "잔상만 남아",
+      "start_s": 46.277,
+      "end_s": 47.234,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "잔",
+          "start_s": 46.277,
+          "end_s": 46.436
+        },
+        {
+          "text": "상",
+          "start_s": 46.516,
+          "end_s": 46.596
+        },
+        {
+          "text": "만",
+          "start_s": 46.755,
+          "end_s": 46.835
+        },
+        {
+          "text": " 남아",
+          "start_s": 46.995,
+          "end_s": 47.234
+        }
+      ]
+    },
+    {
+      "text": "Every turn shaking old words loose",
+      "start_s": 47.872,
+      "end_s": 50.027,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Every",
+          "start_s": 47.872,
+          "end_s": 48.112
+        },
+        {
+          "text": " turn",
+          "start_s": 48.112,
+          "end_s": 48.511
+        },
+        {
+          "text": " shaking",
+          "start_s": 48.59,
+          "end_s": 49.069
+        },
+        {
+          "text": " old",
+          "start_s": 49.069,
+          "end_s": 49.229
+        },
+        {
+          "text": " words",
+          "start_s": 49.229,
+          "end_s": 49.628
+        },
+        {
+          "text": " loose",
+          "start_s": 49.628,
+          "end_s": 50.027
+        }
+      ]
+    },
+    {
+      "text": "If I forget",
+      "start_s": 50.027,
+      "end_s": 51.622,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 50.027,
+          "end_s": 50.266
+        },
+        {
+          "text": " I",
+          "start_s": 50.426,
+          "end_s": 50.585
+        },
+        {
+          "text": " forget",
+          "start_s": 51.144,
+          "end_s": 51.622
+        }
+      ]
+    },
+    {
+      "text": "널 두 번 떠나겠지",
+      "start_s": 51.622,
+      "end_s": 53.138,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "널",
+          "start_s": 51.622,
+          "end_s": 51.782
+        },
+        {
+          "text": " 두",
+          "start_s": 51.862,
+          "end_s": 52.021
+        },
+        {
+          "text": " 번",
+          "start_s": 52.101,
+          "end_s": 52.261
+        },
+        {
+          "text": " 떠나",
+          "start_s": 52.34,
+          "end_s": 52.58
+        },
+        {
+          "text": "겠",
+          "start_s": 52.739,
+          "end_s": 52.819
+        },
+        {
+          "text": "지",
+          "start_s": 53.059,
+          "end_s": 53.138
+        }
+      ]
+    },
+    {
+      "text": "So I stay awake between the lights",
+      "start_s": 54.415,
+      "end_s": 57.128,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 54.415,
+          "end_s": 54.574
+        },
+        {
+          "text": " I",
+          "start_s": 54.574,
+          "end_s": 54.734
+        },
+        {
+          "text": " stay",
+          "start_s": 54.814,
+          "end_s": 55.213
+        },
+        {
+          "text": " awake",
+          "start_s": 55.452,
+          "end_s": 55.931
+        },
+        {
+          "text": " between",
+          "start_s": 56.011,
+          "end_s": 56.41
+        },
+        {
+          "text": " the",
+          "start_s": 56.41,
+          "end_s": 56.569
+        },
+        {
+          "text": " lights",
+          "start_s": 56.569,
+          "end_s": 57.128
+        }
+      ]
+    },
+    {
+      "text": "Head on the seat",
+      "start_s": 60.798,
+      "end_s": 61.995,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Head",
+          "start_s": 60.798,
+          "end_s": 61.037
+        },
+        {
+          "text": " on",
+          "start_s": 61.037,
+          "end_s": 61.277
+        },
+        {
+          "text": " the",
+          "start_s": 61.356,
+          "end_s": 61.596
+        },
+        {
+          "text": " seat",
+          "start_s": 61.596,
+          "end_s": 61.995
+        }
+      ]
+    },
+    {
+      "text": "Earphones in but nothing plays",
+      "start_s": 61.995,
+      "end_s": 64.548,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Ear",
+          "start_s": 61.995,
+          "end_s": 62.314
+        },
+        {
+          "text": "ph",
+          "start_s": 62.314,
+          "end_s": 62.394
+        },
+        {
+          "text": "one",
+          "start_s": 62.394,
+          "end_s": 62.473
+        },
+        {
+          "text": "s",
+          "start_s": 62.473,
+          "end_s": 62.553
+        },
+        {
+          "text": " in",
+          "start_s": 62.553,
+          "end_s": 62.793
+        },
+        {
+          "text": " but",
+          "start_s": 62.952,
+          "end_s": 63.271
+        },
+        {
+          "text": " nothing",
+          "start_s": 63.431,
+          "end_s": 64.069
+        },
+        {
+          "text": " plays",
+          "start_s": 64.069,
+          "end_s": 64.548
+        }
+      ]
+    },
+    {
+      "text": "Silence with a heartbeat",
+      "start_s": 67.101,
+      "end_s": 68.777,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Silence",
+          "start_s": 67.101,
+          "end_s": 67.58
+        },
+        {
+          "text": " with",
+          "start_s": 67.58,
+          "end_s": 67.819
+        },
+        {
+          "text": " a",
+          "start_s": 67.819,
+          "end_s": 67.979
+        },
+        {
+          "text": " heartbeat",
+          "start_s": 67.979,
+          "end_s": 68.777
+        }
+      ]
+    },
+    {
+      "text": "Car door rattles time away",
+      "start_s": 68.856,
+      "end_s": 71.729,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Car",
+          "start_s": 68.856,
+          "end_s": 69.176
+        },
+        {
+          "text": " door",
+          "start_s": 69.335,
+          "end_s": 69.734
+        },
+        {
+          "text": " r",
+          "start_s": 69.894,
+          "end_s": 69.973
+        },
+        {
+          "text": "att",
+          "start_s": 69.973,
+          "end_s": 70.133
+        },
+        {
+          "text": "les",
+          "start_s": 70.133,
+          "end_s": 70.372
+        },
+        {
+          "text": " time",
+          "start_s": 70.532,
+          "end_s": 70.931
+        },
+        {
+          "text": " away",
+          "start_s": 71.33,
+          "end_s": 71.729
+        }
+      ]
+    },
+    {
+      "text": "Late text drafts unsent",
+      "start_s": 75.399,
+      "end_s": 77.234,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Late",
+          "start_s": 75.399,
+          "end_s": 75.798
+        },
+        {
+          "text": " text",
+          "start_s": 75.798,
+          "end_s": 76.197
+        },
+        {
+          "text": " dra",
+          "start_s": 76.277,
+          "end_s": 76.356
+        },
+        {
+          "text": "ft",
+          "start_s": 76.356,
+          "end_s": 76.436
+        },
+        {
+          "text": "s",
+          "start_s": 76.436,
+          "end_s": 76.516
+        },
+        {
+          "text": " uns",
+          "start_s": 76.755,
+          "end_s": 76.995
+        },
+        {
+          "text": "ent",
+          "start_s": 76.995,
+          "end_s": 77.234
+        }
+      ]
+    },
+    {
+      "text": "“잘 지내?” typed then erased",
+      "start_s": 77.473,
+      "end_s": 79.388,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "“잘",
+          "start_s": 77.473,
+          "end_s": 77.713
+        },
+        {
+          "text": " 지",
+          "start_s": 77.713,
+          "end_s": 77.872
+        },
+        {
+          "text": "내?",
+          "start_s": 77.952,
+          "end_s": 78.032
+        },
+        {
+          "text": "” type",
+          "start_s": 78.191,
+          "end_s": 78.511
+        },
+        {
+          "text": "d then",
+          "start_s": 78.511,
+          "end_s": 78.83
+        },
+        {
+          "text": " erased",
+          "start_s": 78.83,
+          "end_s": 79.388
+        }
+      ]
+    },
+    {
+      "text": "Tiny screen on my lap",
+      "start_s": 81.383,
+      "end_s": 83.059,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Tiny",
+          "start_s": 81.383,
+          "end_s": 81.782
+        },
+        {
+          "text": " screen",
+          "start_s": 81.862,
+          "end_s": 82.181
+        },
+        {
+          "text": " on",
+          "start_s": 82.181,
+          "end_s": 82.42
+        },
+        {
+          "text": " my",
+          "start_s": 82.42,
+          "end_s": 82.66
+        },
+        {
+          "text": " lap",
+          "start_s": 82.739,
+          "end_s": 83.059
+        }
+      ]
+    },
+    {
+      "text": "My thumb hovering like it’s afraid",
+      "start_s": 84.335,
+      "end_s": 86.729,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "My",
+          "start_s": 84.335,
+          "end_s": 84.574
+        },
+        {
+          "text": " th",
+          "start_s": 84.574,
+          "end_s": 84.654
+        },
+        {
+          "text": "umb",
+          "start_s": 84.654,
+          "end_s": 84.894
+        },
+        {
+          "text": " ho",
+          "start_s": 84.894,
+          "end_s": 85.133
+        },
+        {
+          "text": "ver",
+          "start_s": 85.213,
+          "end_s": 85.293
+        },
+        {
+          "text": "ing",
+          "start_s": 85.293,
+          "end_s": 85.532
+        },
+        {
+          "text": " like",
+          "start_s": 85.532,
+          "end_s": 85.851
+        },
+        {
+          "text": " it",
+          "start_s": 85.851,
+          "end_s": 85.931
+        },
+        {
+          "text": "’s",
+          "start_s": 85.931,
+          "end_s": 86.09
+        },
+        {
+          "text": " a",
+          "start_s": 86.17,
+          "end_s": 86.25
+        },
+        {
+          "text": "fra",
+          "start_s": 86.25,
+          "end_s": 86.489
+        },
+        {
+          "text": "i",
+          "start_s": 86.489,
+          "end_s": 86.569
+        },
+        {
+          "text": "d",
+          "start_s": 86.649,
+          "end_s": 86.729
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 89.761,
+      "end_s": 90.638,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 89.761,
+          "end_s": 89.92
+        },
+        {
+          "text": " train",
+          "start_s": 89.92,
+          "end_s": 90.239
+        },
+        {
+          "text": " home",
+          "start_s": 90.239,
+          "end_s": 90.638
+        }
+      ]
+    },
+    {
+      "text": "어디쯤일까",
+      "start_s": 90.638,
+      "end_s": 91.676,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "어디",
+          "start_s": 90.638,
+          "end_s": 90.878
+        },
+        {
+          "text": "쯤",
+          "start_s": 91.117,
+          "end_s": 91.197
+        },
+        {
+          "text": "일",
+          "start_s": 91.356,
+          "end_s": 91.436
+        },
+        {
+          "text": "까",
+          "start_s": 91.596,
+          "end_s": 91.676
+        }
+      ]
+    },
+    {
+      "text": "빈 객실 창에 비친 내 얼굴",
+      "start_s": 91.835,
+      "end_s": 93.91,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "빈",
+          "start_s": 91.835,
+          "end_s": 91.995
+        },
+        {
+          "text": " 객실",
+          "start_s": 92.314,
+          "end_s": 92.473
+        },
+        {
+          "text": " 창",
+          "start_s": 92.473,
+          "end_s": 92.633
+        },
+        {
+          "text": "에",
+          "start_s": 92.793,
+          "end_s": 92.872
+        },
+        {
+          "text": " 비",
+          "start_s": 92.952,
+          "end_s": 93.112
+        },
+        {
+          "text": "친",
+          "start_s": 93.191,
+          "end_s": 93.271
+        },
+        {
+          "text": " 내",
+          "start_s": 93.351,
+          "end_s": 93.511
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 93.67,
+          "end_s": 93.91
+        }
+      ]
+    },
+    {
+      "text": "So tired",
+      "start_s": 94.309,
+      "end_s": 95.505,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 94.309,
+          "end_s": 94.548
+        },
+        {
+          "text": " t",
+          "start_s": 94.787,
+          "end_s": 94.947
+        },
+        {
+          "text": "ired",
+          "start_s": 95.186,
+          "end_s": 95.505
+        }
+      ]
+    },
+    {
+      "text": "I try to smile",
+      "start_s": 95.505,
+      "end_s": 96.862,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 95.505,
+          "end_s": 95.665
+        },
+        {
+          "text": " try",
+          "start_s": 95.745,
+          "end_s": 96.064
+        },
+        {
+          "text": " to",
+          "start_s": 96.144,
+          "end_s": 96.383
+        },
+        {
+          "text": " smile",
+          "start_s": 96.463,
+          "end_s": 96.862
+        }
+      ]
+    },
+    {
+      "text": "입술은 느리게",
+      "start_s": 96.862,
+      "end_s": 98.138,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "입",
+          "start_s": 96.862,
+          "end_s": 97.021
+        },
+        {
+          "text": "술",
+          "start_s": 97.101,
+          "end_s": 97.181
+        },
+        {
+          "text": "은",
+          "start_s": 97.34,
+          "end_s": 97.42
+        },
+        {
+          "text": " 느",
+          "start_s": 97.58,
+          "end_s": 97.739
+        },
+        {
+          "text": "리",
+          "start_s": 97.819,
+          "end_s": 97.899
+        },
+        {
+          "text": "게",
+          "start_s": 98.059,
+          "end_s": 98.138
+        }
+      ]
+    },
+    {
+      "text": "Mumbling your name",
+      "start_s": 98.457,
+      "end_s": 99.574,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Mum",
+          "start_s": 98.457,
+          "end_s": 98.697
+        },
+        {
+          "text": "bling",
+          "start_s": 98.697,
+          "end_s": 98.936
+        },
+        {
+          "text": " your",
+          "start_s": 98.936,
+          "end_s": 99.176
+        },
+        {
+          "text": " name",
+          "start_s": 99.176,
+          "end_s": 99.574
+        }
+      ]
+    },
+    {
+      "text": "Slurred in the glass",
+      "start_s": 100.133,
+      "end_s": 101.41,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Sl",
+          "start_s": 100.133,
+          "end_s": 100.213
+        },
+        {
+          "text": "ur",
+          "start_s": 100.213,
+          "end_s": 100.293
+        },
+        {
+          "text": "red",
+          "start_s": 100.293,
+          "end_s": 100.532
+        },
+        {
+          "text": " in",
+          "start_s": 100.532,
+          "end_s": 100.771
+        },
+        {
+          "text": " the",
+          "start_s": 100.771,
+          "end_s": 100.931
+        },
+        {
+          "text": " glass",
+          "start_s": 100.931,
+          "end_s": 101.41
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 104.122,
+      "end_s": 105.319,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 104.122,
+          "end_s": 104.441
+        },
+        {
+          "text": " train",
+          "start_s": 104.441,
+          "end_s": 104.92
+        },
+        {
+          "text": " home",
+          "start_s": 104.92,
+          "end_s": 105.319
+        }
+      ]
+    },
+    {
+      "text": "잔상만 남아",
+      "start_s": 105.319,
+      "end_s": 106.356,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "잔",
+          "start_s": 105.319,
+          "end_s": 105.479
+        },
+        {
+          "text": "상",
+          "start_s": 105.638,
+          "end_s": 105.718
+        },
+        {
+          "text": "만",
+          "start_s": 105.878,
+          "end_s": 105.957
+        },
+        {
+          "text": " 남아",
+          "start_s": 106.117,
+          "end_s": 106.356
+        }
+      ]
+    },
+    {
+      "text": "Every turn shaking old words loose",
+      "start_s": 106.835,
+      "end_s": 109.069,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Every",
+          "start_s": 106.835,
+          "end_s": 107.234
+        },
+        {
+          "text": " turn",
+          "start_s": 107.234,
+          "end_s": 107.633
+        },
+        {
+          "text": " sh",
+          "start_s": 107.633,
+          "end_s": 107.872
+        },
+        {
+          "text": "aking",
+          "start_s": 107.952,
+          "end_s": 108.112
+        },
+        {
+          "text": " old",
+          "start_s": 108.112,
+          "end_s": 108.351
+        },
+        {
+          "text": " words",
+          "start_s": 108.351,
+          "end_s": 108.67
+        },
+        {
+          "text": " loose",
+          "start_s": 108.67,
+          "end_s": 109.069
+        }
+      ]
+    },
+    {
+      "text": "If I forget",
+      "start_s": 109.069,
+      "end_s": 110.665,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 109.069,
+          "end_s": 109.309
+        },
+        {
+          "text": " I",
+          "start_s": 109.548,
+          "end_s": 109.707
+        },
+        {
+          "text": " forget",
+          "start_s": 110.266,
+          "end_s": 110.665
+        }
+      ]
+    },
+    {
+      "text": "널 두 번 떠나겠지",
+      "start_s": 110.665,
+      "end_s": 112.181,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "널",
+          "start_s": 110.665,
+          "end_s": 110.824
+        },
+        {
+          "text": " 두",
+          "start_s": 110.904,
+          "end_s": 111.064
+        },
+        {
+          "text": " 번",
+          "start_s": 111.144,
+          "end_s": 111.303
+        },
+        {
+          "text": " 떠나",
+          "start_s": 111.383,
+          "end_s": 111.622
+        },
+        {
+          "text": "겠",
+          "start_s": 111.862,
+          "end_s": 111.941
+        },
+        {
+          "text": "지",
+          "start_s": 112.101,
+          "end_s": 112.181
+        }
+      ]
+    },
+    {
+      "text": "So I stay awake between the lights",
+      "start_s": 113.457,
+      "end_s": 115.771,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 113.457,
+          "end_s": 113.697
+        },
+        {
+          "text": " I",
+          "start_s": 113.697,
+          "end_s": 113.856
+        },
+        {
+          "text": " stay",
+          "start_s": 113.936,
+          "end_s": 114.335
+        },
+        {
+          "text": " awake",
+          "start_s": 114.574,
+          "end_s": 115.053
+        },
+        {
+          "text": " between",
+          "start_s": 115.053,
+          "end_s": 115.532
+        },
+        {
+          "text": " the",
+          "start_s": 115.532,
+          "end_s": 115.612
+        },
+        {
+          "text": " lights",
+          "start_s": 115.612,
+          "end_s": 115.771
+        }
+      ]
+    },
+    {
+      "text": "[beat drops softer",
+      "start_s": 115.771,
+      "end_s": 115.931,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "[beat drops softer",
+          "start_s": 115.771,
+          "end_s": 115.931
+        }
+      ]
+    },
+    {
+      "text": "Just pads and piano]",
+      "start_s": 115.771,
+      "end_s": 115.931,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Just pads and piano]",
+          "start_s": 115.771,
+          "end_s": 115.931
+        }
+      ]
+    },
+    {
+      "text": "숨을 쉬고",
+      "start_s": 115.771,
+      "end_s": 116.25,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "숨",
+          "start_s": 115.771,
+          "end_s": 115.931
+        },
+        {
+          "text": "을",
+          "start_s": 115.931,
+          "end_s": 116.011
+        },
+        {
+          "text": " 쉬",
+          "start_s": 116.011,
+          "end_s": 116.17
+        },
+        {
+          "text": "고",
+          "start_s": 116.17,
+          "end_s": 116.25
+        }
+      ]
+    },
+    {
+      "text": "Let the window breathe my doubt",
+      "start_s": 120.798,
+      "end_s": 123.75,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Let",
+          "start_s": 120.798,
+          "end_s": 120.957
+        },
+        {
+          "text": " the",
+          "start_s": 120.957,
+          "end_s": 121.197
+        },
+        {
+          "text": " window",
+          "start_s": 121.197,
+          "end_s": 121.755
+        },
+        {
+          "text": " breathe",
+          "start_s": 122.074,
+          "end_s": 122.713
+        },
+        {
+          "text": " my",
+          "start_s": 122.793,
+          "end_s": 123.032
+        },
+        {
+          "text": " doubt",
+          "start_s": 123.271,
+          "end_s": 123.75
+        }
+      ]
+    },
+    {
+      "text": "Blur me out",
+      "start_s": 124.309,
+      "end_s": 125.186,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Blur",
+          "start_s": 124.309,
+          "end_s": 124.628
+        },
+        {
+          "text": " me",
+          "start_s": 124.628,
+          "end_s": 124.867
+        },
+        {
+          "text": " out",
+          "start_s": 124.867,
+          "end_s": 125.186
+        }
+      ]
+    },
+    {
+      "text": "Blur me out",
+      "start_s": 127.979,
+      "end_s": 128.777,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Blur",
+          "start_s": 127.979,
+          "end_s": 128.298
+        },
+        {
+          "text": " me",
+          "start_s": 128.298,
+          "end_s": 128.457
+        },
+        {
+          "text": " out",
+          "start_s": 128.457,
+          "end_s": 128.777
+        }
+      ]
+    },
+    {
+      "text": "(yeah)",
+      "start_s": 132.128,
+      "end_s": 132.606,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "(yeah)",
+          "start_s": 132.128,
+          "end_s": 132.606
+        }
+      ]
+    },
+    {
+      "text": "When the doors slide open",
+      "start_s": 133.165,
+      "end_s": 134.84,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "When",
+          "start_s": 133.165,
+          "end_s": 133.324
+        },
+        {
+          "text": " the",
+          "start_s": 133.324,
+          "end_s": 133.564
+        },
+        {
+          "text": " doors",
+          "start_s": 133.564,
+          "end_s": 134.043
+        },
+        {
+          "text": " slide",
+          "start_s": 134.043,
+          "end_s": 134.441
+        },
+        {
+          "text": " open",
+          "start_s": 134.441,
+          "end_s": 134.84
+        }
+      ]
+    },
+    {
+      "text": "I pretend you’re waiting there",
+      "start_s": 135.878,
+      "end_s": 138.351,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 135.878,
+          "end_s": 136.037
+        },
+        {
+          "text": " pretend",
+          "start_s": 136.356,
+          "end_s": 136.835
+        },
+        {
+          "text": " you",
+          "start_s": 136.835,
+          "end_s": 136.995
+        },
+        {
+          "text": "’re",
+          "start_s": 136.995,
+          "end_s": 137.154
+        },
+        {
+          "text": " waiting",
+          "start_s": 137.154,
+          "end_s": 137.793
+        },
+        {
+          "text": " there",
+          "start_s": 137.872,
+          "end_s": 138.351
+        }
+      ]
+    },
+    {
+      "text": "한 번만",
+      "start_s": 140.904,
+      "end_s": 141.702,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "한",
+          "start_s": 140.904,
+          "end_s": 141.064
+        },
+        {
+          "text": " 번",
+          "start_s": 141.223,
+          "end_s": 141.383
+        },
+        {
+          "text": "만",
+          "start_s": 141.622,
+          "end_s": 141.702
+        }
+      ]
+    },
+    {
+      "text": "Just this once",
+      "start_s": 142.58,
+      "end_s": 143.856,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 142.58,
+          "end_s": 142.979
+        },
+        {
+          "text": " this",
+          "start_s": 142.979,
+          "end_s": 143.378
+        },
+        {
+          "text": " once",
+          "start_s": 143.457,
+          "end_s": 143.856
+        }
+      ]
+    },
+    {
+      "text": "But it’s only colder air",
+      "start_s": 144.176,
+      "end_s": 145.931,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "But",
+          "start_s": 144.176,
+          "end_s": 144.335
+        },
+        {
+          "text": " it",
+          "start_s": 144.335,
+          "end_s": 144.495
+        },
+        {
+          "text": "’s",
+          "start_s": 144.495,
+          "end_s": 144.574
+        },
+        {
+          "text": " only",
+          "start_s": 144.574,
+          "end_s": 144.973
+        },
+        {
+          "text": " colder",
+          "start_s": 145.213,
+          "end_s": 145.771
+        },
+        {
+          "text": " air",
+          "start_s": 145.851,
+          "end_s": 145.931
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 145.931,
+      "end_s": 147.207,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 145.931,
+          "end_s": 146.011
+        },
+        {
+          "text": " train",
+          "start_s": 146.011,
+          "end_s": 146.489
+        },
+        {
+          "text": " home",
+          "start_s": 146.809,
+          "end_s": 147.207
+        }
+      ]
+    },
+    {
+      "text": "어디쯤일까",
+      "start_s": 149.92,
+      "end_s": 150.718,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "어디",
+          "start_s": 149.92,
+          "end_s": 150.16
+        },
+        {
+          "text": "쯤",
+          "start_s": 150.239,
+          "end_s": 150.319
+        },
+        {
+          "text": "일",
+          "start_s": 150.479,
+          "end_s": 150.559
+        },
+        {
+          "text": "까",
+          "start_s": 150.638,
+          "end_s": 150.718
+        }
+      ]
+    },
+    {
+      "text": "빈 객실 창에 비친 내 얼굴",
+      "start_s": 150.878,
+      "end_s": 152.952,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "빈",
+          "start_s": 150.878,
+          "end_s": 151.037
+        },
+        {
+          "text": " 객실",
+          "start_s": 151.356,
+          "end_s": 151.596
+        },
+        {
+          "text": " 창",
+          "start_s": 151.596,
+          "end_s": 151.755
+        },
+        {
+          "text": "에",
+          "start_s": 151.835,
+          "end_s": 151.915
+        },
+        {
+          "text": " 비",
+          "start_s": 152.074,
+          "end_s": 152.234
+        },
+        {
+          "text": "친",
+          "start_s": 152.234,
+          "end_s": 152.314
+        },
+        {
+          "text": " 내",
+          "start_s": 152.473,
+          "end_s": 152.633
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 152.713,
+          "end_s": 152.952
+        }
+      ]
+    },
+    {
+      "text": "So tired",
+      "start_s": 153.431,
+      "end_s": 154.309,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 153.431,
+          "end_s": 153.67
+        },
+        {
+          "text": " tired",
+          "start_s": 153.83,
+          "end_s": 154.309
+        }
+      ]
+    },
+    {
+      "text": "I try to smile",
+      "start_s": 154.548,
+      "end_s": 155.904,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 154.548,
+          "end_s": 154.707
+        },
+        {
+          "text": " try",
+          "start_s": 154.787,
+          "end_s": 155.106
+        },
+        {
+          "text": " to",
+          "start_s": 155.266,
+          "end_s": 155.505
+        },
+        {
+          "text": " smile",
+          "start_s": 155.505,
+          "end_s": 155.904
+        }
+      ]
+    },
+    {
+      "text": "입술은 느리게",
+      "start_s": 155.904,
+      "end_s": 157.101,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "입",
+          "start_s": 155.904,
+          "end_s": 156.064
+        },
+        {
+          "text": "술",
+          "start_s": 156.223,
+          "end_s": 156.303
+        },
+        {
+          "text": "은",
+          "start_s": 156.463,
+          "end_s": 156.543
+        },
+        {
+          "text": " 느",
+          "start_s": 156.622,
+          "end_s": 156.782
+        },
+        {
+          "text": "리",
+          "start_s": 156.862,
+          "end_s": 156.941
+        },
+        {
+          "text": "게",
+          "start_s": 157.021,
+          "end_s": 157.101
+        }
+      ]
+    },
+    {
+      "text": "Mumbling your name",
+      "start_s": 157.58,
+      "end_s": 158.617,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Mum",
+          "start_s": 157.58,
+          "end_s": 157.819
+        },
+        {
+          "text": "bling",
+          "start_s": 157.819,
+          "end_s": 158.059
+        },
+        {
+          "text": " your",
+          "start_s": 158.059,
+          "end_s": 158.218
+        },
+        {
+          "text": " name",
+          "start_s": 158.218,
+          "end_s": 158.617
+        }
+      ]
+    },
+    {
+      "text": "Slurred in the glass",
+      "start_s": 159.255,
+      "end_s": 160.293,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Sl",
+          "start_s": 159.255,
+          "end_s": 159.335
+        },
+        {
+          "text": "ur",
+          "start_s": 159.335,
+          "end_s": 159.415
+        },
+        {
+          "text": "red",
+          "start_s": 159.415,
+          "end_s": 159.654
+        },
+        {
+          "text": " in",
+          "start_s": 159.654,
+          "end_s": 159.814
+        },
+        {
+          "text": " the",
+          "start_s": 159.814,
+          "end_s": 159.973
+        },
+        {
+          "text": " gl",
+          "start_s": 159.973,
+          "end_s": 160.053
+        },
+        {
+          "text": "ass",
+          "start_s": 160.053,
+          "end_s": 160.293
+        }
+      ]
+    },
+    {
+      "text": "Last train home",
+      "start_s": 163.165,
+      "end_s": 164.362,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Last",
+          "start_s": 163.165,
+          "end_s": 163.484
+        },
+        {
+          "text": " train",
+          "start_s": 163.484,
+          "end_s": 163.963
+        },
+        {
+          "text": " home",
+          "start_s": 163.963,
+          "end_s": 164.362
+        }
+      ]
+    },
+    {
+      "text": "잔상만 남아",
+      "start_s": 164.441,
+      "end_s": 165.399,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "잔",
+          "start_s": 164.441,
+          "end_s": 164.601
+        },
+        {
+          "text": "상",
+          "start_s": 164.681,
+          "end_s": 164.761
+        },
+        {
+          "text": "만",
+          "start_s": 164.92,
+          "end_s": 165.0
+        },
+        {
+          "text": " 남아",
+          "start_s": 165.16,
+          "end_s": 165.399
+        }
+      ]
+    },
+    {
+      "text": "Every turn shaking old words loose",
+      "start_s": 165.957,
+      "end_s": 168.271,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Every",
+          "start_s": 165.957,
+          "end_s": 166.277
+        },
+        {
+          "text": " turn",
+          "start_s": 166.277,
+          "end_s": 166.676
+        },
+        {
+          "text": " shaking",
+          "start_s": 166.755,
+          "end_s": 167.234
+        },
+        {
+          "text": " old",
+          "start_s": 167.234,
+          "end_s": 167.473
+        },
+        {
+          "text": " words",
+          "start_s": 167.473,
+          "end_s": 167.793
+        },
+        {
+          "text": " lo",
+          "start_s": 167.793,
+          "end_s": 168.032
+        },
+        {
+          "text": "ose",
+          "start_s": 168.191,
+          "end_s": 168.271
+        }
+      ]
+    },
+    {
+      "text": "If I forget",
+      "start_s": 168.271,
+      "end_s": 169.787,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 168.271,
+          "end_s": 168.511
+        },
+        {
+          "text": " I",
+          "start_s": 168.59,
+          "end_s": 168.75
+        },
+        {
+          "text": " forget",
+          "start_s": 169.309,
+          "end_s": 169.787
+        }
+      ]
+    },
+    {
+      "text": "널 두 번 떠나겠지",
+      "start_s": 169.787,
+      "end_s": 171.223,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "널",
+          "start_s": 169.787,
+          "end_s": 169.947
+        },
+        {
+          "text": " 두",
+          "start_s": 170.027,
+          "end_s": 170.186
+        },
+        {
+          "text": " 번",
+          "start_s": 170.186,
+          "end_s": 170.346
+        },
+        {
+          "text": " 떠나",
+          "start_s": 170.426,
+          "end_s": 170.665
+        },
+        {
+          "text": "겠",
+          "start_s": 170.904,
+          "end_s": 170.984
+        },
+        {
+          "text": "지",
+          "start_s": 171.144,
+          "end_s": 171.223
+        }
+      ]
+    },
+    {
+      "text": "So I ride this loop inside my mind",
+      "start_s": 172.5,
+      "end_s": 175.372,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "So",
+          "start_s": 172.5,
+          "end_s": 172.739
+        },
+        {
+          "text": " I",
+          "start_s": 172.739,
+          "end_s": 172.899
+        },
+        {
+          "text": " ride",
+          "start_s": 173.059,
+          "end_s": 173.378
+        },
+        {
+          "text": " this",
+          "start_s": 173.378,
+          "end_s": 173.617
+        },
+        {
+          "text": " loop",
+          "start_s": 173.617,
+          "end_s": 174.016
+        },
+        {
+          "text": " inside",
+          "start_s": 174.176,
+          "end_s": 174.574
+        },
+        {
+          "text": " my",
+          "start_s": 174.574,
+          "end_s": 174.814
+        },
+        {
+          "text": " mind",
+          "start_s": 174.814,
+          "end_s": 175.372
+        }
+      ]
+    }
+  ]
+}

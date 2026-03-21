@@ -45,6 +45,9 @@ AUDIO_EXTENSIONS = {'.wav', '.mp3', '.flac', '.m4a', '.aac'}
 # 테스트 모드 (0 = 전체 렌더, 양수 = 해당 초만 렌더)
 TEST_DURATION = 0
 
+# 반복 재생 (1 = 1회, 2 = 2회 반복)
+REPEAT = 2
+
 # 배경 이미지 (images/ 폴더에서 자동 탐색)
 BG_IMAGE = None
 if os.path.isdir(IMAGES_DIR):
@@ -103,10 +106,10 @@ SMOOTHING = 0.3
 # 파티클 설정
 NUM_PARTICLES = 80
 MIN_SIZE = 1 * SCALE
-MAX_SIZE = 8 * SCALE
+MAX_SIZE = 10 * SCALE
 MIN_SPEED = 0.3 * SCALE
 MAX_SPEED = 1.5 * SCALE
-MIN_ALPHA = 30
+MIN_ALPHA = 40
 MAX_ALPHA = 100
 DRIFT_AMP = 1.5 * SCALE
 DRIFT_FREQ_MIN = 0.02
@@ -332,10 +335,11 @@ def main():
         """파일명에서 '01_' 같은 트랙 번호 접두사 제거"""
         return re.sub(r'^\d+_', '', name)
 
-    tracklist = [
+    tracklist_single = [
         {"title": strip_track_prefix(os.path.splitext(f)[0]), "artist": ARTIST, "file": f}
         for f in song_files
     ]
+    tracklist = tracklist_single * REPEAT
 
     track_count = len(tracklist)
     print(f"📂 EP: {os.path.basename(EP_DIR)}")
@@ -411,9 +415,12 @@ def main():
     with open(concat_list, 'w') as cl:
         for i, track in enumerate(tracklist):
             wav_file = os.path.join(temp_dir, f'track_{i}.wav')
+            dur = track_durations[i]
             subprocess.run([
                 'ffmpeg', '-y', '-i', os.path.join(SONGS_DIR, track['file']),
-                '-map', '0:a:0', '-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le', wav_file
+                '-map', '0:a:0', '-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le',
+                '-af', f'afade=t=in:st=0:d=0.5,afade=t=out:st={dur - 1}:d=1',
+                wav_file
             ], capture_output=True)
             cl.write(f"file '{wav_file}'\n")
 
@@ -430,7 +437,8 @@ def main():
 
     # 곡 제목
     for i, track in enumerate(tracklist):
-        title = f"{i+1:02d}. {track['title']}".upper()
+        track_num = (i % len(tracklist_single)) + 1
+        title = f"{track_num:02d}. {track['title']}".upper()
         start = track_starts[i]
         duration = track_durations[i]
 
@@ -461,10 +469,9 @@ def main():
 
     # 가사 싱크 오버레이
     for i, track in enumerate(tracklist):
-        name = os.path.splitext(track['file'])[0]
-        json_path = os.path.join(LYRICS_DIR, f"{name}.json")
+        json_path = os.path.join(LYRICS_DIR, f"{track['title']}.json")
         if not os.path.exists(json_path):
-            print(f"  ⚠️  가사 없음: {name}")
+            print(f"  ⚠️  가사 없음: {track['title']}")
             continue
 
         lyrics = parse_lyrics_json(json_path)

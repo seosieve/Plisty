@@ -1,0 +1,4851 @@
+{
+  "aligned_words": [
+    {
+      "word": "\nLaundromat ",
+      "success": true,
+      "start_s": 0.5,
+      "end_s": 1.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "glow\n",
+      "success": true,
+      "start_s": 1.46,
+      "end_s": 1.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "Half-dead ",
+      "success": true,
+      "start_s": 2.14,
+      "end_s": 3.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "phone\n",
+      "success": true,
+      "start_s": 3.86,
+      "end_s": 4.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "Got ",
+      "success": true,
+      "start_s": 4.16,
+      "end_s": 4.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "nowhere ",
+      "success": true,
+      "start_s": 4.58,
+      "end_s": 5.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 5.24,
+      "end_s": 5.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "go\n",
+      "success": true,
+      "start_s": 5.7,
+      "end_s": 6.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "Dryer ",
+      "success": true,
+      "start_s": 6.84,
+      "end_s": 9.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "door ",
+      "success": true,
+      "start_s": 9.440000000000001,
+      "end_s": 9.620000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "fogged\n",
+      "success": true,
+      "start_s": 9.620000000000001,
+      "end_s": 10.700000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Spinning ",
+      "success": true,
+      "start_s": 10.700000000000001,
+      "end_s": 11.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 11.24,
+      "end_s": 11.600000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "clothes\n",
+      "success": true,
+      "start_s": 11.600000000000001,
+      "end_s": 12.280000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "따뜻한 ",
+      "success": true,
+      "start_s": 12.520000000000001,
+      "end_s": 13.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "공기\n",
+      "success": true,
+      "start_s": 13.34,
+      "end_s": 13.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "It ",
+      "success": true,
+      "start_s": 13.96,
+      "end_s": 14.780000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "tickles ",
+      "success": true,
+      "start_s": 14.780000000000001,
+      "end_s": 15.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 15.34,
+      "end_s": 15.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "nose\n\n",
+      "success": true,
+      "start_s": 15.66,
+      "end_s": 16.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "Change ",
+      "success": true,
+      "start_s": 15.76,
+      "end_s": 16.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 16.76,
+      "end_s": 17.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 17.1,
+      "end_s": 17.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "floor\n",
+      "success": true,
+      "start_s": 17.32,
+      "end_s": 18.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "Plastic ",
+      "success": true,
+      "start_s": 19.64,
+      "end_s": 21.240000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "chair ",
+      "success": true,
+      "start_s": 21.240000000000002,
+      "end_s": 21.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "digging ",
+      "success": true,
+      "start_s": 21.66,
+      "end_s": 22.240000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "into ",
+      "success": true,
+      "start_s": 22.240000000000002,
+      "end_s": 22.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 22.92,
+      "end_s": 23.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "bones\n",
+      "success": true,
+      "start_s": 23.42,
+      "end_s": 24.740000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "형광등 ",
+      "success": true,
+      "start_s": 24.740000000000002,
+      "end_s": 25.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "아래 ",
+      "success": true,
+      "start_s": 25.96,
+      "end_s": 26.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "졸린 ",
+      "success": true,
+      "start_s": 26.6,
+      "end_s": 27.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "눈\n",
+      "success": true,
+      "start_s": 27.34,
+      "end_s": 28.26,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 28.26,
+      "end_s": 29.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "hum ",
+      "success": true,
+      "start_s": 29.0,
+      "end_s": 29.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 29.38,
+      "end_s": 29.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "name ",
+      "success": true,
+      "start_s": 29.66,
+      "end_s": 30.080000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "under ",
+      "success": true,
+      "start_s": 30.28,
+      "end_s": 30.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "buzzing ",
+      "success": true,
+      "start_s": 30.68,
+      "end_s": 31.220000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "drones\n\n",
+      "success": true,
+      "start_s": 31.220000000000002,
+      "end_s": 31.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nSpin ",
+      "success": true,
+      "start_s": 31.52,
+      "end_s": 32.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 32.86,
+      "end_s": 33.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n",
+      "success": true,
+      "start_s": 33.3,
+      "end_s": 33.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 34.099999999999994,
+      "end_s": 34.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 34.62,
+      "end_s": 34.739999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "drum ",
+      "success": true,
+      "start_s": 34.739999999999995,
+      "end_s": 34.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "full ",
+      "success": true,
+      "start_s": 34.98,
+      "end_s": 35.279999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "of ",
+      "success": true,
+      "start_s": 35.279999999999994,
+      "end_s": 35.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "T-shirts ",
+      "success": true,
+      "start_s": 35.72,
+      "end_s": 36.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "and ",
+      "success": true,
+      "start_s": 36.22,
+      "end_s": 36.459999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 36.459999999999994,
+      "end_s": 36.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "hopes\n",
+      "success": true,
+      "start_s": 36.68,
+      "end_s": 37.099999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "Hold ",
+      "success": true,
+      "start_s": 37.099999999999994,
+      "end_s": 37.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 37.36,
+      "end_s": 37.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 37.62,
+      "end_s": 38.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 38.18,
+      "end_s": 38.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "these ",
+      "success": true,
+      "start_s": 38.599999999999994,
+      "end_s": 38.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "warm ",
+      "success": true,
+      "start_s": 38.76,
+      "end_s": 38.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "clothes ",
+      "success": true,
+      "start_s": 38.98,
+      "end_s": 39.459999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "pressed ",
+      "success": true,
+      "start_s": 39.459999999999994,
+      "end_s": 39.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 39.94,
+      "end_s": 40.279999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 40.279999999999994,
+      "end_s": 40.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "throat\n",
+      "success": true,
+      "start_s": 40.62,
+      "end_s": 41.019999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘\n",
+      "success": true,
+      "start_s": 41.0,
+      "end_s": 43.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘\n",
+      "success": true,
+      "start_s": 43.0,
+      "end_s": 45.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "Soft ",
+      "success": true,
+      "start_s": 48.94,
+      "end_s": 49.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "as ",
+      "success": true,
+      "start_s": 49.48,
+      "end_s": 49.739999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "cotton\n",
+      "success": true,
+      "start_s": 49.739999999999995,
+      "end_s": 50.279999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "Softer ",
+      "success": true,
+      "start_s": 50.279999999999994,
+      "end_s": 51.26,
+      "p_align": 0.99
+    },
+    {
+      "word": "than ",
+      "success": true,
+      "start_s": 51.26,
+      "end_s": 51.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 51.66,
+      "end_s": 51.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "ever ",
+      "success": true,
+      "start_s": 51.94,
+      "end_s": 52.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "spoke\n",
+      "success": true,
+      "start_s": 52.599999999999994,
+      "end_s": 52.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 52.94,
+      "end_s": 53.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 53.44,
+      "end_s": 53.779999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "hum\n",
+      "success": true,
+      "start_s": 53.779999999999994,
+      "end_s": 54.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 54.08,
+      "end_s": 54.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 54.599999999999994,
+      "end_s": 54.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "glow\n",
+      "success": true,
+      "start_s": 54.76,
+      "end_s": 54.959999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 54.959999999999994,
+      "end_s": 55.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "pretend ",
+      "success": true,
+      "start_s": 55.36,
+      "end_s": 55.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "that ",
+      "success": true,
+      "start_s": 55.86,
+      "end_s": 56.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 56.36,
+      "end_s": 56.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 56.58,
+      "end_s": 56.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "not ",
+      "success": true,
+      "start_s": 56.8,
+      "end_s": 57.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n\n",
+      "success": true,
+      "start_s": 64.18,
+      "end_s": 64.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nNumbers ",
+      "success": true,
+      "start_s": 64.58,
+      "end_s": 65.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "blink ",
+      "success": true,
+      "start_s": 65.02,
+      "end_s": 65.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "down\n12:04\n",
+      "success": true,
+      "start_s": 65.32,
+      "end_s": 65.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "Then 3:24\n",
+      "success": true,
+      "start_s": 67.98,
+      "end_s": 68.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 69.84,
+      "end_s": 70.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "trace ",
+      "success": true,
+      "start_s": 70.94,
+      "end_s": 71.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 71.3,
+      "end_s": 71.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "text ",
+      "success": true,
+      "start_s": 71.66,
+      "end_s": 72.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 72.0,
+      "end_s": 72.39999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 72.39999999999999,
+      "end_s": 72.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "soap ",
+      "success": true,
+      "start_s": 72.61999999999999,
+      "end_s": 73.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 73.02,
+      "end_s": 73.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 73.52,
+      "end_s": 73.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass\n“",
+      "success": true,
+      "start_s": 73.67999999999999,
+      "end_s": 74.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "Call ",
+      "success": true,
+      "start_s": 74.44,
+      "end_s": 75.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 75.56,
+      "end_s": 75.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "later” ",
+      "success": true,
+      "start_s": 75.74,
+      "end_s": 76.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "from ",
+      "success": true,
+      "start_s": 76.52,
+      "end_s": 76.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 76.56,
+      "end_s": 76.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "year ",
+      "success": true,
+      "start_s": 76.75999999999999,
+      "end_s": 77.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 77.11999999999999,
+      "end_s": 77.39999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 77.42,
+      "end_s": 77.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "past\n\n",
+      "success": true,
+      "start_s": 77.61999999999999,
+      "end_s": 79.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "쌓여가는 ",
+      "success": true,
+      "start_s": 79.18,
+      "end_s": 80.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "기억들\n",
+      "success": true,
+      "start_s": 80.88,
+      "end_s": 81.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "Folded ",
+      "success": true,
+      "start_s": 82.0,
+      "end_s": 83.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 83.42,
+      "end_s": 83.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "piles\n",
+      "success": true,
+      "start_s": 83.67999999999999,
+      "end_s": 84.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 84.0,
+      "end_s": 85.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "press ",
+      "success": true,
+      "start_s": 85.0,
+      "end_s": 85.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 85.28,
+      "end_s": 85.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "cheek ",
+      "success": true,
+      "start_s": 85.67999999999999,
+      "end_s": 86.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 86.02,
+      "end_s": 86.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 86.58,
+      "end_s": 86.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "gentle ",
+      "success": true,
+      "start_s": 86.75999999999999,
+      "end_s": 87.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "heat\n",
+      "success": true,
+      "start_s": 87.22,
+      "end_s": 87.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 87.98,
+      "end_s": 88.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 88.96,
+      "end_s": 89.25999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "stay ",
+      "success": true,
+      "start_s": 89.25999999999999,
+      "end_s": 89.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "here ",
+      "success": true,
+      "start_s": 89.58,
+      "end_s": 90.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "till ",
+      "success": true,
+      "start_s": 90.22,
+      "end_s": 90.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 90.58,
+      "end_s": 90.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "morning ",
+      "success": true,
+      "start_s": 90.82,
+      "end_s": 91.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "comes\n",
+      "success": true,
+      "start_s": 91.14,
+      "end_s": 92.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "Will ",
+      "success": true,
+      "start_s": 92.02,
+      "end_s": 92.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 92.94,
+      "end_s": 93.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "walk ",
+      "success": true,
+      "start_s": 93.28,
+      "end_s": 93.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "in\n",
+      "success": true,
+      "start_s": 93.82,
+      "end_s": 94.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Drag ",
+      "success": true,
+      "start_s": 94.28,
+      "end_s": 95.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 95.02,
+      "end_s": 95.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "feet?\n\n",
+      "success": true,
+      "start_s": 95.34,
+      "end_s": 96.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nSpin ",
+      "success": true,
+      "start_s": 98.76,
+      "end_s": 98.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 98.86,
+      "end_s": 99.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n",
+      "success": true,
+      "start_s": 99.3,
+      "end_s": 99.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 100.03999999999999,
+      "end_s": 100.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 100.58,
+      "end_s": 100.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "drum ",
+      "success": true,
+      "start_s": 100.74,
+      "end_s": 100.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "full ",
+      "success": true,
+      "start_s": 100.98,
+      "end_s": 101.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "of ",
+      "success": true,
+      "start_s": 101.28,
+      "end_s": 101.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "T-shirts ",
+      "success": true,
+      "start_s": 101.7,
+      "end_s": 102.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "and ",
+      "success": true,
+      "start_s": 102.22,
+      "end_s": 102.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 102.5,
+      "end_s": 102.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "hopes\n",
+      "success": true,
+      "start_s": 102.67999999999999,
+      "end_s": 103.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "Hold ",
+      "success": true,
+      "start_s": 103.1,
+      "end_s": 103.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 103.34,
+      "end_s": 103.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 103.61999999999999,
+      "end_s": 104.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 104.11999999999999,
+      "end_s": 104.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "these ",
+      "success": true,
+      "start_s": 104.58,
+      "end_s": 104.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "warm ",
+      "success": true,
+      "start_s": 104.74,
+      "end_s": 104.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "clothes ",
+      "success": true,
+      "start_s": 104.96,
+      "end_s": 105.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "pressed ",
+      "success": true,
+      "start_s": 105.46,
+      "end_s": 105.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 105.96,
+      "end_s": 106.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 106.3,
+      "end_s": 106.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "throat\n",
+      "success": true,
+      "start_s": 106.64,
+      "end_s": 107.03999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘\n",
+      "success": true,
+      "start_s": 107.0,
+      "end_s": 109.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘\n",
+      "success": true,
+      "start_s": 109.0,
+      "end_s": 111.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "Soft ",
+      "success": true,
+      "start_s": 114.46,
+      "end_s": 115.21999999999998,
+      "p_align": 0.99
+    },
+    {
+      "word": "as ",
+      "success": true,
+      "start_s": 115.21999999999998,
+      "end_s": 115.69999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "cotton\n",
+      "success": true,
+      "start_s": 115.69999999999999,
+      "end_s": 116.47999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Softer ",
+      "success": true,
+      "start_s": 116.47999999999999,
+      "end_s": 117.27999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "than ",
+      "success": true,
+      "start_s": 117.27999999999999,
+      "end_s": 117.63999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 117.63999999999999,
+      "end_s": 117.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "ever ",
+      "success": true,
+      "start_s": 117.96,
+      "end_s": 118.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "spoke\n",
+      "success": true,
+      "start_s": 118.53999999999999,
+      "end_s": 118.97999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 118.96,
+      "end_s": 119.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 119.46,
+      "end_s": 119.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "hum\n",
+      "success": true,
+      "start_s": 119.7,
+      "end_s": 120.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 120.1,
+      "end_s": 120.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 120.61999999999999,
+      "end_s": 120.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "glow\n",
+      "success": true,
+      "start_s": 120.72,
+      "end_s": 120.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 120.96,
+      "end_s": 121.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "pretend ",
+      "success": true,
+      "start_s": 121.32,
+      "end_s": 121.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "that ",
+      "success": true,
+      "start_s": 121.86,
+      "end_s": 122.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 122.34,
+      "end_s": 122.57000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 122.57000000000001,
+      "end_s": 122.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "not ",
+      "success": true,
+      "start_s": 122.8,
+      "end_s": 123.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n\n",
+      "success": true,
+      "start_s": 128.64000000000001,
+      "end_s": 128.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "\n머릿속에 ",
+      "success": true,
+      "start_s": 128.44,
+      "end_s": 131.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "너\n",
+      "success": true,
+      "start_s": 131.34,
+      "end_s": 131.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "너\n",
+      "success": true,
+      "start_s": 132.84,
+      "end_s": 133.26000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "너 (",
+      "success": true,
+      "start_s": 132.98,
+      "end_s": 132.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "mm)\n",
+      "success": true,
+      "start_s": 132.98,
+      "end_s": 135.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Same ",
+      "success": true,
+      "start_s": 135.96,
+      "end_s": 135.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "three ",
+      "success": true,
+      "start_s": 135.96,
+      "end_s": 136.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "chords\n",
+      "success": true,
+      "start_s": 136.3,
+      "end_s": 136.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Same ",
+      "success": true,
+      "start_s": 136.64000000000001,
+      "end_s": 137.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 137.12,
+      "end_s": 137.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "blur\n",
+      "success": true,
+      "start_s": 137.34,
+      "end_s": 137.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 137.62,
+      "end_s": 137.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "love ",
+      "success": true,
+      "start_s": 137.86,
+      "end_s": 138.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "was ",
+      "success": true,
+      "start_s": 138.06,
+      "end_s": 138.32000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 138.32000000000002,
+      "end_s": 138.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "warm\n",
+      "success": true,
+      "start_s": 138.60000000000002,
+      "end_s": 139.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 139.0,
+      "end_s": 139.23000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "d ",
+      "success": true,
+      "start_s": 139.23000000000002,
+      "end_s": 139.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "never ",
+      "success": true,
+      "start_s": 139.46,
+      "end_s": 139.70000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "go\n",
+      "success": true,
+      "start_s": 139.70000000000002,
+      "end_s": 139.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Keep ",
+      "success": true,
+      "start_s": 139.98000000000002,
+      "end_s": 140.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 140.34,
+      "end_s": 140.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "turning\n",
+      "success": true,
+      "start_s": 140.64000000000001,
+      "end_s": 141.10000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Turning ",
+      "success": true,
+      "start_s": 140.60000000000002,
+      "end_s": 142.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n\n",
+      "success": true,
+      "start_s": 142.60000000000002,
+      "end_s": 144.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nSpin ",
+      "success": true,
+      "start_s": 146.98000000000002,
+      "end_s": 146.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 146.98000000000002,
+      "end_s": 147.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n",
+      "success": true,
+      "start_s": 147.3,
+      "end_s": 147.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 148.14000000000001,
+      "end_s": 148.56000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 148.56000000000003,
+      "end_s": 148.72000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "drum ",
+      "success": true,
+      "start_s": 148.72000000000003,
+      "end_s": 148.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "full ",
+      "success": true,
+      "start_s": 148.98000000000002,
+      "end_s": 149.28000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "of ",
+      "success": true,
+      "start_s": 149.28000000000003,
+      "end_s": 149.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "T-shirts ",
+      "success": true,
+      "start_s": 149.66000000000003,
+      "end_s": 150.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "and ",
+      "success": true,
+      "start_s": 150.3,
+      "end_s": 150.50000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 150.50000000000003,
+      "end_s": 150.70000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "hopes\n",
+      "success": true,
+      "start_s": 150.70000000000002,
+      "end_s": 151.14000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Hold ",
+      "success": true,
+      "start_s": 151.12,
+      "end_s": 151.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "me ",
+      "success": true,
+      "start_s": 151.36,
+      "end_s": 151.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 151.62,
+      "end_s": 152.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 152.08,
+      "end_s": 152.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "these ",
+      "success": true,
+      "start_s": 152.60000000000002,
+      "end_s": 152.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "warm ",
+      "success": true,
+      "start_s": 152.76000000000002,
+      "end_s": 152.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "clothes ",
+      "success": true,
+      "start_s": 152.94,
+      "end_s": 153.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "pressed ",
+      "success": true,
+      "start_s": 153.44,
+      "end_s": 153.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 153.94,
+      "end_s": 154.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 154.28,
+      "end_s": 154.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "throat\n",
+      "success": true,
+      "start_s": 154.62,
+      "end_s": 155.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘\n",
+      "success": true,
+      "start_s": 155.0,
+      "end_s": 157.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "안아줘 (",
+      "success": true,
+      "start_s": 157.0,
+      "end_s": 158.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "yeah)\n",
+      "success": true,
+      "start_s": 160.4,
+      "end_s": 163.04000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Soft ",
+      "success": true,
+      "start_s": 163.22,
+      "end_s": 163.42000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "as ",
+      "success": true,
+      "start_s": 163.42000000000002,
+      "end_s": 163.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "cotton\n",
+      "success": true,
+      "start_s": 163.74,
+      "end_s": 164.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "Softer ",
+      "success": true,
+      "start_s": 164.28,
+      "end_s": 165.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "than ",
+      "success": true,
+      "start_s": 165.24,
+      "end_s": 165.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 165.66000000000003,
+      "end_s": 165.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "ever ",
+      "success": true,
+      "start_s": 165.96,
+      "end_s": 166.48000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "spoke\n",
+      "success": true,
+      "start_s": 166.48000000000002,
+      "end_s": 166.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 166.94,
+      "end_s": 167.42000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 167.42000000000002,
+      "end_s": 167.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "hum\n",
+      "success": true,
+      "start_s": 167.66000000000003,
+      "end_s": 168.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "In ",
+      "success": true,
+      "start_s": 168.06,
+      "end_s": 168.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 168.58,
+      "end_s": 168.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "glow\n",
+      "success": true,
+      "start_s": 168.74,
+      "end_s": 168.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 168.96,
+      "end_s": 169.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "pretend ",
+      "success": true,
+      "start_s": 169.4,
+      "end_s": 169.88000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "that ",
+      "success": true,
+      "start_s": 169.88000000000002,
+      "end_s": 170.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 170.36,
+      "end_s": 170.61,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 170.61,
+      "end_s": 170.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "not ",
+      "success": true,
+      "start_s": 170.86,
+      "end_s": 171.26000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n\n",
+      "success": true,
+      "start_s": 171.26000000000002,
+      "end_s": 172.18,
+      "p_align": 0.99
+    }
+  ],
+  "waveform_data": [
+    0.00314,
+    0.00253,
+    0.04318,
+    0.11359,
+    0.07182,
+    0.09727,
+    0.07778,
+    0.14529,
+    0.14887,
+    0.13865,
+    0.12891,
+    0.13163,
+    0.15253,
+    0.10612,
+    0.02123,
+    0.01016,
+    0.08537,
+    0.03953,
+    0.07392,
+    0.03591,
+    0.02698,
+    0.08635,
+    0.11646,
+    0.09111,
+    0.11216,
+    0.13067,
+    0.04888,
+    0.18061,
+    0.14525,
+    0.13501,
+    0.11667,
+    0.11862,
+    0.14185,
+    0.07023,
+    0.06999,
+    0.04711,
+    0.05965,
+    0.05175,
+    0.0539,
+    0.04336,
+    0.03658,
+    0.03208,
+    0.08604,
+    0.12974,
+    0.09575,
+    0.02116,
+    0.10113,
+    0.16145,
+    0.1699,
+    0.16307,
+    0.15589,
+    0.153,
+    0.15691,
+    0.0854,
+    0.09049,
+    0.08878,
+    0.06022,
+    0.01086,
+    0.09395,
+    0.02469,
+    0.03611,
+    0.06409,
+    0.06652,
+    0.06586,
+    0.06355,
+    0.09048,
+    0.08106,
+    0.17223,
+    0.10077,
+    0.07045,
+    0.0592,
+    0.09538,
+    0.0813,
+    0.09552,
+    0.08103,
+    0.08579,
+    0.11115,
+    0.05751,
+    0.06633,
+    0.01494,
+    0.01664,
+    0.01725,
+    0.07831,
+    0.15533,
+    0.13848,
+    0.14212,
+    0.1327,
+    0.16864,
+    0.15537,
+    0.13866,
+    0.15102,
+    0.11688,
+    0.12423,
+    0.12058,
+    0.11644,
+    0.11402,
+    0.06152,
+    0.0706,
+    0.14263,
+    0.11758,
+    0.08866,
+    0.07729,
+    0.10235,
+    0.1612,
+    0.08567,
+    0.08248,
+    0.16567,
+    0.21374,
+    0.16833,
+    0.14308,
+    0.14541,
+    0.13109,
+    0.12022,
+    0.1183,
+    0.11662,
+    0.11022,
+    0.08846,
+    0.0832,
+    0.13231,
+    0.13153,
+    0.09486,
+    0.07334,
+    0.09061,
+    0.04098,
+    0.08198,
+    0.11311,
+    0.12236,
+    0.20964,
+    0.18801,
+    0.18392,
+    0.18287,
+    0.17823,
+    0.16803,
+    0.11724,
+    0.10613,
+    0.05042,
+    0.11048,
+    0.1013,
+    0.08394,
+    0.05252,
+    0.03138,
+    0.03561,
+    0.0858,
+    0.1177,
+    0.0902,
+    0.11562,
+    0.1219,
+    0.20728,
+    0.15681,
+    0.12049,
+    0.11631,
+    0.1025,
+    0.03933,
+    0.06029,
+    0.03678,
+    0.05847,
+    0.05504,
+    0.05458,
+    0.01451,
+    0.00528,
+    0.00494,
+    0.00116,
+    0.06765,
+    0.02611,
+    0.10787,
+    0.14793,
+    0.10764,
+    0.18418,
+    0.17834,
+    0.17013,
+    0.16707,
+    0.15758,
+    0.16062,
+    0.1239,
+    0.09808,
+    0.12572,
+    0.23892,
+    0.22813,
+    0.1707,
+    0.14394,
+    0.15636,
+    0.16473,
+    0.17078,
+    0.11073,
+    0.13861,
+    0.16322,
+    0.16426,
+    0.20163,
+    0.17127,
+    0.14093,
+    0.11449,
+    0.11974,
+    0.13253,
+    0.11747,
+    0.09302,
+    0.11566,
+    0.23701,
+    0.19674,
+    0.17667,
+    0.15021,
+    0.17074,
+    0.16039,
+    0.15366,
+    0.10559,
+    0.13051,
+    0.10425,
+    0.18037,
+    0.20628,
+    0.21741,
+    0.19759,
+    0.19723,
+    0.20223,
+    0.19306,
+    0.13595,
+    0.14643,
+    0.12154,
+    0.23009,
+    0.20792,
+    0.21201,
+    0.18687,
+    0.16413,
+    0.18641,
+    0.17662,
+    0.05494,
+    0.17379,
+    0.13732,
+    0.17733,
+    0.19772,
+    0.18036,
+    0.1741,
+    0.1835,
+    0.17464,
+    0.17991,
+    0.13404,
+    0.14094,
+    0.12316,
+    0.22011,
+    0.19284,
+    0.14081,
+    0.11033,
+    0.09654,
+    0.08869,
+    0.11658,
+    0.04477,
+    0.13055,
+    0.09816,
+    0.14717,
+    0.20553,
+    0.17588,
+    0.14677,
+    0.13023,
+    0.15488,
+    0.15509,
+    0.12469,
+    0.08176,
+    0.11033,
+    0.25113,
+    0.22067,
+    0.15455,
+    0.15769,
+    0.16987,
+    0.15739,
+    0.15274,
+    0.10773,
+    0.13235,
+    0.16418,
+    0.15304,
+    0.2098,
+    0.16393,
+    0.14798,
+    0.1328,
+    0.1334,
+    0.1407,
+    0.10506,
+    0.1083,
+    0.09462,
+    0.22118,
+    0.21438,
+    0.16318,
+    0.15185,
+    0.15533,
+    0.14949,
+    0.16121,
+    0.11402,
+    0.17464,
+    0.1256,
+    0.17266,
+    0.20953,
+    0.19906,
+    0.18928,
+    0.20956,
+    0.19853,
+    0.19613,
+    0.12426,
+    0.11606,
+    0.09544,
+    0.20546,
+    0.20658,
+    0.12953,
+    0.08959,
+    0.06428,
+    0.09118,
+    0.11304,
+    0.05876,
+    0.06329,
+    0.06069,
+    0.12701,
+    0.1809,
+    0.13972,
+    0.11136,
+    0.10668,
+    0.10201,
+    0.12593,
+    0.08245,
+    0.06934,
+    0.0656,
+    0.19706,
+    0.17125,
+    0.09523,
+    0.05439,
+    0.05074,
+    0.05151,
+    0.09973,
+    0.11067,
+    0.10017,
+    0.06807,
+    0.08443,
+    0.02518,
+    0.09573,
+    0.04414,
+    0.0089,
+    0.0062,
+    0.01676,
+    0.09004,
+    0.03911,
+    0.00848,
+    0.0477,
+    0.01385,
+    0.08686,
+    0.03557,
+    0.02549,
+    0.06598,
+    0.05936,
+    0.09458,
+    0.06294,
+    0.09338,
+    0.07127,
+    0.20571,
+    0.16307,
+    0.13621,
+    0.13028,
+    0.12084,
+    0.14474,
+    0.11671,
+    0.09334,
+    0.07713,
+    0.27173,
+    0.21063,
+    0.1688,
+    0.14037,
+    0.14552,
+    0.13804,
+    0.14751,
+    0.12718,
+    0.09437,
+    0.09487,
+    0.16398,
+    0.19681,
+    0.17443,
+    0.17761,
+    0.17266,
+    0.16162,
+    0.16757,
+    0.05502,
+    0.05583,
+    0.03641,
+    0.25372,
+    0.18947,
+    0.197,
+    0.16417,
+    0.14482,
+    0.14275,
+    0.15925,
+    0.08415,
+    0.10604,
+    0.05739,
+    0.11003,
+    0.20146,
+    0.16649,
+    0.13257,
+    0.11692,
+    0.10815,
+    0.12702,
+    0.05407,
+    0.05716,
+    0.02387,
+    0.22881,
+    0.21509,
+    0.16144,
+    0.14264,
+    0.14788,
+    0.1416,
+    0.13524,
+    0.10481,
+    0.08537,
+    0.0842,
+    0.06224,
+    0.19714,
+    0.18999,
+    0.16763,
+    0.15871,
+    0.14478,
+    0.15184,
+    0.12129,
+    0.0847,
+    0.08383,
+    0.15011,
+    0.23859,
+    0.2082,
+    0.17267,
+    0.16319,
+    0.14619,
+    0.15697,
+    0.12163,
+    0.10241,
+    0.11203,
+    0.14664,
+    0.20869,
+    0.17373,
+    0.14471,
+    0.13478,
+    0.14,
+    0.14971,
+    0.10703,
+    0.08321,
+    0.06189,
+    0.13996,
+    0.21523,
+    0.14928,
+    0.13185,
+    0.1264,
+    0.12133,
+    0.13893,
+    0.10859,
+    0.12424,
+    0.08584,
+    0.1649,
+    0.20467,
+    0.17772,
+    0.16375,
+    0.15624,
+    0.16353,
+    0.17636,
+    0.0946,
+    0.07737,
+    0.03238,
+    0.14038,
+    0.22183,
+    0.13095,
+    0.07419,
+    0.07226,
+    0.06435,
+    0.10471,
+    0.10185,
+    0.1137,
+    0.12579,
+    0.13734,
+    0.20298,
+    0.14934,
+    0.10939,
+    0.097,
+    0.08823,
+    0.11412,
+    0.11643,
+    0.07627,
+    0.05581,
+    0.07188,
+    0.07388,
+    0.04548,
+    0.054,
+    0.06277,
+    0.04748,
+    0.05717,
+    0.07414,
+    0.06781,
+    0.05975,
+    0.06321,
+    0.0594,
+    0.05321,
+    0.05656,
+    0.04922,
+    0.01057,
+    0.08139,
+    0.03288,
+    0.07439,
+    0.07872,
+    0.07715,
+    0.20178,
+    0.20795,
+    0.16457,
+    0.16469,
+    0.15603,
+    0.16108,
+    0.11455,
+    0.10264,
+    0.10517,
+    0.25856,
+    0.22883,
+    0.19658,
+    0.16811,
+    0.16877,
+    0.17093,
+    0.15588,
+    0.10301,
+    0.14534,
+    0.16941,
+    0.15603,
+    0.22239,
+    0.18957,
+    0.14068,
+    0.12681,
+    0.13285,
+    0.13869,
+    0.11154,
+    0.10748,
+    0.09876,
+    0.23555,
+    0.23147,
+    0.1933,
+    0.14557,
+    0.15217,
+    0.14299,
+    0.13873,
+    0.10316,
+    0.11983,
+    0.08419,
+    0.185,
+    0.23128,
+    0.1936,
+    0.15996,
+    0.16686,
+    0.16441,
+    0.17709,
+    0.11367,
+    0.11253,
+    0.1138,
+    0.23722,
+    0.22129,
+    0.17048,
+    0.12115,
+    0.09338,
+    0.1014,
+    0.127,
+    0.04426,
+    0.10952,
+    0.09386,
+    0.15851,
+    0.21784,
+    0.16998,
+    0.12531,
+    0.13046,
+    0.12897,
+    0.14317,
+    0.10311,
+    0.09962,
+    0.10585,
+    0.25396,
+    0.22756,
+    0.17836,
+    0.13203,
+    0.12104,
+    0.1209,
+    0.12954,
+    0.05135,
+    0.14911,
+    0.11864,
+    0.15077,
+    0.21838,
+    0.20569,
+    0.15826,
+    0.13971,
+    0.16291,
+    0.16321,
+    0.11141,
+    0.08275,
+    0.10773,
+    0.25705,
+    0.23914,
+    0.19625,
+    0.17158,
+    0.1687,
+    0.1498,
+    0.15624,
+    0.11224,
+    0.1171,
+    0.13463,
+    0.14393,
+    0.21652,
+    0.16032,
+    0.1329,
+    0.12579,
+    0.14016,
+    0.1352,
+    0.10346,
+    0.11248,
+    0.07619,
+    0.21948,
+    0.22013,
+    0.15529,
+    0.13325,
+    0.12756,
+    0.12985,
+    0.13791,
+    0.10377,
+    0.15713,
+    0.11616,
+    0.1604,
+    0.20123,
+    0.14938,
+    0.16274,
+    0.16007,
+    0.15746,
+    0.16097,
+    0.08144,
+    0.10775,
+    0.14386,
+    0.22659,
+    0.22204,
+    0.16752,
+    0.14445,
+    0.1025,
+    0.11059,
+    0.12941,
+    0.08918,
+    0.12935,
+    0.12428,
+    0.1303,
+    0.21019,
+    0.14667,
+    0.12879,
+    0.12717,
+    0.11493,
+    0.1302,
+    0.05902,
+    0.06323,
+    0.05864,
+    0.23549,
+    0.22406,
+    0.14912,
+    0.12899,
+    0.13199,
+    0.16085,
+    0.15997,
+    0.07753,
+    0.12963,
+    0.09569,
+    0.15731,
+    0.14,
+    0.09588,
+    0.00969,
+    0.00121,
+    0.00405,
+    0.05317,
+    0.12744,
+    0.01516,
+    0.0007,
+    0.00319,
+    0.06919,
+    0.07785,
+    0.00272,
+    0.00053,
+    0.00045,
+    0.03516,
+    0.10985,
+    0.0861,
+    0.079,
+    0.06421,
+    0.20465,
+    0.17124,
+    0.1488,
+    0.14004,
+    0.145,
+    0.16851,
+    0.09645,
+    0.11378,
+    0.07357,
+    0.24345,
+    0.21919,
+    0.17679,
+    0.14833,
+    0.14403,
+    0.15593,
+    0.15926,
+    0.11113,
+    0.12734,
+    0.13215,
+    0.14495,
+    0.21354,
+    0.158,
+    0.12676,
+    0.12815,
+    0.14052,
+    0.13159,
+    0.10974,
+    0.12342,
+    0.10074,
+    0.22444,
+    0.22428,
+    0.14605,
+    0.12666,
+    0.12578,
+    0.12488,
+    0.12081,
+    0.11115,
+    0.1116,
+    0.09475,
+    0.04776,
+    0.03537,
+    0.06305,
+    0.06225,
+    0.05627,
+    0.06827,
+    0.08163,
+    0.08046,
+    0.08241,
+    0.11089,
+    0.1139,
+    0.13242,
+    0.13884,
+    0.07113,
+    0.02449,
+    0.11527,
+    0.10642,
+    0.12305,
+    0.12752,
+    0.12304,
+    0.20527,
+    0.20742,
+    0.18882,
+    0.16512,
+    0.16328,
+    0.15639,
+    0.1705,
+    0.10701,
+    0.08476,
+    0.10346,
+    0.24839,
+    0.22481,
+    0.16285,
+    0.15233,
+    0.15677,
+    0.15948,
+    0.16877,
+    0.08819,
+    0.13791,
+    0.14246,
+    0.13711,
+    0.20098,
+    0.14741,
+    0.13207,
+    0.12294,
+    0.13315,
+    0.15002,
+    0.12039,
+    0.08243,
+    0.10423,
+    0.23273,
+    0.23767,
+    0.15533,
+    0.135,
+    0.14599,
+    0.14375,
+    0.15078,
+    0.1158,
+    0.15338,
+    0.14426,
+    0.18647,
+    0.22396,
+    0.17791,
+    0.17857,
+    0.17985,
+    0.1815,
+    0.19001,
+    0.10878,
+    0.11448,
+    0.11014,
+    0.21767,
+    0.20914,
+    0.145,
+    0.11777,
+    0.0956,
+    0.12093,
+    0.12781,
+    0.04677,
+    0.13257,
+    0.13093,
+    0.15128,
+    0.21151,
+    0.1467,
+    0.13238,
+    0.14495,
+    0.14348,
+    0.15004,
+    0.12615,
+    0.12082,
+    0.10287,
+    0.23672,
+    0.21173,
+    0.15021,
+    0.12127,
+    0.13448,
+    0.14048,
+    0.14175,
+    0.06116,
+    0.14398,
+    0.13159,
+    0.15118,
+    0.20313,
+    0.17629,
+    0.16016,
+    0.15373,
+    0.16251,
+    0.17543,
+    0.10018,
+    0.07285,
+    0.08017,
+    0.25213,
+    0.23829,
+    0.1619,
+    0.15664,
+    0.15963,
+    0.14479,
+    0.1629,
+    0.09574,
+    0.12432,
+    0.14956,
+    0.14857,
+    0.20623,
+    0.16612,
+    0.12657,
+    0.12641,
+    0.14061,
+    0.15307,
+    0.11118,
+    0.08932,
+    0.07128,
+    0.23977,
+    0.2322,
+    0.16743,
+    0.15229,
+    0.146,
+    0.14956,
+    0.1503,
+    0.10004,
+    0.16102,
+    0.11569,
+    0.18356,
+    0.19718,
+    0.159,
+    0.18339,
+    0.18188,
+    0.17501,
+    0.18108,
+    0.08572,
+    0.10281,
+    0.1081,
+    0.21643,
+    0.20402,
+    0.14522,
+    0.12812,
+    0.09891,
+    0.1112,
+    0.13493,
+    0.08574,
+    0.13777,
+    0.13339,
+    0.14095,
+    0.21038,
+    0.13938,
+    0.12688,
+    0.12734,
+    0.12435,
+    0.14012,
+    0.06307,
+    0.07013,
+    0.07116,
+    0.22787,
+    0.23003,
+    0.12724,
+    0.11768,
+    0.11275,
+    0.10958,
+    0.12917,
+    0.06669,
+    0.05094,
+    0.01334,
+    0.06507,
+    0.01508,
+    0.0071,
+    0.00448
+  ],
+  "hoot_cer": 0.17457886676875958,
+  "is_streamed": false,
+  "aligned_lyrics": [
+    {
+      "text": "Laundromat glow",
+      "start_s": 0.638,
+      "end_s": 1.995,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "La",
+          "start_s": 0.638,
+          "end_s": 0.718
+        },
+        {
+          "text": "und",
+          "start_s": 0.718,
+          "end_s": 0.957
+        },
+        {
+          "text": "rom",
+          "start_s": 0.957,
+          "end_s": 1.197
+        },
+        {
+          "text": "at",
+          "start_s": 1.277,
+          "end_s": 1.436
+        },
+        {
+          "text": " glow",
+          "start_s": 1.596,
+          "end_s": 1.995
+        }
+      ]
+    },
+    {
+      "text": "Half-dead phone",
+      "start_s": 2.553,
+      "end_s": 3.989,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Half",
+          "start_s": 2.553,
+          "end_s": 2.952
+        },
+        {
+          "text": "-dead",
+          "start_s": 3.191,
+          "end_s": 3.511
+        },
+        {
+          "text": " phone",
+          "start_s": 3.511,
+          "end_s": 3.989
+        }
+      ]
+    },
+    {
+      "text": "Got nowhere to go",
+      "start_s": 4.229,
+      "end_s": 5.745,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Got",
+          "start_s": 4.229,
+          "end_s": 4.548
+        },
+        {
+          "text": " nowhere",
+          "start_s": 4.548,
+          "end_s": 5.186
+        },
+        {
+          "text": " to",
+          "start_s": 5.186,
+          "end_s": 5.426
+        },
+        {
+          "text": " go",
+          "start_s": 5.505,
+          "end_s": 5.745
+        }
+      ]
+    },
+    {
+      "text": "Dryer door fogged",
+      "start_s": 8.617,
+      "end_s": 9.973,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Dry",
+          "start_s": 8.617,
+          "end_s": 8.856
+        },
+        {
+          "text": "er",
+          "start_s": 8.856,
+          "end_s": 9.016
+        },
+        {
+          "text": " door",
+          "start_s": 9.176,
+          "end_s": 9.574
+        },
+        {
+          "text": " fo",
+          "start_s": 9.574,
+          "end_s": 9.654
+        },
+        {
+          "text": "gged",
+          "start_s": 9.654,
+          "end_s": 9.973
+        }
+      ]
+    },
+    {
+      "text": "Spinning my clothes",
+      "start_s": 10.532,
+      "end_s": 12.128,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Spinning",
+          "start_s": 10.532,
+          "end_s": 11.17
+        },
+        {
+          "text": " my",
+          "start_s": 11.17,
+          "end_s": 11.41
+        },
+        {
+          "text": " clothes",
+          "start_s": 11.489,
+          "end_s": 12.128
+        }
+      ]
+    },
+    {
+      "text": "따뜻한 공기",
+      "start_s": 12.207,
+      "end_s": 13.644,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "따뜻",
+          "start_s": 12.207,
+          "end_s": 12.447
+        },
+        {
+          "text": "한",
+          "start_s": 12.846,
+          "end_s": 12.926
+        },
+        {
+          "text": " 공",
+          "start_s": 13.165,
+          "end_s": 13.324
+        },
+        {
+          "text": "기",
+          "start_s": 13.564,
+          "end_s": 13.644
+        }
+      ]
+    },
+    {
+      "text": "It tickles my nose",
+      "start_s": 14.282,
+      "end_s": 15.878,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "It",
+          "start_s": 14.282,
+          "end_s": 14.521
+        },
+        {
+          "text": " tick",
+          "start_s": 14.521,
+          "end_s": 14.84
+        },
+        {
+          "text": "les",
+          "start_s": 14.84,
+          "end_s": 15.08
+        },
+        {
+          "text": " my",
+          "start_s": 15.16,
+          "end_s": 15.399
+        },
+        {
+          "text": " nose",
+          "start_s": 15.479,
+          "end_s": 15.878
+        }
+      ]
+    },
+    {
+      "text": "Change on the floor",
+      "start_s": 16.516,
+      "end_s": 17.952,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Change",
+          "start_s": 16.516,
+          "end_s": 16.915
+        },
+        {
+          "text": " on",
+          "start_s": 16.915,
+          "end_s": 17.154
+        },
+        {
+          "text": " the",
+          "start_s": 17.154,
+          "end_s": 17.473
+        },
+        {
+          "text": " floor",
+          "start_s": 17.473,
+          "end_s": 17.952
+        }
+      ]
+    },
+    {
+      "text": "Plastic chair digging into my bones",
+      "start_s": 20.505,
+      "end_s": 23.936,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Plastic",
+          "start_s": 20.505,
+          "end_s": 21.144
+        },
+        {
+          "text": " chair",
+          "start_s": 21.144,
+          "end_s": 21.543
+        },
+        {
+          "text": " dig",
+          "start_s": 21.543,
+          "end_s": 21.862
+        },
+        {
+          "text": "ging",
+          "start_s": 21.862,
+          "end_s": 22.181
+        },
+        {
+          "text": " into",
+          "start_s": 22.5,
+          "end_s": 22.819
+        },
+        {
+          "text": " my",
+          "start_s": 22.819,
+          "end_s": 23.059
+        },
+        {
+          "text": " bones",
+          "start_s": 23.457,
+          "end_s": 23.936
+        }
+      ]
+    },
+    {
+      "text": "형광등 아래 졸린 눈",
+      "start_s": 24.894,
+      "end_s": 27.207,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "형",
+          "start_s": 24.894,
+          "end_s": 25.053
+        },
+        {
+          "text": "광",
+          "start_s": 25.213,
+          "end_s": 25.293
+        },
+        {
+          "text": "등",
+          "start_s": 25.532,
+          "end_s": 25.612
+        },
+        {
+          "text": " 아",
+          "start_s": 25.851,
+          "end_s": 26.011
+        },
+        {
+          "text": "래",
+          "start_s": 26.41,
+          "end_s": 26.489
+        },
+        {
+          "text": " 졸",
+          "start_s": 26.489,
+          "end_s": 26.649
+        },
+        {
+          "text": "린",
+          "start_s": 26.809,
+          "end_s": 26.888
+        },
+        {
+          "text": " 눈",
+          "start_s": 27.048,
+          "end_s": 27.207
+        }
+      ]
+    },
+    {
+      "text": "I hum your name under buzzing drones",
+      "start_s": 27.207,
+      "end_s": 31.676,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 27.207,
+          "end_s": 27.367
+        },
+        {
+          "text": " hum",
+          "start_s": 27.367,
+          "end_s": 27.527
+        },
+        {
+          "text": " you",
+          "start_s": 27.527,
+          "end_s": 27.606
+        },
+        {
+          "text": "r",
+          "start_s": 27.606,
+          "end_s": 27.686
+        },
+        {
+          "text": " name",
+          "start_s": 27.686,
+          "end_s": 28.085
+        },
+        {
+          "text": " under",
+          "start_s": 30.479,
+          "end_s": 30.638
+        },
+        {
+          "text": " buzz",
+          "start_s": 30.638,
+          "end_s": 30.957
+        },
+        {
+          "text": "ing",
+          "start_s": 30.957,
+          "end_s": 31.197
+        },
+        {
+          "text": " dr",
+          "start_s": 31.277,
+          "end_s": 31.356
+        },
+        {
+          "text": "ones",
+          "start_s": 31.356,
+          "end_s": 31.676
+        }
+      ]
+    },
+    {
+      "text": "Spin me slow",
+      "start_s": 32.952,
+      "end_s": 33.989,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Spin",
+          "start_s": 32.952,
+          "end_s": 33.191
+        },
+        {
+          "text": " me",
+          "start_s": 33.191,
+          "end_s": 33.431
+        },
+        {
+          "text": " slow",
+          "start_s": 33.59,
+          "end_s": 33.989
+        }
+      ]
+    },
+    {
+      "text": "Like the drum full of T-shirts and old",
+      "start_s": 34.149,
+      "end_s": 36.543,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 34.149,
+          "end_s": 34.388
+        },
+        {
+          "text": " the",
+          "start_s": 34.388,
+          "end_s": 34.548
+        },
+        {
+          "text": " drum",
+          "start_s": 34.548,
+          "end_s": 34.947
+        },
+        {
+          "text": " full",
+          "start_s": 34.947,
+          "end_s": 35.266
+        },
+        {
+          "text": " of",
+          "start_s": 35.266,
+          "end_s": 35.505
+        },
+        {
+          "text": " T",
+          "start_s": 35.505,
+          "end_s": 35.665
+        },
+        {
+          "text": "-sh",
+          "start_s": 35.824,
+          "end_s": 35.904
+        },
+        {
+          "text": "ir",
+          "start_s": 35.904,
+          "end_s": 35.984
+        },
+        {
+          "text": "ts",
+          "start_s": 35.984,
+          "end_s": 36.064
+        },
+        {
+          "text": " and",
+          "start_s": 36.064,
+          "end_s": 36.223
+        },
+        {
+          "text": " old",
+          "start_s": 36.223,
+          "end_s": 36.543
+        }
+      ]
+    },
+    {
+      "text": "hopes",
+      "start_s": 36.543,
+      "end_s": 36.941,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " hopes",
+          "start_s": 36.543,
+          "end_s": 36.941
+        }
+      ]
+    },
+    {
+      "text": "Hold me close",
+      "start_s": 36.941,
+      "end_s": 37.979,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Hold",
+          "start_s": 36.941,
+          "end_s": 37.261
+        },
+        {
+          "text": " me",
+          "start_s": 37.261,
+          "end_s": 37.5
+        },
+        {
+          "text": " close",
+          "start_s": 37.5,
+          "end_s": 37.979
+        }
+      ]
+    },
+    {
+      "text": "Like these warm clothes pressed to my",
+      "start_s": 38.218,
+      "end_s": 40.452,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 38.218,
+          "end_s": 38.378
+        },
+        {
+          "text": " these",
+          "start_s": 38.378,
+          "end_s": 38.617
+        },
+        {
+          "text": " warm",
+          "start_s": 38.617,
+          "end_s": 38.936
+        },
+        {
+          "text": " clothes",
+          "start_s": 38.936,
+          "end_s": 39.574
+        },
+        {
+          "text": " press",
+          "start_s": 39.574,
+          "end_s": 39.654
+        },
+        {
+          "text": "ed",
+          "start_s": 39.654,
+          "end_s": 39.814
+        },
+        {
+          "text": " to",
+          "start_s": 39.894,
+          "end_s": 40.133
+        },
+        {
+          "text": " my",
+          "start_s": 40.213,
+          "end_s": 40.452
+        }
+      ]
+    },
+    {
+      "text": "throat",
+      "start_s": 40.452,
+      "end_s": 40.931,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " throat",
+          "start_s": 40.452,
+          "end_s": 40.931
+        }
+      ]
+    },
+    {
+      "text": "안아줘",
+      "start_s": 40.931,
+      "end_s": 41.569,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안아",
+          "start_s": 40.931,
+          "end_s": 41.17
+        },
+        {
+          "text": "줘",
+          "start_s": 41.489,
+          "end_s": 41.569
+        }
+      ]
+    },
+    {
+      "text": "안아줘",
+      "start_s": 44.84,
+      "end_s": 45.559,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안아",
+          "start_s": 44.84,
+          "end_s": 45.08
+        },
+        {
+          "text": "줘",
+          "start_s": 45.479,
+          "end_s": 45.559
+        }
+      ]
+    },
+    {
+      "text": "Soft as cotton",
+      "start_s": 48.91,
+      "end_s": 50.346,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Soft",
+          "start_s": 48.91,
+          "end_s": 49.149
+        },
+        {
+          "text": " as",
+          "start_s": 49.149,
+          "end_s": 49.388
+        },
+        {
+          "text": " c",
+          "start_s": 49.548,
+          "end_s": 49.628
+        },
+        {
+          "text": "ott",
+          "start_s": 49.628,
+          "end_s": 49.867
+        },
+        {
+          "text": "on",
+          "start_s": 50.186,
+          "end_s": 50.346
+        }
+      ]
+    },
+    {
+      "text": "Softer than you ever spoke",
+      "start_s": 50.505,
+      "end_s": 52.899,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Softer",
+          "start_s": 50.505,
+          "end_s": 51.064
+        },
+        {
+          "text": " than",
+          "start_s": 51.223,
+          "end_s": 51.543
+        },
+        {
+          "text": " you",
+          "start_s": 51.543,
+          "end_s": 51.862
+        },
+        {
+          "text": " ever",
+          "start_s": 51.862,
+          "end_s": 52.261
+        },
+        {
+          "text": " spoke",
+          "start_s": 52.5,
+          "end_s": 52.899
+        }
+      ]
+    },
+    {
+      "text": "In this hum",
+      "start_s": 52.899,
+      "end_s": 53.856,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 52.899,
+          "end_s": 53.138
+        },
+        {
+          "text": " this",
+          "start_s": 53.218,
+          "end_s": 53.537
+        },
+        {
+          "text": " hum",
+          "start_s": 53.537,
+          "end_s": 53.856
+        }
+      ]
+    },
+    {
+      "text": "In this glow",
+      "start_s": 54.096,
+      "end_s": 54.894,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 54.096,
+          "end_s": 54.255
+        },
+        {
+          "text": " this",
+          "start_s": 54.255,
+          "end_s": 54.495
+        },
+        {
+          "text": " glow",
+          "start_s": 54.495,
+          "end_s": 54.894
+        }
+      ]
+    },
+    {
+      "text": "I pretend that I’m not alone",
+      "start_s": 54.894,
+      "end_s": 57.766,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 54.894,
+          "end_s": 55.053
+        },
+        {
+          "text": " pretend",
+          "start_s": 55.532,
+          "end_s": 55.851
+        },
+        {
+          "text": " that",
+          "start_s": 55.851,
+          "end_s": 56.17
+        },
+        {
+          "text": " I",
+          "start_s": 56.17,
+          "end_s": 56.33
+        },
+        {
+          "text": "’m",
+          "start_s": 56.33,
+          "end_s": 56.489
+        },
+        {
+          "text": " not",
+          "start_s": 56.489,
+          "end_s": 56.809
+        },
+        {
+          "text": " alone",
+          "start_s": 57.287,
+          "end_s": 57.766
+        }
+      ]
+    },
+    {
+      "text": "Numbers blink down",
+      "start_s": 64.548,
+      "end_s": 65.984,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Numbers",
+          "start_s": 64.548,
+          "end_s": 65.266
+        },
+        {
+          "text": " blink",
+          "start_s": 65.266,
+          "end_s": 65.585
+        },
+        {
+          "text": " down",
+          "start_s": 65.585,
+          "end_s": 65.984
+        }
+      ]
+    },
+    {
+      "text": "12:04",
+      "start_s": 66.702,
+      "end_s": 68.856,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "12:",
+          "start_s": 66.702,
+          "end_s": 66.941
+        },
+        {
+          "text": "04",
+          "start_s": 68.218,
+          "end_s": 68.856
+        }
+      ]
+    },
+    {
+      "text": "Then 3:24",
+      "start_s": 68.218,
+      "end_s": 70.851,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Then",
+          "start_s": 68.218,
+          "end_s": 68.856
+        },
+        {
+          "text": " 3:24",
+          "start_s": 70.612,
+          "end_s": 70.851
+        }
+      ]
+    },
+    {
+      "text": "I trace your text in the soap on the",
+      "start_s": 70.612,
+      "end_s": 73.484,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 70.612,
+          "end_s": 70.851
+        },
+        {
+          "text": " trace",
+          "start_s": 70.851,
+          "end_s": 71.25
+        },
+        {
+          "text": " your",
+          "start_s": 71.25,
+          "end_s": 71.489
+        },
+        {
+          "text": " text",
+          "start_s": 71.489,
+          "end_s": 71.888
+        },
+        {
+          "text": " in",
+          "start_s": 71.888,
+          "end_s": 72.128
+        },
+        {
+          "text": " the",
+          "start_s": 72.207,
+          "end_s": 72.527
+        },
+        {
+          "text": " so",
+          "start_s": 72.527,
+          "end_s": 72.606
+        },
+        {
+          "text": "ap",
+          "start_s": 72.606,
+          "end_s": 72.766
+        },
+        {
+          "text": " on",
+          "start_s": 72.846,
+          "end_s": 73.085
+        },
+        {
+          "text": " the",
+          "start_s": 73.245,
+          "end_s": 73.484
+        }
+      ]
+    },
+    {
+      "text": "glass",
+      "start_s": 73.484,
+      "end_s": 73.963,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": " glass",
+          "start_s": 73.484,
+          "end_s": 73.963
+        }
+      ]
+    },
+    {
+      "text": "“Call me later” from a year in the past",
+      "start_s": 75.16,
+      "end_s": 79.867,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "“Call",
+          "start_s": 75.16,
+          "end_s": 75.399
+        },
+        {
+          "text": " me",
+          "start_s": 75.399,
+          "end_s": 75.559
+        },
+        {
+          "text": " later",
+          "start_s": 75.559,
+          "end_s": 76.037
+        },
+        {
+          "text": "” from",
+          "start_s": 76.197,
+          "end_s": 76.356
+        },
+        {
+          "text": " a",
+          "start_s": 76.356,
+          "end_s": 76.516
+        },
+        {
+          "text": " year",
+          "start_s": 76.596,
+          "end_s": 76.915
+        },
+        {
+          "text": " in",
+          "start_s": 76.915,
+          "end_s": 77.154
+        },
+        {
+          "text": " the",
+          "start_s": 77.154,
+          "end_s": 77.394
+        },
+        {
+          "text": " pa",
+          "start_s": 77.394,
+          "end_s": 77.633
+        },
+        {
+          "text": "st",
+          "start_s": 79.787,
+          "end_s": 79.867
+        }
+      ]
+    },
+    {
+      "text": "쌓여가는 기억들",
+      "start_s": 79.867,
+      "end_s": 81.543,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "쌓",
+          "start_s": 79.867,
+          "end_s": 80.106
+        },
+        {
+          "text": "여",
+          "start_s": 80.186,
+          "end_s": 80.266
+        },
+        {
+          "text": "가는",
+          "start_s": 80.505,
+          "end_s": 80.665
+        },
+        {
+          "text": " 기억",
+          "start_s": 81.303,
+          "end_s": 81.463
+        },
+        {
+          "text": "들",
+          "start_s": 81.463,
+          "end_s": 81.543
+        }
+      ]
+    },
+    {
+      "text": "Folded in piles",
+      "start_s": 82.58,
+      "end_s": 83.777,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Fold",
+          "start_s": 82.58,
+          "end_s": 82.899
+        },
+        {
+          "text": "ed",
+          "start_s": 82.899,
+          "end_s": 83.059
+        },
+        {
+          "text": " in",
+          "start_s": 83.138,
+          "end_s": 83.378
+        },
+        {
+          "text": " p",
+          "start_s": 83.378,
+          "end_s": 83.457
+        },
+        {
+          "text": "iles",
+          "start_s": 83.457,
+          "end_s": 83.777
+        }
+      ]
+    },
+    {
+      "text": "I press my cheek to the gentle heat",
+      "start_s": 84.654,
+      "end_s": 87.287,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 84.654,
+          "end_s": 84.814
+        },
+        {
+          "text": " press",
+          "start_s": 84.894,
+          "end_s": 85.213
+        },
+        {
+          "text": " my",
+          "start_s": 85.213,
+          "end_s": 85.452
+        },
+        {
+          "text": " cheek",
+          "start_s": 85.452,
+          "end_s": 85.931
+        },
+        {
+          "text": " to",
+          "start_s": 86.25,
+          "end_s": 86.41
+        },
+        {
+          "text": " the",
+          "start_s": 86.41,
+          "end_s": 86.569
+        },
+        {
+          "text": " gentle",
+          "start_s": 86.569,
+          "end_s": 86.968
+        },
+        {
+          "text": " he",
+          "start_s": 86.968,
+          "end_s": 87.207
+        },
+        {
+          "text": "at",
+          "start_s": 87.207,
+          "end_s": 87.287
+        }
+      ]
+    },
+    {
+      "text": "If I stay here till the morning comes",
+      "start_s": 87.287,
+      "end_s": 91.676,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 87.287,
+          "end_s": 87.367
+        },
+        {
+          "text": " I",
+          "start_s": 87.367,
+          "end_s": 87.527
+        },
+        {
+          "text": " stay",
+          "start_s": 87.527,
+          "end_s": 87.606
+        },
+        {
+          "text": " here",
+          "start_s": 87.606,
+          "end_s": 87.686
+        },
+        {
+          "text": " t",
+          "start_s": 87.686,
+          "end_s": 87.846
+        },
+        {
+          "text": "ill",
+          "start_s": 90.399,
+          "end_s": 90.479
+        },
+        {
+          "text": " the",
+          "start_s": 90.479,
+          "end_s": 90.638
+        },
+        {
+          "text": " morning",
+          "start_s": 90.638,
+          "end_s": 91.197
+        },
+        {
+          "text": " comes",
+          "start_s": 91.197,
+          "end_s": 91.676
+        }
+      ]
+    },
+    {
+      "text": "Will you walk in",
+      "start_s": 92.633,
+      "end_s": 93.83,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Will",
+          "start_s": 92.633,
+          "end_s": 92.952
+        },
+        {
+          "text": " you",
+          "start_s": 92.952,
+          "end_s": 93.191
+        },
+        {
+          "text": " walk",
+          "start_s": 93.191,
+          "end_s": 93.59
+        },
+        {
+          "text": " in",
+          "start_s": 93.59,
+          "end_s": 93.83
+        }
+      ]
+    },
+    {
+      "text": "Drag your feet?",
+      "start_s": 94.548,
+      "end_s": 95.585,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Drag",
+          "start_s": 94.548,
+          "end_s": 94.947
+        },
+        {
+          "text": " your",
+          "start_s": 94.947,
+          "end_s": 95.186
+        },
+        {
+          "text": " feet?",
+          "start_s": 95.186,
+          "end_s": 95.585
+        }
+      ]
+    },
+    {
+      "text": "Spin me slow",
+      "start_s": 98.936,
+      "end_s": 99.894,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Spin",
+          "start_s": 98.936,
+          "end_s": 99.176
+        },
+        {
+          "text": " me",
+          "start_s": 99.176,
+          "end_s": 99.415
+        },
+        {
+          "text": " slow",
+          "start_s": 99.495,
+          "end_s": 99.894
+        }
+      ]
+    },
+    {
+      "text": "Like the drum full of T-shirts and old",
+      "start_s": 100.133,
+      "end_s": 102.447,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 100.133,
+          "end_s": 100.372
+        },
+        {
+          "text": " the",
+          "start_s": 100.372,
+          "end_s": 100.532
+        },
+        {
+          "text": " drum",
+          "start_s": 100.532,
+          "end_s": 100.931
+        },
+        {
+          "text": " full",
+          "start_s": 100.931,
+          "end_s": 101.17
+        },
+        {
+          "text": " of",
+          "start_s": 101.17,
+          "end_s": 101.41
+        },
+        {
+          "text": " T",
+          "start_s": 101.489,
+          "end_s": 101.649
+        },
+        {
+          "text": "-sh",
+          "start_s": 101.809,
+          "end_s": 101.888
+        },
+        {
+          "text": "ir",
+          "start_s": 101.888,
+          "end_s": 101.968
+        },
+        {
+          "text": "ts",
+          "start_s": 101.968,
+          "end_s": 102.048
+        },
+        {
+          "text": " and",
+          "start_s": 102.048,
+          "end_s": 102.207
+        },
+        {
+          "text": " old",
+          "start_s": 102.207,
+          "end_s": 102.447
+        }
+      ]
+    },
+    {
+      "text": "hopes",
+      "start_s": 102.447,
+      "end_s": 102.926,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " hopes",
+          "start_s": 102.447,
+          "end_s": 102.926
+        }
+      ]
+    },
+    {
+      "text": "Hold me close",
+      "start_s": 102.926,
+      "end_s": 103.963,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Hold",
+          "start_s": 102.926,
+          "end_s": 103.245
+        },
+        {
+          "text": " me",
+          "start_s": 103.245,
+          "end_s": 103.484
+        },
+        {
+          "text": " close",
+          "start_s": 103.484,
+          "end_s": 103.963
+        }
+      ]
+    },
+    {
+      "text": "Like these warm clothes pressed to my",
+      "start_s": 104.122,
+      "end_s": 106.436,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 104.122,
+          "end_s": 104.362
+        },
+        {
+          "text": " these",
+          "start_s": 104.362,
+          "end_s": 104.601
+        },
+        {
+          "text": " warm",
+          "start_s": 104.601,
+          "end_s": 104.84
+        },
+        {
+          "text": " clothes",
+          "start_s": 104.84,
+          "end_s": 105.479
+        },
+        {
+          "text": " pres",
+          "start_s": 105.559,
+          "end_s": 105.638
+        },
+        {
+          "text": "s",
+          "start_s": 105.638,
+          "end_s": 105.718
+        },
+        {
+          "text": "ed",
+          "start_s": 105.718,
+          "end_s": 105.878
+        },
+        {
+          "text": " to",
+          "start_s": 105.878,
+          "end_s": 106.117
+        },
+        {
+          "text": " my",
+          "start_s": 106.197,
+          "end_s": 106.436
+        }
+      ]
+    },
+    {
+      "text": "throat",
+      "start_s": 106.436,
+      "end_s": 106.995,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " throat",
+          "start_s": 106.436,
+          "end_s": 106.995
+        }
+      ]
+    },
+    {
+      "text": "안아줘",
+      "start_s": 106.995,
+      "end_s": 107.553,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안",
+          "start_s": 106.995,
+          "end_s": 107.154
+        },
+        {
+          "text": "아",
+          "start_s": 107.154,
+          "end_s": 107.234
+        },
+        {
+          "text": "줘",
+          "start_s": 107.473,
+          "end_s": 107.553
+        }
+      ]
+    },
+    {
+      "text": "안아줘",
+      "start_s": 110.824,
+      "end_s": 111.463,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안",
+          "start_s": 110.824,
+          "end_s": 110.984
+        },
+        {
+          "text": "아",
+          "start_s": 111.144,
+          "end_s": 111.223
+        },
+        {
+          "text": "줘",
+          "start_s": 111.383,
+          "end_s": 111.463
+        }
+      ]
+    },
+    {
+      "text": "Soft as cotton",
+      "start_s": 114.894,
+      "end_s": 116.33,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Soft",
+          "start_s": 114.894,
+          "end_s": 115.133
+        },
+        {
+          "text": " as",
+          "start_s": 115.133,
+          "end_s": 115.372
+        },
+        {
+          "text": " c",
+          "start_s": 115.532,
+          "end_s": 115.612
+        },
+        {
+          "text": "ott",
+          "start_s": 115.612,
+          "end_s": 115.851
+        },
+        {
+          "text": "on",
+          "start_s": 116.17,
+          "end_s": 116.33
+        }
+      ]
+    },
+    {
+      "text": "Softer than you ever spoke",
+      "start_s": 116.489,
+      "end_s": 118.883,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Softer",
+          "start_s": 116.489,
+          "end_s": 117.048
+        },
+        {
+          "text": " than",
+          "start_s": 117.207,
+          "end_s": 117.527
+        },
+        {
+          "text": " you",
+          "start_s": 117.527,
+          "end_s": 117.846
+        },
+        {
+          "text": " ever",
+          "start_s": 117.846,
+          "end_s": 118.245
+        },
+        {
+          "text": " spoke",
+          "start_s": 118.404,
+          "end_s": 118.883
+        }
+      ]
+    },
+    {
+      "text": "In this hum",
+      "start_s": 118.883,
+      "end_s": 119.84,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 118.883,
+          "end_s": 119.122
+        },
+        {
+          "text": " this",
+          "start_s": 119.122,
+          "end_s": 119.521
+        },
+        {
+          "text": " hum",
+          "start_s": 119.521,
+          "end_s": 119.84
+        }
+      ]
+    },
+    {
+      "text": "In this glow",
+      "start_s": 120.319,
+      "end_s": 120.957,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 120.319,
+          "end_s": 120.399
+        },
+        {
+          "text": " this",
+          "start_s": 120.399,
+          "end_s": 120.559
+        },
+        {
+          "text": " glow",
+          "start_s": 120.559,
+          "end_s": 120.957
+        }
+      ]
+    },
+    {
+      "text": "I pretend that I’m not alone",
+      "start_s": 120.957,
+      "end_s": 123.91,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 120.957,
+          "end_s": 121.117
+        },
+        {
+          "text": " pretend",
+          "start_s": 121.596,
+          "end_s": 121.915
+        },
+        {
+          "text": " that",
+          "start_s": 121.915,
+          "end_s": 122.234
+        },
+        {
+          "text": " I",
+          "start_s": 122.234,
+          "end_s": 122.394
+        },
+        {
+          "text": "’m",
+          "start_s": 122.394,
+          "end_s": 122.553
+        },
+        {
+          "text": " not",
+          "start_s": 122.553,
+          "end_s": 122.872
+        },
+        {
+          "text": " alone",
+          "start_s": 123.431,
+          "end_s": 123.91
+        }
+      ]
+    },
+    {
+      "text": "머릿속에 너",
+      "start_s": 130.213,
+      "end_s": 131.649,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "머",
+          "start_s": 130.213,
+          "end_s": 130.532
+        },
+        {
+          "text": "릿",
+          "start_s": 130.532,
+          "end_s": 130.612
+        },
+        {
+          "text": "속에",
+          "start_s": 130.851,
+          "end_s": 131.011
+        },
+        {
+          "text": " 너",
+          "start_s": 131.489,
+          "end_s": 131.649
+        }
+      ]
+    },
+    {
+      "text": "너",
+      "start_s": 132.527,
+      "end_s": 132.686,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "너",
+          "start_s": 132.527,
+          "end_s": 132.686
+        }
+      ]
+    },
+    {
+      "text": "너 (mm)",
+      "start_s": 133.484,
+      "end_s": 134.84,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "너",
+          "start_s": 133.484,
+          "end_s": 133.644
+        },
+        {
+          "text": " (mm)",
+          "start_s": 134.521,
+          "end_s": 134.84
+        }
+      ]
+    },
+    {
+      "text": "Same three chords",
+      "start_s": 135.559,
+      "end_s": 136.516,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Same",
+          "start_s": 135.559,
+          "end_s": 135.878
+        },
+        {
+          "text": " three",
+          "start_s": 135.878,
+          "end_s": 136.117
+        },
+        {
+          "text": " chords",
+          "start_s": 136.117,
+          "end_s": 136.516
+        }
+      ]
+    },
+    {
+      "text": "Same old blur",
+      "start_s": 136.516,
+      "end_s": 137.394,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Same",
+          "start_s": 136.516,
+          "end_s": 136.835
+        },
+        {
+          "text": " old",
+          "start_s": 136.835,
+          "end_s": 137.154
+        },
+        {
+          "text": " blur",
+          "start_s": 137.154,
+          "end_s": 137.394
+        }
+      ]
+    },
+    {
+      "text": "If love was this warm",
+      "start_s": 137.394,
+      "end_s": 138.83,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 137.394,
+          "end_s": 137.553
+        },
+        {
+          "text": " love",
+          "start_s": 137.553,
+          "end_s": 137.872
+        },
+        {
+          "text": " was",
+          "start_s": 137.872,
+          "end_s": 138.191
+        },
+        {
+          "text": " this",
+          "start_s": 138.191,
+          "end_s": 138.511
+        },
+        {
+          "text": " warm",
+          "start_s": 138.511,
+          "end_s": 138.83
+        }
+      ]
+    },
+    {
+      "text": "I’d never go",
+      "start_s": 138.83,
+      "end_s": 139.787,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 138.83,
+          "end_s": 138.989
+        },
+        {
+          "text": "’d",
+          "start_s": 138.989,
+          "end_s": 139.149
+        },
+        {
+          "text": " never",
+          "start_s": 139.149,
+          "end_s": 139.548
+        },
+        {
+          "text": " go",
+          "start_s": 139.548,
+          "end_s": 139.787
+        }
+      ]
+    },
+    {
+      "text": "Keep me turning",
+      "start_s": 139.867,
+      "end_s": 141.144,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Keep",
+          "start_s": 139.867,
+          "end_s": 140.186
+        },
+        {
+          "text": " me",
+          "start_s": 140.186,
+          "end_s": 140.426
+        },
+        {
+          "text": " turning",
+          "start_s": 140.505,
+          "end_s": 141.144
+        }
+      ]
+    },
+    {
+      "text": "Turning slow",
+      "start_s": 142.5,
+      "end_s": 143.617,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Turning",
+          "start_s": 142.5,
+          "end_s": 143.138
+        },
+        {
+          "text": " slow",
+          "start_s": 143.378,
+          "end_s": 143.617
+        }
+      ]
+    },
+    {
+      "text": "Spin me slow",
+      "start_s": 143.617,
+      "end_s": 144.096,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Spin",
+          "start_s": 143.617,
+          "end_s": 143.777
+        },
+        {
+          "text": " me",
+          "start_s": 143.777,
+          "end_s": 143.856
+        },
+        {
+          "text": " s",
+          "start_s": 143.856,
+          "end_s": 143.936
+        },
+        {
+          "text": "l",
+          "start_s": 143.936,
+          "end_s": 144.016
+        },
+        {
+          "text": "ow",
+          "start_s": 144.016,
+          "end_s": 144.096
+        }
+      ]
+    },
+    {
+      "text": "Like the drum full of T-shirts and old",
+      "start_s": 144.096,
+      "end_s": 150.559,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 144.096,
+          "end_s": 144.335
+        },
+        {
+          "text": " the",
+          "start_s": 144.335,
+          "end_s": 144.495
+        },
+        {
+          "text": " drum",
+          "start_s": 144.495,
+          "end_s": 144.654
+        },
+        {
+          "text": " full",
+          "start_s": 144.654,
+          "end_s": 144.973
+        },
+        {
+          "text": " of",
+          "start_s": 144.973,
+          "end_s": 145.213
+        },
+        {
+          "text": " T",
+          "start_s": 145.612,
+          "end_s": 145.771
+        },
+        {
+          "text": "-shirt",
+          "start_s": 145.771,
+          "end_s": 146.25
+        },
+        {
+          "text": "s",
+          "start_s": 150.08,
+          "end_s": 150.16
+        },
+        {
+          "text": " and",
+          "start_s": 150.16,
+          "end_s": 150.399
+        },
+        {
+          "text": " old",
+          "start_s": 150.399,
+          "end_s": 150.559
+        }
+      ]
+    },
+    {
+      "text": "hopes",
+      "start_s": 150.559,
+      "end_s": 151.037,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " hopes",
+          "start_s": 150.559,
+          "end_s": 151.037
+        }
+      ]
+    },
+    {
+      "text": "Hold me close",
+      "start_s": 151.037,
+      "end_s": 152.074,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Hold",
+          "start_s": 151.037,
+          "end_s": 151.277
+        },
+        {
+          "text": " me",
+          "start_s": 151.277,
+          "end_s": 151.516
+        },
+        {
+          "text": " close",
+          "start_s": 151.596,
+          "end_s": 152.074
+        }
+      ]
+    },
+    {
+      "text": "Like these warm clothes pressed to my",
+      "start_s": 152.154,
+      "end_s": 154.468,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 152.154,
+          "end_s": 152.394
+        },
+        {
+          "text": " these",
+          "start_s": 152.394,
+          "end_s": 152.633
+        },
+        {
+          "text": " warm",
+          "start_s": 152.633,
+          "end_s": 152.952
+        },
+        {
+          "text": " clothes",
+          "start_s": 152.952,
+          "end_s": 153.59
+        },
+        {
+          "text": " press",
+          "start_s": 153.59,
+          "end_s": 153.67
+        },
+        {
+          "text": "ed",
+          "start_s": 153.67,
+          "end_s": 153.83
+        },
+        {
+          "text": " to",
+          "start_s": 153.91,
+          "end_s": 154.149
+        },
+        {
+          "text": " my",
+          "start_s": 154.229,
+          "end_s": 154.468
+        }
+      ]
+    },
+    {
+      "text": "throat",
+      "start_s": 154.468,
+      "end_s": 154.947,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": " throat",
+          "start_s": 154.468,
+          "end_s": 154.947
+        }
+      ]
+    },
+    {
+      "text": "안아줘",
+      "start_s": 154.947,
+      "end_s": 155.585,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안아",
+          "start_s": 154.947,
+          "end_s": 155.186
+        },
+        {
+          "text": "줘",
+          "start_s": 155.505,
+          "end_s": 155.585
+        }
+      ]
+    },
+    {
+      "text": "안아줘 (yeah)",
+      "start_s": 158.856,
+      "end_s": 162.766,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "안아",
+          "start_s": 158.856,
+          "end_s": 159.096
+        },
+        {
+          "text": "줘",
+          "start_s": 159.415,
+          "end_s": 159.495
+        },
+        {
+          "text": " (yeah)",
+          "start_s": 162.287,
+          "end_s": 162.766
+        }
+      ]
+    },
+    {
+      "text": "Soft as cotton",
+      "start_s": 162.846,
+      "end_s": 164.362,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Soft",
+          "start_s": 162.846,
+          "end_s": 163.165
+        },
+        {
+          "text": " as",
+          "start_s": 163.165,
+          "end_s": 163.404
+        },
+        {
+          "text": " c",
+          "start_s": 163.564,
+          "end_s": 163.644
+        },
+        {
+          "text": "ott",
+          "start_s": 163.644,
+          "end_s": 163.883
+        },
+        {
+          "text": "on",
+          "start_s": 164.202,
+          "end_s": 164.362
+        }
+      ]
+    },
+    {
+      "text": "Softer than you ever spoke",
+      "start_s": 164.521,
+      "end_s": 166.915,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Softer",
+          "start_s": 164.521,
+          "end_s": 165.08
+        },
+        {
+          "text": " than",
+          "start_s": 165.16,
+          "end_s": 165.559
+        },
+        {
+          "text": " you",
+          "start_s": 165.559,
+          "end_s": 165.878
+        },
+        {
+          "text": " ever",
+          "start_s": 165.878,
+          "end_s": 166.277
+        },
+        {
+          "text": " spoke",
+          "start_s": 166.516,
+          "end_s": 166.915
+        }
+      ]
+    },
+    {
+      "text": "In this hum",
+      "start_s": 166.915,
+      "end_s": 167.793,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 166.915,
+          "end_s": 167.154
+        },
+        {
+          "text": " this",
+          "start_s": 167.154,
+          "end_s": 167.473
+        },
+        {
+          "text": " hum",
+          "start_s": 167.473,
+          "end_s": 167.793
+        }
+      ]
+    },
+    {
+      "text": "In this glow",
+      "start_s": 168.112,
+      "end_s": 168.91,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "In",
+          "start_s": 168.112,
+          "end_s": 168.271
+        },
+        {
+          "text": " this",
+          "start_s": 168.271,
+          "end_s": 168.511
+        },
+        {
+          "text": " glow",
+          "start_s": 168.511,
+          "end_s": 168.91
+        }
+      ]
+    },
+    {
+      "text": "I pretend that I’m not alone",
+      "start_s": 168.91,
+      "end_s": 172.101,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 168.91,
+          "end_s": 169.069
+        },
+        {
+          "text": " pretend",
+          "start_s": 169.548,
+          "end_s": 169.867
+        },
+        {
+          "text": " that",
+          "start_s": 169.867,
+          "end_s": 170.186
+        },
+        {
+          "text": " I",
+          "start_s": 170.186,
+          "end_s": 170.266
+        },
+        {
+          "text": "’",
+          "start_s": 170.266,
+          "end_s": 170.346
+        },
+        {
+          "text": "m",
+          "start_s": 170.346,
+          "end_s": 170.426
+        },
+        {
+          "text": " not",
+          "start_s": 170.505,
+          "end_s": 170.824
+        },
+        {
+          "text": " alone",
+          "start_s": 171.463,
+          "end_s": 172.101
+        }
+      ]
+    }
+  ],
+  "skip_alignment": true
+}

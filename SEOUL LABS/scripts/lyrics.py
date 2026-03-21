@@ -105,11 +105,16 @@ def remove_bracket_tags(words):
 # ============================================================
 # 가사 싱크
 # ============================================================
+def strip_track_prefix(name):
+    """파일명에서 '01_' 같은 트랙 번호 접두사 제거"""
+    return re.sub(r'^\d+_', '', name)
+
+
 def sync_lyrics(songs_dir, lyrics_dir, song_files):
     """songs/ 폴더와 lyrics/ 폴더를 자동 싱크"""
     os.makedirs(lyrics_dir, exist_ok=True)
 
-    song_names = {os.path.splitext(f)[0] for f in song_files}
+    song_names = {strip_track_prefix(os.path.splitext(f)[0]) for f in song_files}
     existing_lyrics = {
         os.path.splitext(f)[0]
         for f in os.listdir(lyrics_dir) if f.endswith('.json')
@@ -134,12 +139,12 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
             print("  가사 없이 영상을 생성합니다.")
         else:
             for song_file in song_files:
-                name = os.path.splitext(song_file)[0]
-                if name not in missing:
+                title = strip_track_prefix(os.path.splitext(song_file)[0])
+                if title not in missing:
                     continue
 
                 filepath = os.path.join(songs_dir, song_file)
-                print(f"  🎤 가사 다운로드: {name}")
+                print(f"  🎤 가사 다운로드: {title}")
 
                 suno_id = get_suno_id(filepath)
                 if not suno_id:
@@ -153,18 +158,23 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
 
                 data["aligned_words"] = remove_bracket_tags(data["aligned_words"])
 
-                json_path = os.path.join(lyrics_dir, f"{name}.json")
+                json_path = os.path.join(lyrics_dir, f"{title}.json")
                 with open(json_path, "w", encoding="utf-8") as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)
                 print(f"    ✅ 저장 완료 ({len(data['aligned_words'])}개 단어)")
     else:
         print("  ✅ 가사 싱크 완료 (변경 없음)")
 
-    # forced alignment 보정 (항상 실행)
+    # forced alignment 보정 (skip_alignment 플래그 있으면 건너뜀)
     for song_file in song_files:
-        name = os.path.splitext(song_file)[0]
-        json_path = os.path.join(lyrics_dir, f"{name}.json")
+        title = strip_track_prefix(os.path.splitext(song_file)[0])
+        json_path = os.path.join(lyrics_dir, f"{title}.json")
         if os.path.exists(json_path):
+            with open(json_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if data.get('skip_alignment'):
+                print(f"  ⏭️  alignment 건너뜀 (수동 수정): {title}")
+                continue
             filepath = os.path.join(songs_dir, song_file)
             fix_timestamps_with_alignment(filepath, json_path)
 
