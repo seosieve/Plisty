@@ -34,7 +34,7 @@ EP_DIR = os.path.abspath(sys.argv[1])
 SONGS_DIR = os.path.join(EP_DIR, "songs")
 IMAGES_DIR = os.path.join(EP_DIR, "images")
 LYRICS_DIR = os.path.join(EP_DIR, "lyrics")
-OUTPUT_DIR = os.path.join(EP_DIR, "output")
+OUTPUT_DIR = os.path.join(EP_DIR, "outputs")
 
 EP_NAME = os.path.basename(EP_DIR)
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{EP_NAME}.mp4")

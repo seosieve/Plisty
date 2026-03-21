@@ -21,7 +21,7 @@ import shutil
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SONGS_DIR = os.path.join(SCRIPT_DIR, "songs")
 IMAGES_DIR = os.path.join(SCRIPT_DIR, "images")
-OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "outputs")
 TRACKLIST = os.path.join(SCRIPT_DIR, "tracklist.json")
 
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "playlist_output.mp4")

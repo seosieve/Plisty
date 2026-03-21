@@ -24,11 +24,22 @@ ALIGNMENT_OFFSET = 0.3  # alignment 결과에 더할 오프셋 (초)
 # SUNO API
 # ============================================================
 def get_token_from_safari():
-    """Safari에서 SUNO __session 쿠키 자동 추출"""
+    """Safari에서 SUNO __session 쿠키 자동 추출 (모든 탭 탐색)"""
+    script = '''
+    tell application "Safari"
+        repeat with w in windows
+            repeat with t in tabs of w
+                if URL of t starts with "https://suno.com" or URL of t starts with "https://studio-api.prod.suno.com" then
+                    return do JavaScript "document.cookie" in t
+                end if
+            end repeat
+        end repeat
+    end tell
+    return ""
+    '''
     try:
         result = subprocess.run(
-            ["osascript", "-e",
-             'tell application "Safari" to do JavaScript "document.cookie" in current tab of front window'],
+            ["osascript", "-e", script],
             capture_output=True, text=True, timeout=5
         )
         if result.returncode != 0:
