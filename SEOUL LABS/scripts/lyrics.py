@@ -510,7 +510,7 @@ def parse_lyrics_json(json_path):
         if not text:
             return text
         first_word = text.split()[0] if text.split() else ""
-        if first_word == "I" or first_word.isupper():
+        if first_word == "I" or first_word.startswith(("I'", "I\u2019")) or first_word.isupper():
             return text
         return text[0].lower() + text[1:]
 
@@ -532,6 +532,7 @@ def parse_lyrics_json(json_path):
                 close_quotes += next_text.count('"') + next_text.count('\u201d')
                 if close_quotes >= open_quotes:
                     break
+        text = text.replace('\n', ' ')
         quote_merged.append((start_s, end_s, text, is_section_end))
         i += 1
 

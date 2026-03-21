@@ -32,7 +32,7 @@ from generate import (
     NUM_BARS, BAR_WIDTH, BAR_GAP, BAR_MAX_HEIGHT, BAR_MIN_HEIGHT,
     BAR_ALPHA, BAR_Y_CENTER,
     FONT_PATH, TEXT_FONT_SIZE, TEXT_COLOR, TEXT_ALPHA, TEXT_X, TEXT_Y,
-    LYRICS_FONT_PATH, LYRICS_FONT_SIZE, LYRICS_COLOR, LYRICS_X, LYRICS_Y,
+    LYRICS_FONT_PATH, LYRICS_FONT_SIZE, LYRICS_COLOR, LYRICS_ALPHA, LYRICS_X, LYRICS_Y,
     NUM_PARTICLES, MIN_SIZE, MAX_SIZE, MIN_ALPHA, MAX_ALPHA,
     PARTICLE_COLOR, BLUR_RADIUS,
     AUDIO_EXTENSIONS,
@@ -82,7 +82,9 @@ def main():
         f for f in os.listdir(SONGS_DIR)
         if os.path.splitext(f)[1].lower() in AUDIO_EXTENSIONS
     ]) if os.path.isdir(SONGS_DIR) else []
-    song_name = os.path.splitext(song_files[0])[0] if song_files else "Sample Track"
+    import re
+    raw_name = os.path.splitext(song_files[0])[0] if song_files else "Sample Track"
+    song_name = re.sub(r'^\d+_', '', raw_name)
 
     # Visualizer 바 (generate와 동일한 파이프라인)
     STATIC_BARS = 3
@@ -157,7 +159,7 @@ def main():
         f":textfile='{lyrics_file}'"
         f":fontsize={LYRICS_FONT_SIZE}:fontcolor={LYRICS_COLOR}"
         f":x={LYRICS_X}:y={LYRICS_Y}"
-
+        f":alpha={LYRICS_ALPHA}"
     )
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)

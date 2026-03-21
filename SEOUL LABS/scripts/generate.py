@@ -64,6 +64,31 @@ BOTTOM_MARGIN = 90 * SCALE
 LYRICS_TO_TITLE = 60 * SCALE
 TITLE_TO_VIS = 30 * SCALE
 
+# 레이아웃 마진
+MARGIN_LEFT = 80 * SCALE
+MARGIN_BOTTOM = 80 * SCALE
+GAP_LYRICS_TITLE = 16 * SCALE
+GAP_TITLE_VIS = 36 * SCALE
+
+# 가사 오버레이 설정
+LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/SpoqaHanSansNeo-Light-Tight.otf")
+LYRICS_FONT_SIZE = 32 * SCALE
+LYRICS_COLOR = "0xDEF2F4"
+LYRICS_X = f"{MARGIN_LEFT}"
+LYRICS_Y = f"h-{MARGIN_BOTTOM}-{LYRICS_FONT_SIZE}"
+LYRICS_ALPHA = 0.5
+LYRICS_FADE = 0.2
+
+# 텍스트 오버레이 설정
+FONT_PATH = os.path.expanduser("~/Library/Fonts/Anton-Regular.ttf")
+TEXT_FONT_SIZE = 60 * SCALE
+TEXT_COLOR = "0xDEF2F4"
+TEXT_ALPHA = 0.8
+TEXT_X = f"{MARGIN_LEFT}"
+TEXT_Y = f"h-{MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE}"
+TEXT_FADE_IN = 1
+TEXT_FADE_OUT = 1
+
 # 바 비주얼라이저 설정
 NUM_BARS = 48
 BAR_WIDTH = 2 * SCALE
@@ -71,27 +96,9 @@ BAR_GAP = 4 * SCALE
 BAR_MAX_HEIGHT = 70 * SCALE
 BAR_MIN_HEIGHT = 2 * SCALE
 BAR_COLOR = (222, 242, 244)  # #DEF2F4
-BAR_ALPHA = 128  # 50% 투명도
-BAR_Y_CENTER = HEIGHT - (80 + 36 + 28 + 64 + 28) * SCALE
+BAR_ALPHA = 204  # 80% 투명도
+BAR_Y_CENTER = HEIGHT - MARGIN_BOTTOM - LYRICS_FONT_SIZE - GAP_LYRICS_TITLE - TEXT_FONT_SIZE - GAP_TITLE_VIS
 SMOOTHING = 0.3
-
-# 텍스트 오버레이 설정
-FONT_PATH = os.path.expanduser("~/Library/Fonts/Anton-Regular.ttf")
-TEXT_FONT_SIZE = 64 * SCALE
-TEXT_COLOR = "0xDEF2F4"
-TEXT_ALPHA = 0.5
-TEXT_X = f"{80 * SCALE}"
-TEXT_Y = f"h-{(80 + 36 + 28) * SCALE}-text_h"
-TEXT_FADE_IN = 1
-TEXT_FADE_OUT = 1
-
-# 가사 오버레이 설정
-LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/SpoqaHanSansNeo-Bold-Tight.otf")
-LYRICS_FONT_SIZE = 36 * SCALE
-LYRICS_COLOR = "0xDEF2F4"
-LYRICS_X = f"{80 * SCALE}"
-LYRICS_Y = f"h-{80 * SCALE}-{LYRICS_FONT_SIZE}"
-LYRICS_FADE = 0.2
 
 # 파티클 설정
 NUM_PARTICLES = 80
@@ -320,8 +327,13 @@ def main():
         print(f"❌ songs 폴더에 오디오 파일이 없습니다: {SONGS_DIR}")
         return
 
+    import re
+    def strip_track_prefix(name):
+        """파일명에서 '01_' 같은 트랙 번호 접두사 제거"""
+        return re.sub(r'^\d+_', '', name)
+
     tracklist = [
-        {"title": os.path.splitext(f)[0], "artist": ARTIST, "file": f}
+        {"title": strip_track_prefix(os.path.splitext(f)[0]), "artist": ARTIST, "file": f}
         for f in song_files
     ]
 
@@ -470,9 +482,9 @@ def main():
 
             alpha = (
                 f"if(lt(t\\,{fade_in_s})\\,0\\,"
-                f" if(lt(t\\,{fade_in_e})\\,0.8*(t-{fade_in_s})/{LYRICS_FADE}\\,"
-                f" if(lt(t\\,{fade_out_s})\\,0.8\\,"
-                f" if(lt(t\\,{fade_out_e})\\,0.8-0.8*(t-{fade_out_s})/{LYRICS_FADE}\\,"
+                f" if(lt(t\\,{fade_in_e})\\,{LYRICS_ALPHA}*(t-{fade_in_s})/{LYRICS_FADE}\\,"
+                f" if(lt(t\\,{fade_out_s})\\,{LYRICS_ALPHA}\\,"
+                f" if(lt(t\\,{fade_out_e})\\,{LYRICS_ALPHA}-{LYRICS_ALPHA}*(t-{fade_out_s})/{LYRICS_FADE}\\,"
                 f" 0))))"
             )
 
