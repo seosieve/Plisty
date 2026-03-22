@@ -493,6 +493,28 @@ def parse_lyrics_json(json_path):
         data = json.load(f)
 
     words = data['aligned_words']
+
+    # 전처리: \n 뒤에 붙은 따옴표를 다음 word로 분리
+    # (SUNO API에서 "glass\n""처럼 줄바꿈 뒤에 따옴표가 붙는 경우 대응)
+    fixed_words = []
+    carry = ""
+    for w in words:
+        word = w['word']
+        if carry:
+            word = carry + word
+            carry = ""
+        nl_match = re.search(r'\n+(?=["\u201c\u201d\u2018\u2019\'"])', word)
+        if nl_match and nl_match.end() < len(word):
+            before = word[:nl_match.end()]
+            after = word[nl_match.end():]
+            fixed_words.append({**w, 'word': before})
+            carry = after
+        else:
+            fixed_words.append({**w, 'word': word})
+    if carry:
+        fixed_words[-1]['word'] += carry
+
+    words = fixed_words
     lines = []  # [(start_s, end_s, text, is_section_end)]
     current_line = ""
     current_start = None
