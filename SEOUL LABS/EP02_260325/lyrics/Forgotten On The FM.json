@@ -1,0 +1,4219 @@
+{
+  "aligned_words": [
+    {
+      "word": "\nStatic ",
+      "success": true,
+      "start_s": 9.98,
+      "end_s": 10.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 10.94,
+      "end_s": 11.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 11.4,
+      "end_s": 11.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "dial\n",
+      "success": true,
+      "start_s": 11.66,
+      "end_s": 12.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "Half ",
+      "success": true,
+      "start_s": 12.5,
+      "end_s": 13.700000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 13.700000000000001,
+      "end_s": 13.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "line ",
+      "success": true,
+      "start_s": 13.84,
+      "end_s": 14.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 14.14,
+      "end_s": 14.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "know\n",
+      "success": true,
+      "start_s": 14.5,
+      "end_s": 15.360000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Humming ",
+      "success": true,
+      "start_s": 15.360000000000001,
+      "end_s": 16.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 16.3,
+      "end_s": 16.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 16.6,
+      "end_s": 16.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "hoodie\n",
+      "success": true,
+      "start_s": 16.94,
+      "end_s": 17.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "On ",
+      "success": true,
+      "start_s": 18.48,
+      "end_s": 18.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 18.62,
+      "end_s": 18.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "last ",
+      "success": true,
+      "start_s": 18.9,
+      "end_s": 19.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "train ",
+      "success": true,
+      "start_s": 19.16,
+      "end_s": 19.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "home\n",
+      "success": true,
+      "start_s": 19.52,
+      "end_s": 20.959999999999997,
+      "p_align": 0.99
+    },
+    {
+      "word": "그때 ",
+      "success": true,
+      "start_s": 20.959999999999997,
+      "end_s": 21.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "우리 (",
+      "success": true,
+      "start_s": 21.52,
+      "end_s": 22.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "mm) ",
+      "success": true,
+      "start_s": 22.62,
+      "end_s": 23.759999999999998,
+      "p_align": 0.99
+    },
+    {
+      "word": "same ",
+      "success": true,
+      "start_s": 24.02,
+      "end_s": 24.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 24.02,
+      "end_s": 24.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "road\n",
+      "success": true,
+      "start_s": 24.44,
+      "end_s": 25.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "Head ",
+      "success": true,
+      "start_s": 25.4,
+      "end_s": 26.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 26.24,
+      "end_s": 26.599999999999998,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 26.599999999999998,
+      "end_s": 26.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "shoulder\n",
+      "success": true,
+      "start_s": 26.84,
+      "end_s": 27.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "Falling ",
+      "success": true,
+      "start_s": 27.77,
+      "end_s": 29.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n\n",
+      "success": true,
+      "start_s": 29.12,
+      "end_s": 30.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nRadio ",
+      "success": true,
+      "start_s": 29.84,
+      "end_s": 32.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 32.44,
+      "end_s": 32.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 32.98,
+      "end_s": 33.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 33.16,
+      "end_s": 33.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 33.62,
+      "end_s": 34.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "Words ",
+      "success": true,
+      "start_s": 34.36,
+      "end_s": 34.919999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "all ",
+      "success": true,
+      "start_s": 34.919999999999995,
+      "end_s": 35.459999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "blurry ",
+      "success": true,
+      "start_s": 35.459999999999994,
+      "end_s": 35.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "but ",
+      "success": true,
+      "start_s": 35.76,
+      "end_s": 36.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 36.0,
+      "end_s": 36.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "sing ",
+      "success": true,
+      "start_s": 36.12,
+      "end_s": 36.339999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "along\n",
+      "success": true,
+      "start_s": 36.339999999999996,
+      "end_s": 36.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "La ",
+      "success": true,
+      "start_s": 36.8,
+      "end_s": 37.339999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "la\n",
+      "success": true,
+      "start_s": 37.339999999999996,
+      "end_s": 37.599999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 37.599999999999994,
+      "end_s": 38.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "don’",
+      "success": true,
+      "start_s": 38.22,
+      "end_s": 38.37,
+      "p_align": 0.99
+    },
+    {
+      "word": "t ",
+      "success": true,
+      "start_s": 38.37,
+      "end_s": 38.419999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "even ",
+      "success": true,
+      "start_s": 38.419999999999995,
+      "end_s": 38.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "know\n",
+      "success": true,
+      "start_s": 38.64,
+      "end_s": 38.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 38.9,
+      "end_s": 39.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "feels ",
+      "success": true,
+      "start_s": 40.099999999999994,
+      "end_s": 40.199999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 40.199999999999996,
+      "end_s": 40.849999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "years ",
+      "success": true,
+      "start_s": 40.959999999999994,
+      "end_s": 41.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "ago\n",
+      "success": true,
+      "start_s": 41.68,
+      "end_s": 42.339999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "작은 ",
+      "success": true,
+      "start_s": 42.339999999999996,
+      "end_s": 42.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "방에 ",
+      "success": true,
+      "start_s": 42.72,
+      "end_s": 43.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "light ",
+      "success": true,
+      "start_s": 43.08,
+      "end_s": 43.279999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "left ",
+      "success": true,
+      "start_s": 43.279999999999994,
+      "end_s": 43.699999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "on\n",
+      "success": true,
+      "start_s": 43.699999999999996,
+      "end_s": 44.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "Your ",
+      "success": true,
+      "start_s": 44.08,
+      "end_s": 44.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 44.54,
+      "end_s": 44.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "sweatshirt\n",
+      "success": true,
+      "start_s": 44.72,
+      "end_s": 45.459999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "My ",
+      "success": true,
+      "start_s": 45.459999999999994,
+      "end_s": 45.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "headphones\n",
+      "success": true,
+      "start_s": 45.82,
+      "end_s": 46.519999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "Radio ",
+      "success": true,
+      "start_s": 46.519999999999996,
+      "end_s": 47.239999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 47.239999999999995,
+      "end_s": 47.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 47.8,
+      "end_s": 47.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 47.98,
+      "end_s": 48.419999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 48.419999999999995,
+      "end_s": 49.059999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "And ",
+      "success": true,
+      "start_s": 49.059999999999995,
+      "end_s": 49.779999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 49.779999999999994,
+      "end_s": 49.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 49.89999999999999,
+      "end_s": 50.019999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "back ",
+      "success": true,
+      "start_s": 50.019999999999996,
+      "end_s": 50.379999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "there\n",
+      "success": true,
+      "start_s": 50.379999999999995,
+      "end_s": 51.059999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "Holding ",
+      "success": true,
+      "start_s": 51.059999999999995,
+      "end_s": 51.839999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "on\n\n",
+      "success": true,
+      "start_s": 51.839999999999996,
+      "end_s": 53.199999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nCoffee ",
+      "success": true,
+      "start_s": 54.96,
+      "end_s": 56.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 56.38,
+      "end_s": 56.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 56.9,
+      "end_s": 57.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "counter\n",
+      "success": true,
+      "start_s": 57.12,
+      "end_s": 57.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "Vinyl ",
+      "success": true,
+      "start_s": 58.059999999999995,
+      "end_s": 59.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "by ",
+      "success": true,
+      "start_s": 59.22,
+      "end_s": 59.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 59.58,
+      "end_s": 59.959999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "sink\n",
+      "success": true,
+      "start_s": 59.959999999999994,
+      "end_s": 60.379999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "Late ",
+      "success": true,
+      "start_s": 60.379999999999995,
+      "end_s": 61.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "night\n",
+      "success": true,
+      "start_s": 61.16,
+      "end_s": 61.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "Early ",
+      "success": true,
+      "start_s": 61.86,
+      "end_s": 62.419999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "morning\n",
+      "success": true,
+      "start_s": 62.419999999999995,
+      "end_s": 63.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 63.12,
+      "end_s": 64.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "forget ",
+      "success": true,
+      "start_s": 64.16,
+      "end_s": 64.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 64.52,
+      "end_s": 65.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "think\n",
+      "success": true,
+      "start_s": 65.0,
+      "end_s": 66.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "네 ",
+      "success": true,
+      "start_s": 66.11999999999999,
+      "end_s": 66.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "웃음소리\n",
+      "success": true,
+      "start_s": 66.66,
+      "end_s": 67.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "작은 ",
+      "success": true,
+      "start_s": 67.92,
+      "end_s": 69.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "joke\n",
+      "success": true,
+      "start_s": 69.38,
+      "end_s": 70.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Fill ",
+      "success": true,
+      "start_s": 70.53999999999999,
+      "end_s": 71.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 71.8,
+      "end_s": 72.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "kitchen\n",
+      "success": true,
+      "start_s": 72.34,
+      "end_s": 73.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "Like ",
+      "success": true,
+      "start_s": 73.16,
+      "end_s": 73.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "cigarette ",
+      "success": true,
+      "start_s": 73.89999999999999,
+      "end_s": 74.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "smoke\n\n",
+      "success": true,
+      "start_s": 74.61999999999999,
+      "end_s": 75.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nRadio ",
+      "success": true,
+      "start_s": 75.22,
+      "end_s": 77.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 77.84,
+      "end_s": 78.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 78.42,
+      "end_s": 78.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 78.64,
+      "end_s": 79.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 79.1,
+      "end_s": 79.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Words ",
+      "success": true,
+      "start_s": 79.78999999999999,
+      "end_s": 80.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "all ",
+      "success": true,
+      "start_s": 80.44,
+      "end_s": 80.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "blurry ",
+      "success": true,
+      "start_s": 80.89999999999999,
+      "end_s": 81.25999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "but ",
+      "success": true,
+      "start_s": 81.25999999999999,
+      "end_s": 81.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 81.48,
+      "end_s": 81.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "sing ",
+      "success": true,
+      "start_s": 81.58,
+      "end_s": 81.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "along\n",
+      "success": true,
+      "start_s": 81.84,
+      "end_s": 82.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "La ",
+      "success": true,
+      "start_s": 82.36,
+      "end_s": 82.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "la\n",
+      "success": true,
+      "start_s": 82.8,
+      "end_s": 83.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 83.02,
+      "end_s": 83.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "don’",
+      "success": true,
+      "start_s": 83.7,
+      "end_s": 83.835,
+      "p_align": 0.99
+    },
+    {
+      "word": "t ",
+      "success": true,
+      "start_s": 83.835,
+      "end_s": 83.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "even ",
+      "success": true,
+      "start_s": 83.88,
+      "end_s": 84.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "know\n",
+      "success": true,
+      "start_s": 84.1,
+      "end_s": 84.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 84.36,
+      "end_s": 85.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "feels ",
+      "success": true,
+      "start_s": 85.16,
+      "end_s": 85.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 85.7,
+      "end_s": 86.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "years ",
+      "success": true,
+      "start_s": 86.44,
+      "end_s": 87.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "ago\n",
+      "success": true,
+      "start_s": 87.06,
+      "end_s": 87.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "작은 ",
+      "success": true,
+      "start_s": 87.82,
+      "end_s": 88.17999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "방에 ",
+      "success": true,
+      "start_s": 88.17999999999999,
+      "end_s": 88.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "light ",
+      "success": true,
+      "start_s": 88.53999999999999,
+      "end_s": 88.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "left ",
+      "success": true,
+      "start_s": 88.8,
+      "end_s": 89.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "on\n",
+      "success": true,
+      "start_s": 89.2,
+      "end_s": 89.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Your ",
+      "success": true,
+      "start_s": 89.61999999999999,
+      "end_s": 89.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 89.98,
+      "end_s": 90.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "sweatshirt\n",
+      "success": true,
+      "start_s": 90.22,
+      "end_s": 90.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "My ",
+      "success": true,
+      "start_s": 90.96,
+      "end_s": 91.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "headphones\n",
+      "success": true,
+      "start_s": 91.24,
+      "end_s": 91.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "Radio ",
+      "success": true,
+      "start_s": 91.88,
+      "end_s": 92.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 92.7,
+      "end_s": 93.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 93.22,
+      "end_s": 93.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 93.46,
+      "end_s": 93.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 93.86,
+      "end_s": 94.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "And ",
+      "success": true,
+      "start_s": 94.6,
+      "end_s": 95.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 95.24,
+      "end_s": 95.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 95.36,
+      "end_s": 95.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "back ",
+      "success": true,
+      "start_s": 95.48,
+      "end_s": 95.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "there\n",
+      "success": true,
+      "start_s": 95.88,
+      "end_s": 96.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Holding ",
+      "success": true,
+      "start_s": 96.5,
+      "end_s": 97.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "on\n\n",
+      "success": true,
+      "start_s": 100.08,
+      "end_s": 100.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nNow ",
+      "success": true,
+      "start_s": 100.2,
+      "end_s": 100.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "it’",
+      "success": true,
+      "start_s": 100.78,
+      "end_s": 101.91333333333334,
+      "p_align": 0.99
+    },
+    {
+      "word": "s ",
+      "success": true,
+      "start_s": 101.91333333333334,
+      "end_s": 102.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "just ",
+      "success": true,
+      "start_s": 102.48,
+      "end_s": 102.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "echoes\n",
+      "success": true,
+      "start_s": 102.68,
+      "end_s": 103.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "Through ",
+      "success": true,
+      "start_s": 103.6,
+      "end_s": 104.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 104.02,
+      "end_s": 104.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "꿈같은 ",
+      "success": true,
+      "start_s": 104.32,
+      "end_s": 105.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "haze\n",
+      "success": true,
+      "start_s": 105.28,
+      "end_s": 106.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Half-sung ",
+      "success": true,
+      "start_s": 106.53999999999999,
+      "end_s": 107.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "syllables\n",
+      "success": true,
+      "start_s": 107.48,
+      "end_s": 108.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "From ",
+      "success": true,
+      "start_s": 108.61999999999999,
+      "end_s": 109.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "those ",
+      "success": true,
+      "start_s": 109.28,
+      "end_s": 109.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "sweeter ",
+      "success": true,
+      "start_s": 109.58,
+      "end_s": 110.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "days\n",
+      "success": true,
+      "start_s": 110.11999999999999,
+      "end_s": 111.17999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "다 ",
+      "success": true,
+      "start_s": 111.17999999999999,
+      "end_s": 111.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "잊었다 ",
+      "success": true,
+      "start_s": 111.89999999999999,
+      "end_s": 112.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "해도\n",
+      "success": true,
+      "start_s": 112.94,
+      "end_s": 113.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "One ",
+      "success": true,
+      "start_s": 113.98,
+      "end_s": 115.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "chord\n",
+      "success": true,
+      "start_s": 115.1,
+      "end_s": 115.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 115.78,
+      "end_s": 116.86999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 116.86999999999999,
+      "end_s": 117.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "gone\n",
+      "success": true,
+      "start_s": 117.96,
+      "end_s": 118.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "Back ",
+      "success": true,
+      "start_s": 118.46,
+      "end_s": 119.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 119.52,
+      "end_s": 120.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "us\n",
+      "success": true,
+      "start_s": 120.11999999999999,
+      "end_s": 121.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "Inside ",
+      "success": true,
+      "start_s": 121.1,
+      "end_s": 122.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "that ",
+      "success": true,
+      "start_s": 122.06,
+      "end_s": 122.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n\n",
+      "success": true,
+      "start_s": 122.75999999999999,
+      "end_s": 123.17999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nRadio ",
+      "success": true,
+      "start_s": 122.88,
+      "end_s": 123.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 123.44,
+      "end_s": 123.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 123.9,
+      "end_s": 124.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 124.1,
+      "end_s": 124.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 124.5,
+      "end_s": 125.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "Words ",
+      "success": true,
+      "start_s": 125.36,
+      "end_s": 125.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "all ",
+      "success": true,
+      "start_s": 125.86,
+      "end_s": 126.42,
+      "p_align": 0.99
+    },
+    {
+      "word": "blurry ",
+      "success": true,
+      "start_s": 126.42,
+      "end_s": 126.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "but ",
+      "success": true,
+      "start_s": 126.72,
+      "end_s": 126.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 126.94,
+      "end_s": 127.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "sing ",
+      "success": true,
+      "start_s": 127.06,
+      "end_s": 127.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "along\n",
+      "success": true,
+      "start_s": 127.28,
+      "end_s": 127.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "La ",
+      "success": true,
+      "start_s": 127.82,
+      "end_s": 128.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "la\n",
+      "success": true,
+      "start_s": 128.28,
+      "end_s": 128.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 128.5,
+      "end_s": 129.14000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "don’",
+      "success": true,
+      "start_s": 129.14000000000001,
+      "end_s": 129.27500000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "t ",
+      "success": true,
+      "start_s": 129.27500000000003,
+      "end_s": 129.32000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "even ",
+      "success": true,
+      "start_s": 129.32000000000002,
+      "end_s": 129.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "know\n",
+      "success": true,
+      "start_s": 129.56,
+      "end_s": 129.82000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 130.28,
+      "end_s": 130.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "feels ",
+      "success": true,
+      "start_s": 130.68,
+      "end_s": 131.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 131.18,
+      "end_s": 131.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "years ",
+      "success": true,
+      "start_s": 131.86,
+      "end_s": 132.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "ago\n",
+      "success": true,
+      "start_s": 132.60000000000002,
+      "end_s": 133.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "작은 ",
+      "success": true,
+      "start_s": 133.36,
+      "end_s": 133.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "방에 ",
+      "success": true,
+      "start_s": 133.64000000000001,
+      "end_s": 134.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "light ",
+      "success": true,
+      "start_s": 134.0,
+      "end_s": 134.20000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "left ",
+      "success": true,
+      "start_s": 134.20000000000002,
+      "end_s": 134.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "on\n",
+      "success": true,
+      "start_s": 134.64000000000001,
+      "end_s": 135.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "Your ",
+      "success": true,
+      "start_s": 135.0,
+      "end_s": 135.48000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "old ",
+      "success": true,
+      "start_s": 135.48000000000002,
+      "end_s": 135.70000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "sweatshirt\n",
+      "success": true,
+      "start_s": 135.70000000000002,
+      "end_s": 136.38000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "My ",
+      "success": true,
+      "start_s": 136.38000000000002,
+      "end_s": 136.76000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "headphones\n",
+      "success": true,
+      "start_s": 136.76000000000002,
+      "end_s": 137.54000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "Radio ",
+      "success": true,
+      "start_s": 137.54000000000002,
+      "end_s": 138.10000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "playing ",
+      "success": true,
+      "start_s": 138.10000000000002,
+      "end_s": 138.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 138.66000000000003,
+      "end_s": 138.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "forgotten ",
+      "success": true,
+      "start_s": 138.94,
+      "end_s": 139.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "song\n",
+      "success": true,
+      "start_s": 139.3,
+      "end_s": 139.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "And ",
+      "success": true,
+      "start_s": 139.42000000000002,
+      "end_s": 140.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "I’",
+      "success": true,
+      "start_s": 140.68,
+      "end_s": 140.83,
+      "p_align": 0.99
+    },
+    {
+      "word": "m ",
+      "success": true,
+      "start_s": 140.83,
+      "end_s": 140.98000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "back ",
+      "success": true,
+      "start_s": 140.98000000000002,
+      "end_s": 141.34000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "there\n",
+      "success": true,
+      "start_s": 141.34000000000003,
+      "end_s": 141.94000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "Holding ",
+      "success": true,
+      "start_s": 141.94000000000003,
+      "end_s": 143.94000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "on (",
+      "success": true,
+      "start_s": 143.94000000000003,
+      "end_s": 145.94000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "mm)\n\n",
+      "success": true,
+      "start_s": 145.94000000000003,
+      "end_s": 147.94000000000003,
+      "p_align": 0.99
+    }
+  ],
+  "waveform_data": [
+    6e-05,
+    0.03167,
+    0.09937,
+    0.13103,
+    0.12505,
+    0.14266,
+    0.143,
+    0.13544,
+    0.10365,
+    0.19631,
+    0.13943,
+    0.1187,
+    0.13791,
+    0.02808,
+    0.06517,
+    0.18632,
+    0.12542,
+    0.13261,
+    0.13928,
+    0.01681,
+    0.13772,
+    0.19337,
+    0.11746,
+    0.14044,
+    0.14653,
+    0.07131,
+    0.08362,
+    0.07636,
+    0.18934,
+    0.10291,
+    0.08972,
+    0.15449,
+    0.10996,
+    0.10562,
+    0.19179,
+    0.12004,
+    0.12245,
+    0.15275,
+    0.049,
+    0.06836,
+    0.19126,
+    0.10831,
+    0.1348,
+    0.12752,
+    0.02897,
+    0.1759,
+    0.1158,
+    0.12422,
+    0.09399,
+    0.09197,
+    0.09232,
+    0.09488,
+    0.09824,
+    0.13627,
+    0.12183,
+    0.1151,
+    0.14905,
+    0.10392,
+    0.06936,
+    0.21043,
+    0.14985,
+    0.16629,
+    0.16851,
+    0.06169,
+    0.03903,
+    0.16373,
+    0.16517,
+    0.13326,
+    0.13602,
+    0.15519,
+    0.12834,
+    0.15853,
+    0.21262,
+    0.08541,
+    0.09886,
+    0.16849,
+    0.05596,
+    0.07674,
+    0.22581,
+    0.14154,
+    0.13412,
+    0.19178,
+    0.13335,
+    0.10749,
+    0.21204,
+    0.15417,
+    0.14636,
+    0.12473,
+    0.15189,
+    0.04759,
+    0.09165,
+    0.21165,
+    0.12165,
+    0.14124,
+    0.16245,
+    0.10824,
+    0.13914,
+    0.20227,
+    0.14307,
+    0.1141,
+    0.1584,
+    0.06753,
+    0.0678,
+    0.20606,
+    0.08868,
+    0.12598,
+    0.14177,
+    0.18761,
+    0.16505,
+    0.16277,
+    0.20823,
+    0.14376,
+    0.14363,
+    0.1686,
+    0.0466,
+    0.09824,
+    0.20874,
+    0.09595,
+    0.14467,
+    0.17415,
+    0.0931,
+    0.13694,
+    0.21017,
+    0.0963,
+    0.11533,
+    0.16031,
+    0.09366,
+    0.09751,
+    0.12038,
+    0.20775,
+    0.16475,
+    0.15579,
+    0.16883,
+    0.09746,
+    0.16725,
+    0.20442,
+    0.11235,
+    0.1433,
+    0.16276,
+    0.05253,
+    0.128,
+    0.21692,
+    0.11204,
+    0.20189,
+    0.17141,
+    0.05493,
+    0.22314,
+    0.18882,
+    0.1693,
+    0.15161,
+    0.12615,
+    0.15274,
+    0.13861,
+    0.13652,
+    0.12211,
+    0.10969,
+    0.12951,
+    0.19723,
+    0.12169,
+    0.09176,
+    0.22924,
+    0.16752,
+    0.19613,
+    0.17746,
+    0.13535,
+    0.12373,
+    0.20122,
+    0.16881,
+    0.13785,
+    0.13002,
+    0.15108,
+    0.14269,
+    0.17247,
+    0.21893,
+    0.13443,
+    0.16509,
+    0.17594,
+    0.11959,
+    0.16895,
+    0.23409,
+    0.12757,
+    0.18317,
+    0.19825,
+    0.09397,
+    0.18585,
+    0.23026,
+    0.15078,
+    0.10007,
+    0.13392,
+    0.16141,
+    0.13891,
+    0.16898,
+    0.21942,
+    0.14716,
+    0.1611,
+    0.16753,
+    0.11674,
+    0.18669,
+    0.23489,
+    0.1818,
+    0.1795,
+    0.17455,
+    0.1244,
+    0.11061,
+    0.21364,
+    0.11122,
+    0.14064,
+    0.18218,
+    0.13661,
+    0.14342,
+    0.14255,
+    0.21894,
+    0.155,
+    0.15019,
+    0.17208,
+    0.10508,
+    0.14466,
+    0.23743,
+    0.14441,
+    0.15573,
+    0.18784,
+    0.13311,
+    0.1564,
+    0.24238,
+    0.12285,
+    0.17067,
+    0.18346,
+    0.09618,
+    0.13324,
+    0.17792,
+    0.20993,
+    0.15139,
+    0.14711,
+    0.18455,
+    0.13405,
+    0.15908,
+    0.21755,
+    0.15551,
+    0.13756,
+    0.17359,
+    0.11046,
+    0.08207,
+    0.26097,
+    0.12618,
+    0.1746,
+    0.17429,
+    0.07692,
+    0.18264,
+    0.1869,
+    0.19121,
+    0.15474,
+    0.09987,
+    0.2204,
+    0.13804,
+    0.08028,
+    0.20969,
+    0.11058,
+    0.16183,
+    0.18625,
+    0.11857,
+    0.12107,
+    0.20943,
+    0.14039,
+    0.13354,
+    0.12295,
+    0.10529,
+    0.09271,
+    0.07965,
+    0.08013,
+    0.05645,
+    0.04757,
+    0.09113,
+    0.06374,
+    0.04703,
+    0.06565,
+    0.0533,
+    0.04894,
+    0.04453,
+    0.04015,
+    0.0338,
+    0.09293,
+    0.05664,
+    0.12949,
+    0.19753,
+    0.20694,
+    0.0661,
+    0.09619,
+    0.12337,
+    0.12963,
+    0.08374,
+    0.19196,
+    0.03734,
+    0.00674,
+    0.09757,
+    0.09914,
+    0.11463,
+    0.10718,
+    0.09632,
+    0.06098,
+    0.09019,
+    0.13742,
+    0.22034,
+    0.08905,
+    0.20244,
+    0.14654,
+    0.20522,
+    0.19194,
+    0.15256,
+    0.2057,
+    0.19114,
+    0.12679,
+    0.15448,
+    0.2108,
+    0.16524,
+    0.14295,
+    0.17731,
+    0.07515,
+    0.13039,
+    0.2305,
+    0.14431,
+    0.17808,
+    0.20733,
+    0.13519,
+    0.21464,
+    0.21397,
+    0.14878,
+    0.13259,
+    0.16315,
+    0.09313,
+    0.0566,
+    0.20585,
+    0.1963,
+    0.15958,
+    0.15247,
+    0.2157,
+    0.20731,
+    0.17949,
+    0.15483,
+    0.21165,
+    0.15346,
+    0.17764,
+    0.09667,
+    0.13884,
+    0.23106,
+    0.13739,
+    0.16278,
+    0.20292,
+    0.11654,
+    0.17531,
+    0.21641,
+    0.14703,
+    0.10722,
+    0.11084,
+    0.20241,
+    0.11207,
+    0.15022,
+    0.22166,
+    0.18181,
+    0.16278,
+    0.19998,
+    0.08148,
+    0.19015,
+    0.21793,
+    0.12524,
+    0.1283,
+    0.19189,
+    0.13427,
+    0.12283,
+    0.22208,
+    0.16944,
+    0.16677,
+    0.20945,
+    0.1397,
+    0.19744,
+    0.15221,
+    0.11466,
+    0.08982,
+    0.08124,
+    0.03219,
+    0.02286,
+    0.03753,
+    0.05017,
+    0.10246,
+    0.12461,
+    0.18112,
+    0.17728,
+    0.11588,
+    0.23236,
+    0.15138,
+    0.16358,
+    0.1571,
+    0.1289,
+    0.11763,
+    0.14671,
+    0.22874,
+    0.14127,
+    0.1471,
+    0.16562,
+    0.1292,
+    0.17781,
+    0.21927,
+    0.12286,
+    0.15806,
+    0.17134,
+    0.13192,
+    0.15312,
+    0.23213,
+    0.11951,
+    0.16682,
+    0.19661,
+    0.10977,
+    0.15309,
+    0.19086,
+    0.18247,
+    0.07768,
+    0.07532,
+    0.17105,
+    0.12115,
+    0.14944,
+    0.22409,
+    0.10502,
+    0.16856,
+    0.17642,
+    0.09367,
+    0.16114,
+    0.23017,
+    0.15307,
+    0.16202,
+    0.16145,
+    0.12563,
+    0.10862,
+    0.19144,
+    0.16862,
+    0.1362,
+    0.13766,
+    0.18088,
+    0.13831,
+    0.14531,
+    0.225,
+    0.14776,
+    0.14468,
+    0.1767,
+    0.08837,
+    0.11206,
+    0.21936,
+    0.15019,
+    0.1541,
+    0.18047,
+    0.12404,
+    0.16443,
+    0.2227,
+    0.13894,
+    0.14677,
+    0.1549,
+    0.13891,
+    0.11797,
+    0.1419,
+    0.22532,
+    0.15498,
+    0.14465,
+    0.19001,
+    0.14371,
+    0.18531,
+    0.21794,
+    0.1111,
+    0.13187,
+    0.17653,
+    0.11397,
+    0.09997,
+    0.25537,
+    0.12732,
+    0.18533,
+    0.20038,
+    0.11481,
+    0.18041,
+    0.15274,
+    0.22004,
+    0.15554,
+    0.11473,
+    0.20944,
+    0.1492,
+    0.11993,
+    0.20532,
+    0.11332,
+    0.15877,
+    0.18648,
+    0.1049,
+    0.11177,
+    0.23735,
+    0.14834,
+    0.14079,
+    0.18931,
+    0.06085,
+    0.06704,
+    0.15019,
+    0.19177,
+    0.11399,
+    0.1277,
+    0.15943,
+    0.08831,
+    0.13892,
+    0.21342,
+    0.17577,
+    0.12823,
+    0.194,
+    0.10647,
+    0.20565,
+    0.20117,
+    0.16017,
+    0.21394,
+    0.23698,
+    0.09948,
+    0.19847,
+    0.17362,
+    0.22488,
+    0.15193,
+    0.13621,
+    0.17706,
+    0.1427,
+    0.12722,
+    0.22343,
+    0.1681,
+    0.17375,
+    0.16873,
+    0.13295,
+    0.18319,
+    0.22921,
+    0.13176,
+    0.10932,
+    0.16626,
+    0.07597,
+    0.12197,
+    0.2499,
+    0.14421,
+    0.14851,
+    0.18144,
+    0.15718,
+    0.13922,
+    0.18678,
+    0.2185,
+    0.17375,
+    0.11867,
+    0.18892,
+    0.09453,
+    0.15185,
+    0.24155,
+    0.11286,
+    0.18622,
+    0.20718,
+    0.14951,
+    0.17622,
+    0.23027,
+    0.12474,
+    0.14547,
+    0.17293,
+    0.10701,
+    0.14296,
+    0.17486,
+    0.22132,
+    0.17655,
+    0.17503,
+    0.18916,
+    0.12731,
+    0.21085,
+    0.22108,
+    0.16701,
+    0.1751,
+    0.2045,
+    0.18807,
+    0.18551,
+    0.21505,
+    0.11749,
+    0.20369,
+    0.20738,
+    0.11917,
+    0.19796,
+    0.1747,
+    0.16193,
+    0.14094,
+    0.13916,
+    0.1718,
+    0.1393,
+    0.15899,
+    0.21471,
+    0.13054,
+    0.18545,
+    0.20184,
+    0.16041,
+    0.15648,
+    0.21413,
+    0.1396,
+    0.15289,
+    0.22427,
+    0.14475,
+    0.17863,
+    0.21157,
+    0.17456,
+    0.15112,
+    0.1868,
+    0.22758,
+    0.16762,
+    0.20087,
+    0.23626,
+    0.19459,
+    0.1637,
+    0.21825,
+    0.15038,
+    0.22144,
+    0.22529,
+    0.151,
+    0.23559,
+    0.23116,
+    0.1328,
+    0.21909,
+    0.17125,
+    0.13176,
+    0.13022,
+    0.1088,
+    0.1205,
+    0.10982,
+    0.09109,
+    0.12232,
+    0.08788,
+    0.08887,
+    0.10933,
+    0.08271,
+    0.14341,
+    0.13504,
+    0.10143,
+    0.12308,
+    0.11616,
+    0.11971,
+    0.11489,
+    0.09662,
+    0.09575,
+    0.08267,
+    0.08671,
+    0.08964,
+    0.1063,
+    0.13549,
+    0.12009,
+    0.07666,
+    0.07278,
+    0.12531,
+    0.09677,
+    0.09051,
+    0.09012,
+    0.05155,
+    0.10295,
+    0.09387,
+    0.07098,
+    0.06673,
+    0.19315,
+    0.14017,
+    0.14747,
+    0.17317,
+    0.1862,
+    0.1435,
+    0.09333,
+    0.21979,
+    0.13625,
+    0.20328,
+    0.17225,
+    0.12024,
+    0.16668,
+    0.21681,
+    0.15035,
+    0.15326,
+    0.19214,
+    0.10526,
+    0.12731,
+    0.2354,
+    0.13974,
+    0.14562,
+    0.19332,
+    0.1387,
+    0.14201,
+    0.17351,
+    0.19002,
+    0.12287,
+    0.11843,
+    0.16919,
+    0.12632,
+    0.15081,
+    0.22488,
+    0.12468,
+    0.15556,
+    0.18822,
+    0.16506,
+    0.20167,
+    0.23879,
+    0.1386,
+    0.13439,
+    0.17942,
+    0.11395,
+    0.09088,
+    0.20979,
+    0.18911,
+    0.18992,
+    0.18405,
+    0.1421,
+    0.14947,
+    0.17365,
+    0.22701,
+    0.16401,
+    0.12588,
+    0.17743,
+    0.13405,
+    0.14666,
+    0.25137,
+    0.14015,
+    0.17489,
+    0.1805,
+    0.15718,
+    0.19299,
+    0.22529,
+    0.15269,
+    0.13705,
+    0.12778,
+    0.16127,
+    0.09471,
+    0.17066,
+    0.23891,
+    0.15063,
+    0.16514,
+    0.18511,
+    0.0773,
+    0.17177,
+    0.22555,
+    0.10787,
+    0.12325,
+    0.17639,
+    0.09481,
+    0.10232,
+    0.24938,
+    0.1861,
+    0.19387,
+    0.20057,
+    0.14022,
+    0.14494,
+    0.16814,
+    0.21601,
+    0.13158,
+    0.13935,
+    0.17571,
+    0.10194,
+    0.11643,
+    0.24483,
+    0.1581,
+    0.19504,
+    0.18356,
+    0.09383,
+    0.18078,
+    0.24545,
+    0.10179,
+    0.11198,
+    0.15263,
+    0.12718,
+    0.09235,
+    0.18503,
+    0.21098,
+    0.1565,
+    0.17995,
+    0.18768,
+    0.16503,
+    0.20841,
+    0.23286,
+    0.13362,
+    0.15206,
+    0.16054,
+    0.11964,
+    0.13354,
+    0.27167,
+    0.15568,
+    0.20677,
+    0.22535,
+    0.13636,
+    0.16597,
+    0.19337,
+    0.1879,
+    0.13265,
+    0.12578,
+    0.16112,
+    0.14376,
+    0.16374,
+    0.23927,
+    0.14865,
+    0.18826,
+    0.19035,
+    0.16139,
+    0.1832,
+    0.24546,
+    0.1338,
+    0.13328,
+    0.17755,
+    0.12487,
+    0.10187,
+    0.22852,
+    0.18201,
+    0.17792,
+    0.19078,
+    0.15077,
+    0.14184,
+    0.18865,
+    0.21902,
+    0.1025,
+    0.10338,
+    0.17089,
+    0.09529,
+    0.12055,
+    0.26134,
+    0.08936,
+    0.19079,
+    0.18991,
+    0.14765,
+    0.19057,
+    0.25331,
+    0.13257,
+    0.1252,
+    0.11814,
+    0.17634,
+    0.091,
+    0.15353,
+    0.2296,
+    0.15003,
+    0.17857,
+    0.17022,
+    0.17472,
+    0.1385,
+    0.10212,
+    0.0687,
+    0.05284,
+    0.16211,
+    0.09393,
+    0.02543,
+    0.0305,
+    0.0543,
+    0.06466,
+    0.06302,
+    0.06473,
+    0.06381,
+    0.06228,
+    0.05697,
+    0.0522,
+    0.04611,
+    0.04137,
+    0.0367,
+    0.0324,
+    0.02684,
+    0.02215,
+    0.01856,
+    0.01695,
+    0.0138,
+    0.01012,
+    0.00611,
+    4e-05,
+    3e-05
+  ],
+  "hoot_cer": 0.2029109589041096,
+  "is_streamed": false,
+  "aligned_lyrics": [
+    {
+      "text": "Static on the dial",
+      "start_s": 0.239,
+      "end_s": 12.048,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Static",
+          "start_s": 0.239,
+          "end_s": 0.479
+        },
+        {
+          "text": " on",
+          "start_s": 0.479,
+          "end_s": 0.559
+        },
+        {
+          "text": " the",
+          "start_s": 0.559,
+          "end_s": 0.638
+        },
+        {
+          "text": " d",
+          "start_s": 0.638,
+          "end_s": 0.798
+        },
+        {
+          "text": "i",
+          "start_s": 1.197,
+          "end_s": 1.277
+        },
+        {
+          "text": "al",
+          "start_s": 11.888,
+          "end_s": 12.048
+        }
+      ]
+    },
+    {
+      "text": "Half a line I know",
+      "start_s": 13.165,
+      "end_s": 14.681,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Half",
+          "start_s": 13.165,
+          "end_s": 13.404
+        },
+        {
+          "text": " a",
+          "start_s": 13.404,
+          "end_s": 13.564
+        },
+        {
+          "text": " line",
+          "start_s": 13.644,
+          "end_s": 14.043
+        },
+        {
+          "text": " I",
+          "start_s": 14.043,
+          "end_s": 14.202
+        },
+        {
+          "text": " know",
+          "start_s": 14.282,
+          "end_s": 14.681
+        }
+      ]
+    },
+    {
+      "text": "Humming in my hoodie",
+      "start_s": 15.638,
+      "end_s": 17.314,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Humming",
+          "start_s": 15.638,
+          "end_s": 16.197
+        },
+        {
+          "text": " in",
+          "start_s": 16.197,
+          "end_s": 16.436
+        },
+        {
+          "text": " my",
+          "start_s": 16.436,
+          "end_s": 16.676
+        },
+        {
+          "text": " hood",
+          "start_s": 16.835,
+          "end_s": 17.154
+        },
+        {
+          "text": "ie",
+          "start_s": 17.154,
+          "end_s": 17.314
+        }
+      ]
+    },
+    {
+      "text": "On the last train home",
+      "start_s": 18.191,
+      "end_s": 19.787,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "On",
+          "start_s": 18.191,
+          "end_s": 18.431
+        },
+        {
+          "text": " the",
+          "start_s": 18.511,
+          "end_s": 18.67
+        },
+        {
+          "text": " last",
+          "start_s": 18.67,
+          "end_s": 19.069
+        },
+        {
+          "text": " train",
+          "start_s": 19.069,
+          "end_s": 19.388
+        },
+        {
+          "text": " home",
+          "start_s": 19.388,
+          "end_s": 19.787
+        }
+      ]
+    },
+    {
+      "text": "그때 우리 (mm) same old road",
+      "start_s": 21.064,
+      "end_s": 24.654,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "그때",
+          "start_s": 21.064,
+          "end_s": 21.303
+        },
+        {
+          "text": " 우리",
+          "start_s": 21.862,
+          "end_s": 22.101
+        },
+        {
+          "text": " (mm)",
+          "start_s": 22.979,
+          "end_s": 23.298
+        },
+        {
+          "text": " same",
+          "start_s": 23.617,
+          "end_s": 23.936
+        },
+        {
+          "text": " old",
+          "start_s": 23.936,
+          "end_s": 24.255
+        },
+        {
+          "text": " road",
+          "start_s": 24.255,
+          "end_s": 24.654
+        }
+      ]
+    },
+    {
+      "text": "Head on your shoulder",
+      "start_s": 25.851,
+      "end_s": 27.447,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Head",
+          "start_s": 25.851,
+          "end_s": 26.17
+        },
+        {
+          "text": " on",
+          "start_s": 26.17,
+          "end_s": 26.41
+        },
+        {
+          "text": " your",
+          "start_s": 26.489,
+          "end_s": 26.729
+        },
+        {
+          "text": " shoulder",
+          "start_s": 26.729,
+          "end_s": 27.447
+        }
+      ]
+    },
+    {
+      "text": "Falling slow",
+      "start_s": 28.005,
+      "end_s": 29.601,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Falling",
+          "start_s": 28.005,
+          "end_s": 28.644
+        },
+        {
+          "text": " slow",
+          "start_s": 29.202,
+          "end_s": 29.601
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 32.074,
+      "end_s": 34.229,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 32.074,
+          "end_s": 32.713
+        },
+        {
+          "text": " playing",
+          "start_s": 32.713,
+          "end_s": 33.112
+        },
+        {
+          "text": " a",
+          "start_s": 33.112,
+          "end_s": 33.271
+        },
+        {
+          "text": " forgotten",
+          "start_s": 33.431,
+          "end_s": 33.83
+        },
+        {
+          "text": " song",
+          "start_s": 33.83,
+          "end_s": 34.229
+        }
+      ]
+    },
+    {
+      "text": "Words all blurry but I sing along",
+      "start_s": 34.388,
+      "end_s": 36.782,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Words",
+          "start_s": 34.388,
+          "end_s": 34.867
+        },
+        {
+          "text": " all",
+          "start_s": 34.947,
+          "end_s": 35.266
+        },
+        {
+          "text": " blur",
+          "start_s": 35.266,
+          "end_s": 35.426
+        },
+        {
+          "text": "ry",
+          "start_s": 35.426,
+          "end_s": 35.585
+        },
+        {
+          "text": " but",
+          "start_s": 35.585,
+          "end_s": 35.745
+        },
+        {
+          "text": " I",
+          "start_s": 35.745,
+          "end_s": 35.904
+        },
+        {
+          "text": " sing",
+          "start_s": 35.904,
+          "end_s": 36.303
+        },
+        {
+          "text": " along",
+          "start_s": 36.303,
+          "end_s": 36.782
+        }
+      ]
+    },
+    {
+      "text": "La la",
+      "start_s": 36.862,
+      "end_s": 37.42,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "La",
+          "start_s": 36.862,
+          "end_s": 37.101
+        },
+        {
+          "text": " la",
+          "start_s": 37.181,
+          "end_s": 37.42
+        }
+      ]
+    },
+    {
+      "text": "I don’t even know",
+      "start_s": 37.739,
+      "end_s": 38.856,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 37.739,
+          "end_s": 37.899
+        },
+        {
+          "text": " don",
+          "start_s": 37.979,
+          "end_s": 38.059
+        },
+        {
+          "text": "’",
+          "start_s": 38.059,
+          "end_s": 38.138
+        },
+        {
+          "text": "t",
+          "start_s": 38.138,
+          "end_s": 38.218
+        },
+        {
+          "text": " even",
+          "start_s": 38.298,
+          "end_s": 38.457
+        },
+        {
+          "text": " know",
+          "start_s": 38.457,
+          "end_s": 38.856
+        }
+      ]
+    },
+    {
+      "text": "Just feels like years ago",
+      "start_s": 39.415,
+      "end_s": 41.968,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 39.415,
+          "end_s": 39.734
+        },
+        {
+          "text": " feels",
+          "start_s": 39.734,
+          "end_s": 40.213
+        },
+        {
+          "text": " like",
+          "start_s": 40.293,
+          "end_s": 40.691
+        },
+        {
+          "text": " years",
+          "start_s": 40.931,
+          "end_s": 41.41
+        },
+        {
+          "text": " ago",
+          "start_s": 41.649,
+          "end_s": 41.968
+        }
+      ]
+    },
+    {
+      "text": "작은 방에 light left on",
+      "start_s": 42.207,
+      "end_s": 43.723,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "작은",
+          "start_s": 42.207,
+          "end_s": 42.447
+        },
+        {
+          "text": " 방",
+          "start_s": 42.527,
+          "end_s": 42.686
+        },
+        {
+          "text": "에",
+          "start_s": 42.686,
+          "end_s": 42.766
+        },
+        {
+          "text": " light",
+          "start_s": 42.846,
+          "end_s": 43.165
+        },
+        {
+          "text": " left",
+          "start_s": 43.165,
+          "end_s": 43.484
+        },
+        {
+          "text": " on",
+          "start_s": 43.484,
+          "end_s": 43.723
+        }
+      ]
+    },
+    {
+      "text": "Your old sweatshirt",
+      "start_s": 44.122,
+      "end_s": 45.239,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Your",
+          "start_s": 44.122,
+          "end_s": 44.282
+        },
+        {
+          "text": " old",
+          "start_s": 44.282,
+          "end_s": 44.601
+        },
+        {
+          "text": " sweat",
+          "start_s": 44.601,
+          "end_s": 44.92
+        },
+        {
+          "text": "sh",
+          "start_s": 44.92,
+          "end_s": 45.0
+        },
+        {
+          "text": "irt",
+          "start_s": 45.0,
+          "end_s": 45.239
+        }
+      ]
+    },
+    {
+      "text": "My headphones",
+      "start_s": 45.319,
+      "end_s": 46.356,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "My",
+          "start_s": 45.319,
+          "end_s": 45.559
+        },
+        {
+          "text": " head",
+          "start_s": 45.638,
+          "end_s": 45.957
+        },
+        {
+          "text": "ph",
+          "start_s": 45.957,
+          "end_s": 46.037
+        },
+        {
+          "text": "ones",
+          "start_s": 46.037,
+          "end_s": 46.356
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 46.676,
+      "end_s": 48.351,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 46.676,
+          "end_s": 47.154
+        },
+        {
+          "text": " playing",
+          "start_s": 47.234,
+          "end_s": 47.553
+        },
+        {
+          "text": " a",
+          "start_s": 47.553,
+          "end_s": 47.713
+        },
+        {
+          "text": " forgotten",
+          "start_s": 47.872,
+          "end_s": 48.191
+        },
+        {
+          "text": " song",
+          "start_s": 48.191,
+          "end_s": 48.351
+        }
+      ]
+    },
+    {
+      "text": "And I’m back there",
+      "start_s": 48.351,
+      "end_s": 49.229,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "And",
+          "start_s": 48.351,
+          "end_s": 48.431
+        },
+        {
+          "text": " I",
+          "start_s": 48.431,
+          "end_s": 48.511
+        },
+        {
+          "text": "’m",
+          "start_s": 48.511,
+          "end_s": 48.67
+        },
+        {
+          "text": " back",
+          "start_s": 48.67,
+          "end_s": 48.75
+        },
+        {
+          "text": " there",
+          "start_s": 48.75,
+          "end_s": 49.229
+        }
+      ]
+    },
+    {
+      "text": "Holding on",
+      "start_s": 49.309,
+      "end_s": 50.505,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Hold",
+          "start_s": 49.309,
+          "end_s": 49.468
+        },
+        {
+          "text": "i",
+          "start_s": 49.468,
+          "end_s": 49.548
+        },
+        {
+          "text": "n",
+          "start_s": 49.628,
+          "end_s": 49.707
+        },
+        {
+          "text": "g ",
+          "start_s": 49.787,
+          "end_s": 49.947
+        },
+        {
+          "text": "on",
+          "start_s": 50.346,
+          "end_s": 50.505
+        }
+      ]
+    },
+    {
+      "text": "Coffee on the counter",
+      "start_s": 52.101,
+      "end_s": 57.926,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Coffee",
+          "start_s": 52.101,
+          "end_s": 53.537
+        },
+        {
+          "text": " on",
+          "start_s": 56.649,
+          "end_s": 56.888
+        },
+        {
+          "text": " the",
+          "start_s": 57.048,
+          "end_s": 57.287
+        },
+        {
+          "text": " counter",
+          "start_s": 57.287,
+          "end_s": 57.926
+        }
+      ]
+    },
+    {
+      "text": "Vinyl by the sink",
+      "start_s": 58.644,
+      "end_s": 60.239,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Vinyl",
+          "start_s": 58.644,
+          "end_s": 59.122
+        },
+        {
+          "text": " by",
+          "start_s": 59.122,
+          "end_s": 59.362
+        },
+        {
+          "text": " the",
+          "start_s": 59.601,
+          "end_s": 59.84
+        },
+        {
+          "text": " sink",
+          "start_s": 59.84,
+          "end_s": 60.239
+        }
+      ]
+    },
+    {
+      "text": "Late night",
+      "start_s": 60.718,
+      "end_s": 61.596,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Late",
+          "start_s": 60.718,
+          "end_s": 61.117
+        },
+        {
+          "text": " night",
+          "start_s": 61.117,
+          "end_s": 61.596
+        }
+      ]
+    },
+    {
+      "text": "Early morning",
+      "start_s": 61.915,
+      "end_s": 62.952,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Early",
+          "start_s": 61.915,
+          "end_s": 62.314
+        },
+        {
+          "text": " morning",
+          "start_s": 62.314,
+          "end_s": 62.952
+        }
+      ]
+    },
+    {
+      "text": "I forget to think",
+      "start_s": 63.67,
+      "end_s": 65.426,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 63.67,
+          "end_s": 63.83
+        },
+        {
+          "text": " forget",
+          "start_s": 64.229,
+          "end_s": 64.548
+        },
+        {
+          "text": " to",
+          "start_s": 64.548,
+          "end_s": 64.787
+        },
+        {
+          "text": " think",
+          "start_s": 64.947,
+          "end_s": 65.426
+        }
+      ]
+    },
+    {
+      "text": "네 웃음소리",
+      "start_s": 66.223,
+      "end_s": 67.34,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "네",
+          "start_s": 66.223,
+          "end_s": 66.383
+        },
+        {
+          "text": " 웃음",
+          "start_s": 66.543,
+          "end_s": 66.782
+        },
+        {
+          "text": "소리",
+          "start_s": 67.181,
+          "end_s": 67.34
+        }
+      ]
+    },
+    {
+      "text": "작은 joke",
+      "start_s": 68.457,
+      "end_s": 70.053,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "작은",
+          "start_s": 68.457,
+          "end_s": 68.697
+        },
+        {
+          "text": " joke",
+          "start_s": 69.654,
+          "end_s": 70.053
+        }
+      ]
+    },
+    {
+      "text": "Fill the kitchen",
+      "start_s": 71.33,
+      "end_s": 72.846,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Fill",
+          "start_s": 71.33,
+          "end_s": 71.729
+        },
+        {
+          "text": " the",
+          "start_s": 71.888,
+          "end_s": 72.207
+        },
+        {
+          "text": " kitchen",
+          "start_s": 72.207,
+          "end_s": 72.846
+        }
+      ]
+    },
+    {
+      "text": "Like cigarette smoke",
+      "start_s": 73.404,
+      "end_s": 75.08,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Like",
+          "start_s": 73.404,
+          "end_s": 73.803
+        },
+        {
+          "text": " cig",
+          "start_s": 73.803,
+          "end_s": 74.043
+        },
+        {
+          "text": "aret",
+          "start_s": 74.043,
+          "end_s": 74.282
+        },
+        {
+          "text": "te",
+          "start_s": 74.282,
+          "end_s": 74.441
+        },
+        {
+          "text": " smoke",
+          "start_s": 74.601,
+          "end_s": 75.08
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 77.473,
+      "end_s": 79.388,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 77.473,
+          "end_s": 78.191
+        },
+        {
+          "text": " playing",
+          "start_s": 78.191,
+          "end_s": 78.511
+        },
+        {
+          "text": " a",
+          "start_s": 78.511,
+          "end_s": 78.67
+        },
+        {
+          "text": " forgotten",
+          "start_s": 78.83,
+          "end_s": 79.229
+        },
+        {
+          "text": " song",
+          "start_s": 79.229,
+          "end_s": 79.388
+        }
+      ]
+    },
+    {
+      "text": "Words all blurry but I sing along",
+      "start_s": 79.388,
+      "end_s": 82.34,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Words",
+          "start_s": 79.388,
+          "end_s": 79.468
+        },
+        {
+          "text": " all",
+          "start_s": 79.468,
+          "end_s": 79.628
+        },
+        {
+          "text": " blur",
+          "start_s": 79.628,
+          "end_s": 79.947
+        },
+        {
+          "text": "ry",
+          "start_s": 79.947,
+          "end_s": 80.106
+        },
+        {
+          "text": " but",
+          "start_s": 80.984,
+          "end_s": 81.144
+        },
+        {
+          "text": " I",
+          "start_s": 81.144,
+          "end_s": 81.223
+        },
+        {
+          "text": " sing",
+          "start_s": 81.223,
+          "end_s": 81.622
+        },
+        {
+          "text": " along",
+          "start_s": 81.941,
+          "end_s": 82.34
+        }
+      ]
+    },
+    {
+      "text": "La la",
+      "start_s": 82.34,
+      "end_s": 82.899,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "La",
+          "start_s": 82.34,
+          "end_s": 82.58
+        },
+        {
+          "text": " la",
+          "start_s": 82.66,
+          "end_s": 82.899
+        }
+      ]
+    },
+    {
+      "text": "I don’t even know",
+      "start_s": 83.298,
+      "end_s": 84.335,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 83.298,
+          "end_s": 83.457
+        },
+        {
+          "text": " don",
+          "start_s": 83.457,
+          "end_s": 83.617
+        },
+        {
+          "text": "’t",
+          "start_s": 83.617,
+          "end_s": 83.777
+        },
+        {
+          "text": " even",
+          "start_s": 83.777,
+          "end_s": 83.936
+        },
+        {
+          "text": " know",
+          "start_s": 83.936,
+          "end_s": 84.335
+        }
+      ]
+    },
+    {
+      "text": "Just feels like years ago",
+      "start_s": 84.973,
+      "end_s": 87.527,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 84.973,
+          "end_s": 85.213
+        },
+        {
+          "text": " feels",
+          "start_s": 85.213,
+          "end_s": 85.691
+        },
+        {
+          "text": " like",
+          "start_s": 85.851,
+          "end_s": 86.25
+        },
+        {
+          "text": " years",
+          "start_s": 86.489,
+          "end_s": 86.968
+        },
+        {
+          "text": " ago",
+          "start_s": 87.207,
+          "end_s": 87.527
+        }
+      ]
+    },
+    {
+      "text": "작은 방에 light left on",
+      "start_s": 87.686,
+      "end_s": 89.202,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "작은",
+          "start_s": 87.686,
+          "end_s": 87.926
+        },
+        {
+          "text": " 방",
+          "start_s": 88.085,
+          "end_s": 88.245
+        },
+        {
+          "text": "에",
+          "start_s": 88.245,
+          "end_s": 88.324
+        },
+        {
+          "text": " light",
+          "start_s": 88.404,
+          "end_s": 88.723
+        },
+        {
+          "text": " left",
+          "start_s": 88.723,
+          "end_s": 88.963
+        },
+        {
+          "text": " on",
+          "start_s": 88.963,
+          "end_s": 89.202
+        }
+      ]
+    },
+    {
+      "text": "Your old sweatshirt",
+      "start_s": 89.601,
+      "end_s": 90.798,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Your",
+          "start_s": 89.601,
+          "end_s": 89.84
+        },
+        {
+          "text": " old",
+          "start_s": 89.84,
+          "end_s": 90.16
+        },
+        {
+          "text": " sweat",
+          "start_s": 90.16,
+          "end_s": 90.479
+        },
+        {
+          "text": "sh",
+          "start_s": 90.479,
+          "end_s": 90.559
+        },
+        {
+          "text": "irt",
+          "start_s": 90.559,
+          "end_s": 90.798
+        }
+      ]
+    },
+    {
+      "text": "My headphones",
+      "start_s": 90.878,
+      "end_s": 91.915,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "My",
+          "start_s": 90.878,
+          "end_s": 91.117
+        },
+        {
+          "text": " head",
+          "start_s": 91.117,
+          "end_s": 91.516
+        },
+        {
+          "text": "ph",
+          "start_s": 91.516,
+          "end_s": 91.596
+        },
+        {
+          "text": "ones",
+          "start_s": 91.596,
+          "end_s": 91.915
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 92.154,
+      "end_s": 94.229,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 92.154,
+          "end_s": 92.633
+        },
+        {
+          "text": " playing",
+          "start_s": 92.713,
+          "end_s": 93.112
+        },
+        {
+          "text": " a",
+          "start_s": 93.112,
+          "end_s": 93.271
+        },
+        {
+          "text": " forgotten",
+          "start_s": 93.431,
+          "end_s": 93.83
+        },
+        {
+          "text": " song",
+          "start_s": 93.83,
+          "end_s": 94.229
+        }
+      ]
+    },
+    {
+      "text": "And I’m back there",
+      "start_s": 94.787,
+      "end_s": 96.383,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "And",
+          "start_s": 94.787,
+          "end_s": 94.947
+        },
+        {
+          "text": " I",
+          "start_s": 94.947,
+          "end_s": 95.106
+        },
+        {
+          "text": "’m",
+          "start_s": 95.106,
+          "end_s": 95.266
+        },
+        {
+          "text": " back",
+          "start_s": 95.266,
+          "end_s": 95.665
+        },
+        {
+          "text": " there",
+          "start_s": 95.904,
+          "end_s": 96.383
+        }
+      ]
+    },
+    {
+      "text": "Holding on",
+      "start_s": 96.463,
+      "end_s": 97.58,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Holding",
+          "start_s": 96.463,
+          "end_s": 97.101
+        },
+        {
+          "text": " on",
+          "start_s": 97.34,
+          "end_s": 97.58
+        }
+      ]
+    },
+    {
+      "text": "Now it’s just echoes",
+      "start_s": 97.58,
+      "end_s": 98.218,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Now",
+          "start_s": 97.58,
+          "end_s": 97.66
+        },
+        {
+          "text": " it",
+          "start_s": 97.66,
+          "end_s": 97.819
+        },
+        {
+          "text": "’s",
+          "start_s": 97.819,
+          "end_s": 97.899
+        },
+        {
+          "text": " just",
+          "start_s": 97.899,
+          "end_s": 98.059
+        },
+        {
+          "text": " echoes",
+          "start_s": 98.059,
+          "end_s": 98.218
+        }
+      ]
+    },
+    {
+      "text": "Through a 꿈같은 haze",
+      "start_s": 98.218,
+      "end_s": 105.08,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Through",
+          "start_s": 98.218,
+          "end_s": 98.298
+        },
+        {
+          "text": " a",
+          "start_s": 98.298,
+          "end_s": 98.378
+        },
+        {
+          "text": " 꿈",
+          "start_s": 98.378,
+          "end_s": 98.537
+        },
+        {
+          "text": "같은",
+          "start_s": 99.973,
+          "end_s": 100.133
+        },
+        {
+          "text": " haze",
+          "start_s": 104.84,
+          "end_s": 105.08
+        }
+      ]
+    },
+    {
+      "text": "Half-sung syllables",
+      "start_s": 105.08,
+      "end_s": 105.718,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Half",
+          "start_s": 105.08,
+          "end_s": 105.239
+        },
+        {
+          "text": "-sung",
+          "start_s": 105.239,
+          "end_s": 105.399
+        },
+        {
+          "text": " syll",
+          "start_s": 105.399,
+          "end_s": 105.638
+        },
+        {
+          "text": "ables",
+          "start_s": 105.638,
+          "end_s": 105.718
+        }
+      ]
+    },
+    {
+      "text": "From those sweeter days",
+      "start_s": 105.718,
+      "end_s": 106.676,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "From",
+          "start_s": 105.718,
+          "end_s": 105.957
+        },
+        {
+          "text": " those",
+          "start_s": 105.957,
+          "end_s": 106.037
+        },
+        {
+          "text": " sweet",
+          "start_s": 106.037,
+          "end_s": 106.197
+        },
+        {
+          "text": "er",
+          "start_s": 106.197,
+          "end_s": 106.277
+        },
+        {
+          "text": " days",
+          "start_s": 106.277,
+          "end_s": 106.676
+        }
+      ]
+    },
+    {
+      "text": "다 잊었다 해도",
+      "start_s": 111.782,
+      "end_s": 113.856,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "다",
+          "start_s": 111.782,
+          "end_s": 111.941
+        },
+        {
+          "text": " 잊",
+          "start_s": 112.101,
+          "end_s": 112.261
+        },
+        {
+          "text": "었",
+          "start_s": 112.34,
+          "end_s": 112.42
+        },
+        {
+          "text": "다",
+          "start_s": 112.66,
+          "end_s": 112.739
+        },
+        {
+          "text": " 해도",
+          "start_s": 113.617,
+          "end_s": 113.856
+        }
+      ]
+    },
+    {
+      "text": "One chord",
+      "start_s": 114.574,
+      "end_s": 115.612,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "One",
+          "start_s": 114.574,
+          "end_s": 114.894
+        },
+        {
+          "text": " chord",
+          "start_s": 115.133,
+          "end_s": 115.612
+        }
+      ]
+    },
+    {
+      "text": "I’m gone",
+      "start_s": 116.569,
+      "end_s": 118.165,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 116.569,
+          "end_s": 116.729
+        },
+        {
+          "text": "’m",
+          "start_s": 116.729,
+          "end_s": 116.888
+        },
+        {
+          "text": " gone",
+          "start_s": 117.766,
+          "end_s": 118.165
+        }
+      ]
+    },
+    {
+      "text": "Back to us",
+      "start_s": 119.043,
+      "end_s": 120.479,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Back",
+          "start_s": 119.043,
+          "end_s": 119.441
+        },
+        {
+          "text": " to",
+          "start_s": 119.601,
+          "end_s": 119.84
+        },
+        {
+          "text": " us",
+          "start_s": 120.239,
+          "end_s": 120.479
+        }
+      ]
+    },
+    {
+      "text": "Inside that song",
+      "start_s": 121.516,
+      "end_s": 122.793,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Inside",
+          "start_s": 121.516,
+          "end_s": 122.074
+        },
+        {
+          "text": " that",
+          "start_s": 122.074,
+          "end_s": 122.394
+        },
+        {
+          "text": " song",
+          "start_s": 122.394,
+          "end_s": 122.793
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 123.112,
+      "end_s": 125.106,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 123.112,
+          "end_s": 123.67
+        },
+        {
+          "text": " playing",
+          "start_s": 123.67,
+          "end_s": 123.989
+        },
+        {
+          "text": " a",
+          "start_s": 123.989,
+          "end_s": 124.149
+        },
+        {
+          "text": " forgotten",
+          "start_s": 124.309,
+          "end_s": 124.707
+        },
+        {
+          "text": " song",
+          "start_s": 124.707,
+          "end_s": 125.106
+        }
+      ]
+    },
+    {
+      "text": "Words all blurry but I sing along",
+      "start_s": 125.346,
+      "end_s": 127.66,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Words",
+          "start_s": 125.346,
+          "end_s": 125.824
+        },
+        {
+          "text": " all",
+          "start_s": 125.904,
+          "end_s": 126.223
+        },
+        {
+          "text": " blur",
+          "start_s": 126.223,
+          "end_s": 126.383
+        },
+        {
+          "text": "ry",
+          "start_s": 126.383,
+          "end_s": 126.543
+        },
+        {
+          "text": " but",
+          "start_s": 126.543,
+          "end_s": 126.702
+        },
+        {
+          "text": " I",
+          "start_s": 126.702,
+          "end_s": 126.862
+        },
+        {
+          "text": " sing",
+          "start_s": 126.862,
+          "end_s": 127.181
+        },
+        {
+          "text": " along",
+          "start_s": 127.181,
+          "end_s": 127.66
+        }
+      ]
+    },
+    {
+      "text": "La la",
+      "start_s": 127.819,
+      "end_s": 128.378,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "La",
+          "start_s": 127.819,
+          "end_s": 128.059
+        },
+        {
+          "text": " la",
+          "start_s": 128.138,
+          "end_s": 128.378
+        }
+      ]
+    },
+    {
+      "text": "I don’t even know",
+      "start_s": 128.697,
+      "end_s": 129.814,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 128.697,
+          "end_s": 128.856
+        },
+        {
+          "text": " don",
+          "start_s": 128.856,
+          "end_s": 129.016
+        },
+        {
+          "text": "’t",
+          "start_s": 129.016,
+          "end_s": 129.176
+        },
+        {
+          "text": " even",
+          "start_s": 129.255,
+          "end_s": 129.415
+        },
+        {
+          "text": " kn",
+          "start_s": 129.415,
+          "end_s": 129.654
+        },
+        {
+          "text": "ow",
+          "start_s": 129.654,
+          "end_s": 129.814
+        }
+      ]
+    },
+    {
+      "text": "Just feels like years ago",
+      "start_s": 130.372,
+      "end_s": 132.926,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 130.372,
+          "end_s": 130.691
+        },
+        {
+          "text": " feels",
+          "start_s": 130.691,
+          "end_s": 131.17
+        },
+        {
+          "text": " like",
+          "start_s": 131.25,
+          "end_s": 131.649
+        },
+        {
+          "text": " years",
+          "start_s": 131.888,
+          "end_s": 132.367
+        },
+        {
+          "text": " ago",
+          "start_s": 132.606,
+          "end_s": 132.926
+        }
+      ]
+    },
+    {
+      "text": "작은 방에 light left on",
+      "start_s": 133.165,
+      "end_s": 134.681,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "작",
+          "start_s": 133.165,
+          "end_s": 133.324
+        },
+        {
+          "text": "은",
+          "start_s": 133.324,
+          "end_s": 133.404
+        },
+        {
+          "text": " 방",
+          "start_s": 133.484,
+          "end_s": 133.644
+        },
+        {
+          "text": "에",
+          "start_s": 133.644,
+          "end_s": 133.723
+        },
+        {
+          "text": " light",
+          "start_s": 133.803,
+          "end_s": 134.122
+        },
+        {
+          "text": " left",
+          "start_s": 134.122,
+          "end_s": 134.441
+        },
+        {
+          "text": " on",
+          "start_s": 134.441,
+          "end_s": 134.681
+        }
+      ]
+    },
+    {
+      "text": "Your old sweatshirt",
+      "start_s": 135.08,
+      "end_s": 136.197,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Your",
+          "start_s": 135.08,
+          "end_s": 135.239
+        },
+        {
+          "text": " old",
+          "start_s": 135.239,
+          "end_s": 135.559
+        },
+        {
+          "text": " sweat",
+          "start_s": 135.559,
+          "end_s": 135.878
+        },
+        {
+          "text": "sh",
+          "start_s": 135.878,
+          "end_s": 135.957
+        },
+        {
+          "text": "irt",
+          "start_s": 135.957,
+          "end_s": 136.197
+        }
+      ]
+    },
+    {
+      "text": "My headphones",
+      "start_s": 136.277,
+      "end_s": 136.915,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "My",
+          "start_s": 136.277,
+          "end_s": 136.516
+        },
+        {
+          "text": " head",
+          "start_s": 136.596,
+          "end_s": 136.676
+        },
+        {
+          "text": "ph",
+          "start_s": 136.676,
+          "end_s": 136.755
+        },
+        {
+          "text": "one",
+          "start_s": 136.755,
+          "end_s": 136.835
+        },
+        {
+          "text": "s",
+          "start_s": 136.835,
+          "end_s": 136.915
+        }
+      ]
+    },
+    {
+      "text": "Radio playing a forgotten song",
+      "start_s": 136.995,
+      "end_s": 139.229,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Radio",
+          "start_s": 136.995,
+          "end_s": 137.154
+        },
+        {
+          "text": " playing",
+          "start_s": 137.154,
+          "end_s": 137.314
+        },
+        {
+          "text": " a",
+          "start_s": 137.314,
+          "end_s": 137.473
+        },
+        {
+          "text": " forgotten",
+          "start_s": 137.473,
+          "end_s": 138.271
+        },
+        {
+          "text": " s",
+          "start_s": 138.511,
+          "end_s": 138.59
+        },
+        {
+          "text": "on",
+          "start_s": 138.59,
+          "end_s": 138.75
+        },
+        {
+          "text": "g",
+          "start_s": 139.149,
+          "end_s": 139.229
+        }
+      ]
+    },
+    {
+      "text": "And I’m back there",
+      "start_s": 139.229,
+      "end_s": 142.021,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "And",
+          "start_s": 139.229,
+          "end_s": 139.309
+        },
+        {
+          "text": " I",
+          "start_s": 139.309,
+          "end_s": 139.468
+        },
+        {
+          "text": "’m",
+          "start_s": 139.468,
+          "end_s": 139.548
+        },
+        {
+          "text": " back",
+          "start_s": 139.548,
+          "end_s": 139.947
+        },
+        {
+          "text": " t",
+          "start_s": 141.303,
+          "end_s": 141.463
+        },
+        {
+          "text": "he",
+          "start_s": 141.702,
+          "end_s": 141.862
+        },
+        {
+          "text": "re",
+          "start_s": 141.862,
+          "end_s": 142.021
+        }
+      ]
+    },
+    {
+      "text": "Holding on (mm)",
+      "start_s": 142.021,
+      "end_s": 143.777,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Holding",
+          "start_s": 142.021,
+          "end_s": 142.66
+        },
+        {
+          "text": " on (mm)",
+          "start_s": 142.979,
+          "end_s": 143.777
+        }
+      ]
+    }
+  ]
+}

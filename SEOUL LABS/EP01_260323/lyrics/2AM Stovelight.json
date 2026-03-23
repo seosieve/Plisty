@@ -1,0 +1,4882 @@
+{
+  "aligned_words": [
+    {
+      "word": "\nTwo ",
+      "success": true,
+      "start_s": 17.98,
+      "end_s": 18.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "cups ",
+      "success": true,
+      "start_s": 18.4,
+      "end_s": 18.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 18.68,
+      "end_s": 18.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 18.96,
+      "end_s": 19.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "floor\n",
+      "success": true,
+      "start_s": 19.06,
+      "end_s": 19.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "Steam ",
+      "success": true,
+      "start_s": 19.6,
+      "end_s": 20.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "writing ",
+      "success": true,
+      "start_s": 20.04,
+      "end_s": 20.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "secrets ",
+      "success": true,
+      "start_s": 20.38,
+      "end_s": 20.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 20.76,
+      "end_s": 20.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 20.86,
+      "end_s": 21.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "cold ",
+      "success": true,
+      "start_s": 21.02,
+      "end_s": 21.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "glass ",
+      "success": true,
+      "start_s": 21.2,
+      "end_s": 21.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "door\n",
+      "success": true,
+      "start_s": 21.48,
+      "end_s": 21.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "네 ",
+      "success": true,
+      "start_s": 21.76,
+      "end_s": 22.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "얼굴 ",
+      "success": true,
+      "start_s": 22.02,
+      "end_s": 22.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "반쯤 ",
+      "success": true,
+      "start_s": 22.66,
+      "end_s": 23.400000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "그림자\n",
+      "success": true,
+      "start_s": 23.400000000000002,
+      "end_s": 24.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "Fire ",
+      "success": true,
+      "start_s": 24.8,
+      "end_s": 26.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 26.28,
+      "end_s": 26.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 26.78,
+      "end_s": 26.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "tin ",
+      "success": true,
+      "start_s": 26.92,
+      "end_s": 27.26,
+      "p_align": 0.99
+    },
+    {
+      "word": "can\n",
+      "success": true,
+      "start_s": 27.26,
+      "end_s": 27.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "City ",
+      "success": true,
+      "start_s": 27.7,
+      "end_s": 28.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 28.34,
+      "end_s": 28.900000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 28.900000000000002,
+      "end_s": 29.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "background\n",
+      "success": true,
+      "start_s": 29.1,
+      "end_s": 29.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "흐린 ",
+      "success": true,
+      "start_s": 29.84,
+      "end_s": 30.720000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "불빛 ",
+      "success": true,
+      "start_s": 30.720000000000002,
+      "end_s": 31.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "야\n\n",
+      "success": true,
+      "start_s": 31.36,
+      "end_s": 32.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "You ",
+      "success": true,
+      "start_s": 34.2,
+      "end_s": 34.760000000000005,
+      "p_align": 0.99
+    },
+    {
+      "word": "tap ",
+      "success": true,
+      "start_s": 34.760000000000005,
+      "end_s": 35.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "ash ",
+      "success": true,
+      "start_s": 35.18,
+      "end_s": 35.760000000000005,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 35.760000000000005,
+      "end_s": 35.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 35.88,
+      "end_s": 35.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "paper ",
+      "success": true,
+      "start_s": 35.96,
+      "end_s": 36.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "cup\n",
+      "success": true,
+      "start_s": 36.34,
+      "end_s": 36.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "Say ",
+      "success": true,
+      "start_s": 37.12,
+      "end_s": 37.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "you’",
+      "success": true,
+      "start_s": 37.58,
+      "end_s": 37.796,
+      "p_align": 0.99
+    },
+    {
+      "word": "re ",
+      "success": true,
+      "start_s": 37.796,
+      "end_s": 37.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "tired ",
+      "success": true,
+      "start_s": 37.94,
+      "end_s": 38.239999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "of ",
+      "success": true,
+      "start_s": 38.239999999999995,
+      "end_s": 38.4,
+      "p_align": 0.99
+    },
+    {
+      "word": "trying\n",
+      "success": true,
+      "start_s": 38.46,
+      "end_s": 38.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "You ",
+      "success": true,
+      "start_s": 38.7,
+      "end_s": 39.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "already ",
+      "success": true,
+      "start_s": 39.18,
+      "end_s": 39.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "gave ",
+      "success": true,
+      "start_s": 39.46,
+      "end_s": 39.72,
+      "p_align": 0.99
+    },
+    {
+      "word": "up\n",
+      "success": true,
+      "start_s": 39.72,
+      "end_s": 40.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 40.059999999999995,
+      "end_s": 40.26,
+      "p_align": 0.99
+    },
+    {
+      "word": "stir ",
+      "success": true,
+      "start_s": 40.26,
+      "end_s": 40.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "코코아 ",
+      "success": true,
+      "start_s": 40.5,
+      "end_s": 41.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "till ",
+      "success": true,
+      "start_s": 41.36,
+      "end_s": 41.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 41.58,
+      "end_s": 41.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "spoon ",
+      "success": true,
+      "start_s": 41.76,
+      "end_s": 41.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "goes ",
+      "success": true,
+      "start_s": 41.9,
+      "end_s": 42.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "still\n",
+      "success": true,
+      "start_s": 42.3,
+      "end_s": 42.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "Jelly ",
+      "success": true,
+      "start_s": 42.9,
+      "end_s": 43.76,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 43.76,
+      "end_s": 44.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 44.12,
+      "end_s": 44.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "tongue\n",
+      "success": true,
+      "start_s": 44.44,
+      "end_s": 45.239999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "But ",
+      "success": true,
+      "start_s": 45.239999999999995,
+      "end_s": 47.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "it ",
+      "success": true,
+      "start_s": 47.599999999999994,
+      "end_s": 47.699999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "tastes ",
+      "success": true,
+      "start_s": 47.699999999999996,
+      "end_s": 47.919999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 48.32,
+      "end_s": 48.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "guilt\n\n",
+      "success": true,
+      "start_s": 51.66,
+      "end_s": 52.26,
+      "p_align": 0.99
+    },
+    {
+      "word": "\n2",
+      "success": true,
+      "start_s": 52.04982,
+      "end_s": 52.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "AM\n",
+      "success": true,
+      "start_s": 51.96,
+      "end_s": 52.9,
+      "p_align": 0.99
+    },
+    {
+      "word": "By ",
+      "success": true,
+      "start_s": 53.199999999999996,
+      "end_s": 53.919999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 53.919999999999995,
+      "end_s": 54.18,
+      "p_align": 0.99
+    },
+    {
+      "word": "camping ",
+      "success": true,
+      "start_s": 54.18,
+      "end_s": 54.559999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "stove\n",
+      "success": true,
+      "start_s": 54.559999999999995,
+      "end_s": 55.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "너랑 ",
+      "success": true,
+      "start_s": 55.66,
+      "end_s": 57.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "나\n",
+      "success": true,
+      "start_s": 57.16,
+      "end_s": 57.779999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "We’",
+      "success": true,
+      "start_s": 57.779999999999994,
+      "end_s": 58.129999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "re ",
+      "success": true,
+      "start_s": 58.129999999999995,
+      "end_s": 58.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "too ",
+      "success": true,
+      "start_s": 58.48,
+      "end_s": 58.919999999999995,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 58.919999999999995,
+      "end_s": 59.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Too ",
+      "success": true,
+      "start_s": 59.5,
+      "end_s": 59.959999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n",
+      "success": true,
+      "start_s": 59.959999999999994,
+      "end_s": 60.519999999999996,
+      "p_align": 0.99
+    },
+    {
+      "word": "Foggy ",
+      "success": true,
+      "start_s": 60.519999999999996,
+      "end_s": 61.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "windows\n",
+      "success": true,
+      "start_s": 61.3,
+      "end_s": 61.959999999999994,
+      "p_align": 0.99
+    },
+    {
+      "word": "Blurry ",
+      "success": true,
+      "start_s": 61.959999999999994,
+      "end_s": 62.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "town ",
+      "success": true,
+      "start_s": 62.86,
+      "end_s": 63.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "below\n",
+      "success": true,
+      "start_s": 63.32,
+      "end_s": 64.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 64.84,
+      "end_s": 65.04,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 65.04,
+      "end_s": 65.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "is ",
+      "success": true,
+      "start_s": 65.38,
+      "end_s": 65.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "goodbye\n",
+      "success": true,
+      "start_s": 65.64,
+      "end_s": 66.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 69.24,
+      "end_s": 69.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 69.24,
+      "end_s": 69.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 69.8,
+      "end_s": 70.32000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n(",
+      "success": true,
+      "start_s": 70.32000000000001,
+      "end_s": 70.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "just ",
+      "success": true,
+      "start_s": 70.96,
+      "end_s": 73.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 73.46,
+      "end_s": 74.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 74.12,
+      "end_s": 74.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow)\n",
+      "success": true,
+      "start_s": 74.78,
+      "end_s": 75.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 75.64,
+      "end_s": 75.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 75.64,
+      "end_s": 75.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 75.64,
+      "end_s": 75.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n\n",
+      "success": true,
+      "start_s": 78.88,
+      "end_s": 78.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nPhones ",
+      "success": true,
+      "start_s": 78.58,
+      "end_s": 79.32000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "face ",
+      "success": true,
+      "start_s": 79.32000000000001,
+      "end_s": 79.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "down ",
+      "success": true,
+      "start_s": 79.54,
+      "end_s": 79.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 79.86,
+      "end_s": 80.02000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 80.02000000000001,
+      "end_s": 80.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "sleeping ",
+      "success": true,
+      "start_s": 80.26,
+      "end_s": 80.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "bag ",
+      "success": true,
+      "start_s": 80.36,
+      "end_s": 80.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "heap\n",
+      "success": true,
+      "start_s": 80.66,
+      "end_s": 80.96000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "You ",
+      "success": true,
+      "start_s": 81.25999999999999,
+      "end_s": 81.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "laugh\n",
+      "success": true,
+      "start_s": 81.48,
+      "end_s": 81.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "But ",
+      "success": true,
+      "start_s": 81.74,
+      "end_s": 81.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "it ",
+      "success": true,
+      "start_s": 81.94,
+      "end_s": 82.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "cracks ",
+      "success": true,
+      "start_s": 82.06,
+      "end_s": 82.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "like ",
+      "success": true,
+      "start_s": 82.28,
+      "end_s": 82.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "you’",
+      "success": true,
+      "start_s": 82.52,
+      "end_s": 82.652,
+      "p_align": 0.99
+    },
+    {
+      "word": "re ",
+      "success": true,
+      "start_s": 82.652,
+      "end_s": 82.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "half ",
+      "success": true,
+      "start_s": 82.84,
+      "end_s": 82.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "asleep\n",
+      "success": true,
+      "start_s": 82.94,
+      "end_s": 83.28,
+      "p_align": 0.99
+    },
+    {
+      "word": "젤리 ",
+      "success": true,
+      "start_s": 83.28,
+      "end_s": 83.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "한 ",
+      "success": true,
+      "start_s": 83.89999999999999,
+      "end_s": 84.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "알\n",
+      "success": true,
+      "start_s": 84.24,
+      "end_s": 84.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "You ",
+      "success": true,
+      "start_s": 84.5,
+      "end_s": 84.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "toss ",
+      "success": true,
+      "start_s": 84.78,
+      "end_s": 85.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "it ",
+      "success": true,
+      "start_s": 85.02,
+      "end_s": 85.17999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "at ",
+      "success": true,
+      "start_s": 85.17999999999999,
+      "end_s": 85.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "me\n",
+      "success": true,
+      "start_s": 85.3,
+      "end_s": 85.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Miss ",
+      "success": true,
+      "start_s": 85.67999999999999,
+      "end_s": 86.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "by ",
+      "success": true,
+      "start_s": 86.11999999999999,
+      "end_s": 86.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 86.38,
+      "end_s": 86.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "mile\n",
+      "success": true,
+      "start_s": 86.52,
+      "end_s": 86.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "It ",
+      "success": true,
+      "start_s": 86.78,
+      "end_s": 87.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "lands ",
+      "success": true,
+      "start_s": 87.0,
+      "end_s": 87.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 87.22,
+      "end_s": 87.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 87.44,
+      "end_s": 87.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "heat\n\n",
+      "success": true,
+      "start_s": 87.58,
+      "end_s": 87.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "You ",
+      "success": true,
+      "start_s": 87.39999999999999,
+      "end_s": 87.41999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "say\n“",
+      "success": true,
+      "start_s": 87.41999999999999,
+      "end_s": 88.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "사실 ",
+      "success": true,
+      "start_s": 88.11999999999999,
+      "end_s": 88.83999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "나도 ",
+      "success": true,
+      "start_s": 88.83999999999999,
+      "end_s": 89.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "겁이 ",
+      "success": true,
+      "start_s": 89.08,
+      "end_s": 89.41999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "많아”\n",
+      "success": true,
+      "start_s": 89.41999999999999,
+      "end_s": 90.03999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Voice ",
+      "success": true,
+      "start_s": 90.49999999999999,
+      "end_s": 90.49999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "getting ",
+      "success": true,
+      "start_s": 90.49999999999999,
+      "end_s": 90.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "softer ",
+      "success": true,
+      "start_s": 90.74,
+      "end_s": 91.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "than ",
+      "success": true,
+      "start_s": 91.02,
+      "end_s": 91.24,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 91.24,
+      "end_s": 91.33999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "llama ",
+      "success": true,
+      "start_s": 91.33999999999999,
+      "end_s": 91.55999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 91.55999999999999,
+      "end_s": 91.77999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "your ",
+      "success": true,
+      "start_s": 91.77999999999999,
+      "end_s": 91.88,
+      "p_align": 0.99
+    },
+    {
+      "word": "parka\n",
+      "success": true,
+      "start_s": 91.88,
+      "end_s": 92.39999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 92.39999999999999,
+      "end_s": 92.66,
+      "p_align": 0.99
+    },
+    {
+      "word": "burn ",
+      "success": true,
+      "start_s": 92.66,
+      "end_s": 92.89999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 92.89999999999999,
+      "end_s": 93.19999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "tongue\n",
+      "success": true,
+      "start_s": 93.19999999999999,
+      "end_s": 93.47999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "But ",
+      "success": true,
+      "start_s": 93.48,
+      "end_s": 93.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "I ",
+      "success": true,
+      "start_s": 93.7,
+      "end_s": 93.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "don’",
+      "success": true,
+      "start_s": 93.82,
+      "end_s": 93.985,
+      "p_align": 0.99
+    },
+    {
+      "word": "t ",
+      "success": true,
+      "start_s": 93.985,
+      "end_s": 94.03999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "complain\n",
+      "success": true,
+      "start_s": 94.03999999999999,
+      "end_s": 94.53999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "Let ",
+      "success": true,
+      "start_s": 94.53999999999999,
+      "end_s": 94.82,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 94.82,
+      "end_s": 94.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "hurt ",
+      "success": true,
+      "start_s": 94.92,
+      "end_s": 95.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "stay\n",
+      "success": true,
+      "start_s": 95.08,
+      "end_s": 95.38,
+      "p_align": 0.99
+    },
+    {
+      "word": "Better ",
+      "success": true,
+      "start_s": 95.38,
+      "end_s": 95.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "than ",
+      "success": true,
+      "start_s": 95.67999999999999,
+      "end_s": 95.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "nothing ",
+      "success": true,
+      "start_s": 95.96,
+      "end_s": 96.25999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 96.25999999999999,
+      "end_s": 96.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "my ",
+      "success": true,
+      "start_s": 96.5,
+      "end_s": 96.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "veins\n\n",
+      "success": true,
+      "start_s": 96.75999999999999,
+      "end_s": 97.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "\n2",
+      "success": true,
+      "start_s": 97.92782,
+      "end_s": 98.218,
+      "p_align": 0.99
+    },
+    {
+      "word": "AM\n",
+      "success": true,
+      "start_s": 97.62,
+      "end_s": 98.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "By ",
+      "success": true,
+      "start_s": 98.8,
+      "end_s": 99.7,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 99.7,
+      "end_s": 100.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "camping ",
+      "success": true,
+      "start_s": 100.02,
+      "end_s": 100.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "stove\n",
+      "success": true,
+      "start_s": 100.5,
+      "end_s": 101.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "너랑 ",
+      "success": true,
+      "start_s": 101.56,
+      "end_s": 102.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "나\n",
+      "success": true,
+      "start_s": 102.92,
+      "end_s": 103.61999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "We’",
+      "success": true,
+      "start_s": 103.61999999999999,
+      "end_s": 103.96999999999998,
+      "p_align": 0.99
+    },
+    {
+      "word": "re ",
+      "success": true,
+      "start_s": 103.96999999999998,
+      "end_s": 104.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "too ",
+      "success": true,
+      "start_s": 104.32,
+      "end_s": 104.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 104.67999999999999,
+      "end_s": 105.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "Too ",
+      "success": true,
+      "start_s": 105.32,
+      "end_s": 105.75999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n",
+      "success": true,
+      "start_s": 105.75999999999999,
+      "end_s": 106.32,
+      "p_align": 0.99
+    },
+    {
+      "word": "Foggy ",
+      "success": true,
+      "start_s": 106.32,
+      "end_s": 107.14,
+      "p_align": 0.99
+    },
+    {
+      "word": "windows\n",
+      "success": true,
+      "start_s": 107.14,
+      "end_s": 107.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "Blurry ",
+      "success": true,
+      "start_s": 107.86,
+      "end_s": 108.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "town ",
+      "success": true,
+      "start_s": 108.64,
+      "end_s": 109.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "below\n",
+      "success": true,
+      "start_s": 109.16,
+      "end_s": 109.67999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 109.67999999999999,
+      "end_s": 110.94,
+      "p_align": 0.99
+    },
+    {
+      "word": "this ",
+      "success": true,
+      "start_s": 110.94,
+      "end_s": 111.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "is ",
+      "success": true,
+      "start_s": 111.22,
+      "end_s": 111.46,
+      "p_align": 0.99
+    },
+    {
+      "word": "goodbye\n",
+      "success": true,
+      "start_s": 111.46,
+      "end_s": 112.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 115.02,
+      "end_s": 115.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 115.02,
+      "end_s": 115.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 115.64,
+      "end_s": 116.11999999999999,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n(",
+      "success": true,
+      "start_s": 116.11999999999999,
+      "end_s": 116.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "말해줘, ",
+      "success": true,
+      "start_s": 116.74,
+      "end_s": 118.16,
+      "p_align": 0.99
+    },
+    {
+      "word": "말해줘)\n",
+      "success": true,
+      "start_s": 118.24,
+      "end_s": 119.2,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 119.2,
+      "end_s": 119.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 119.44,
+      "end_s": 120.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 120.02,
+      "end_s": 120.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n\n",
+      "success": true,
+      "start_s": 125.78999999999999,
+      "end_s": 126.64,
+      "p_align": 0.99
+    },
+    {
+      "word": "\nCity’",
+      "success": true,
+      "start_s": 126.34,
+      "end_s": 126.516,
+      "p_align": 0.99
+    },
+    {
+      "word": "s ",
+      "success": true,
+      "start_s": 126.516,
+      "end_s": 126.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "just ",
+      "success": true,
+      "start_s": 126.56,
+      "end_s": 126.74,
+      "p_align": 0.99
+    },
+    {
+      "word": "a ",
+      "success": true,
+      "start_s": 126.74,
+      "end_s": 126.98,
+      "p_align": 0.99
+    },
+    {
+      "word": "smear ",
+      "success": true,
+      "start_s": 126.98,
+      "end_s": 127.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "on ",
+      "success": true,
+      "start_s": 127.58,
+      "end_s": 127.92,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 127.92,
+      "end_s": 128.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "mountain ",
+      "success": true,
+      "start_s": 128.02,
+      "end_s": 128.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "side\n",
+      "success": true,
+      "start_s": 128.6,
+      "end_s": 129.45,
+      "p_align": 0.99
+    },
+    {
+      "word": "우리 ",
+      "success": true,
+      "start_s": 130.08,
+      "end_s": 131.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "둘만 ",
+      "success": true,
+      "start_s": 131.02,
+      "end_s": 131.62,
+      "p_align": 0.99
+    },
+    {
+      "word": "또렷해 ",
+      "success": true,
+      "start_s": 131.62,
+      "end_s": 133.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "tonight\n",
+      "success": true,
+      "start_s": 133.0,
+      "end_s": 134.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 134.0,
+      "end_s": 135.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 135.34,
+      "end_s": 135.52,
+      "p_align": 0.99
+    },
+    {
+      "word": "have ",
+      "success": true,
+      "start_s": 135.64000000000001,
+      "end_s": 135.8,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 135.92000000000002,
+      "end_s": 136.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "leave ",
+      "success": true,
+      "start_s": 136.02,
+      "end_s": 136.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "when ",
+      "success": true,
+      "start_s": 136.5,
+      "end_s": 136.86,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 136.86,
+      "end_s": 137.14000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "embers ",
+      "success": true,
+      "start_s": 137.14000000000001,
+      "end_s": 138.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "die\n",
+      "success": true,
+      "start_s": 138.02,
+      "end_s": 138.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "Say ",
+      "success": true,
+      "start_s": 138.58,
+      "end_s": 139.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "it ",
+      "success": true,
+      "start_s": 139.08,
+      "end_s": 139.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "now\n",
+      "success": true,
+      "start_s": 139.48000000000002,
+      "end_s": 139.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "Let ",
+      "success": true,
+      "start_s": 139.68,
+      "end_s": 140.14000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "it ",
+      "success": true,
+      "start_s": 140.14000000000001,
+      "end_s": 140.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "melt ",
+      "success": true,
+      "start_s": 140.36,
+      "end_s": 140.78,
+      "p_align": 0.99
+    },
+    {
+      "word": "in ",
+      "success": true,
+      "start_s": 140.78,
+      "end_s": 141.26000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 141.26000000000002,
+      "end_s": 141.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "firelight\n\n",
+      "success": true,
+      "start_s": 141.44,
+      "end_s": 142.59,
+      "p_align": 0.99
+    },
+    {
+      "word": "\n2",
+      "success": true,
+      "start_s": 145.19275,
+      "end_s": 145.56542,
+      "p_align": 0.99
+    },
+    {
+      "word": "AM\n",
+      "success": true,
+      "start_s": 144.42,
+      "end_s": 145.5,
+      "p_align": 0.99
+    },
+    {
+      "word": "By ",
+      "success": true,
+      "start_s": 145.8,
+      "end_s": 146.66000000000003,
+      "p_align": 0.99
+    },
+    {
+      "word": "the ",
+      "success": true,
+      "start_s": 146.66000000000003,
+      "end_s": 146.92000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "camping ",
+      "success": true,
+      "start_s": 146.92000000000002,
+      "end_s": 147.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "stove\n",
+      "success": true,
+      "start_s": 147.34,
+      "end_s": 148.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "너랑 ",
+      "success": true,
+      "start_s": 148.34,
+      "end_s": 149.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "나\n",
+      "success": true,
+      "start_s": 149.12,
+      "end_s": 149.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "Still ",
+      "success": true,
+      "start_s": 149.44,
+      "end_s": 150.34,
+      "p_align": 0.99
+    },
+    {
+      "word": "too ",
+      "success": true,
+      "start_s": 150.34,
+      "end_s": 151.58,
+      "p_align": 0.99
+    },
+    {
+      "word": "close\n",
+      "success": true,
+      "start_s": 151.58,
+      "end_s": 152.12,
+      "p_align": 0.99
+    },
+    {
+      "word": "Still ",
+      "success": true,
+      "start_s": 152.12,
+      "end_s": 152.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "alone\n",
+      "success": true,
+      "start_s": 152.68,
+      "end_s": 153.22,
+      "p_align": 0.99
+    },
+    {
+      "word": "Foggy ",
+      "success": true,
+      "start_s": 153.22,
+      "end_s": 154.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "windows\n",
+      "success": true,
+      "start_s": 154.02,
+      "end_s": 154.64000000000001,
+      "p_align": 0.99
+    },
+    {
+      "word": "Hearts ",
+      "success": true,
+      "start_s": 154.64000000000001,
+      "end_s": 155.44,
+      "p_align": 0.99
+    },
+    {
+      "word": "we ",
+      "success": true,
+      "start_s": 155.52,
+      "end_s": 155.68,
+      "p_align": 0.99
+    },
+    {
+      "word": "never ",
+      "success": true,
+      "start_s": 155.68,
+      "end_s": 156.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "show\n",
+      "success": true,
+      "start_s": 156.36,
+      "end_s": 157.06,
+      "p_align": 0.99
+    },
+    {
+      "word": "If ",
+      "success": true,
+      "start_s": 157.06,
+      "end_s": 157.84,
+      "p_align": 0.99
+    },
+    {
+      "word": "you ",
+      "success": true,
+      "start_s": 157.84,
+      "end_s": 158.08,
+      "p_align": 0.99
+    },
+    {
+      "word": "have ",
+      "success": true,
+      "start_s": 158.08,
+      "end_s": 158.42000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "to ",
+      "success": true,
+      "start_s": 158.42000000000002,
+      "end_s": 158.60000000000002,
+      "p_align": 0.99
+    },
+    {
+      "word": "go\n",
+      "success": true,
+      "start_s": 158.60000000000002,
+      "end_s": 159.56,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 160.7,
+      "end_s": 161.96,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 161.96,
+      "end_s": 162.6,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 162.6,
+      "end_s": 163.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n(",
+      "success": true,
+      "start_s": 163.1,
+      "end_s": 163.54,
+      "p_align": 0.99
+    },
+    {
+      "word": "천천히, ",
+      "success": true,
+      "start_s": 163.54,
+      "end_s": 165.02,
+      "p_align": 0.99
+    },
+    {
+      "word": "천천히)\n",
+      "success": true,
+      "start_s": 165.02,
+      "end_s": 166.1,
+      "p_align": 0.99
+    },
+    {
+      "word": "Just ",
+      "success": true,
+      "start_s": 166.1,
+      "end_s": 166.36,
+      "p_align": 0.99
+    },
+    {
+      "word": "talk ",
+      "success": true,
+      "start_s": 166.36,
+      "end_s": 167.0,
+      "p_align": 0.99
+    },
+    {
+      "word": "real ",
+      "success": true,
+      "start_s": 167.0,
+      "end_s": 167.48,
+      "p_align": 0.99
+    },
+    {
+      "word": "slow\n\n",
+      "success": true,
+      "start_s": 167.48,
+      "end_s": 168.56,
+      "p_align": 0.99
+    }
+  ],
+  "waveform_data": [
+    6e-05,
+    1e-05,
+    0.00034,
+    0.02513,
+    0.01492,
+    0.03088,
+    0.03603,
+    0.01467,
+    0.06317,
+    0.01359,
+    0.05583,
+    0.04288,
+    0.03132,
+    0.02364,
+    0.0239,
+    0.01771,
+    0.03387,
+    0.03729,
+    0.01805,
+    0.07192,
+    0.02008,
+    0.07406,
+    0.03582,
+    0.02683,
+    0.0217,
+    0.02426,
+    0.01894,
+    0.03147,
+    0.02626,
+    0.01994,
+    0.0702,
+    0.02516,
+    0.04235,
+    0.03239,
+    0.01906,
+    0.01983,
+    0.02369,
+    0.01882,
+    0.02291,
+    0.02048,
+    0.01281,
+    0.07835,
+    0.05499,
+    0.04835,
+    0.04219,
+    0.03733,
+    0.03956,
+    0.03621,
+    0.03868,
+    0.05778,
+    0.04789,
+    0.04705,
+    0.078,
+    0.05579,
+    0.05962,
+    0.03144,
+    0.02024,
+    0.02234,
+    0.01997,
+    0.01459,
+    0.04865,
+    0.02928,
+    0.02076,
+    0.08289,
+    0.07844,
+    0.09628,
+    0.06044,
+    0.04642,
+    0.03649,
+    0.03314,
+    0.03202,
+    0.03426,
+    0.02884,
+    0.05005,
+    0.0543,
+    0.03723,
+    0.03841,
+    0.0298,
+    0.02431,
+    0.03348,
+    0.03307,
+    0.02718,
+    0.0261,
+    0.02334,
+    0.05702,
+    0.03467,
+    0.0248,
+    0.01423,
+    0.00429,
+    0.00427,
+    0.34121,
+    0.12903,
+    0.13151,
+    0.14221,
+    0.15513,
+    0.16495,
+    0.07044,
+    0.06324,
+    0.08159,
+    0.08341,
+    0.07981,
+    0.06359,
+    0.07377,
+    0.17043,
+    0.29326,
+    0.13342,
+    0.15743,
+    0.08588,
+    0.09485,
+    0.0786,
+    0.05549,
+    0.0532,
+    0.33276,
+    0.17864,
+    0.18541,
+    0.19162,
+    0.18669,
+    0.16646,
+    0.08455,
+    0.07103,
+    0.06332,
+    0.06511,
+    0.07816,
+    0.03507,
+    0.02896,
+    0.34886,
+    0.21067,
+    0.16748,
+    0.17791,
+    0.1185,
+    0.05277,
+    0.08052,
+    0.09325,
+    0.17072,
+    0.31239,
+    0.18302,
+    0.13499,
+    0.17631,
+    0.16561,
+    0.17832,
+    0.08707,
+    0.08069,
+    0.06688,
+    0.10511,
+    0.0791,
+    0.12107,
+    0.06082,
+    0.31549,
+    0.19573,
+    0.18296,
+    0.16322,
+    0.12271,
+    0.10654,
+    0.08905,
+    0.06122,
+    0.25212,
+    0.20074,
+    0.15293,
+    0.16041,
+    0.15337,
+    0.14449,
+    0.14864,
+    0.00847,
+    0.02092,
+    0.01662,
+    0.01823,
+    0.02676,
+    0.02153,
+    0.02502,
+    0.03598,
+    0.03808,
+    0.0425,
+    0.00967,
+    0.05009,
+    0.07744,
+    0.11224,
+    0.04797,
+    0.28863,
+    0.17666,
+    0.15897,
+    0.15664,
+    0.14438,
+    0.14519,
+    0.14034,
+    0.06558,
+    0.08672,
+    0.08704,
+    0.25189,
+    0.3153,
+    0.11193,
+    0.05827,
+    0.3108,
+    0.15891,
+    0.16626,
+    0.10753,
+    0.0902,
+    0.06354,
+    0.08043,
+    0.13764,
+    0.36099,
+    0.1681,
+    0.17357,
+    0.17042,
+    0.16061,
+    0.18169,
+    0.08896,
+    0.06894,
+    0.08561,
+    0.09348,
+    0.25066,
+    0.32235,
+    0.07862,
+    0.10767,
+    0.32187,
+    0.1881,
+    0.20419,
+    0.16613,
+    0.0678,
+    0.06813,
+    0.06393,
+    0.07306,
+    0.09537,
+    0.07953,
+    0.07003,
+    0.09507,
+    0.07715,
+    0.04912,
+    0.03799,
+    0.0289,
+    0.02274,
+    0.01727,
+    0.01691,
+    0.01378,
+    0.00866,
+    0.03973,
+    0.08339,
+    0.0525,
+    0.08159,
+    0.09246,
+    0.04142,
+    0.08676,
+    0.06852,
+    0.03949,
+    0.09274,
+    0.07948,
+    0.06233,
+    0.07652,
+    0.03622,
+    0.02318,
+    0.01956,
+    0.01577,
+    0.03542,
+    0.03001,
+    0.02075,
+    0.04624,
+    0.03636,
+    0.03852,
+    0.06142,
+    0.04499,
+    0.13778,
+    0.08929,
+    0.02282,
+    0.16872,
+    0.08278,
+    0.20118,
+    0.2584,
+    0.19551,
+    0.20397,
+    0.2149,
+    0.18232,
+    0.17898,
+    0.14812,
+    0.11658,
+    0.17037,
+    0.27834,
+    0.25364,
+    0.23374,
+    0.08463,
+    0.32769,
+    0.15578,
+    0.15629,
+    0.18741,
+    0.08599,
+    0.05084,
+    0.15493,
+    0.09967,
+    0.27429,
+    0.22489,
+    0.16889,
+    0.19358,
+    0.21305,
+    0.17911,
+    0.20577,
+    0.118,
+    0.08684,
+    0.20438,
+    0.26536,
+    0.3052,
+    0.13132,
+    0.1151,
+    0.31506,
+    0.19414,
+    0.17854,
+    0.17036,
+    0.09886,
+    0.12554,
+    0.15703,
+    0.11615,
+    0.29811,
+    0.16768,
+    0.1581,
+    0.19083,
+    0.18282,
+    0.16812,
+    0.16364,
+    0.13882,
+    0.12623,
+    0.1245,
+    0.25383,
+    0.31127,
+    0.07127,
+    0.03173,
+    0.32188,
+    0.14455,
+    0.1807,
+    0.12267,
+    0.10655,
+    0.10738,
+    0.11835,
+    0.07044,
+    0.30812,
+    0.1881,
+    0.16422,
+    0.15088,
+    0.14415,
+    0.1726,
+    0.07966,
+    0.05187,
+    0.12003,
+    0.14061,
+    0.13227,
+    0.12888,
+    0.08667,
+    0.2036,
+    0.298,
+    0.16064,
+    0.17817,
+    0.10993,
+    0.04093,
+    0.09717,
+    0.07926,
+    0.08992,
+    0.33093,
+    0.14453,
+    0.14059,
+    0.13149,
+    0.13786,
+    0.16766,
+    0.09761,
+    0.0983,
+    0.09375,
+    0.18732,
+    0.22483,
+    0.29572,
+    0.08997,
+    0.27991,
+    0.20838,
+    0.14813,
+    0.17723,
+    0.08925,
+    0.04059,
+    0.10925,
+    0.07756,
+    0.20208,
+    0.27826,
+    0.15733,
+    0.15023,
+    0.14464,
+    0.13899,
+    0.1616,
+    0.09929,
+    0.07653,
+    0.09661,
+    0.24761,
+    0.2407,
+    0.22396,
+    0.02673,
+    0.33539,
+    0.14856,
+    0.14111,
+    0.14296,
+    0.02939,
+    0.05584,
+    0.0431,
+    0.04568,
+    0.08601,
+    0.11035,
+    0.10051,
+    0.10188,
+    0.10829,
+    0.10933,
+    0.14198,
+    0.09998,
+    0.10129,
+    0.0881,
+    0.24749,
+    0.2874,
+    0.18936,
+    0.15698,
+    0.32584,
+    0.15264,
+    0.14563,
+    0.16939,
+    0.06577,
+    0.12296,
+    0.08668,
+    0.0929,
+    0.33016,
+    0.17279,
+    0.16694,
+    0.1733,
+    0.17306,
+    0.17293,
+    0.14859,
+    0.0948,
+    0.09395,
+    0.07624,
+    0.25373,
+    0.32213,
+    0.08019,
+    0.10701,
+    0.3115,
+    0.16823,
+    0.1806,
+    0.10378,
+    0.08786,
+    0.07082,
+    0.08468,
+    0.1003,
+    0.33508,
+    0.15219,
+    0.13727,
+    0.16212,
+    0.16948,
+    0.19428,
+    0.08687,
+    0.09198,
+    0.10952,
+    0.09293,
+    0.25499,
+    0.32388,
+    0.08706,
+    0.15414,
+    0.32612,
+    0.18353,
+    0.19218,
+    0.08448,
+    0.09598,
+    0.09082,
+    0.07498,
+    0.07925,
+    0.34607,
+    0.19386,
+    0.2024,
+    0.19599,
+    0.18565,
+    0.18224,
+    0.07768,
+    0.09945,
+    0.09823,
+    0.07414,
+    0.10554,
+    0.06671,
+    0.0944,
+    0.07834,
+    0.08862,
+    0.05909,
+    0.06558,
+    0.08651,
+    0.06229,
+    0.08651,
+    0.08763,
+    0.07679,
+    0.07146,
+    0.04979,
+    0.057,
+    0.01915,
+    0.02072,
+    0.13797,
+    0.12016,
+    0.04507,
+    0.15026,
+    0.10374,
+    0.29443,
+    0.28087,
+    0.19989,
+    0.1799,
+    0.19236,
+    0.17316,
+    0.19266,
+    0.13485,
+    0.10688,
+    0.14486,
+    0.27383,
+    0.25555,
+    0.22542,
+    0.1003,
+    0.33392,
+    0.15286,
+    0.15798,
+    0.19019,
+    0.12808,
+    0.09162,
+    0.14645,
+    0.13314,
+    0.3008,
+    0.24554,
+    0.20649,
+    0.214,
+    0.2152,
+    0.19515,
+    0.20293,
+    0.12625,
+    0.08951,
+    0.16751,
+    0.27435,
+    0.30121,
+    0.15508,
+    0.12702,
+    0.30286,
+    0.21564,
+    0.19949,
+    0.18728,
+    0.11271,
+    0.12157,
+    0.14163,
+    0.10404,
+    0.32065,
+    0.16863,
+    0.17585,
+    0.18908,
+    0.18561,
+    0.19387,
+    0.17955,
+    0.14421,
+    0.11807,
+    0.13484,
+    0.26832,
+    0.30953,
+    0.07403,
+    0.0584,
+    0.34191,
+    0.17301,
+    0.19052,
+    0.13004,
+    0.10864,
+    0.10119,
+    0.12242,
+    0.0871,
+    0.34036,
+    0.21329,
+    0.19675,
+    0.18647,
+    0.15944,
+    0.19285,
+    0.10288,
+    0.04978,
+    0.09687,
+    0.12358,
+    0.12614,
+    0.11192,
+    0.09796,
+    0.16661,
+    0.30387,
+    0.2118,
+    0.20287,
+    0.11544,
+    0.04599,
+    0.10648,
+    0.10362,
+    0.09254,
+    0.34897,
+    0.16673,
+    0.15773,
+    0.20088,
+    0.17335,
+    0.20219,
+    0.08943,
+    0.06177,
+    0.13835,
+    0.20434,
+    0.22188,
+    0.3215,
+    0.06397,
+    0.2387,
+    0.25905,
+    0.20535,
+    0.19825,
+    0.12168,
+    0.0399,
+    0.12683,
+    0.099,
+    0.18473,
+    0.35985,
+    0.21305,
+    0.20002,
+    0.19388,
+    0.19199,
+    0.20309,
+    0.08161,
+    0.05651,
+    0.06469,
+    0.27261,
+    0.238,
+    0.27173,
+    0.02475,
+    0.31411,
+    0.21145,
+    0.1979,
+    0.1706,
+    0.10133,
+    0.10892,
+    0.11768,
+    0.11963,
+    0.12618,
+    0.13011,
+    0.09978,
+    0.10239,
+    0.08924,
+    0.07594,
+    0.095,
+    0.10019,
+    0.08764,
+    0.08457,
+    0.07442,
+    0.07081,
+    0.10137,
+    0.08905,
+    0.09434,
+    0.08703,
+    0.08874,
+    0.0841,
+    0.07448,
+    0.05594,
+    0.08202,
+    0.07663,
+    0.09401,
+    0.10679,
+    0.07509,
+    0.07078,
+    0.0598,
+    0.05501,
+    0.10693,
+    0.11847,
+    0.08297,
+    0.11766,
+    0.1061,
+    0.07259,
+    0.12124,
+    0.11425,
+    0.1086,
+    0.10214,
+    0.04269,
+    0.12409,
+    0.09355,
+    0.04972,
+    0.10155,
+    0.10068,
+    0.15237,
+    0.14637,
+    0.13029,
+    0.11555,
+    0.10889,
+    0.11278,
+    0.10004,
+    0.10136,
+    0.13326,
+    0.08473,
+    0.09543,
+    0.12449,
+    0.1115,
+    0.06446,
+    0.07346,
+    0.07804,
+    0.07377,
+    0.08078,
+    0.083,
+    0.07532,
+    0.0819,
+    0.05894,
+    0.11261,
+    0.11007,
+    0.08337,
+    0.08559,
+    0.08688,
+    0.06129,
+    0.08462,
+    0.08119,
+    0.09506,
+    0.07806,
+    0.09574,
+    0.09622,
+    0.08601,
+    0.0577,
+    0.09824,
+    0.0867,
+    0.0601,
+    0.1094,
+    0.0809,
+    0.08068,
+    0.07621,
+    0.08405,
+    0.07595,
+    0.06735,
+    0.08873,
+    0.07719,
+    0.06791,
+    0.02779,
+    0.01805,
+    0.01988,
+    0.0347,
+    0.03672,
+    0.08939,
+    0.15882,
+    0.06848,
+    0.11161,
+    0.15085,
+    0.13562,
+    0.3899,
+    0.20621,
+    0.18358,
+    0.21063,
+    0.17608,
+    0.17359,
+    0.16385,
+    0.16307,
+    0.14856,
+    0.15585,
+    0.29277,
+    0.33877,
+    0.12263,
+    0.11605,
+    0.31145,
+    0.20817,
+    0.20313,
+    0.14925,
+    0.09023,
+    0.10247,
+    0.11084,
+    0.09599,
+    0.33809,
+    0.21707,
+    0.22061,
+    0.22641,
+    0.22211,
+    0.21622,
+    0.16387,
+    0.0879,
+    0.15068,
+    0.18692,
+    0.27614,
+    0.29545,
+    0.11557,
+    0.21476,
+    0.29011,
+    0.24353,
+    0.24909,
+    0.14854,
+    0.08087,
+    0.13604,
+    0.13565,
+    0.11199,
+    0.31551,
+    0.19794,
+    0.20373,
+    0.21578,
+    0.20331,
+    0.21224,
+    0.1179,
+    0.06863,
+    0.12949,
+    0.26032,
+    0.23835,
+    0.26179,
+    0.06803,
+    0.28828,
+    0.20265,
+    0.19134,
+    0.18544,
+    0.11695,
+    0.10307,
+    0.07016,
+    0.08551,
+    0.22924,
+    0.28208,
+    0.24343,
+    0.252,
+    0.25086,
+    0.25627,
+    0.20759,
+    0.08037,
+    0.09333,
+    0.08677,
+    0.10978,
+    0.11475,
+    0.12022,
+    0.14267,
+    0.30478,
+    0.24695,
+    0.23599,
+    0.20357,
+    0.14172,
+    0.06915,
+    0.12067,
+    0.11909,
+    0.2876,
+    0.22723,
+    0.19053,
+    0.20649,
+    0.18179,
+    0.22037,
+    0.15874,
+    0.05026,
+    0.08009,
+    0.11263,
+    0.2867,
+    0.29631,
+    0.06721,
+    0.04837,
+    0.32142,
+    0.20337,
+    0.19529,
+    0.18449,
+    0.11447,
+    0.07403,
+    0.10943,
+    0.09758,
+    0.33006,
+    0.21548,
+    0.23671,
+    0.23941,
+    0.24553,
+    0.24754,
+    0.13664,
+    0.10571,
+    0.11404,
+    0.07891,
+    0.28497,
+    0.29588,
+    0.05892,
+    0.03715,
+    0.35066,
+    0.23316,
+    0.25509,
+    0.13358,
+    0.0911,
+    0.09567,
+    0.0938,
+    0.09949,
+    0.31889,
+    0.19575,
+    0.20908,
+    0.20496,
+    0.20564,
+    0.22101,
+    0.08905,
+    0.03837,
+    0.07957,
+    0.09854,
+    0.29705,
+    0.30856,
+    0.06268,
+    0.17033,
+    0.29222,
+    0.19129,
+    0.2103,
+    0.10002,
+    0.0971,
+    0.09955,
+    0.11443,
+    0.10955,
+    0.34161,
+    0.22901,
+    0.2528,
+    0.24924,
+    0.25276,
+    0.25644,
+    0.04663,
+    0.0399,
+    0.05496,
+    0.03782,
+    0.0472,
+    0.02905,
+    0.03464,
+    0.28076,
+    0.24993,
+    0.25096,
+    0.23366,
+    0.03968,
+    0.12529,
+    0.09017,
+    0.04755,
+    0.07457,
+    0.03831,
+    0.02685,
+    0.01691,
+    0.01162,
+    0.00775,
+    0.00655,
+    0.00646,
+    0.00544
+  ],
+  "hoot_cer": 0.25078125,
+  "is_streamed": false,
+  "aligned_lyrics": [
+    {
+      "text": "Two cups on the floor",
+      "start_s": 3.431,
+      "end_s": 4.309,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Two",
+          "start_s": 3.431,
+          "end_s": 3.67
+        },
+        {
+          "text": " cu",
+          "start_s": 3.67,
+          "end_s": 3.75
+        },
+        {
+          "text": "ps",
+          "start_s": 3.75,
+          "end_s": 3.91
+        },
+        {
+          "text": " on",
+          "start_s": 3.91,
+          "end_s": 3.989
+        },
+        {
+          "text": " the",
+          "start_s": 3.989,
+          "end_s": 4.149
+        },
+        {
+          "text": " floor",
+          "start_s": 4.149,
+          "end_s": 4.309
+        }
+      ]
+    },
+    {
+      "text": "Steam writing secrets on the cold glass",
+      "start_s": 4.309,
+      "end_s": 5.745,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Steam",
+          "start_s": 4.309,
+          "end_s": 4.548
+        },
+        {
+          "text": " writing",
+          "start_s": 4.548,
+          "end_s": 4.867
+        },
+        {
+          "text": " secrets",
+          "start_s": 4.867,
+          "end_s": 5.027
+        },
+        {
+          "text": " on",
+          "start_s": 5.027,
+          "end_s": 5.186
+        },
+        {
+          "text": " the",
+          "start_s": 5.186,
+          "end_s": 5.266
+        },
+        {
+          "text": " cold",
+          "start_s": 5.266,
+          "end_s": 5.585
+        },
+        {
+          "text": " glass",
+          "start_s": 5.585,
+          "end_s": 5.745
+        }
+      ]
+    },
+    {
+      "text": "door",
+      "start_s": 5.745,
+      "end_s": 5.904,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": " door",
+          "start_s": 5.745,
+          "end_s": 5.904
+        }
+      ]
+    },
+    {
+      "text": "네 얼굴 반쯤 그림자",
+      "start_s": 5.904,
+      "end_s": 7.58,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "네",
+          "start_s": 5.904,
+          "end_s": 5.984
+        },
+        {
+          "text": " 얼굴",
+          "start_s": 5.984,
+          "end_s": 6.223
+        },
+        {
+          "text": " 반",
+          "start_s": 6.303,
+          "end_s": 6.463
+        },
+        {
+          "text": "쯤",
+          "start_s": 6.622,
+          "end_s": 6.702
+        },
+        {
+          "text": " 그림자",
+          "start_s": 7.261,
+          "end_s": 7.58
+        }
+      ]
+    },
+    {
+      "text": "Fire in the tin can",
+      "start_s": 7.739,
+      "end_s": 9.096,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Fire",
+          "start_s": 7.739,
+          "end_s": 8.138
+        },
+        {
+          "text": " in",
+          "start_s": 8.218,
+          "end_s": 8.457
+        },
+        {
+          "text": " the",
+          "start_s": 8.457,
+          "end_s": 8.537
+        },
+        {
+          "text": " tin",
+          "start_s": 8.537,
+          "end_s": 8.856
+        },
+        {
+          "text": " can",
+          "start_s": 8.856,
+          "end_s": 9.096
+        }
+      ]
+    },
+    {
+      "text": "City in the background",
+      "start_s": 9.096,
+      "end_s": 9.973,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "City",
+          "start_s": 9.096,
+          "end_s": 9.255
+        },
+        {
+          "text": " in",
+          "start_s": 9.255,
+          "end_s": 9.415
+        },
+        {
+          "text": " the",
+          "start_s": 9.415,
+          "end_s": 9.734
+        },
+        {
+          "text": " background",
+          "start_s": 9.734,
+          "end_s": 9.973
+        }
+      ]
+    },
+    {
+      "text": "흐린 불빛 야",
+      "start_s": 9.973,
+      "end_s": 31.676,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "흐",
+          "start_s": 9.973,
+          "end_s": 10.133
+        },
+        {
+          "text": "린",
+          "start_s": 30.319,
+          "end_s": 30.399
+        },
+        {
+          "text": " 불빛",
+          "start_s": 30.559,
+          "end_s": 30.798
+        },
+        {
+          "text": " 야",
+          "start_s": 31.516,
+          "end_s": 31.676
+        }
+      ]
+    },
+    {
+      "text": "You tap ash in a paper cup",
+      "start_s": 34.787,
+      "end_s": 36.862,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "You",
+          "start_s": 34.787,
+          "end_s": 35.027
+        },
+        {
+          "text": " tap",
+          "start_s": 35.027,
+          "end_s": 35.346
+        },
+        {
+          "text": " ash",
+          "start_s": 35.505,
+          "end_s": 35.745
+        },
+        {
+          "text": " in",
+          "start_s": 35.745,
+          "end_s": 35.904
+        },
+        {
+          "text": " a",
+          "start_s": 35.904,
+          "end_s": 36.064
+        },
+        {
+          "text": " paper",
+          "start_s": 36.064,
+          "end_s": 36.543
+        },
+        {
+          "text": " cu",
+          "start_s": 36.622,
+          "end_s": 36.702
+        },
+        {
+          "text": "p",
+          "start_s": 36.702,
+          "end_s": 36.862
+        }
+      ]
+    },
+    {
+      "text": "Say you’re tired of trying",
+      "start_s": 37.181,
+      "end_s": 38.777,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Say",
+          "start_s": 37.181,
+          "end_s": 37.42
+        },
+        {
+          "text": " you",
+          "start_s": 37.5,
+          "end_s": 37.66
+        },
+        {
+          "text": "’re",
+          "start_s": 37.66,
+          "end_s": 37.739
+        },
+        {
+          "text": " tired",
+          "start_s": 37.739,
+          "end_s": 37.979
+        },
+        {
+          "text": " of",
+          "start_s": 37.979,
+          "end_s": 38.218
+        },
+        {
+          "text": " trying",
+          "start_s": 38.218,
+          "end_s": 38.777
+        }
+      ]
+    },
+    {
+      "text": "You already gave up",
+      "start_s": 38.777,
+      "end_s": 39.814,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "You",
+          "start_s": 38.777,
+          "end_s": 39.016
+        },
+        {
+          "text": " already",
+          "start_s": 39.016,
+          "end_s": 39.335
+        },
+        {
+          "text": " gave",
+          "start_s": 39.335,
+          "end_s": 39.574
+        },
+        {
+          "text": " up",
+          "start_s": 39.574,
+          "end_s": 39.814
+        }
+      ]
+    },
+    {
+      "text": "I stir 코코아 till the spoon goes still",
+      "start_s": 39.894,
+      "end_s": 42.846,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 39.894,
+          "end_s": 40.053
+        },
+        {
+          "text": " stir",
+          "start_s": 40.133,
+          "end_s": 40.372
+        },
+        {
+          "text": " 코",
+          "start_s": 40.372,
+          "end_s": 40.532
+        },
+        {
+          "text": "코",
+          "start_s": 40.691,
+          "end_s": 40.771
+        },
+        {
+          "text": "아",
+          "start_s": 40.931,
+          "end_s": 41.011
+        },
+        {
+          "text": " till",
+          "start_s": 41.17,
+          "end_s": 41.33
+        },
+        {
+          "text": " the",
+          "start_s": 41.33,
+          "end_s": 41.569
+        },
+        {
+          "text": " sp",
+          "start_s": 41.569,
+          "end_s": 41.649
+        },
+        {
+          "text": "oon",
+          "start_s": 41.649,
+          "end_s": 41.809
+        },
+        {
+          "text": " goes",
+          "start_s": 41.809,
+          "end_s": 42.207
+        },
+        {
+          "text": " still",
+          "start_s": 42.367,
+          "end_s": 42.846
+        }
+      ]
+    },
+    {
+      "text": "Jelly on my tongue",
+      "start_s": 43.245,
+      "end_s": 45.319,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "Je",
+          "start_s": 43.245,
+          "end_s": 43.484
+        },
+        {
+          "text": "lly",
+          "start_s": 43.484,
+          "end_s": 43.644
+        },
+        {
+          "text": " on",
+          "start_s": 43.644,
+          "end_s": 43.883
+        },
+        {
+          "text": " my",
+          "start_s": 43.963,
+          "end_s": 44.202
+        },
+        {
+          "text": " tongue",
+          "start_s": 44.761,
+          "end_s": 45.319
+        }
+      ]
+    },
+    {
+      "text": "But it tastes like guilt",
+      "start_s": 46.915,
+      "end_s": 49.548,
+      "section": "Verse 1",
+      "words": [
+        {
+          "text": "But",
+          "start_s": 46.915,
+          "end_s": 47.234
+        },
+        {
+          "text": " it",
+          "start_s": 47.234,
+          "end_s": 47.473
+        },
+        {
+          "text": " tastes",
+          "start_s": 47.473,
+          "end_s": 48.032
+        },
+        {
+          "text": " like",
+          "start_s": 48.032,
+          "end_s": 48.431
+        },
+        {
+          "text": " guilt",
+          "start_s": 49.069,
+          "end_s": 49.548
+        }
+      ]
+    },
+    {
+      "text": "2AM",
+      "start_s": 51.941,
+      "end_s": 52.979,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "2",
+          "start_s": 51.941,
+          "end_s": 52.34
+        },
+        {
+          "text": "A",
+          "start_s": 52.34,
+          "end_s": 52.42
+        },
+        {
+          "text": "M",
+          "start_s": 52.899,
+          "end_s": 52.979
+        }
+      ]
+    },
+    {
+      "text": "By the camping stove",
+      "start_s": 53.537,
+      "end_s": 55.452,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "By",
+          "start_s": 53.537,
+          "end_s": 53.777
+        },
+        {
+          "text": " the",
+          "start_s": 53.777,
+          "end_s": 54.096
+        },
+        {
+          "text": " cam",
+          "start_s": 54.096,
+          "end_s": 54.415
+        },
+        {
+          "text": "ping",
+          "start_s": 54.574,
+          "end_s": 54.894
+        },
+        {
+          "text": " st",
+          "start_s": 55.133,
+          "end_s": 55.213
+        },
+        {
+          "text": "ove",
+          "start_s": 55.213,
+          "end_s": 55.452
+        }
+      ]
+    },
+    {
+      "text": "너랑 나",
+      "start_s": 56.25,
+      "end_s": 57.367,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "너",
+          "start_s": 56.25,
+          "end_s": 56.41
+        },
+        {
+          "text": "랑",
+          "start_s": 56.729,
+          "end_s": 56.809
+        },
+        {
+          "text": " 나",
+          "start_s": 57.207,
+          "end_s": 57.367
+        }
+      ]
+    },
+    {
+      "text": "We’re too close",
+      "start_s": 57.846,
+      "end_s": 58.963,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "We",
+          "start_s": 57.846,
+          "end_s": 58.005
+        },
+        {
+          "text": "’re",
+          "start_s": 58.005,
+          "end_s": 58.245
+        },
+        {
+          "text": " too",
+          "start_s": 58.324,
+          "end_s": 58.644
+        },
+        {
+          "text": " close",
+          "start_s": 58.803,
+          "end_s": 58.963
+        }
+      ]
+    },
+    {
+      "text": "Too alone",
+      "start_s": 58.963,
+      "end_s": 59.282,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Too",
+          "start_s": 58.963,
+          "end_s": 59.122
+        },
+        {
+          "text": " alone",
+          "start_s": 59.122,
+          "end_s": 59.282
+        }
+      ]
+    },
+    {
+      "text": "Foggy windows",
+      "start_s": 59.282,
+      "end_s": 60.957,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Fo",
+          "start_s": 59.282,
+          "end_s": 59.521
+        },
+        {
+          "text": "gg",
+          "start_s": 60.08,
+          "end_s": 60.16
+        },
+        {
+          "text": "y",
+          "start_s": 60.16,
+          "end_s": 60.239
+        },
+        {
+          "text": " windows",
+          "start_s": 60.319,
+          "end_s": 60.957
+        }
+      ]
+    },
+    {
+      "text": "Blurry town below",
+      "start_s": 62.394,
+      "end_s": 64.309,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Blur",
+          "start_s": 62.394,
+          "end_s": 62.633
+        },
+        {
+          "text": "ry",
+          "start_s": 62.633,
+          "end_s": 62.793
+        },
+        {
+          "text": " town",
+          "start_s": 62.793,
+          "end_s": 63.191
+        },
+        {
+          "text": " below",
+          "start_s": 63.83,
+          "end_s": 64.309
+        }
+      ]
+    },
+    {
+      "text": "If this is goodbye",
+      "start_s": 64.787,
+      "end_s": 66.144,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 64.787,
+          "end_s": 65.027
+        },
+        {
+          "text": " this",
+          "start_s": 65.027,
+          "end_s": 65.266
+        },
+        {
+          "text": " is",
+          "start_s": 65.266,
+          "end_s": 65.505
+        },
+        {
+          "text": " goodbye",
+          "start_s": 65.505,
+          "end_s": 66.144
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 66.383,
+      "end_s": 68.138,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 66.383,
+          "end_s": 66.543
+        },
+        {
+          "text": " talk",
+          "start_s": 66.543,
+          "end_s": 66.702
+        },
+        {
+          "text": " real",
+          "start_s": 66.702,
+          "end_s": 67.101
+        },
+        {
+          "text": " slow",
+          "start_s": 67.739,
+          "end_s": 68.138
+        }
+      ]
+    },
+    {
+      "text": "(just talk real slow)",
+      "start_s": 68.856,
+      "end_s": 70.691,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "(just",
+          "start_s": 68.856,
+          "end_s": 69.255
+        },
+        {
+          "text": " talk",
+          "start_s": 69.255,
+          "end_s": 69.654
+        },
+        {
+          "text": " real",
+          "start_s": 69.894,
+          "end_s": 70.293
+        },
+        {
+          "text": " slow)",
+          "start_s": 70.293,
+          "end_s": 70.691
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 73.245,
+      "end_s": 75.08,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 73.245,
+          "end_s": 73.644
+        },
+        {
+          "text": " talk",
+          "start_s": 73.644,
+          "end_s": 74.043
+        },
+        {
+          "text": " real",
+          "start_s": 74.202,
+          "end_s": 74.601
+        },
+        {
+          "text": " slow",
+          "start_s": 74.681,
+          "end_s": 75.08
+        }
+      ]
+    },
+    {
+      "text": "Phones face down in the sleeping bag hea",
+      "start_s": 79.069,
+      "end_s": 80.904,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Phone",
+          "start_s": 79.069,
+          "end_s": 79.229
+        },
+        {
+          "text": "s",
+          "start_s": 79.229,
+          "end_s": 79.309
+        },
+        {
+          "text": " face",
+          "start_s": 79.388,
+          "end_s": 79.628
+        },
+        {
+          "text": " down",
+          "start_s": 79.628,
+          "end_s": 79.947
+        },
+        {
+          "text": " in",
+          "start_s": 79.947,
+          "end_s": 80.027
+        },
+        {
+          "text": " the",
+          "start_s": 80.027,
+          "end_s": 80.186
+        },
+        {
+          "text": " sleeping",
+          "start_s": 80.186,
+          "end_s": 80.505
+        },
+        {
+          "text": " bag",
+          "start_s": 80.505,
+          "end_s": 80.745
+        },
+        {
+          "text": " he",
+          "start_s": 80.745,
+          "end_s": 80.824
+        },
+        {
+          "text": "a",
+          "start_s": 80.824,
+          "end_s": 80.904
+        }
+      ]
+    },
+    {
+      "text": "p",
+      "start_s": 81.064,
+      "end_s": 81.144,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "p",
+          "start_s": 81.064,
+          "end_s": 81.144
+        }
+      ]
+    },
+    {
+      "text": "You laugh",
+      "start_s": 81.144,
+      "end_s": 81.543,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "You",
+          "start_s": 81.144,
+          "end_s": 81.303
+        },
+        {
+          "text": " laugh",
+          "start_s": 81.303,
+          "end_s": 81.543
+        }
+      ]
+    },
+    {
+      "text": "But it cracks like you’re half asleep",
+      "start_s": 81.543,
+      "end_s": 83.537,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "But",
+          "start_s": 81.543,
+          "end_s": 81.702
+        },
+        {
+          "text": " it",
+          "start_s": 81.702,
+          "end_s": 81.862
+        },
+        {
+          "text": " cracks",
+          "start_s": 81.862,
+          "end_s": 82.101
+        },
+        {
+          "text": " like",
+          "start_s": 82.101,
+          "end_s": 82.181
+        },
+        {
+          "text": " you",
+          "start_s": 82.181,
+          "end_s": 82.261
+        },
+        {
+          "text": "’",
+          "start_s": 82.261,
+          "end_s": 82.34
+        },
+        {
+          "text": "re",
+          "start_s": 82.34,
+          "end_s": 82.5
+        },
+        {
+          "text": " half",
+          "start_s": 82.5,
+          "end_s": 82.899
+        },
+        {
+          "text": " a",
+          "start_s": 82.899,
+          "end_s": 83.059
+        },
+        {
+          "text": "sleep",
+          "start_s": 83.298,
+          "end_s": 83.537
+        }
+      ]
+    },
+    {
+      "text": "젤리 한 알",
+      "start_s": 83.537,
+      "end_s": 84.176,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "젤리",
+          "start_s": 83.537,
+          "end_s": 83.777
+        },
+        {
+          "text": " 한",
+          "start_s": 83.777,
+          "end_s": 83.936
+        },
+        {
+          "text": " 알",
+          "start_s": 84.016,
+          "end_s": 84.176
+        }
+      ]
+    },
+    {
+      "text": "You toss it at me",
+      "start_s": 84.415,
+      "end_s": 85.372,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "You",
+          "start_s": 84.415,
+          "end_s": 84.574
+        },
+        {
+          "text": " toss",
+          "start_s": 84.574,
+          "end_s": 84.734
+        },
+        {
+          "text": " it",
+          "start_s": 84.734,
+          "end_s": 84.894
+        },
+        {
+          "text": " at",
+          "start_s": 84.894,
+          "end_s": 85.133
+        },
+        {
+          "text": " me",
+          "start_s": 85.133,
+          "end_s": 85.372
+        }
+      ]
+    },
+    {
+      "text": "Miss by a mile",
+      "start_s": 85.691,
+      "end_s": 86.569,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Miss",
+          "start_s": 85.691,
+          "end_s": 85.931
+        },
+        {
+          "text": " by",
+          "start_s": 85.931,
+          "end_s": 86.09
+        },
+        {
+          "text": " a",
+          "start_s": 86.09,
+          "end_s": 86.25
+        },
+        {
+          "text": " mile",
+          "start_s": 86.25,
+          "end_s": 86.569
+        }
+      ]
+    },
+    {
+      "text": "It lands in the heat",
+      "start_s": 86.569,
+      "end_s": 87.606,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "It",
+          "start_s": 86.569,
+          "end_s": 86.729
+        },
+        {
+          "text": " lands",
+          "start_s": 86.729,
+          "end_s": 86.968
+        },
+        {
+          "text": " in",
+          "start_s": 86.968,
+          "end_s": 87.128
+        },
+        {
+          "text": " the",
+          "start_s": 87.128,
+          "end_s": 87.287
+        },
+        {
+          "text": " heat",
+          "start_s": 87.287,
+          "end_s": 87.606
+        }
+      ]
+    },
+    {
+      "text": "You say",
+      "start_s": 87.606,
+      "end_s": 88.165,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "You",
+          "start_s": 87.606,
+          "end_s": 87.846
+        },
+        {
+          "text": " say",
+          "start_s": 87.846,
+          "end_s": 88.165
+        }
+      ]
+    },
+    {
+      "text": "“사실 나도 겁이 많아”",
+      "start_s": 88.564,
+      "end_s": 90.239,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "“사",
+          "start_s": 88.564,
+          "end_s": 88.803
+        },
+        {
+          "text": "실",
+          "start_s": 88.803,
+          "end_s": 88.883
+        },
+        {
+          "text": " 나도",
+          "start_s": 89.043,
+          "end_s": 89.202
+        },
+        {
+          "text": " 겁",
+          "start_s": 89.202,
+          "end_s": 89.362
+        },
+        {
+          "text": "이",
+          "start_s": 89.362,
+          "end_s": 89.441
+        },
+        {
+          "text": " 많",
+          "start_s": 89.521,
+          "end_s": 89.601
+        },
+        {
+          "text": "아",
+          "start_s": 89.601,
+          "end_s": 89.681
+        },
+        {
+          "text": "”",
+          "start_s": 90.0,
+          "end_s": 90.239
+        }
+      ]
+    },
+    {
+      "text": "Voice getting softer than the llama on",
+      "start_s": 90.0,
+      "end_s": 91.516,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Voice",
+          "start_s": 90.0,
+          "end_s": 90.239
+        },
+        {
+          "text": " getting",
+          "start_s": 90.239,
+          "end_s": 90.479
+        },
+        {
+          "text": " softer",
+          "start_s": 90.479,
+          "end_s": 90.798
+        },
+        {
+          "text": " than",
+          "start_s": 90.798,
+          "end_s": 90.957
+        },
+        {
+          "text": " the",
+          "start_s": 90.957,
+          "end_s": 91.037
+        },
+        {
+          "text": " llama",
+          "start_s": 91.037,
+          "end_s": 91.356
+        },
+        {
+          "text": " on",
+          "start_s": 91.356,
+          "end_s": 91.516
+        }
+      ]
+    },
+    {
+      "text": "your parka",
+      "start_s": 91.516,
+      "end_s": 91.915,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": " your",
+          "start_s": 91.516,
+          "end_s": 91.676
+        },
+        {
+          "text": " park",
+          "start_s": 91.676,
+          "end_s": 91.835
+        },
+        {
+          "text": "a",
+          "start_s": 91.835,
+          "end_s": 91.915
+        }
+      ]
+    },
+    {
+      "text": "I burn my tongue",
+      "start_s": 92.473,
+      "end_s": 93.351,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "I",
+          "start_s": 92.473,
+          "end_s": 92.633
+        },
+        {
+          "text": " burn",
+          "start_s": 92.633,
+          "end_s": 92.872
+        },
+        {
+          "text": " my",
+          "start_s": 92.872,
+          "end_s": 93.032
+        },
+        {
+          "text": " tongue",
+          "start_s": 93.032,
+          "end_s": 93.351
+        }
+      ]
+    },
+    {
+      "text": "But I don’t complain",
+      "start_s": 93.351,
+      "end_s": 94.388,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "But",
+          "start_s": 93.351,
+          "end_s": 93.511
+        },
+        {
+          "text": " I",
+          "start_s": 93.511,
+          "end_s": 93.67
+        },
+        {
+          "text": " don",
+          "start_s": 93.67,
+          "end_s": 93.83
+        },
+        {
+          "text": "’t",
+          "start_s": 93.83,
+          "end_s": 93.91
+        },
+        {
+          "text": " compl",
+          "start_s": 93.91,
+          "end_s": 94.149
+        },
+        {
+          "text": "ain",
+          "start_s": 94.149,
+          "end_s": 94.388
+        }
+      ]
+    },
+    {
+      "text": "Let the hurt stay",
+      "start_s": 94.468,
+      "end_s": 95.266,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Let",
+          "start_s": 94.468,
+          "end_s": 94.628
+        },
+        {
+          "text": " the",
+          "start_s": 94.628,
+          "end_s": 94.707
+        },
+        {
+          "text": " hurt",
+          "start_s": 94.707,
+          "end_s": 95.027
+        },
+        {
+          "text": " stay",
+          "start_s": 95.027,
+          "end_s": 95.266
+        }
+      ]
+    },
+    {
+      "text": "Better than nothing in my veins",
+      "start_s": 95.266,
+      "end_s": 97.021,
+      "section": "Verse 2",
+      "words": [
+        {
+          "text": "Better",
+          "start_s": 95.266,
+          "end_s": 95.585
+        },
+        {
+          "text": " than",
+          "start_s": 95.585,
+          "end_s": 95.824
+        },
+        {
+          "text": " nothing",
+          "start_s": 95.824,
+          "end_s": 96.144
+        },
+        {
+          "text": " in",
+          "start_s": 96.144,
+          "end_s": 96.383
+        },
+        {
+          "text": " my",
+          "start_s": 96.383,
+          "end_s": 96.543
+        },
+        {
+          "text": " veins",
+          "start_s": 96.543,
+          "end_s": 97.021
+        }
+      ]
+    },
+    {
+      "text": "2AM",
+      "start_s": 97.819,
+      "end_s": 98.856,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "2",
+          "start_s": 97.819,
+          "end_s": 98.218
+        },
+        {
+          "text": "A",
+          "start_s": 98.218,
+          "end_s": 98.298
+        },
+        {
+          "text": "M",
+          "start_s": 98.777,
+          "end_s": 98.856
+        }
+      ]
+    },
+    {
+      "text": "By the camping stove",
+      "start_s": 99.335,
+      "end_s": 101.25,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "By",
+          "start_s": 99.335,
+          "end_s": 99.574
+        },
+        {
+          "text": " the",
+          "start_s": 99.654,
+          "end_s": 99.894
+        },
+        {
+          "text": " cam",
+          "start_s": 99.894,
+          "end_s": 100.213
+        },
+        {
+          "text": "ping",
+          "start_s": 100.452,
+          "end_s": 100.771
+        },
+        {
+          "text": " st",
+          "start_s": 100.931,
+          "end_s": 101.011
+        },
+        {
+          "text": "ove",
+          "start_s": 101.011,
+          "end_s": 101.25
+        }
+      ]
+    },
+    {
+      "text": "너랑 나",
+      "start_s": 102.128,
+      "end_s": 103.165,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "너",
+          "start_s": 102.128,
+          "end_s": 102.287
+        },
+        {
+          "text": "랑",
+          "start_s": 102.606,
+          "end_s": 102.686
+        },
+        {
+          "text": " 나",
+          "start_s": 103.005,
+          "end_s": 103.165
+        }
+      ]
+    },
+    {
+      "text": "We’re too close",
+      "start_s": 103.803,
+      "end_s": 105.239,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "We",
+          "start_s": 103.803,
+          "end_s": 104.043
+        },
+        {
+          "text": "’re",
+          "start_s": 104.043,
+          "end_s": 104.202
+        },
+        {
+          "text": " too",
+          "start_s": 104.202,
+          "end_s": 104.521
+        },
+        {
+          "text": " close",
+          "start_s": 104.761,
+          "end_s": 105.239
+        }
+      ]
+    },
+    {
+      "text": "Too alone",
+      "start_s": 105.319,
+      "end_s": 106.277,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Too",
+          "start_s": 105.319,
+          "end_s": 105.638
+        },
+        {
+          "text": " alone",
+          "start_s": 105.798,
+          "end_s": 106.277
+        }
+      ]
+    },
+    {
+      "text": "Foggy windows",
+      "start_s": 106.356,
+      "end_s": 107.633,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Fo",
+          "start_s": 106.356,
+          "end_s": 106.436
+        },
+        {
+          "text": "g",
+          "start_s": 106.436,
+          "end_s": 106.516
+        },
+        {
+          "text": "g",
+          "start_s": 106.516,
+          "end_s": 106.596
+        },
+        {
+          "text": "y",
+          "start_s": 106.676,
+          "end_s": 106.755
+        },
+        {
+          "text": " windows",
+          "start_s": 106.995,
+          "end_s": 107.633
+        }
+      ]
+    },
+    {
+      "text": "Blurry town below",
+      "start_s": 108.112,
+      "end_s": 110.027,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Blur",
+          "start_s": 108.112,
+          "end_s": 108.351
+        },
+        {
+          "text": "ry",
+          "start_s": 108.351,
+          "end_s": 108.511
+        },
+        {
+          "text": " town",
+          "start_s": 108.59,
+          "end_s": 108.989
+        },
+        {
+          "text": " below",
+          "start_s": 109.548,
+          "end_s": 110.027
+        }
+      ]
+    },
+    {
+      "text": "If this is goodbye",
+      "start_s": 110.585,
+      "end_s": 111.941,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 110.585,
+          "end_s": 110.745
+        },
+        {
+          "text": " this",
+          "start_s": 110.745,
+          "end_s": 110.984
+        },
+        {
+          "text": " is",
+          "start_s": 110.984,
+          "end_s": 111.223
+        },
+        {
+          "text": " goodbye",
+          "start_s": 111.303,
+          "end_s": 111.941
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 114.654,
+      "end_s": 116.33,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 114.654,
+          "end_s": 115.053
+        },
+        {
+          "text": " talk",
+          "start_s": 115.053,
+          "end_s": 115.452
+        },
+        {
+          "text": " real",
+          "start_s": 115.691,
+          "end_s": 115.931
+        },
+        {
+          "text": " slow",
+          "start_s": 115.931,
+          "end_s": 116.33
+        }
+      ]
+    },
+    {
+      "text": "(말해줘, 말해줘)",
+      "start_s": 116.809,
+      "end_s": 118.404,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "(말해",
+          "start_s": 116.809,
+          "end_s": 117.128
+        },
+        {
+          "text": "줘,",
+          "start_s": 117.287,
+          "end_s": 117.367
+        },
+        {
+          "text": " 말해",
+          "start_s": 117.846,
+          "end_s": 118.165
+        },
+        {
+          "text": "줘)",
+          "start_s": 118.324,
+          "end_s": 118.404
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 119.043,
+      "end_s": 120.638,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 119.043,
+          "end_s": 119.441
+        },
+        {
+          "text": " talk",
+          "start_s": 119.441,
+          "end_s": 119.84
+        },
+        {
+          "text": " real",
+          "start_s": 120.0,
+          "end_s": 120.239
+        },
+        {
+          "text": " slow",
+          "start_s": 120.239,
+          "end_s": 120.638
+        }
+      ]
+    },
+    {
+      "text": "City’s just a smear on the mountain side",
+      "start_s": 126.144,
+      "end_s": 129.654,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "City",
+          "start_s": 126.144,
+          "end_s": 126.463
+        },
+        {
+          "text": "’s",
+          "start_s": 126.463,
+          "end_s": 126.622
+        },
+        {
+          "text": " just",
+          "start_s": 126.622,
+          "end_s": 126.941
+        },
+        {
+          "text": " a",
+          "start_s": 126.941,
+          "end_s": 127.101
+        },
+        {
+          "text": " sme",
+          "start_s": 127.181,
+          "end_s": 127.261
+        },
+        {
+          "text": "ar",
+          "start_s": 127.261,
+          "end_s": 127.42
+        },
+        {
+          "text": " on",
+          "start_s": 127.739,
+          "end_s": 127.979
+        },
+        {
+          "text": " the",
+          "start_s": 127.979,
+          "end_s": 128.218
+        },
+        {
+          "text": " mountain ",
+          "start_s": 128.218,
+          "end_s": 129.016
+        },
+        {
+          "text": "side",
+          "start_s": 129.335,
+          "end_s": 129.654
+        }
+      ]
+    },
+    {
+      "text": "우리 둘만 또렷해 tonight",
+      "start_s": 130.532,
+      "end_s": 133.963,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "우리",
+          "start_s": 130.532,
+          "end_s": 130.771
+        },
+        {
+          "text": " 둘",
+          "start_s": 130.931,
+          "end_s": 131.09
+        },
+        {
+          "text": "만",
+          "start_s": 131.25,
+          "end_s": 131.33
+        },
+        {
+          "text": " 또",
+          "start_s": 131.569,
+          "end_s": 131.729
+        },
+        {
+          "text": "렷해",
+          "start_s": 132.048,
+          "end_s": 132.207
+        },
+        {
+          "text": " to",
+          "start_s": 132.527,
+          "end_s": 132.766
+        },
+        {
+          "text": "night",
+          "start_s": 133.564,
+          "end_s": 133.963
+        }
+      ]
+    },
+    {
+      "text": "If you have to leave when the embers die",
+      "start_s": 134.92,
+      "end_s": 138.351,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 134.92,
+          "end_s": 135.08
+        },
+        {
+          "text": " you",
+          "start_s": 135.08,
+          "end_s": 135.319
+        },
+        {
+          "text": " have",
+          "start_s": 135.319,
+          "end_s": 135.638
+        },
+        {
+          "text": " to",
+          "start_s": 135.638,
+          "end_s": 135.878
+        },
+        {
+          "text": " leave",
+          "start_s": 135.878,
+          "end_s": 136.356
+        },
+        {
+          "text": " when",
+          "start_s": 136.436,
+          "end_s": 136.676
+        },
+        {
+          "text": " the",
+          "start_s": 136.676,
+          "end_s": 136.915
+        },
+        {
+          "text": " embers",
+          "start_s": 136.915,
+          "end_s": 137.473
+        },
+        {
+          "text": " die",
+          "start_s": 138.032,
+          "end_s": 138.351
+        }
+      ]
+    },
+    {
+      "text": "Say it now",
+      "start_s": 138.67,
+      "end_s": 139.468,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Say",
+          "start_s": 138.67,
+          "end_s": 138.91
+        },
+        {
+          "text": " it",
+          "start_s": 138.91,
+          "end_s": 139.149
+        },
+        {
+          "text": " now",
+          "start_s": 139.149,
+          "end_s": 139.468
+        }
+      ]
+    },
+    {
+      "text": "Let it melt in the firelight",
+      "start_s": 139.707,
+      "end_s": 142.42,
+      "section": "Bridge",
+      "words": [
+        {
+          "text": "Let",
+          "start_s": 139.707,
+          "end_s": 139.947
+        },
+        {
+          "text": " it",
+          "start_s": 139.947,
+          "end_s": 140.186
+        },
+        {
+          "text": " melt",
+          "start_s": 140.186,
+          "end_s": 140.585
+        },
+        {
+          "text": " in",
+          "start_s": 140.745,
+          "end_s": 140.984
+        },
+        {
+          "text": " the",
+          "start_s": 140.984,
+          "end_s": 141.303
+        },
+        {
+          "text": " fire",
+          "start_s": 141.303,
+          "end_s": 141.702
+        },
+        {
+          "text": "light",
+          "start_s": 142.021,
+          "end_s": 142.42
+        }
+      ]
+    },
+    {
+      "text": "2AM",
+      "start_s": 145.053,
+      "end_s": 145.691,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "2A",
+          "start_s": 145.053,
+          "end_s": 145.612
+        },
+        {
+          "text": "M",
+          "start_s": 145.612,
+          "end_s": 145.691
+        }
+      ]
+    },
+    {
+      "text": "By the camping stove",
+      "start_s": 146.25,
+      "end_s": 148.005,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "By",
+          "start_s": 146.25,
+          "end_s": 146.489
+        },
+        {
+          "text": " the",
+          "start_s": 146.489,
+          "end_s": 146.809
+        },
+        {
+          "text": " cam",
+          "start_s": 146.809,
+          "end_s": 147.128
+        },
+        {
+          "text": "ping",
+          "start_s": 147.287,
+          "end_s": 147.606
+        },
+        {
+          "text": " st",
+          "start_s": 147.686,
+          "end_s": 147.766
+        },
+        {
+          "text": "ove",
+          "start_s": 147.766,
+          "end_s": 148.005
+        }
+      ]
+    },
+    {
+      "text": "너랑 나",
+      "start_s": 148.484,
+      "end_s": 149.043,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "너랑",
+          "start_s": 148.484,
+          "end_s": 148.723
+        },
+        {
+          "text": " 나",
+          "start_s": 148.883,
+          "end_s": 149.043
+        }
+      ]
+    },
+    {
+      "text": "Still too close",
+      "start_s": 150.0,
+      "end_s": 150.798,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Still",
+          "start_s": 150.0,
+          "end_s": 150.16
+        },
+        {
+          "text": " too",
+          "start_s": 150.16,
+          "end_s": 150.319
+        },
+        {
+          "text": " close",
+          "start_s": 150.319,
+          "end_s": 150.798
+        }
+      ]
+    },
+    {
+      "text": "Still alone",
+      "start_s": 152.473,
+      "end_s": 153.271,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Still",
+          "start_s": 152.473,
+          "end_s": 152.793
+        },
+        {
+          "text": " alone",
+          "start_s": 152.793,
+          "end_s": 153.271
+        }
+      ]
+    },
+    {
+      "text": "Foggy windows",
+      "start_s": 153.351,
+      "end_s": 154.548,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Fo",
+          "start_s": 153.351,
+          "end_s": 153.431
+        },
+        {
+          "text": "gg",
+          "start_s": 153.431,
+          "end_s": 153.59
+        },
+        {
+          "text": "y",
+          "start_s": 153.67,
+          "end_s": 153.75
+        },
+        {
+          "text": " windows",
+          "start_s": 153.91,
+          "end_s": 154.548
+        }
+      ]
+    },
+    {
+      "text": "Hearts we never show",
+      "start_s": 155.027,
+      "end_s": 156.941,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Hearts",
+          "start_s": 155.027,
+          "end_s": 155.346
+        },
+        {
+          "text": " we",
+          "start_s": 155.346,
+          "end_s": 155.585
+        },
+        {
+          "text": " never",
+          "start_s": 155.585,
+          "end_s": 156.064
+        },
+        {
+          "text": " show",
+          "start_s": 156.543,
+          "end_s": 156.941
+        }
+      ]
+    },
+    {
+      "text": "If you have to go",
+      "start_s": 157.58,
+      "end_s": 158.777,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "If",
+          "start_s": 157.58,
+          "end_s": 157.739
+        },
+        {
+          "text": " you",
+          "start_s": 157.739,
+          "end_s": 157.979
+        },
+        {
+          "text": " have",
+          "start_s": 157.979,
+          "end_s": 158.298
+        },
+        {
+          "text": " to",
+          "start_s": 158.298,
+          "end_s": 158.537
+        },
+        {
+          "text": " go",
+          "start_s": 158.537,
+          "end_s": 158.777
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 161.569,
+      "end_s": 163.404,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 161.569,
+          "end_s": 161.968
+        },
+        {
+          "text": " talk",
+          "start_s": 162.048,
+          "end_s": 162.447
+        },
+        {
+          "text": " real",
+          "start_s": 162.606,
+          "end_s": 163.005
+        },
+        {
+          "text": " slow",
+          "start_s": 163.005,
+          "end_s": 163.404
+        }
+      ]
+    },
+    {
+      "text": "(천천히, 천천히)",
+      "start_s": 163.723,
+      "end_s": 165.319,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "(천",
+          "start_s": 163.723,
+          "end_s": 163.963
+        },
+        {
+          "text": "천",
+          "start_s": 163.963,
+          "end_s": 164.043
+        },
+        {
+          "text": "히,",
+          "start_s": 164.202,
+          "end_s": 164.282
+        },
+        {
+          "text": " 천",
+          "start_s": 164.441,
+          "end_s": 164.681
+        },
+        {
+          "text": "천",
+          "start_s": 165.08,
+          "end_s": 165.16
+        },
+        {
+          "text": "히)",
+          "start_s": 165.239,
+          "end_s": 165.319
+        }
+      ]
+    },
+    {
+      "text": "Just talk real slow",
+      "start_s": 165.957,
+      "end_s": 168.59,
+      "section": "Chorus",
+      "words": [
+        {
+          "text": "Just",
+          "start_s": 165.957,
+          "end_s": 166.356
+        },
+        {
+          "text": " talk",
+          "start_s": 166.356,
+          "end_s": 166.755
+        },
+        {
+          "text": " real",
+          "start_s": 166.995,
+          "end_s": 167.394
+        },
+        {
+          "text": " slow",
+          "start_s": 168.032,
+          "end_s": 168.59
+        }
+      ]
+    }
+  ]
+}
