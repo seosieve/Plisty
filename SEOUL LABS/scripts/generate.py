@@ -76,7 +76,6 @@ GAP_TITLE_VIS = 36 * SCALE
 # 가사 오버레이 설정
 LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/SpoqaHanSansNeo-Light-Tight.otf")
 LYRICS_FONT_SIZE = 32 * SCALE
-LYRICS_COLOR = None  # 이미지에서 자동 추출
 LYRICS_X = f"{MARGIN_LEFT}"
 LYRICS_Y = f"h-{MARGIN_BOTTOM}-{LYRICS_FONT_SIZE}"
 LYRICS_ALPHA = 0.6
@@ -85,7 +84,6 @@ LYRICS_FADE = 0.2
 # 텍스트 오버레이 설정
 FONT_PATH = os.path.expanduser("~/Library/Fonts/Anton-Regular.ttf")
 TEXT_FONT_SIZE = 60 * SCALE
-TEXT_COLOR = None  # 이미지에서 자동 추출
 TEXT_ALPHA = 0.8
 TEXT_X = f"{MARGIN_LEFT}"
 TEXT_Y = f"h-{MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE}"
@@ -98,7 +96,6 @@ BAR_WIDTH = 2 * SCALE
 BAR_GAP = 4 * SCALE
 BAR_MAX_HEIGHT = 70 * SCALE
 BAR_MIN_HEIGHT = 2 * SCALE
-BAR_COLOR = None  # 이미지에서 자동 추출
 BAR_ALPHA = 204  # 80% 투명도
 BAR_Y_CENTER = HEIGHT - MARGIN_BOTTOM - LYRICS_FONT_SIZE - GAP_LYRICS_TITLE - TEXT_FONT_SIZE - GAP_TITLE_VIS
 SMOOTHING = 0.3
@@ -298,7 +295,7 @@ def render_particles(particles, particle_layer):
     return particle_layer
 
 
-def render_bars(draw, bar_heights, bar_positions, total_bars, static_bars):
+def render_bars(draw, bar_heights, bar_positions, total_bars, static_bars, bar_color):
     """비주얼라이저 바를 레이어에 렌더링"""
     for i in range(total_bars):
         x = bar_positions[i]
@@ -313,14 +310,14 @@ def render_bars(draw, bar_heights, bar_positions, total_bars, static_bars):
         y_top = max(0, y_top)
         y_bottom = min(HEIGHT, y_bottom)
 
-        draw.rectangle([x, y_top, x + BAR_WIDTH, y_bottom], fill=(*BAR_COLOR, BAR_ALPHA))
+        draw.rectangle([x, y_top, x + BAR_WIDTH, y_bottom], fill=(*bar_color, BAR_ALPHA))
 
         if y_bottom - y_top >= 2 and BAR_WIDTH >= 2:
             half_alpha = BAR_ALPHA // 2
             for cx, cy in [(x, y_top), (x + BAR_WIDTH, y_top),
                            (x, y_bottom), (x + BAR_WIDTH, y_bottom)]:
                 if 0 <= cx < WIDTH and 0 <= cy < HEIGHT:
-                    draw.point((cx, cy), fill=(*BAR_COLOR, half_alpha))
+                    draw.point((cx, cy), fill=(*bar_color, half_alpha))
 
 
 # ============================================================
@@ -379,11 +376,7 @@ def main():
     bg_image = load_image_aspect_fill(BG_IMAGE)
 
     # 이미지에서 테마 색상 자동 추출
-    global BAR_COLOR, TEXT_COLOR, LYRICS_COLOR
     theme_rgb = extract_logo_color(BG_IMAGE)
-    BAR_COLOR = theme_rgb
-    TEXT_COLOR = theme_rgb
-    LYRICS_COLOR = theme_rgb
     hex_color = f"#{theme_rgb[0]:02X}{theme_rgb[1]:02X}{theme_rgb[2]:02X}"
     print(f"🎨 테마 색상: {hex_color}")
 
@@ -468,10 +461,10 @@ def main():
     print("\n✍️  텍스트 오버레이 준비 중...")
     title_font = ImageFont.truetype(FONT_PATH, TEXT_FONT_SIZE)
     lyrics_font = ImageFont.truetype(LYRICS_FONT_PATH, LYRICS_FONT_SIZE)
-    TEXT_COLOR_RGB = TEXT_COLOR
+    TEXT_COLOR_RGB = theme_rgb
 
     PIL_Y_OFFSET = -4 * SCALE  # PIL/drawtext 폰트 메트릭 차이 보정
-    TEXT_Y_PX = HEIGHT - (MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE) + PIL_Y_OFFSET - 12 * SCALE
+    TEXT_Y_PX = HEIGHT - (MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE) + PIL_Y_OFFSET - 14 * SCALE
     LYRICS_Y_PX = HEIGHT - MARGIN_BOTTOM - LYRICS_FONT_SIZE + PIL_Y_OFFSET
 
     # 곡 제목 타이밍 + 텍스트 사전 준비
@@ -556,7 +549,7 @@ def main():
         if vis_alpha > 0:
             bar_layer = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))
             draw = ImageDraw.Draw(bar_layer)
-            render_bars(draw, all_bar_heights[frame_idx], bar_positions, total_bars, STATIC_BARS)
+            render_bars(draw, all_bar_heights[frame_idx], bar_positions, total_bars, STATIC_BARS, theme_rgb)
             if vis_alpha < 1.0:
                 bar_layer.putalpha(ImageEnhance.Brightness(bar_layer.split()[3]).enhance(vis_alpha))
             frame = Image.alpha_composite(frame, bar_layer)
