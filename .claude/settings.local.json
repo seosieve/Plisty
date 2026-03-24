@@ -4,7 +4,8 @@
       "Bash(python3 generate.py \"../EP01_000000\")",
       "Bash(git add:*)",
       "Bash(pip3 list:*)",
-      "Bash(python3 \"SEOUL LABS/scripts/preview.py\" \"SEOUL LABS/EP01_000000\")"
+      "Bash(python3 \"SEOUL LABS/scripts/preview.py\" \"SEOUL LABS/EP01_000000\")",
+      "Bash(python3 \"SEOUL LABS/scripts/generate.py\" \"SEOUL LABS/EP02_260325\")"
     ]
   }
 }

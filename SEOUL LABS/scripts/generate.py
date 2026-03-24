@@ -5,7 +5,7 @@ SEOUL LABS Playlist Video Generator (Python 통합 버전)
 """
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 import subprocess
 import os
 import sys
@@ -76,7 +76,7 @@ GAP_TITLE_VIS = 36 * SCALE
 # 가사 오버레이 설정
 LYRICS_FONT_PATH = os.path.expanduser("~/Library/Fonts/SpoqaHanSansNeo-Light-Tight.otf")
 LYRICS_FONT_SIZE = 32 * SCALE
-LYRICS_COLOR = "0xA4DAD1"
+LYRICS_COLOR = None  # 이미지에서 자동 추출
 LYRICS_X = f"{MARGIN_LEFT}"
 LYRICS_Y = f"h-{MARGIN_BOTTOM}-{LYRICS_FONT_SIZE}"
 LYRICS_ALPHA = 0.6
@@ -85,7 +85,7 @@ LYRICS_FADE = 0.2
 # 텍스트 오버레이 설정
 FONT_PATH = os.path.expanduser("~/Library/Fonts/Anton-Regular.ttf")
 TEXT_FONT_SIZE = 60 * SCALE
-TEXT_COLOR = "0xA4DAD1"
+TEXT_COLOR = None  # 이미지에서 자동 추출
 TEXT_ALPHA = 0.8
 TEXT_X = f"{MARGIN_LEFT}"
 TEXT_Y = f"h-{MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE}"
@@ -98,7 +98,7 @@ BAR_WIDTH = 2 * SCALE
 BAR_GAP = 4 * SCALE
 BAR_MAX_HEIGHT = 70 * SCALE
 BAR_MIN_HEIGHT = 2 * SCALE
-BAR_COLOR = (164, 218, 209)  # #A4DAD1
+BAR_COLOR = None  # 이미지에서 자동 추출
 BAR_ALPHA = 204  # 80% 투명도
 BAR_Y_CENTER = HEIGHT - MARGIN_BOTTOM - LYRICS_FONT_SIZE - GAP_LYRICS_TITLE - TEXT_FONT_SIZE - GAP_TITLE_VIS
 SMOOTHING = 0.3
@@ -156,6 +156,20 @@ class Particle:
 # ============================================================
 # 유틸리티
 # ============================================================
+def extract_logo_color(path):
+    """이미지 우하단 로고 영역에서 테마 색상 자동 추출"""
+    img = Image.open(path).convert('RGB')
+    w, h = img.size
+    crop = img.crop((int(w * 0.7), int(h * 0.8), w, h))
+    pixels = np.array(crop).reshape(-1, 3)
+    bright = pixels[(pixels.sum(axis=1) > 300) & ((pixels.max(axis=1) - pixels.min(axis=1)) > 20)]
+    if len(bright) == 0:
+        return (164, 218, 209)  # fallback
+    from collections import Counter
+    most_common = Counter(tuple(p) for p in bright).most_common(1)[0][0]
+    return (int(most_common[0]), int(most_common[1]), int(most_common[2]))
+
+
 def load_image_aspect_fill(path):
     """이미지를 aspect fill로 로드 (비율 유지, 꽉 채우고 중앙 크롭)"""
     img = Image.open(path).convert('RGB')
@@ -313,6 +327,11 @@ def render_bars(draw, bar_heights, bar_positions, total_bars, static_bars):
 # 메인
 # ============================================================
 def main():
+    import time as _time
+    _t0 = _time.time()
+    def _log(msg):
+        print(f"  ⏱ [{_time.time()-_t0:.1f}s] {msg}", flush=True)
+
     print("🎬 SEOUL LABS Playlist Video Generator")
     print("========================================")
 
@@ -346,6 +365,7 @@ def main():
     print(f"📋 트랙 수: {track_count}")
 
     # 가사 자동 싱크
+    _log("가사 싱크 시작")
     print("\n🎵 가사 싱크 확인 중...")
     sync_lyrics(SONGS_DIR, LYRICS_DIR, song_files)
 
@@ -354,11 +374,22 @@ def main():
         print(f"❌ 배경 이미지를 찾을 수 없습니다: {BG_IMAGE}")
         return
 
+    _log("배경 이미지 로드 시작")
     print(f"🖼  배경: {os.path.basename(BG_IMAGE)}")
     bg_image = load_image_aspect_fill(BG_IMAGE)
 
+    # 이미지에서 테마 색상 자동 추출
+    global BAR_COLOR, TEXT_COLOR, LYRICS_COLOR
+    theme_rgb = extract_logo_color(BG_IMAGE)
+    BAR_COLOR = theme_rgb
+    TEXT_COLOR = theme_rgb
+    LYRICS_COLOR = theme_rgb
+    hex_color = f"#{theme_rgb[0]:02X}{theme_rgb[1]:02X}{theme_rgb[2]:02X}"
+    print(f"🎨 테마 색상: {hex_color}")
+
     temp_dir = tempfile.mkdtemp(prefix='seoullabs_render_')
 
+    _log("오디오 분석 시작")
     # 오디오 분석 (비주얼라이저용)
     print("\n🔊 오디오 분석 중...")
     all_samples = np.array([], dtype=np.float32)
@@ -409,6 +440,7 @@ def main():
     start_x = 80 * SCALE
     bar_positions = [start_x + i * (BAR_WIDTH + BAR_GAP) for i in range(total_bars)]
 
+    _log("오디오 합치기 시작")
     # 오디오 합치기
     print("\n🎵 오디오 합치는 중...")
     concat_list = os.path.join(temp_dir, 'audio_list.txt')
@@ -431,88 +463,45 @@ def main():
     ], capture_output=True)
     print("✅ 오디오 합치기 완료")
 
-    # drawtext 필터 생성 (곡 제목 + 가사)
+    _log("텍스트 오버레이 준비 시작")
+    # 텍스트 오버레이 준비 (PIL 렌더링)
     print("\n✍️  텍스트 오버레이 준비 중...")
-    drawtext_filters = []
+    title_font = ImageFont.truetype(FONT_PATH, TEXT_FONT_SIZE)
+    lyrics_font = ImageFont.truetype(LYRICS_FONT_PATH, LYRICS_FONT_SIZE)
+    TEXT_COLOR_RGB = TEXT_COLOR
 
-    # 곡 제목
+    PIL_Y_OFFSET = -4 * SCALE  # PIL/drawtext 폰트 메트릭 차이 보정
+    TEXT_Y_PX = HEIGHT - (MARGIN_BOTTOM + LYRICS_FONT_SIZE + GAP_LYRICS_TITLE + TEXT_FONT_SIZE) + PIL_Y_OFFSET - 12 * SCALE
+    LYRICS_Y_PX = HEIGHT - MARGIN_BOTTOM - LYRICS_FONT_SIZE + PIL_Y_OFFSET
+
+    # 곡 제목 타이밍 + 텍스트 사전 준비
+    title_timed = []
     for i, track in enumerate(tracklist):
         track_num = (i % len(tracklist_single)) + 1
         title = f"{track_num:02d}. {track['title']}".upper()
         start = track_starts[i]
         duration = track_durations[i]
+        title_timed.append((start, start + duration - 1, title))
 
-        text_file = os.path.join(temp_dir, f'text_{i}.txt')
-        with open(text_file, 'w', encoding='utf-8') as tf:
-            tf.write(title)
-
-        fade_in_start = start
-        fade_in_end = start + TEXT_FADE_IN
-        fade_out_start = start + duration - 1 - TEXT_FADE_OUT
-        fade_out_end = start + duration - 1
-
-        alpha = (
-            f"if(lt(t\\,{fade_in_start})\\,0\\,"
-            f" if(lt(t\\,{fade_in_end})\\,{TEXT_ALPHA}*(t-{fade_in_start})/{TEXT_FADE_IN}\\,"
-            f" if(lt(t\\,{fade_out_start})\\,{TEXT_ALPHA}\\,"
-            f" if(lt(t\\,{fade_out_end})\\,{TEXT_ALPHA}-{TEXT_ALPHA}*(t-{fade_out_start})/{TEXT_FADE_OUT}\\,"
-            f" 0))))"
-        )
-
-        drawtext_filters.append(
-            f"drawtext=fontfile='{FONT_PATH}'"
-            f":textfile='{text_file}'"
-            f":fontsize={TEXT_FONT_SIZE}:fontcolor={TEXT_COLOR}"
-            f":x={TEXT_X}:y={TEXT_Y}"
-            f":alpha='{alpha}'"
-        )
-
-    # 가사 싱크 오버레이
+    # 가사 타이밍 사전 준비 (절대 시간 기준, 정렬됨)
+    all_lyrics_timed = []
     for i, track in enumerate(tracklist):
         json_path = os.path.join(LYRICS_DIR, f"{track['title']}.json")
         if not os.path.exists(json_path):
             print(f"  ⚠️  가사 없음: {track['title']}")
             continue
-
         lyrics = parse_lyrics_json(json_path)
         track_offset = track_starts[i]
         print(f"  🎤 {track['title']}: {len(lyrics)}줄 가사 로드")
-
-        for j, (start_s, end_s, text) in enumerate(lyrics):
-            abs_start = track_offset + start_s
-            abs_end = track_offset + end_s
-
-            fade_in_s = abs_start
-            fade_in_e = abs_start + LYRICS_FADE
-            fade_out_s = abs_end - LYRICS_FADE
-            fade_out_e = abs_end
-
-            alpha = (
-                f"if(lt(t\\,{fade_in_s})\\,0\\,"
-                f" if(lt(t\\,{fade_in_e})\\,{LYRICS_ALPHA}*(t-{fade_in_s})/{LYRICS_FADE}\\,"
-                f" if(lt(t\\,{fade_out_s})\\,{LYRICS_ALPHA}\\,"
-                f" if(lt(t\\,{fade_out_e})\\,{LYRICS_ALPHA}-{LYRICS_ALPHA}*(t-{fade_out_s})/{LYRICS_FADE}\\,"
-                f" 0))))"
-            )
-
-            lyric_text_file = os.path.join(temp_dir, f'lyric_{i}_{j}.txt')
-            with open(lyric_text_file, 'w', encoding='utf-8') as lf:
-                lf.write(text)
-
-            drawtext_filters.append(
-                f"drawtext=fontfile='{LYRICS_FONT_PATH}'"
-                f":textfile='{lyric_text_file}'"
-                f":fontsize={LYRICS_FONT_SIZE}:fontcolor={LYRICS_COLOR}"
-                f":x={LYRICS_X}:y={LYRICS_Y}"
-                f":alpha='{alpha}'"
-            )
-
-    vf_filter = ','.join(drawtext_filters)
+        for start_s, end_s, text in lyrics:
+            all_lyrics_timed.append((track_offset + start_s, track_offset + end_s, text))
+    all_lyrics_timed.sort(key=lambda x: x[0])
 
     # 파티클 초기화
     particles = [Particle() for _ in range(NUM_PARTICLES)]
     print(f"✨ 파티클: {NUM_PARTICLES}개")
 
+    _log("ffmpeg 파이프 시작")
     # FFmpeg 파이프 시작
     print("\n🎬 영상 생성 중...")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -524,7 +513,6 @@ def main():
         '-r', str(FPS),
         '-i', '-',
         '-i', merged_audio,
-        '-vf', vf_filter,
         '-c:v', 'libx264', '-preset', 'medium', '-crf', '18',
         '-c:a', 'aac', '-b:a', '192k',
         '-pix_fmt', 'yuv420p',
@@ -535,9 +523,14 @@ def main():
     ffmpeg_proc = subprocess.Popen(
         ffmpeg_cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE
     )
+    _log("ffmpeg 프로세스 생성 완료")
 
     # 프레임 렌더링 루프
+    _first_frame_logged = False
     for frame_idx in range(total_frames):
+        if not _first_frame_logged:
+            _log("첫 프레임 렌더 시작")
+            _first_frame_logged = True
         frame = bg_image.copy()
 
         # 바 비주얼라이저 레이어 (트랙에 맞춰 fade in/out)
@@ -573,9 +566,57 @@ def main():
         particle_layer = render_particles(particles, particle_layer)
         frame = Image.alpha_composite(frame, particle_layer)
 
+        # 텍스트 오버레이 (곡 제목 + 가사)
+        text_layer = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))
+        text_draw = ImageDraw.Draw(text_layer)
+
+        # 곡 제목
+        for t_start, t_end, title in title_timed:
+            if current_time < t_start or current_time > t_end:
+                continue
+            fade_in_end = t_start + TEXT_FADE_IN
+            fade_out_start = t_end - TEXT_FADE_OUT
+            if current_time < fade_in_end:
+                a = TEXT_ALPHA * (current_time - t_start) / TEXT_FADE_IN
+            elif current_time > fade_out_start:
+                a = TEXT_ALPHA * (t_end - current_time) / TEXT_FADE_OUT
+            else:
+                a = TEXT_ALPHA
+            a = max(0.0, min(1.0, a))
+            if a > 0:
+                text_draw.text((MARGIN_LEFT, TEXT_Y_PX), title, font=title_font,
+                               fill=(*TEXT_COLOR_RGB, int(a * 255)))
+
+        # 가사
+        for l_start, l_end, lyric_text in all_lyrics_timed:
+            if l_start > current_time + 1:
+                break
+            if l_end < current_time:
+                continue
+            fade_in_end = l_start + LYRICS_FADE
+            fade_out_start = l_end - LYRICS_FADE
+            if current_time < l_start:
+                continue
+            if current_time < fade_in_end:
+                a = LYRICS_ALPHA * (current_time - l_start) / LYRICS_FADE
+            elif current_time > fade_out_start:
+                a = LYRICS_ALPHA * (l_end - current_time) / LYRICS_FADE
+            else:
+                a = LYRICS_ALPHA
+            a = max(0.0, min(1.0, a))
+            if a > 0:
+                text_draw.text((MARGIN_LEFT, LYRICS_Y_PX), lyric_text, font=lyrics_font,
+                               fill=(*TEXT_COLOR_RGB, int(a * 255)))
+
+        frame = Image.alpha_composite(frame, text_layer)
+
         # RGB로 변환하여 전송
         frame_rgb = frame.convert('RGB')
         ffmpeg_proc.stdin.write(np.array(frame_rgb).tobytes())
+        if frame_idx == 0:
+            _log("첫 프레임 ffmpeg 전송 완료")
+        if frame_idx == 29:
+            _log("30프레임(1초) 완료")
 
         # 진행도 표시 (30초마다)
         if (frame_idx + 1) % (FPS * 30) == 0 or frame_idx == total_frames - 1:

@@ -117,7 +117,7 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
     song_names = {strip_track_prefix(os.path.splitext(f)[0]) for f in song_files}
     existing_lyrics = {
         os.path.splitext(f)[0]
-        for f in os.listdir(lyrics_dir) if f.endswith('.json')
+        for f in os.listdir(lyrics_dir) if f.endswith('.json') and not f.startswith('.')
     } if os.path.isdir(lyrics_dir) else set()
 
     # 삭제된 곡의 가사 정리
@@ -165,7 +165,15 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
     else:
         print("  ✅ 가사 싱크 완료 (변경 없음)")
 
-    # forced alignment 보정 (skip_alignment 플래그 있으면 건너뜀)
+    # forced alignment 보정 (skip_alignment 플래그 또는 캐시 기반 스킵)
+    alignment_cache = os.path.join(lyrics_dir, '.alignment_cache.json')
+    if os.path.exists(alignment_cache):
+        with open(alignment_cache, 'r') as f:
+            cache = json.load(f)
+    else:
+        cache = {}
+
+    cache_updated = False
     for song_file in song_files:
         title = strip_track_prefix(os.path.splitext(song_file)[0])
         json_path = os.path.join(lyrics_dir, f"{title}.json")
@@ -175,8 +183,23 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
             if data.get('skip_alignment'):
                 print(f"  ⏭️  alignment 건너뜀 (수동 수정): {title}")
                 continue
+
+            # mtime 기반 캐시 체크
+            current_mtime = os.path.getmtime(json_path)
+            if title in cache and cache[title] == current_mtime:
+                print(f"  ⏭️  alignment 캐시 히트: {title}")
+                continue
+
             filepath = os.path.join(songs_dir, song_file)
             fix_timestamps_with_alignment(filepath, json_path)
+
+            # alignment 후 mtime 갱신 (파일이 수정되므로 다시 읽기)
+            cache[title] = os.path.getmtime(json_path)
+            cache_updated = True
+
+    if cache_updated:
+        with open(alignment_cache, 'w') as f:
+            json.dump(cache, f)
 
 
 # ============================================================
