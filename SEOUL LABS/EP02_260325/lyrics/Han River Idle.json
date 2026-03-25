@@ -409,14 +409,14 @@
     {
       "word": "I’",
       "success": true,
-      "start_s": 44.32,
-      "end_s": 44.36,
+      "start_s": 44.05,
+      "end_s": 44.2,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 44.36,
+      "start_s": 44.2,
       "end_s": 44.4,
       "p_align": 0.99
     },
@@ -984,13 +984,13 @@
       "word": "m ",
       "success": true,
       "start_s": 103.35,
-      "end_s": 104.4,
+      "end_s": 104.25,
       "p_align": 0.99
     },
     {
       "word": "parked ",
       "success": true,
-      "start_s": 104.4,
+      "start_s": 104.25,
       "end_s": 104.4,
       "p_align": 0.99
     },
@@ -1179,35 +1179,35 @@
     {
       "word": "the ",
       "success": true,
-      "start_s": 119.52,
-      "end_s": 119.52,
+      "start_s": 119.49,
+      "end_s": 119.72,
       "p_align": 0.99
     },
     {
       "word": "glass\n",
       "success": true,
-      "start_s": 119.52,
-      "end_s": 119.52,
+      "start_s": 119.72,
+      "end_s": 120.4,
       "p_align": 0.99
     },
     {
       "word": "Tap-tapping\n",
       "success": true,
-      "start_s": 119.82,
-      "end_s": 119.82,
+      "start_s": 120.4,
+      "end_s": 121.45,
       "p_align": 0.99
     },
     {
       "word": "조용히\n",
       "success": true,
-      "start_s": 119.82,
-      "end_s": 119.82,
+      "start_s": 121.45,
+      "end_s": 122.5,
       "p_align": 0.99
     },
     {
       "word": "마음 ",
       "success": true,
-      "start_s": 121.36,
+      "start_s": 122.5,
       "end_s": 122.94,
       "p_align": 0.99
     },
@@ -4469,5 +4469,6 @@
         }
       ]
     }
-  ]
+  ],
+  "skip_alignment": true
 }

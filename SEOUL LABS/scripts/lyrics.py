@@ -186,8 +186,17 @@ def sync_lyrics(songs_dir, lyrics_dir, song_files):
 
             # mtime 기반 캐시 체크
             current_mtime = os.path.getmtime(json_path)
-            if title in cache and cache[title] == current_mtime:
-                print(f"  ⏭️  alignment 캐시 히트: {title}")
+            if title in cache:
+                if cache[title] == current_mtime:
+                    print(f"  ⏭️  alignment 캐시 히트: {title}")
+                    continue
+                # 캐시 이후에 파일이 수정됨 → 수동 수정으로 판단
+                data['skip_alignment'] = True
+                with open(json_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                cache[title] = os.path.getmtime(json_path)
+                cache_updated = True
+                print(f"  🔒 수동 수정 감지, skip_alignment 설정: {title}")
                 continue
 
             filepath = os.path.join(songs_dir, song_file)
@@ -505,6 +514,86 @@ def fix_timestamps_with_alignment(audio_path, json_path):
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"  ✅ 전체 곡 alignment 적용 완료")
+
+
+# ============================================================
+# Alignment 품질 검증
+# ============================================================
+def _fmt_time(seconds):
+    """초를 MM:SS 형식으로 변환"""
+    m = int(seconds) // 60
+    s = int(seconds) % 60
+    return f"{m:02d}:{s:02d}"
+
+
+def validate_alignment(lyrics_dir, song_files, track_offsets=None):
+    """alignment 후 품질 검증. 문제 곡 리스트 반환, 심각하면 렌더 중단용.
+    track_offsets: {title: offset_seconds} 풀 영상 기준 오프셋 (없으면 곡 내 시간만 표시)
+    """
+    ZERO_DUR_THRESHOLD = 0.02
+    SEVERE_ZERO_WORDS = 5      # 곡 내 0-dur 단어 이 이상이면 심각
+    SEVERE_ZERO_LINES = 3      # 곡 내 duration≤0.05s 줄 이 이상이면 심각
+
+    problems = []  # [(title, zero_word_count, zero_line_count, details)]
+
+    for song_file in song_files:
+        title = strip_track_prefix(os.path.splitext(song_file)[0])
+        json_path = os.path.join(lyrics_dir, f"{title}.json")
+        if not os.path.exists(json_path):
+            continue
+
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        words = data.get('aligned_words', [])
+        if not words:
+            continue
+
+        offset = (track_offsets or {}).get(title, 0)
+        zero_word_total = 0
+        zero_line_total = 0
+        details = []
+        line_words = []
+
+        for i, w in enumerate(words):
+            line_words.append(w)
+            if w['word'].endswith('\n') or i == len(words) - 1:
+                text = ''.join(wd['word'] for wd in line_words).strip()
+                if text:
+                    start = line_words[0]['start_s']
+                    end = line_words[-1]['end_s']
+                    dur = end - start
+                    zero_words = [
+                        wd for wd in line_words
+                        if re.sub(r'[^a-z가-힣]', '', wd['word'].lower())
+                        and wd['end_s'] - wd['start_s'] <= ZERO_DUR_THRESHOLD
+                    ]
+                    if dur <= 0.05:
+                        zero_line_total += 1
+                    zero_word_total += len(zero_words)
+                    if dur <= 0.05 or zero_words:
+                        video_time = _fmt_time(offset + start)
+                        details.append(f"  [{video_time}] \"{text[:50]}\" (dur={dur:.2f}s, 0-dur={len(zero_words)})")
+                line_words = []
+
+        if zero_word_total > 0 or zero_line_total > 0:
+            problems.append((title, zero_word_total, zero_line_total, details))
+
+    if not problems:
+        print("  ✅ alignment 품질 검증 통과")
+        return []
+
+    severe = []
+    print("\n⚠️  alignment 품질 검증 결과:")
+    for title, zw, zl, details in problems:
+        is_severe = zw >= SEVERE_ZERO_WORDS or zl >= SEVERE_ZERO_LINES
+        icon = "🔴" if is_severe else "🟡"
+        print(f"  {icon} {title}: 0-dur 단어 {zw}개, 0-dur 줄 {zl}개")
+        for d in details:
+            print(f"    {d}")
+        if is_severe:
+            severe.append(title)
+
+    return severe
 
 
 # ============================================================

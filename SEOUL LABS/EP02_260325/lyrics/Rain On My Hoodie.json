@@ -3,14 +3,14 @@
     {
       "word": "\nRain ",
       "success": true,
-      "start_s": 9.66,
-      "end_s": 10.700000000000001,
+      "start_s": 9.72,
+      "end_s": 10.62,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 10.700000000000001,
+      "start_s": 10.7,
       "end_s": 11.74,
       "p_align": 0.99
     },
@@ -18,27 +18,27 @@
       "word": "my ",
       "success": true,
       "start_s": 11.74,
-      "end_s": 12.02,
+      "end_s": 11.98,
       "p_align": 0.99
     },
     {
       "word": "hoodie\n",
       "success": true,
-      "start_s": 12.02,
-      "end_s": 12.620000000000001,
+      "start_s": 11.98,
+      "end_s": 12.58,
       "p_align": 0.99
     },
     {
       "word": "Fog ",
       "success": true,
-      "start_s": 12.920000000000002,
-      "end_s": 14.520000000000001,
+      "start_s": 12.88,
+      "end_s": 14.5,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 14.520000000000001,
+      "start_s": 14.5,
       "end_s": 14.760000000000002,
       "p_align": 0.99
     },
@@ -46,27 +46,27 @@
       "word": "the ",
       "success": true,
       "start_s": 14.760000000000002,
-      "end_s": 14.880000000000003,
+      "end_s": 14.860000000000001,
       "p_align": 0.99
     },
     {
       "word": "glass\n",
       "success": true,
-      "start_s": 14.880000000000003,
-      "end_s": 15.280000000000001,
+      "start_s": 14.860000000000001,
+      "end_s": 15.58,
       "p_align": 0.99
     },
     {
       "word": "Bus ",
       "success": true,
-      "start_s": 15.56,
-      "end_s": 17.12,
+      "start_s": 15.58,
+      "end_s": 17.14,
       "p_align": 0.99
     },
     {
       "word": "stop ",
       "success": true,
-      "start_s": 17.12,
+      "start_s": 17.14,
       "end_s": 17.42,
       "p_align": 0.99
     },
@@ -81,13 +81,13 @@
       "word": "Cabs ",
       "success": true,
       "start_s": 18.16,
-      "end_s": 19.26,
+      "end_s": 19.240000000000002,
       "p_align": 0.99
     },
     {
       "word": "sliding ",
       "success": true,
-      "start_s": 19.26,
+      "start_s": 19.240000000000002,
       "end_s": 20.0,
       "p_align": 0.99
     },
@@ -101,14 +101,14 @@
     {
       "word": "Take-out ",
       "success": true,
-      "start_s": 20.44,
-      "end_s": 21.84,
+      "start_s": 20.41,
+      "end_s": 21.86,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 21.84,
+      "start_s": 21.86,
       "end_s": 22.14,
       "p_align": 0.99
     },
@@ -130,13 +130,13 @@
       "word": "Phone ",
       "success": true,
       "start_s": 23.48,
-      "end_s": 24.36,
+      "end_s": 24.34,
       "p_align": 0.99
     },
     {
       "word": "at 3%\n",
       "success": true,
-      "start_s": 24.36,
+      "start_s": 24.34,
       "end_s": 24.7,
       "p_align": 0.99
     },
@@ -144,13 +144,13 @@
       "word": "네가 ",
       "success": true,
       "start_s": 26.02,
-      "end_s": 26.740000000000002,
+      "end_s": 26.720000000000002,
       "p_align": 0.99
     },
     {
       "word": "보낸 ",
       "success": true,
-      "start_s": 26.740000000000002,
+      "start_s": 26.720000000000002,
       "end_s": 27.3,
       "p_align": 0.99
     },
@@ -158,13 +158,13 @@
       "word": "이모티콘\n",
       "success": true,
       "start_s": 27.3,
-      "end_s": 28.82,
+      "end_s": 28.84,
       "p_align": 0.99
     },
     {
       "word": "Still ",
       "success": true,
-      "start_s": 28.82,
+      "start_s": 28.84,
       "end_s": 29.240000000000002,
       "p_align": 0.99
     },
@@ -207,13 +207,13 @@
       "word": "meant\n\n",
       "success": true,
       "start_s": 30.42,
-      "end_s": 31.34,
+      "end_s": 31.68,
       "p_align": 0.99
     },
     {
       "word": "\nRain ",
       "success": true,
-      "start_s": 31.1,
+      "start_s": 31.38,
       "end_s": 31.84,
       "p_align": 0.99
     },
@@ -235,13 +235,13 @@
       "word": "windshield\n",
       "success": true,
       "start_s": 33.06,
-      "end_s": 33.46,
+      "end_s": 33.44,
       "p_align": 0.99
     },
     {
       "word": "Colors ",
       "success": true,
-      "start_s": 33.76,
+      "start_s": 33.739999999999995,
       "end_s": 34.36,
       "p_align": 0.99
     },
@@ -262,28 +262,28 @@
     {
       "word": "City ",
       "success": true,
-      "start_s": 35.559999999999995,
-      "end_s": 35.559999999999995,
+      "start_s": 35.019999999999996,
+      "end_s": 35.58,
       "p_align": 0.99
     },
     {
       "word": "lights ",
       "success": true,
-      "start_s": 35.559999999999995,
-      "end_s": 35.919999999999995,
+      "start_s": 35.58,
+      "end_s": 35.9,
       "p_align": 0.99
     },
     {
       "word": "melting ",
       "success": true,
-      "start_s": 35.919999999999995,
-      "end_s": 36.3,
+      "start_s": 35.9,
+      "end_s": 36.279999999999994,
       "p_align": 0.99
     },
     {
       "word": "like ",
       "success": true,
-      "start_s": 36.3,
+      "start_s": 36.279999999999994,
       "end_s": 36.58,
       "p_align": 0.99
     },
@@ -291,13 +291,13 @@
       "word": "watercolors ",
       "success": true,
       "start_s": 36.58,
-      "end_s": 37.419999999999995,
+      "end_s": 37.379999999999995,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 37.419999999999995,
+      "start_s": 37.379999999999995,
       "end_s": 37.62,
       "p_align": 0.99
     },
@@ -305,20 +305,20 @@
       "word": "the ",
       "success": true,
       "start_s": 37.62,
-      "end_s": 37.8,
+      "end_s": 37.839999999999996,
       "p_align": 0.99
     },
     {
       "word": "road\n",
       "success": true,
-      "start_s": 37.8,
+      "start_s": 37.839999999999996,
       "end_s": 38.08,
       "p_align": 0.99
     },
     {
       "word": "말은 ",
       "success": true,
-      "start_s": 38.059999999999995,
+      "start_s": 37.86,
       "end_s": 38.46,
       "p_align": 0.99
     },
@@ -330,30 +330,16 @@
       "p_align": 0.99
     },
     {
-      "word": "번져 (",
+      "word": "번져\n",
       "success": true,
       "start_s": 38.64,
       "end_s": 39.1,
       "p_align": 0.99
     },
     {
-      "word": "다 ",
-      "success": true,
-      "start_s": 39.1,
-      "end_s": 39.26,
-      "p_align": 0.99
-    },
-    {
-      "word": "번져)\n",
-      "success": true,
-      "start_s": 39.26,
-      "end_s": 39.26,
-      "p_align": 0.99
-    },
-    {
       "word": "Like ",
       "success": true,
-      "start_s": 39.339999999999996,
+      "start_s": 39.1,
       "end_s": 39.339999999999996,
       "p_align": 0.99
     },
@@ -361,13 +347,13 @@
       "word": "ink ",
       "success": true,
       "start_s": 39.339999999999996,
-      "end_s": 39.54,
+      "end_s": 39.519999999999996,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 39.54,
+      "start_s": 39.519999999999996,
       "end_s": 39.68,
       "p_align": 0.99
     },
@@ -389,20 +375,20 @@
       "word": "I’",
       "success": true,
       "start_s": 40.239999999999995,
-      "end_s": 40.58,
+      "end_s": 40.589999999999996,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 40.58,
-      "end_s": 40.92,
+      "start_s": 40.589999999999996,
+      "end_s": 40.94,
       "p_align": 0.99
     },
     {
       "word": "driving ",
       "success": true,
-      "start_s": 40.92,
+      "start_s": 40.94,
       "end_s": 40.98,
       "p_align": 0.99
     },
@@ -417,7 +403,7 @@
       "word": "circles\n",
       "success": true,
       "start_s": 41.12,
-      "end_s": 41.57,
+      "end_s": 41.66,
       "p_align": 0.99
     },
     {
@@ -445,27 +431,27 @@
       "word": "go\n\n",
       "success": true,
       "start_s": 42.48,
-      "end_s": 42.959999999999994,
+      "end_s": 42.98,
       "p_align": 0.99
     },
     {
       "word": "Rain ",
       "success": true,
-      "start_s": 42.66,
-      "end_s": 43.02,
+      "start_s": 42.68,
+      "end_s": 43.04,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 43.02,
-      "end_s": 43.36,
+      "start_s": 43.04,
+      "end_s": 43.34,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 43.36,
+      "start_s": 43.34,
       "end_s": 43.6,
       "p_align": 0.99
     },
@@ -473,20 +459,20 @@
       "word": "windshield\n",
       "success": true,
       "start_s": 43.6,
-      "end_s": 43.96,
+      "end_s": 43.98,
       "p_align": 0.99
     },
     {
       "word": "Blurry ",
       "success": true,
-      "start_s": 44.26,
-      "end_s": 44.919999999999995,
+      "start_s": 44.279999999999994,
+      "end_s": 44.9,
       "p_align": 0.99
     },
     {
       "word": "old ",
       "success": true,
-      "start_s": 44.919999999999995,
+      "start_s": 44.9,
       "end_s": 45.12,
       "p_align": 0.99
     },
@@ -500,7 +486,7 @@
     {
       "word": "Mouth ",
       "success": true,
-      "start_s": 46.0,
+      "start_s": 45.58,
       "end_s": 46.099999999999994,
       "p_align": 0.99
     },
@@ -522,13 +508,13 @@
       "word": "memories\n",
       "success": true,
       "start_s": 46.519999999999996,
-      "end_s": 46.94,
+      "end_s": 46.959999999999994,
       "p_align": 0.99
     },
     {
       "word": "I ",
       "success": true,
-      "start_s": 46.94,
+      "start_s": 46.959999999999994,
       "end_s": 47.239999999999995,
       "p_align": 0.99
     },
@@ -550,13 +536,13 @@
       "word": "all ",
       "success": true,
       "start_s": 47.559999999999995,
-      "end_s": 47.779999999999994,
+      "end_s": 47.8,
       "p_align": 0.99
     },
     {
       "word": "wrong\n",
       "success": true,
-      "start_s": 47.779999999999994,
+      "start_s": 47.8,
       "end_s": 48.239999999999995,
       "p_align": 0.99
     },
@@ -564,13 +550,13 @@
       "word": "괜찮다 ",
       "success": true,
       "start_s": 48.239999999999995,
-      "end_s": 49.14,
+      "end_s": 49.12,
       "p_align": 0.99
     },
     {
       "word": "했지만\n",
       "success": true,
-      "start_s": 49.14,
+      "start_s": 49.12,
       "end_s": 49.62,
       "p_align": 0.99
     },
@@ -613,20 +599,20 @@
       "word": "not\n",
       "success": true,
       "start_s": 50.48,
-      "end_s": 50.72,
+      "end_s": 50.739999999999995,
       "p_align": 0.99
     },
     {
       "word": "I’",
       "success": true,
-      "start_s": 50.72,
-      "end_s": 50.849999999999994,
+      "start_s": 50.739999999999995,
+      "end_s": 50.86,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 50.849999999999994,
+      "start_s": 50.86,
       "end_s": 50.98,
       "p_align": 0.99
     },
@@ -634,13 +620,13 @@
       "word": "stuck ",
       "success": true,
       "start_s": 50.98,
-      "end_s": 51.26,
+      "end_s": 51.239999999999995,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 51.26,
+      "start_s": 51.239999999999995,
       "end_s": 51.54,
       "p_align": 0.99
     },
@@ -690,13 +676,13 @@
       "word": "\nLoose ",
       "success": true,
       "start_s": 53.14,
-      "end_s": 53.48,
+      "end_s": 53.5,
       "p_align": 0.99
     },
     {
       "word": "thread ",
       "success": true,
-      "start_s": 53.48,
+      "start_s": 53.5,
       "end_s": 53.76,
       "p_align": 0.99
     },
@@ -718,13 +704,13 @@
       "word": "sweater\n",
       "success": true,
       "start_s": 54.2,
-      "end_s": 54.8,
+      "end_s": 54.82,
       "p_align": 0.99
     },
     {
       "word": "You ",
       "success": true,
-      "start_s": 55.099999999999994,
+      "start_s": 55.12,
       "end_s": 56.62,
       "p_align": 0.99
     },
@@ -739,20 +725,20 @@
       "word": "to ",
       "success": true,
       "start_s": 57.059999999999995,
-      "end_s": 57.22,
+      "end_s": 57.239999999999995,
       "p_align": 0.99
     },
     {
       "word": "pull\n",
       "success": true,
-      "start_s": 57.22,
-      "end_s": 57.699999999999996,
+      "start_s": 57.239999999999995,
+      "end_s": 57.68,
       "p_align": 0.99
     },
     {
       "word": "Lip ",
       "success": true,
-      "start_s": 57.699999999999996,
+      "start_s": 57.68,
       "end_s": 58.64,
       "p_align": 0.99
     },
@@ -767,20 +753,20 @@
       "word": "on ",
       "success": true,
       "start_s": 59.0,
-      "end_s": 59.44,
+      "end_s": 59.459999999999994,
       "p_align": 0.99
     },
     {
       "word": "a ",
       "success": true,
-      "start_s": 59.44,
-      "end_s": 59.699999999999996,
+      "start_s": 59.459999999999994,
+      "end_s": 59.72,
       "p_align": 0.99
     },
     {
       "word": "paper ",
       "success": true,
-      "start_s": 59.699999999999996,
+      "start_s": 59.72,
       "end_s": 60.14,
       "p_align": 0.99
     },
@@ -788,13 +774,13 @@
       "word": "cup\n",
       "success": true,
       "start_s": 60.14,
-      "end_s": 60.54,
+      "end_s": 60.559999999999995,
       "p_align": 0.99
     },
     {
       "word": "Passenger ",
       "success": true,
-      "start_s": 60.54,
+      "start_s": 60.559999999999995,
       "end_s": 61.44,
       "p_align": 0.99
     },
@@ -802,13 +788,13 @@
       "word": "seat ",
       "success": true,
       "start_s": 61.44,
-      "end_s": 61.959999999999994,
+      "end_s": 61.98,
       "p_align": 0.99
     },
     {
       "word": "full\n\n",
       "success": true,
-      "start_s": 61.959999999999994,
+      "start_s": 61.98,
       "end_s": 62.8,
       "p_align": 0.99
     },
@@ -830,13 +816,13 @@
       "word": "Seatbelt ",
       "success": true,
       "start_s": 65.53999999999999,
-      "end_s": 66.89999999999999,
+      "end_s": 66.88,
       "p_align": 0.99
     },
     {
       "word": "digs ",
       "success": true,
-      "start_s": 66.89999999999999,
+      "start_s": 66.88,
       "end_s": 67.6,
       "p_align": 0.99
     },
@@ -851,13 +837,13 @@
       "word": "너의 ",
       "success": true,
       "start_s": 67.75999999999999,
-      "end_s": 68.32,
+      "end_s": 68.3,
       "p_align": 0.99
     },
     {
       "word": "자리 ",
       "success": true,
-      "start_s": 68.32,
+      "start_s": 68.3,
       "end_s": 68.6,
       "p_align": 0.99
     },
@@ -865,20 +851,20 @@
       "word": "비어 ",
       "success": true,
       "start_s": 68.6,
-      "end_s": 69.0,
+      "end_s": 68.98,
       "p_align": 0.99
     },
     {
       "word": "있어\n",
       "success": true,
-      "start_s": 69.0,
-      "end_s": 69.5,
+      "start_s": 68.98,
+      "end_s": 69.42,
       "p_align": 0.99
     },
     {
       "word": "I ",
       "success": true,
-      "start_s": 69.5,
+      "start_s": 69.42,
       "end_s": 70.89999999999999,
       "p_align": 0.99
     },
@@ -893,13 +879,13 @@
       "word": "leave ",
       "success": true,
       "start_s": 71.28,
-      "end_s": 71.92,
+      "end_s": 71.96,
       "p_align": 0.99
     },
     {
       "word": "it ",
       "success": true,
-      "start_s": 71.92,
+      "start_s": 71.96,
       "end_s": 72.2,
       "p_align": 0.99
     },
@@ -907,13 +893,13 @@
       "word": "open\n\n",
       "success": true,
       "start_s": 72.2,
-      "end_s": 72.94,
+      "end_s": 72.96,
       "p_align": 0.99
     },
     {
       "word": "\nRain ",
       "success": true,
-      "start_s": 72.64,
+      "start_s": 72.66,
       "end_s": 74.66,
       "p_align": 0.99
     },
@@ -949,76 +935,76 @@
       "word": "run ",
       "success": true,
       "start_s": 76.52,
-      "end_s": 76.75999999999999,
+      "end_s": 76.78,
       "p_align": 0.99
     },
     {
       "word": "slow\n",
       "success": true,
-      "start_s": 76.75999999999999,
-      "end_s": 77.25999999999999,
+      "start_s": 76.78,
+      "end_s": 77.28,
       "p_align": 0.99
     },
     {
       "word": "City ",
       "success": true,
-      "start_s": 77.75999999999999,
-      "end_s": 77.75999999999999,
+      "start_s": 77.28,
+      "end_s": 77.78,
       "p_align": 0.99
     },
     {
       "word": "lights ",
       "success": true,
-      "start_s": 77.75999999999999,
-      "end_s": 78.11999999999999,
+      "start_s": 77.78,
+      "end_s": 78.1,
       "p_align": 0.99
     },
     {
       "word": "melting ",
       "success": true,
-      "start_s": 78.11999999999999,
-      "end_s": 78.52,
+      "start_s": 78.1,
+      "end_s": 78.48,
       "p_align": 0.99
     },
     {
       "word": "like ",
       "success": true,
-      "start_s": 78.52,
-      "end_s": 78.75999999999999,
+      "start_s": 78.48,
+      "end_s": 78.74,
       "p_align": 0.99
     },
     {
       "word": "watercolors ",
       "success": true,
-      "start_s": 78.75999999999999,
-      "end_s": 79.61999999999999,
+      "start_s": 78.74,
+      "end_s": 79.56,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 79.61999999999999,
-      "end_s": 79.77999999999999,
+      "start_s": 79.56,
+      "end_s": 79.82,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 79.77999999999999,
-      "end_s": 79.99999999999999,
+      "start_s": 79.82,
+      "end_s": 80.0,
       "p_align": 0.99
     },
     {
       "word": "road\n",
       "success": true,
-      "start_s": 79.99999999999999,
+      "start_s": 80.0,
       "end_s": 80.25999999999999,
       "p_align": 0.99
     },
     {
       "word": "말은 ",
       "success": true,
-      "start_s": 80.21,
+      "start_s": 80.25999999999999,
       "end_s": 80.66,
       "p_align": 0.99
     },
@@ -1026,48 +1012,34 @@
       "word": "다 ",
       "success": true,
       "start_s": 80.66,
-      "end_s": 80.83999999999999,
+      "end_s": 80.84,
       "p_align": 0.99
     },
     {
-      "word": "번져 (",
+      "word": "번져\n",
       "success": true,
-      "start_s": 80.83999999999999,
-      "end_s": 81.32,
-      "p_align": 0.99
-    },
-    {
-      "word": "다 ",
-      "success": true,
-      "start_s": 81.32,
-      "end_s": 81.44,
-      "p_align": 0.99
-    },
-    {
-      "word": "번져)\n",
-      "success": true,
-      "start_s": 81.44,
-      "end_s": 81.44,
+      "start_s": 80.84,
+      "end_s": 81.28,
       "p_align": 0.99
     },
     {
       "word": "Like ",
       "success": true,
-      "start_s": 80.75999999999999,
-      "end_s": 81.46,
+      "start_s": 80.49,
+      "end_s": 81.24,
       "p_align": 0.99
     },
     {
       "word": "ink ",
       "success": true,
-      "start_s": 81.46,
-      "end_s": 81.74,
+      "start_s": 81.24,
+      "end_s": 81.76,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 81.74,
+      "start_s": 81.76,
       "end_s": 81.88,
       "p_align": 0.99
     },
@@ -1075,13 +1047,13 @@
       "word": "the ",
       "success": true,
       "start_s": 81.88,
-      "end_s": 82.02,
+      "end_s": 82.0,
       "p_align": 0.99
     },
     {
       "word": "snow\n",
       "success": true,
-      "start_s": 82.02,
+      "start_s": 82.0,
       "end_s": 82.44,
       "p_align": 0.99
     },
@@ -1089,27 +1061,27 @@
       "word": "I’",
       "success": true,
       "start_s": 82.44,
-      "end_s": 82.78999999999999,
+      "end_s": 82.79,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 82.78999999999999,
-      "end_s": 83.13999999999999,
+      "start_s": 82.79,
+      "end_s": 83.14,
       "p_align": 0.99
     },
     {
       "word": "driving ",
       "success": true,
-      "start_s": 83.13999999999999,
-      "end_s": 83.13999999999999,
+      "start_s": 83.14,
+      "end_s": 83.14,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 83.13999999999999,
+      "start_s": 83.14,
       "end_s": 83.3,
       "p_align": 0.99
     },
@@ -1117,41 +1089,41 @@
       "word": "circles\n",
       "success": true,
       "start_s": 83.3,
-      "end_s": 83.85999999999999,
+      "end_s": 83.86,
       "p_align": 0.99
     },
     {
       "word": "But ",
       "success": true,
-      "start_s": 83.85999999999999,
-      "end_s": 84.11999999999999,
+      "start_s": 83.86,
+      "end_s": 84.12,
       "p_align": 0.99
     },
     {
       "word": "nowhere ",
       "success": true,
-      "start_s": 84.11999999999999,
-      "end_s": 84.41999999999999,
+      "start_s": 84.12,
+      "end_s": 84.42,
       "p_align": 0.99
     },
     {
       "word": "to ",
       "success": true,
-      "start_s": 84.41999999999999,
-      "end_s": 84.66,
+      "start_s": 84.42,
+      "end_s": 84.68,
       "p_align": 0.99
     },
     {
       "word": "go\n\n",
       "success": true,
-      "start_s": 84.66,
-      "end_s": 85.08,
+      "start_s": 84.68,
+      "end_s": 85.06,
       "p_align": 0.99
     },
     {
       "word": "Rain ",
       "success": true,
-      "start_s": 84.84,
+      "start_s": 84.86,
       "end_s": 85.22,
       "p_align": 0.99
     },
@@ -1159,13 +1131,13 @@
       "word": "on ",
       "success": true,
       "start_s": 85.22,
-      "end_s": 85.56,
+      "end_s": 85.58,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 85.56,
+      "start_s": 85.58,
       "end_s": 85.78,
       "p_align": 0.99
     },
@@ -1201,13 +1173,13 @@
       "word": "Mouth ",
       "success": true,
       "start_s": 87.67999999999999,
-      "end_s": 88.28,
+      "end_s": 88.25999999999999,
       "p_align": 0.99
     },
     {
       "word": "full ",
       "success": true,
-      "start_s": 88.28,
+      "start_s": 88.25999999999999,
       "end_s": 88.53999999999999,
       "p_align": 0.99
     },
@@ -1222,13 +1194,13 @@
       "word": "memories\n",
       "success": true,
       "start_s": 88.74,
-      "end_s": 89.17999999999999,
+      "end_s": 89.14,
       "p_align": 0.99
     },
     {
       "word": "I ",
       "success": true,
-      "start_s": 89.17999999999999,
+      "start_s": 89.14,
       "end_s": 89.44,
       "p_align": 0.99
     },
@@ -1236,13 +1208,13 @@
       "word": "hum ",
       "success": true,
       "start_s": 89.44,
-      "end_s": 89.58,
+      "end_s": 89.6,
       "p_align": 0.99
     },
     {
       "word": "it ",
       "success": true,
-      "start_s": 89.58,
+      "start_s": 89.6,
       "end_s": 89.75999999999999,
       "p_align": 0.99
     },
@@ -1369,27 +1341,27 @@
       "word": "you ",
       "success": true,
       "start_s": 94.53999999999999,
-      "end_s": 94.66,
+      "end_s": 94.67999999999999,
       "p_align": 0.99
     },
     {
       "word": "already ",
       "success": true,
-      "start_s": 94.66,
-      "end_s": 95.03999999999999,
+      "start_s": 94.67999999999999,
+      "end_s": 95.06,
       "p_align": 0.99
     },
     {
       "word": "forgot\n\n",
       "success": true,
-      "start_s": 95.03999999999999,
-      "end_s": 95.69,
+      "start_s": 95.06,
+      "end_s": 95.6,
       "p_align": 0.99
     },
     {
       "word": "\n밤공기 ",
       "success": true,
-      "start_s": 95.78,
+      "start_s": 95.3,
       "end_s": 97.28,
       "p_align": 0.99
     },
@@ -1397,20 +1369,20 @@
       "word": "살짝 ",
       "success": true,
       "start_s": 97.28,
-      "end_s": 98.3,
+      "end_s": 97.86,
       "p_align": 0.99
     },
     {
       "word": "스며들어\n",
       "success": true,
-      "start_s": 98.3,
-      "end_s": 100.5,
+      "start_s": 99.24,
+      "end_s": 100.44,
       "p_align": 0.99
     },
     {
       "word": "My ",
       "success": true,
-      "start_s": 100.8,
+      "start_s": 100.74,
       "end_s": 101.82,
       "p_align": 0.99
     },
@@ -1418,13 +1390,13 @@
       "word": "breath ",
       "success": true,
       "start_s": 101.82,
-      "end_s": 102.2,
+      "end_s": 102.16,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 102.2,
+      "start_s": 102.16,
       "end_s": 102.8,
       "p_align": 0.99
     },
@@ -1439,13 +1411,13 @@
       "word": "glass ",
       "success": true,
       "start_s": 103.14,
-      "end_s": 103.6,
+      "end_s": 103.61999999999999,
       "p_align": 0.99
     },
     {
       "word": "writes ",
       "success": true,
-      "start_s": 103.6,
+      "start_s": 103.61999999999999,
       "end_s": 104.06,
       "p_align": 0.99
     },
@@ -1474,13 +1446,13 @@
       "word": "wipe ",
       "success": true,
       "start_s": 106.42,
-      "end_s": 106.75999999999999,
+      "end_s": 106.78,
       "p_align": 0.99
     },
     {
       "word": "it ",
       "success": true,
-      "start_s": 106.75999999999999,
+      "start_s": 106.78,
       "end_s": 106.96,
       "p_align": 0.99
     },
@@ -1488,34 +1460,34 @@
       "word": "away\n",
       "success": true,
       "start_s": 106.96,
-      "end_s": 107.86,
+      "end_s": 108.8,
       "p_align": 0.99
     },
     {
       "word": "But ",
       "success": true,
-      "start_s": 110.39999999999999,
-      "end_s": 111.6,
+      "start_s": 108.8,
+      "end_s": 111.67999999999999,
       "p_align": 0.99
     },
     {
       "word": "it’",
       "success": true,
-      "start_s": 111.96,
-      "end_s": 112.02666666666667,
+      "start_s": 111.67999999999999,
+      "end_s": 111.89333333333333,
       "p_align": 0.99
     },
     {
       "word": "s ",
       "success": true,
-      "start_s": 112.02666666666667,
-      "end_s": 112.06,
+      "start_s": 111.89333333333333,
+      "end_s": 112.0,
       "p_align": 0.99
     },
     {
       "word": "still ",
       "success": true,
-      "start_s": 112.06,
+      "start_s": 112.0,
       "end_s": 112.24,
       "p_align": 0.99
     },
@@ -1523,34 +1495,34 @@
       "word": "there\n",
       "success": true,
       "start_s": 112.24,
-      "end_s": 113.08,
+      "end_s": 112.94,
       "p_align": 0.99
     },
     {
       "word": "계속 ",
       "success": true,
-      "start_s": 113.08,
-      "end_s": 113.56,
+      "start_s": 112.94,
+      "end_s": 113.58,
       "p_align": 0.99
     },
     {
       "word": "남아\n",
       "success": true,
-      "start_s": 113.56,
-      "end_s": 114.5,
+      "start_s": 113.58,
+      "end_s": 114.48,
       "p_align": 0.99
     },
     {
       "word": "Same\n\n",
       "success": true,
-      "start_s": 114.5,
-      "end_s": 115.0,
+      "start_s": 114.48,
+      "end_s": 115.11999999999999,
       "p_align": 0.99
     },
     {
       "word": "\nRain ",
       "success": true,
-      "start_s": 114.7,
+      "start_s": 114.82,
       "end_s": 116.82,
       "p_align": 0.99
     },
@@ -1572,20 +1544,20 @@
       "word": "windshield\n",
       "success": true,
       "start_s": 117.44,
-      "end_s": 117.9,
+      "end_s": 117.86,
       "p_align": 0.99
     },
     {
       "word": "Colors ",
       "success": true,
-      "start_s": 118.2,
-      "end_s": 118.74,
+      "start_s": 118.16,
+      "end_s": 118.75999999999999,
       "p_align": 0.99
     },
     {
       "word": "run ",
       "success": true,
-      "start_s": 118.74,
+      "start_s": 118.75999999999999,
       "end_s": 118.96,
       "p_align": 0.99
     },
@@ -1593,20 +1565,20 @@
       "word": "slow\n",
       "success": true,
       "start_s": 118.96,
-      "end_s": 119.38,
+      "end_s": 119.3,
       "p_align": 0.99
     },
     {
       "word": "City ",
       "success": true,
-      "start_s": 119.39,
-      "end_s": 119.94,
+      "start_s": 119.3,
+      "end_s": 119.98,
       "p_align": 0.99
     },
     {
       "word": "lights ",
       "success": true,
-      "start_s": 119.94,
+      "start_s": 119.98,
       "end_s": 120.32,
       "p_align": 0.99
     },
@@ -1614,13 +1586,13 @@
       "word": "melting ",
       "success": true,
       "start_s": 120.32,
-      "end_s": 120.69999999999999,
+      "end_s": 120.67999999999999,
       "p_align": 0.99
     },
     {
       "word": "like ",
       "success": true,
-      "start_s": 120.69999999999999,
+      "start_s": 120.67999999999999,
       "end_s": 120.94,
       "p_align": 0.99
     },
@@ -1628,34 +1600,34 @@
       "word": "watercolors ",
       "success": true,
       "start_s": 120.94,
-      "end_s": 121.82,
+      "end_s": 121.78,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 121.82,
-      "end_s": 122.0,
+      "start_s": 121.78,
+      "end_s": 122.06,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 122.0,
-      "end_s": 122.22,
+      "start_s": 122.06,
+      "end_s": 122.24,
       "p_align": 0.99
     },
     {
       "word": "road\n",
       "success": true,
-      "start_s": 122.22,
+      "start_s": 122.24,
       "end_s": 122.44,
       "p_align": 0.99
     },
     {
       "word": "말은 ",
       "success": true,
-      "start_s": 122.42999999999999,
+      "start_s": 122.44,
       "end_s": 122.88,
       "p_align": 0.99
     },
@@ -1663,55 +1635,41 @@
       "word": "다 ",
       "success": true,
       "start_s": 122.88,
-      "end_s": 123.03999999999999,
+      "end_s": 123.06,
       "p_align": 0.99
     },
     {
-      "word": "번져 (",
+      "word": "번져\n",
       "success": true,
-      "start_s": 123.03999999999999,
-      "end_s": 123.55999999999999,
-      "p_align": 0.99
-    },
-    {
-      "word": "다 ",
-      "success": true,
-      "start_s": 123.55999999999999,
-      "end_s": 123.77999999999999,
-      "p_align": 0.99
-    },
-    {
-      "word": "번져)\n",
-      "success": true,
-      "start_s": 123.77999999999999,
-      "end_s": 123.77999999999999,
+      "start_s": 123.06,
+      "end_s": 123.5,
       "p_align": 0.99
     },
     {
       "word": "Like ",
       "success": true,
-      "start_s": 123.83999999999999,
-      "end_s": 123.83999999999999,
+      "start_s": 122.54,
+      "end_s": 123.24,
       "p_align": 0.99
     },
     {
       "word": "ink ",
       "success": true,
-      "start_s": 123.83999999999999,
-      "end_s": 123.97999999999999,
+      "start_s": 123.24,
+      "end_s": 123.92,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 123.97999999999999,
-      "end_s": 124.11999999999999,
+      "start_s": 123.92,
+      "end_s": 124.1,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 124.11999999999999,
+      "start_s": 124.1,
       "end_s": 124.22,
       "p_align": 0.99
     },
@@ -1719,34 +1677,34 @@
       "word": "snow\n",
       "success": true,
       "start_s": 124.22,
-      "end_s": 124.64,
+      "end_s": 124.62,
       "p_align": 0.99
     },
     {
       "word": "I’",
       "success": true,
-      "start_s": 124.64,
-      "end_s": 124.99,
+      "start_s": 124.62,
+      "end_s": 124.98,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 124.99,
-      "end_s": 125.33999999999999,
+      "start_s": 124.98,
+      "end_s": 125.34,
       "p_align": 0.99
     },
     {
       "word": "driving ",
       "success": true,
-      "start_s": 125.33999999999999,
-      "end_s": 125.33999999999999,
+      "start_s": 125.34,
+      "end_s": 125.34,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 125.33999999999999,
+      "start_s": 125.34,
       "end_s": 125.52,
       "p_align": 0.99
     },
@@ -1754,104 +1712,104 @@
       "word": "circles\n",
       "success": true,
       "start_s": 125.52,
-      "end_s": 125.97,
+      "end_s": 126.08,
       "p_align": 0.99
     },
     {
       "word": "But ",
       "success": true,
-      "start_s": 126.03999999999999,
-      "end_s": 126.36,
+      "start_s": 126.08,
+      "end_s": 126.34,
       "p_align": 0.99
     },
     {
       "word": "nowhere ",
       "success": true,
-      "start_s": 126.36,
-      "end_s": 126.61999999999999,
+      "start_s": 126.34,
+      "end_s": 126.62,
       "p_align": 0.99
     },
     {
       "word": "to ",
       "success": true,
-      "start_s": 126.61999999999999,
-      "end_s": 126.86,
+      "start_s": 126.62,
+      "end_s": 126.88,
       "p_align": 0.99
     },
     {
       "word": "go\n\n",
       "success": true,
-      "start_s": 126.86,
-      "end_s": 127.3,
+      "start_s": 126.88,
+      "end_s": 127.28,
       "p_align": 0.99
     },
     {
       "word": "Rain ",
       "success": true,
-      "start_s": 127.0,
-      "end_s": 127.46,
+      "start_s": 127.02,
+      "end_s": 127.44,
       "p_align": 0.99
     },
     {
       "word": "on ",
       "success": true,
-      "start_s": 127.46,
+      "start_s": 127.44,
       "end_s": 127.76,
       "p_align": 0.99
     },
     {
       "word": "the ",
       "success": true,
-      "start_s": 127.76,
-      "end_s": 128.0,
+      "start_s": 127.86,
+      "end_s": 127.98,
       "p_align": 0.99
     },
     {
       "word": "windshield\n",
       "success": true,
-      "start_s": 128.0,
-      "end_s": 128.4,
+      "start_s": 127.98,
+      "end_s": 128.46,
       "p_align": 0.99
     },
     {
       "word": "Blurry ",
       "success": true,
-      "start_s": 128.70000000000002,
-      "end_s": 129.3,
+      "start_s": 128.76000000000002,
+      "end_s": 129.32000000000002,
       "p_align": 0.99
     },
     {
       "word": "old ",
       "success": true,
-      "start_s": 129.3,
-      "end_s": 129.5,
+      "start_s": 129.32000000000002,
+      "end_s": 129.52,
       "p_align": 0.99
     },
     {
       "word": "song\n",
       "success": true,
-      "start_s": 129.5,
-      "end_s": 129.98000000000002,
+      "start_s": 129.52,
+      "end_s": 130.0,
       "p_align": 0.99
     },
     {
       "word": "Mouth ",
       "success": true,
-      "start_s": 129.98000000000002,
-      "end_s": 130.48000000000002,
+      "start_s": 130.0,
+      "end_s": 130.52,
       "p_align": 0.99
     },
     {
       "word": "full ",
       "success": true,
-      "start_s": 130.48000000000002,
-      "end_s": 130.72,
+      "start_s": 130.52,
+      "end_s": 130.74,
       "p_align": 0.99
     },
     {
       "word": "of ",
       "success": true,
-      "start_s": 130.72,
+      "start_s": 130.74,
       "end_s": 130.94,
       "p_align": 0.99
     },
@@ -1859,34 +1817,34 @@
       "word": "memories\n",
       "success": true,
       "start_s": 130.94,
-      "end_s": 131.32000000000002,
+      "end_s": 131.38000000000002,
       "p_align": 0.99
     },
     {
       "word": "I ",
       "success": true,
-      "start_s": 131.32000000000002,
-      "end_s": 131.66000000000003,
+      "start_s": 131.38000000000002,
+      "end_s": 131.64000000000001,
       "p_align": 0.99
     },
     {
       "word": "hum ",
       "success": true,
-      "start_s": 131.66000000000003,
-      "end_s": 131.8,
+      "start_s": 131.64000000000001,
+      "end_s": 131.82000000000002,
       "p_align": 0.99
     },
     {
       "word": "it ",
       "success": true,
-      "start_s": 131.8,
-      "end_s": 131.96,
+      "start_s": 131.82000000000002,
+      "end_s": 131.98000000000002,
       "p_align": 0.99
     },
     {
       "word": "all ",
       "success": true,
-      "start_s": 131.96,
+      "start_s": 131.98000000000002,
       "end_s": 132.22,
       "p_align": 0.99
     },
@@ -1894,20 +1852,20 @@
       "word": "wrong\n",
       "success": true,
       "start_s": 132.22,
-      "end_s": 132.66000000000003,
+      "end_s": 132.68,
       "p_align": 0.99
     },
     {
       "word": "괜찮다 ",
       "success": true,
-      "start_s": 132.82000000000002,
-      "end_s": 133.52000000000004,
+      "start_s": 132.87,
+      "end_s": 133.52,
       "p_align": 0.99
     },
     {
       "word": "했지만\n",
       "success": true,
-      "start_s": 133.52000000000004,
+      "start_s": 133.52,
       "end_s": 134.04000000000002,
       "p_align": 0.99
     },
@@ -1915,34 +1873,34 @@
       "word": "You ",
       "success": true,
       "start_s": 134.04000000000002,
-      "end_s": 134.32000000000002,
+      "end_s": 134.3,
       "p_align": 0.99
     },
     {
       "word": "know ",
       "success": true,
-      "start_s": 134.32000000000002,
-      "end_s": 134.48000000000002,
+      "start_s": 134.3,
+      "end_s": 134.46,
       "p_align": 0.99
     },
     {
       "word": "that ",
       "success": true,
-      "start_s": 134.48000000000002,
-      "end_s": 134.58,
+      "start_s": 134.46,
+      "end_s": 134.6,
       "p_align": 0.99
     },
     {
       "word": "I’",
       "success": true,
-      "start_s": 134.58,
-      "end_s": 134.78000000000003,
+      "start_s": 134.6,
+      "end_s": 134.79000000000002,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 134.78000000000003,
+      "start_s": 134.79000000000002,
       "end_s": 134.98000000000002,
       "p_align": 0.99
     },
@@ -1950,48 +1908,48 @@
       "word": "not\n",
       "success": true,
       "start_s": 134.98000000000002,
-      "end_s": 135.16000000000003,
+      "end_s": 135.16,
       "p_align": 0.99
     },
     {
       "word": "I’",
       "success": true,
-      "start_s": 135.16000000000003,
-      "end_s": 135.27000000000004,
+      "start_s": 135.16,
+      "end_s": 135.26999999999998,
       "p_align": 0.99
     },
     {
       "word": "m ",
       "success": true,
-      "start_s": 135.27000000000004,
-      "end_s": 135.38000000000002,
+      "start_s": 135.26999999999998,
+      "end_s": 135.38,
       "p_align": 0.99
     },
     {
       "word": "stuck ",
       "success": true,
-      "start_s": 135.38000000000002,
-      "end_s": 135.66000000000003,
+      "start_s": 135.38,
+      "end_s": 135.64000000000001,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 135.66000000000003,
-      "end_s": 135.94000000000003,
+      "start_s": 135.64000000000001,
+      "end_s": 135.94,
       "p_align": 0.99
     },
     {
       "word": "this ",
       "success": true,
-      "start_s": 135.94000000000003,
-      "end_s": 136.18000000000004,
+      "start_s": 135.94,
+      "end_s": 136.18,
       "p_align": 0.99
     },
     {
       "word": "moment\n",
       "success": true,
-      "start_s": 136.18000000000004,
+      "start_s": 136.18,
       "end_s": 136.48000000000002,
       "p_align": 0.99
     },
@@ -2013,14 +1971,14 @@
       "word": "already ",
       "success": true,
       "start_s": 136.9,
-      "end_s": 137.36,
+      "end_s": 137.26000000000002,
       "p_align": 0.99
     },
     {
       "word": "forgot\n\n",
       "success": true,
-      "start_s": 137.36,
-      "end_s": 137.84,
+      "start_s": 137.26000000000002,
+      "end_s": 137.8,
       "p_align": 0.99
     }
   ],
@@ -5138,5 +5096,6 @@
         }
       ]
     }
-  ]
+  ],
+  "skip_alignment": true
 }

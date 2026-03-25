@@ -17,7 +17,7 @@ import re
 import tempfile
 import shutil
 
-from lyrics import sync_lyrics, parse_lyrics_json
+from lyrics import sync_lyrics, parse_lyrics_json, validate_alignment
 
 # ============================================================
 # 설정
@@ -420,6 +420,20 @@ def main():
 
     print(f"\n⏱  총 재생시간: {total_mins}:{total_secs:02d}")
     print(f"🎞  총 프레임: {total_frames}")
+
+    # alignment 품질 검증
+    track_offsets = {tracklist_single[i]['title']: track_starts[i] for i in range(len(tracklist_single))}
+    severe_tracks = validate_alignment(LYRICS_DIR, song_files, track_offsets)
+    if severe_tracks:
+        print(f"\n🛑 심각한 alignment 문제가 있는 곡 {len(severe_tracks)}개:")
+        for t in severe_tracks:
+            print(f"   - {t}")
+        print(f"\n   해당 곡의 lyrics JSON을 삭제 후 다시 실행하거나,")
+        print(f"   skip_alignment 플래그를 설정해 수동 보정해주세요.")
+        print(f"   렌더를 강제로 진행하려면: --force-render")
+        if '--force-render' not in sys.argv:
+            return
+        print(f"\n   ⚠️  --force-render 플래그로 강제 진행합니다.\n")
 
     # 바 높이 미리 계산
     print("\n📊 주파수 분석 중...")
