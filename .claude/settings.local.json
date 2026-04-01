@@ -5,7 +5,15 @@
       "Bash(git add:*)",
       "Bash(pip3 list:*)",
       "Bash(python3 \"SEOUL LABS/scripts/preview.py\" \"SEOUL LABS/EP01_000000\")",
-      "Bash(python3 \"SEOUL LABS/scripts/generate.py\" \"SEOUL LABS/EP02_260325\")"
+      "Bash(python3 \"SEOUL LABS/scripts/generate.py\" \"SEOUL LABS/EP02_260325\")",
+      "Bash(yt-dlp --default-search ytsearch1 --print title --print id 'TJ노래방 그대에게 조용필')",
+      "Bash(yt-dlp --default-search ytsearch5 --print title --print id 'TJ노래방 그대에게 조용필 MR')",
+      "Bash(yt-dlp --default-search ytsearch3 --print title --print id 'TJ노래방 그대에게 신해철')",
+      "Bash(yt-dlp -x --audio-format wav --no-playlist -o \"~/Downloads/%\\(title\\)s.%\\(ext\\)s\" \"https://youtu.be/O8vX8Xs7a18\")",
+      "Bash(yt-dlp -x --audio-format wav --no-playlist -o \"~/Downloads/%\\(title\\)s.%\\(ext\\)s\" \"https://youtu.be/-o7TOibUViU\")",
+      "Bash(ffmpeg -i \"$HOME/Downloads/[TJ노래방] 여행을떠나요 - 조용필 ⧸ TJ Karaoke.wav\" -filter:a \"atempo=0.75\" \"$HOME/Downloads/여행을떠나요 - 조용필 - 0.75x.wav\" -y)",
+      "Bash(ffmpeg -i \"$HOME/Downloads/[TJ노래방] 그대에게 - 무한궤도 ⧸ TJ Karaoke.wav\" -filter:a \"atempo=0.75\" \"$HOME/Downloads/그대에게 - 무한궤도 - 0.75x.wav\" -y)",
+      "Bash(demucs --two-stems=vocals -o \"$HOME/Downloads/demucs_output\" \"$HOME/Downloads/여행을떠나요 - 조용필 - 0.75x.wav\" \"$HOME/Downloads/그대에게 - 무한궤도 - 0.75x.wav\")"
     ]
   }
 }

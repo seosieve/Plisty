@@ -599,7 +599,7 @@ def validate_alignment(lyrics_dir, song_files, track_offsets=None):
 # ============================================================
 # 가사 파싱 (generate.py에서 사용)
 # ============================================================
-def parse_lyrics_json(json_path):
+def parse_lyrics_json(json_path, extend=True):
     """JSON에서 라인별 (start_s, end_s, text) 리스트 반환"""
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -708,14 +708,15 @@ def parse_lyrics_json(json_path):
         i += 1
 
     # end_s 여유 추가 (다음 줄 시작을 넘지 않도록)
-    LYRICS_EXTEND = 0.8
-    for i in range(len(merged)):
-        start_s, end_s, text = merged[i]
-        extended_end = end_s + LYRICS_EXTEND
-        if i + 1 < len(merged):
-            next_start = merged[i + 1][0]
-            extended_end = min(extended_end, next_start)
-        merged[i] = (start_s, extended_end, text)
+    if extend:
+        LYRICS_EXTEND = 0.8
+        for i in range(len(merged)):
+            start_s, end_s, text = merged[i]
+            extended_end = end_s + LYRICS_EXTEND
+            if i + 1 < len(merged):
+                next_start = merged[i + 1][0]
+                extended_end = min(extended_end, next_start)
+            merged[i] = (start_s, extended_end, text)
 
     return merged
 

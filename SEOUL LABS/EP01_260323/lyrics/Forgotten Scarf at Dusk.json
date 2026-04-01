@@ -823,134 +823,134 @@
     {
       "word": "Like ",
       "success": true,
-      "start_s": 90.81,
-      "end_s": 91.05,
+      "start_s": 90.6,
+      "end_s": 90.83,
       "p_align": 0.99
     },
     {
       "word": "you ",
       "success": true,
-      "start_s": 91.05,
-      "end_s": 91.29,
+      "start_s": 90.83,
+      "end_s": 91.06,
       "p_align": 0.99
     },
     {
       "word": "never ",
       "success": true,
-      "start_s": 91.29,
-      "end_s": 91.75,
+      "start_s": 91.06,
+      "end_s": 91.49,
       "p_align": 0.99
     },
     {
       "word": "really ",
       "success": true,
-      "start_s": 91.75,
-      "end_s": 92.31,
+      "start_s": 91.49,
+      "end_s": 92.02,
       "p_align": 0.99
     },
     {
       "word": "left ",
       "success": true,
-      "start_s": 92.31,
-      "end_s": 92.85000000000001,
+      "start_s": 92.02,
+      "end_s": 92.53,
       "p_align": 0.99
     },
     {
       "word": "me\n\n",
       "success": true,
-      "start_s": 92.85000000000001,
-      "end_s": 93.13000000000001,
+      "start_s": 92.53,
+      "end_s": 92.8,
       "p_align": 0.99
     },
     {
       "word": "I ",
       "success": true,
-      "start_s": 92.89,
-      "end_s": 93.13,
+      "start_s": 92.8,
+      "end_s": 93.09,
       "p_align": 0.99
     },
     {
       "word": "breathe ",
       "success": true,
-      "start_s": 93.13,
-      "end_s": 93.39,
+      "start_s": 93.09,
+      "end_s": 93.4,
       "p_align": 0.99
     },
     {
       "word": "you ",
       "success": true,
-      "start_s": 93.39,
-      "end_s": 93.71,
+      "start_s": 93.4,
+      "end_s": 93.79,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 93.71,
-      "end_s": 93.89,
+      "start_s": 93.79,
+      "end_s": 94.01,
       "p_align": 0.99
     },
     {
       "word": "once ",
       "success": true,
-      "start_s": 93.89,
-      "end_s": 94.29,
+      "start_s": 94.01,
+      "end_s": 94.49,
       "p_align": 0.99
     },
     {
       "word": "more\n",
       "success": true,
-      "start_s": 94.29,
-      "end_s": 94.71,
+      "start_s": 94.49,
+      "end_s": 95.0,
       "p_align": 0.99
     },
     {
       "word": "조용히\n",
       "success": true,
-      "start_s": 94.00999999999999,
-      "end_s": 94.58999999999999,
+      "start_s": 95.0,
+      "end_s": 95.41,
       "p_align": 0.99
     },
     {
       "word": "숨을 ",
       "success": true,
-      "start_s": 94.58999999999999,
-      "end_s": 95.21,
+      "start_s": 95.41,
+      "end_s": 95.85,
       "p_align": 0.99
     },
     {
       "word": "마셔\n",
       "success": true,
-      "start_s": 95.21,
-      "end_s": 97.27,
+      "start_s": 95.85,
+      "end_s": 97.3,
       "p_align": 0.99
     },
     {
       "word": "Forgotten ",
       "success": true,
       "start_s": 97.27,
-      "end_s": 98.16999999999999,
+      "end_s": 97.95,
       "p_align": 0.99
     },
     {
       "word": "scarf ",
       "success": true,
-      "start_s": 98.16999999999999,
-      "end_s": 98.57,
+      "start_s": 97.95,
+      "end_s": 98.25,
       "p_align": 0.99
     },
     {
       "word": "at ",
       "success": true,
-      "start_s": 98.57,
-      "end_s": 98.83,
+      "start_s": 98.25,
+      "end_s": 98.45,
       "p_align": 0.99
     },
     {
       "word": "dusk\n",
       "success": true,
-      "start_s": 98.83,
-      "end_s": 99.68999999999998,
+      "start_s": 98.45,
+      "end_s": 99.1,
       "p_align": 0.99
     },
     {
@@ -999,76 +999,76 @@
       "word": "shoulders\n\n",
       "success": true,
       "start_s": 101.67,
-      "end_s": 102.69,
+      "end_s": 102.7,
       "p_align": 0.99
     },
     {
       "word": "\n말 ",
       "success": true,
-      "start_s": 102.39,
-      "end_s": 104.69,
+      "start_s": 104.6,
+      "end_s": 105.92,
       "p_align": 0.99
     },
     {
       "word": "안 ",
       "success": true,
-      "start_s": 104.69,
-      "end_s": 105.17,
+      "start_s": 105.92,
+      "end_s": 106.2,
       "p_align": 0.99
     },
     {
       "word": "해도 ",
       "success": true,
-      "start_s": 105.17,
-      "end_s": 105.47,
+      "start_s": 106.2,
+      "end_s": 106.37,
       "p_align": 0.99
     },
     {
       "word": "알았지\n",
       "success": true,
-      "start_s": 105.47,
-      "end_s": 106.91,
+      "start_s": 106.37,
+      "end_s": 107.2,
       "p_align": 0.99
     },
     {
       "word": "Back ",
       "success": true,
-      "start_s": 107.21,
-      "end_s": 109.07,
+      "start_s": 108.5,
+      "end_s": 109.83,
       "p_align": 0.99
     },
     {
       "word": "when ",
       "success": true,
-      "start_s": 109.07,
-      "end_s": 109.33,
+      "start_s": 109.83,
+      "end_s": 110.02,
       "p_align": 0.99
     },
     {
       "word": "silence ",
       "success": true,
-      "start_s": 109.33,
-      "end_s": 109.97,
+      "start_s": 110.02,
+      "end_s": 110.48,
       "p_align": 0.99
     },
     {
       "word": "felt ",
       "success": true,
-      "start_s": 109.97,
-      "end_s": 110.49,
+      "start_s": 110.48,
+      "end_s": 110.85,
       "p_align": 0.99
     },
     {
       "word": "like ",
       "success": true,
-      "start_s": 110.49,
-      "end_s": 111.13,
+      "start_s": 110.85,
+      "end_s": 111.31,
       "p_align": 0.99
     },
     {
       "word": "spring\n",
       "success": true,
-      "start_s": 111.13,
+      "start_s": 111.31,
       "end_s": 111.75,
       "p_align": 0.99
     },
@@ -1103,7 +1103,7 @@
     {
       "word": "you\n",
       "success": true,
-      "start_s": 115.05,
+      "start_s": 115.2,
       "end_s": 116.99,
       "p_align": 0.99
     },
@@ -1138,127 +1138,127 @@
     {
       "word": "\nForgotten ",
       "success": true,
-      "start_s": 122.15,
-      "end_s": 122.77000000000001,
+      "start_s": 122.0,
+      "end_s": 122.95,
       "p_align": 0.99
     },
     {
       "word": "scarf ",
       "success": true,
-      "start_s": 122.77000000000001,
-      "end_s": 123.03,
+      "start_s": 122.95,
+      "end_s": 123.35,
       "p_align": 0.99
     },
     {
       "word": "at ",
       "success": true,
-      "start_s": 123.03,
-      "end_s": 123.67,
+      "start_s": 123.35,
+      "end_s": 124.33,
       "p_align": 0.99
     },
     {
       "word": "dusk\n(",
       "success": true,
-      "start_s": 123.67,
-      "end_s": 124.69,
-      "p_align": 0.99
-    },
-    {
-      "word": "해질녘, ",
-      "success": true,
-      "start_s": 124.69,
-      "end_s": 124.95,
-      "p_align": 0.99
-    },
-    {
-      "word": "너의 ",
-      "success": true,
-      "start_s": 124.95,
-      "end_s": 124.95,
-      "p_align": 0.99
-    },
-    {
-      "word": "목도리)\n",
-      "success": true,
-      "start_s": 124.95,
-      "end_s": 124.95,
+      "start_s": 124.33,
+      "end_s": 125.9,
       "p_align": 0.99
     },
     {
       "word": "Still ",
       "success": true,
-      "start_s": 125.25,
-      "end_s": 125.25,
+      "start_s": 125.9,
+      "end_s": 126.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "warm in my ",
+      "success": true,
+      "start_s": 126.3,
+      "end_s": 126.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "hands)\n",
+      "success": true,
+      "start_s": 126.3,
+      "end_s": 126.3,
+      "p_align": 0.99
+    },
+    {
+      "word": "Still ",
+      "success": true,
+      "start_s": 126.3,
+      "end_s": 126.3,
       "p_align": 0.99
     },
     {
       "word": "warm ",
       "success": true,
-      "start_s": 125.25,
-      "end_s": 125.59,
+      "start_s": 126.3,
+      "end_s": 126.87,
       "p_align": 0.99
     },
     {
       "word": "in ",
       "success": true,
-      "start_s": 125.59,
-      "end_s": 125.69,
+      "start_s": 126.87,
+      "end_s": 127.03,
       "p_align": 0.99
     },
     {
       "word": "my ",
       "success": true,
-      "start_s": 125.69,
-      "end_s": 126.03,
+      "start_s": 127.03,
+      "end_s": 127.6,
       "p_align": 0.99
     },
     {
       "word": "hands\n",
       "success": true,
-      "start_s": 126.03,
-      "end_s": 126.57000000000001,
+      "start_s": 127.6,
+      "end_s": 128.5,
       "p_align": 0.99
     },
     {
       "word": "Like ",
       "success": true,
-      "start_s": 126.57000000000001,
-      "end_s": 128.45000000000002,
+      "start_s": 128.5,
+      "end_s": 129.46,
       "p_align": 0.99
     },
     {
       "word": "you ",
       "success": true,
-      "start_s": 128.45000000000002,
-      "end_s": 129.49,
+      "start_s": 129.46,
+      "end_s": 130.0,
       "p_align": 0.99
     },
     {
       "word": "never ",
       "success": true,
-      "start_s": 129.49,
-      "end_s": 129.83,
+      "start_s": 130.0,
+      "end_s": 130.17,
       "p_align": 0.99
     },
     {
       "word": "really ",
       "success": true,
-      "start_s": 129.83,
-      "end_s": 130.39000000000001,
+      "start_s": 130.17,
+      "end_s": 130.46,
       "p_align": 0.99
     },
     {
       "word": "left ",
       "success": true,
-      "start_s": 130.39000000000001,
-      "end_s": 130.79000000000002,
+      "start_s": 130.46,
+      "end_s": 130.66,
       "p_align": 0.99
     },
     {
       "word": "me\n\n",
       "success": true,
-      "start_s": 130.79000000000002,
-      "end_s": 131.25000000000003,
+      "start_s": 130.66,
+      "end_s": 130.9,
       "p_align": 0.99
     },
     {
