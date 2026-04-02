@@ -23,14 +23,18 @@ GRAIN_INTERVAL = 15  # 그레인 변경 주기 (프레임 수, 15=초당 2회)
 # ============================================================
 # 설정
 # ============================================================
-if len(sys.argv) < 2:
-    print("사용법: python3 generate.py <EP 폴더 경로> [곡 수 제한] [반복 횟수]")
+AUTO_CONFIRM = '-y' in sys.argv
+args = [a for a in sys.argv[1:] if a != '-y']
+
+if not args:
+    print("사용법: python3 generate.py <EP 폴더 경로> [곡 수 제한] [반복 횟수] [-y]")
     print("예: python3 generate.py ../EP01_260401")
     print("    python3 generate.py ../EP01_260401 3  # 1~3곡만")
     print("    python3 generate.py ../EP01_260401 0 2  # 전곡 2회 반복")
+    print("    -y: 부제 확인 생략")
     sys.exit(1)
 
-EP_DIR = os.path.abspath(sys.argv[1])
+EP_DIR = os.path.abspath(args[0])
 SONGS_DIR = os.path.join(EP_DIR, "songs")
 LOOPS_DIR = os.path.join(EP_DIR, "loops")
 OUTPUT_DIR = os.path.join(EP_DIR, "outputs")
@@ -71,7 +75,6 @@ SUB_FONT_SIZE = 56 * SCALE
 SUB_FONT_WEIGHT = 800  # Extrabold
 SUB_COLOR = (254, 255, 245)  # #FEFFF5
 SUB_ALPHA = 0.5
-SUB_TEXT = "1 KBO LEAGUE 2026"
 SUB_MARGIN_BOTTOM = 120 * SCALE  # 하단 여백
 
 # 바 비주얼라이저 설정
@@ -224,11 +227,11 @@ def main():
         return
 
     # 곡 수 제한
-    track_limit = int(sys.argv[2]) if len(sys.argv) >= 3 and int(sys.argv[2]) > 0 else len(song_files)
+    track_limit = int(args[1]) if len(args) >= 2 and int(args[1]) > 0 else len(song_files)
     song_files = song_files[:track_limit]
 
     # 반복 횟수 (플레이리스트를 N번 재생)
-    repeat_count = int(sys.argv[3]) if len(sys.argv) >= 4 else 1
+    repeat_count = int(args[2]) if len(args) >= 3 else 1
     if repeat_count > 1:
         song_files = song_files * repeat_count
         print(f"🔄 {repeat_count}회 반복 → 총 {len(song_files)}트랙")
@@ -244,8 +247,20 @@ def main():
         print(f"❌ loops 폴더에 영상 파일이 없습니다: {LOOPS_DIR}")
         return
 
+    # 부제: EP 번호 + 루프 파일명
+    ep_num = int(re.search(r'EP(\d+)', EP_NAME).group(1))
+    loop_name = os.path.splitext(os.path.basename(loop_file))[0]
+    SUB_TEXT = f"{ep_num} {loop_name}"
+    if not AUTO_CONFIRM:
+        print(f"\n📝 부제: {SUB_TEXT}")
+        confirm = input("   이대로 진행할까요? (y/n): ").strip().lower()
+        if confirm != 'y':
+            print("❌ 취소되었습니다. 루프 파일명을 부제에 맞게 변경해주세요.")
+            sys.exit(1)
+
     print(f"📂 EP: {EP_NAME}")
     print(f"🔁 루프 영상: {os.path.basename(loop_file)}")
+    print(f"📝 부제: {SUB_TEXT}")
     print(f"📋 트랙 수: {len(song_files)}")
 
     # 루프 프레임 로드
@@ -582,6 +597,23 @@ def main():
 
     # 정리
     shutil.rmtree(temp_dir)
+
+    # 타임라인 생성
+    timeline_path = os.path.join(OUTPUT_DIR, f"{EP_NAME}_timeline.txt")
+    seen = set()
+    with open(timeline_path, 'w', encoding='utf-8') as tf:
+        for i in range(len(song_files)):
+            t = track_starts[i]
+            m, s = int(t // 60), int(t % 60)
+            title = strip_track_prefix(os.path.splitext(song_files[i])[0])
+            # 반복 구간이면 REPEAT 표시 후 중단
+            key = (track_nums[i], title)
+            if key in seen:
+                tf.write(f"{m:02d}:{s:02d} REPEAT\n")
+                break
+            seen.add(key)
+            tf.write(f"{m:02d}:{s:02d} {title}\n")
+    print(f"\n📋 타임라인 저장: {timeline_path}")
 
     size = os.path.getsize(OUTPUT_FILE) / (1024 * 1024)
     print("")

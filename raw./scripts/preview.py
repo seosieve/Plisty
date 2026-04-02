@@ -25,7 +25,7 @@ from generate import (
     NUM_FONT_PATH, NUM_FONT_SIZE, NUM_COLOR, NUM_ALPHA,
     TITLE_FONT_PATH, TITLE_FONT_SIZE, TITLE_COLOR, TITLE_ALPHA, TITLE_GAP,
     TEXT_X, TEXT_MARGIN_TOP, TITLE_MAX_WIDTH,
-    SUB_FONT_PATH, SUB_FONT_SIZE, SUB_COLOR, SUB_ALPHA, SUB_TEXT, SUB_MARGIN_BOTTOM,
+    SUB_FONT_PATH, SUB_FONT_SIZE, SUB_COLOR, SUB_ALPHA, SUB_MARGIN_BOTTOM,
     AUDIO_EXTENSIONS, SCALE,
 )
 
@@ -46,7 +46,20 @@ def main():
         print("❌ loops 폴더에 영상 파일이 없습니다")
         sys.exit(1)
 
+    # 부제: EP 번호 + 루프 파일명
+    ep_name = os.path.basename(EP_DIR)
+    ep_num = int(re.search(r'EP(\d+)', ep_name).group(1))
+    loop_name = os.path.splitext(os.path.basename(loop_file))[0]
+    SUB_TEXT = f"{ep_num} {loop_name}"
+    if '-y' not in sys.argv:
+        print(f"\n📝 부제: {SUB_TEXT}")
+        confirm = input("   이대로 진행할까요? (y/n): ").strip().lower()
+        if confirm != 'y':
+            print("❌ 취소되었습니다. 루프 파일명을 부제에 맞게 변경해주세요.")
+            sys.exit(1)
+
     print(f"🔁 루프 영상: {os.path.basename(loop_file)}")
+    print(f"📝 부제: {SUB_TEXT}")
 
     # ffprobe로 해상도
     result = subprocess.run(
