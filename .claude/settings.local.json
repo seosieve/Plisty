@@ -13,7 +13,10 @@
       "Bash(yt-dlp -x --audio-format wav --no-playlist -o \"~/Downloads/%\\(title\\)s.%\\(ext\\)s\" \"https://youtu.be/-o7TOibUViU\")",
       "Bash(ffmpeg -i \"$HOME/Downloads/[TJ노래방] 여행을떠나요 - 조용필 ⧸ TJ Karaoke.wav\" -filter:a \"atempo=0.75\" \"$HOME/Downloads/여행을떠나요 - 조용필 - 0.75x.wav\" -y)",
       "Bash(ffmpeg -i \"$HOME/Downloads/[TJ노래방] 그대에게 - 무한궤도 ⧸ TJ Karaoke.wav\" -filter:a \"atempo=0.75\" \"$HOME/Downloads/그대에게 - 무한궤도 - 0.75x.wav\" -y)",
-      "Bash(demucs --two-stems=vocals -o \"$HOME/Downloads/demucs_output\" \"$HOME/Downloads/여행을떠나요 - 조용필 - 0.75x.wav\" \"$HOME/Downloads/그대에게 - 무한궤도 - 0.75x.wav\")"
+      "Bash(demucs --two-stems=vocals -o \"$HOME/Downloads/demucs_output\" \"$HOME/Downloads/여행을떠나요 - 조용필 - 0.75x.wav\" \"$HOME/Downloads/그대에게 - 무한궤도 - 0.75x.wav\")",
+      "Bash(python3 /Users/seosieve/Documents/PlayList/raw./scripts/remove_bg.py \"/Users/seosieve/Downloads/Gemini_Generated_Image_m3sqwfm3sqwfm3sq.png\" -t 15)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 /Users/seosieve/Documents/PlayList/raw./scripts/remove_bg.py \"/Users/seosieve/Downloads/Gemini_Generated_Image_xo2buexo2buexo2b.png\")"
     ]
   }
 }
