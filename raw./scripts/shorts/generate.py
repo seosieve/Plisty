@@ -2,8 +2,8 @@
 """
 raw. Shorts Generator
 배경 루프 영상 + 음악 구간 + 비주얼라이저 → 쇼츠 영상
-사용법: python3 generate.py <EP 폴더> <곡이름> <시작초> [끝초]
-예: python3 generate.py ../EP01_260402 "치고달려라 2010" 30 90
+사용법: python3 generate.py <EP 폴더> <곡이름>
+예: python3 generate.py ../EP01_260402 "치고달려라 2010"
 """
 
 import os
@@ -12,6 +12,7 @@ import sys
 import subprocess
 import tempfile
 import shutil
+import unicodedata
 
 import numpy as np
 from PIL import Image
@@ -61,7 +62,7 @@ def get_song_file(songs_dir, song_name):
         if ext not in AUDIO_EXTENSIONS:
             continue
         name = re.sub(r'^\d+_', '', os.path.splitext(f)[0])
-        if name == song_name:
+        if unicodedata.normalize('NFC', name) == unicodedata.normalize('NFC', song_name):
             return os.path.join(songs_dir, f)
     return None
 
@@ -148,15 +149,15 @@ def make_grain(h, w):
 # 메인
 # ============================================================
 def main():
-    if len(sys.argv) < 4:
-        print("사용법: python3 generate.py <EP 폴더> <곡이름> <시작초> [끝초]")
-        print('예: python3 generate.py ../EP01_260402 "치고달려라 2010" 30 90')
+    if len(sys.argv) < 3:
+        print("사용법: python3 generate.py <EP 폴더> <곡이름>")
+        print('예: python3 generate.py ../EP01_260402 "치고달려라 2010"')
         sys.exit(1)
 
     ep_dir = os.path.abspath(sys.argv[1])
     song_name = sys.argv[2]
-    start_sec = float(sys.argv[3])
-    end_sec = float(sys.argv[4]) if len(sys.argv) >= 5 else None
+    start_sec = 2.0
+    end_sec = 62.0
 
     songs_dir = os.path.join(ep_dir, "songs")
     shorts_dir = os.path.join(ep_dir, "shorts")

@@ -9,23 +9,23 @@ import subprocess
 import sys
 import os
 import re
-import hashlib
+import shutil
 import unicodedata
 import argparse
 from collections import Counter
 
-# KBO 전 구단 정보: 약칭 → (정식명, 마스코트명, 관련 키워드)
+# KBO 전 구단 정보: 약칭 → (정식명, 마스코트명, 관련 키워드, 나무위키 팀코드)
 KBO_TEAMS = {
-    "한화":  ("한화 이글스",   "이글스",   ["한화", "이글스", "이글"]),
-    "두산":  ("두산 베어스",   "베어스",   ["두산", "베어스"]),
-    "기아":  ("기아 타이거즈",  "타이거즈",  ["기아", "타이거즈", "KIA"]),
-    "롯데":  ("롯데 자이언츠",  "자이언츠",  ["롯데", "자이언츠"]),
-    "삼성":  ("삼성 라이온즈",  "라이온즈",  ["삼성", "라이온즈"]),
-    "키움":  ("키움 히어로즈",  "히어로즈",  ["키움", "히어로즈"]),
-    "LG":   ("LG 트윈스",    "트윈스",   ["LG", "엘지", "트윈스"]),
-    "NC":   ("NC 다이노스",   "다이노스",  ["NC", "다이노스"]),
-    "SSG":  ("SSG 랜더스",   "랜더스",   ["SSG", "랜더스"]),
-    "KT":   ("KT 위즈",     "위즈",    ["KT", "위즈"]),
+    "한화":  ("한화 이글스",   "이글스",   ["한화", "이글스", "이글"],  "한화 이글스"),
+    "두산":  ("두산 베어스",   "베어스",   ["두산", "베어스"],       "두산 베어스"),
+    "기아":  ("기아 타이거즈",  "타이거즈",  ["기아", "타이거즈", "KIA"], "KIA 타이거즈"),
+    "롯데":  ("롯데 자이언츠",  "자이언츠",  ["롯데", "자이언츠"],      "롯데 자이언츠"),
+    "삼성":  ("삼성 라이온즈",  "라이온즈",  ["삼성", "라이온즈"],      "삼성 라이온즈"),
+    "키움":  ("키움 히어로즈",  "히어로즈",  ["키움", "히어로즈"],      "키움 히어로즈"),
+    "LG":   ("LG 트윈스",    "트윈스",   ["LG", "엘지", "트윈스"],  "LG 트윈스"),
+    "NC":   ("NC 다이노스",   "다이노스",  ["NC", "다이노스"],      "NC 다이노스"),
+    "SSG":  ("SSG 랜더스",   "랜더스",   ["SSG", "랜더스"],      "SSG 랜더스"),
+    "KT":   ("KT 위즈",     "위즈",    ["KT", "위즈"],        "kt wiz"),
 }
 
 # 응원가에 흔히 쓰이는 키워드 (선수 이름 필터에서 면제)
@@ -84,28 +84,36 @@ def normalize_name(name):
     return s
 
 
-def make_player_filter(team_keywords):
-    """선수 이름 필터 클로저 생성"""
-    all_song_kw = SONG_KEYWORDS + [kw.lower() for kw in team_keywords]
+def fetch_player_names(namu_team_name):
+    """나무위키에서 팀 선수단 명단 가져오기"""
+    import urllib.parse
+    encoded = urllib.parse.quote(f"{namu_team_name}/선수단")
+    url = f"https://namu.wiki/w/{encoded}"
+    try:
+        result = subprocess.run([
+            'curl', '-s', '-H',
+            'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            url
+        ], capture_output=True, text=True, timeout=15)
+        # 등번호 + 이름 패턴으로 선수만 추출
+        pattern = r'>(\d{1,3})</div></td><td[^>]*><div[^>]*><a[^>]*title=.([가-힣]{2,5}).'
+        matches = re.findall(pattern, result.stdout)
+        return {name for _, name in matches}
+    except Exception:
+        return set()
 
+
+def make_player_filter(team_keywords, player_names):
+    """선수 이름 필터 클로저 생성 (나무위키 명단 기반)"""
     def is_player_name(name):
         clean = name.strip()
-        lower = clean.lower()
-
-        for kw in all_song_kw:
-            if kw.lower() in lower:
-                return False
-
-        if re.fullmatch(r'[가-힣]{2,3}', clean):
+        # 나무위키 명단에 있으면 선수
+        if clean in player_names:
             return True
-
+        # 곡명 첫 단어가 선수 이름이면 (예: "김광현 등장곡")
         first = clean.split()[0]
-        if re.fullmatch(r'[가-힣]{2,3}', first):
+        if first in player_names:
             return True
-
-        if re.fullmatch(r'[가-힣]{4,5}', clean):
-            return True
-
         return False
 
     return is_player_name
@@ -115,7 +123,7 @@ def make_other_team_filter(my_keywords):
     """타 구단 필터 클로저 생성"""
     my_lower = {kw.lower() for kw in my_keywords}
     other_keywords = []
-    for abbr, (full, mascot, keywords) in KBO_TEAMS.items():
+    for abbr, (full, mascot, keywords, _) in KBO_TEAMS.items():
         if not any(kw.lower() in my_lower for kw in keywords):
             other_keywords.extend(keywords)
 
@@ -182,12 +190,12 @@ def search_view_count(query, max_results=5):
 
 
 def download_audio(url, output_path):
-    """YouTube URL에서 오디오만 다운로드"""
+    """YouTube URL에서 오디오만 다운로드 (output_path는 확장자 없이)"""
     try:
         result = subprocess.run([
             'yt-dlp', '-x', '--audio-format', 'mp3',
             '--audio-quality', '0',
-            '-o', output_path,
+            '-o', output_path + '.%(ext)s',
             url
         ], capture_output=True, text=True, timeout=120)
         return result.returncode == 0
@@ -202,8 +210,8 @@ def main():
                         help="상위 N곡 원곡 오디오 다운로드")
     parser.add_argument("--out-dir", metavar="경로",
                         help="다운로드 저장 경로 (기본: ~/Downloads/<팀명>_원곡)")
-    parser.add_argument("--target-bpm", type=int, default=90, metavar="N",
-                        help="MR 템포 보정 목표 BPM (기본: 90, 이미 이하인 곡은 유지)")
+    parser.add_argument("--target-bpm", type=int, default=100, metavar="N",
+                        help="MR 템포 보정 목표 BPM (기본: 100, 이미 이하인 곡은 유지)")
     args = parser.parse_args()
 
     team_key = args.team.upper() if args.team.upper() in KBO_TEAMS else args.team
@@ -212,13 +220,22 @@ def main():
         print(f"사용 가능: {', '.join(KBO_TEAMS.keys())}")
         sys.exit(1)
 
-    full_name, mascot, my_keywords = KBO_TEAMS[team_key]
-    is_player = make_player_filter(my_keywords)
-    is_other_team = make_other_team_filter(my_keywords)
+    full_name, mascot, my_keywords, namu_name = KBO_TEAMS[team_key]
 
     print("=" * 60)
     print(f"⚾ {full_name} 팀 응원가 인기도 분석")
     print("=" * 60)
+
+    # 선수 명단 가져오기
+    print("\n👤 선수 명단 수집 중 (나무위키)...")
+    player_names = fetch_player_names(namu_name)
+    if player_names:
+        print(f"  ✅ {len(player_names)}명 로드")
+    else:
+        print("  ⚠️  선수 명단을 가져오지 못했습니다. 선수 필터가 비활성화됩니다.")
+
+    is_player = make_player_filter(my_keywords, player_names)
+    is_other_team = make_other_team_filter(my_keywords)
 
     # 1단계: 플레이리스트/모음 영상에서 곡명 자동 수집
     print("\n📊 1단계: 응원가 모음 영상에서 곡명 수집 중...")
@@ -454,8 +471,9 @@ def main():
             print(f"\n  📀 소스 {src_i+1}: [{y}-{m}] {src_title[:50]}")
             print(f"     {len(matchable)}곡 매칭, 오디오 다운로드 중...")
 
-            src_audio = os.path.join(out_dir, f"_source_{src_i}.mp3")
-            download_audio(src_url, os.path.join(out_dir, f"_source_{src_i}.%(ext)s"))
+            src_stem = os.path.join(out_dir, f"_source_{src_i}")
+            src_audio = src_stem + ".mp3"
+            download_audio(src_url, src_stem)
 
             for norm, display, idx in matchable:
                 start = src_tracks[idx]["start"]
@@ -535,14 +553,12 @@ def main():
                 stem_name = os.path.splitext(f)[0]
                 src = os.path.join(demucs_dir, 'htdemucs', stem_name, 'no_vocals.mp3')
                 if os.path.exists(src):
-                    import shutil
                     shutil.copy2(src, os.path.join(mr_dir, f))
                     print(f"  ✅ {f}")
                 else:
                     print(f"  ❌ {f} — MR 파일 없음")
 
             # demucs 임시 폴더 삭제
-            import shutil
             shutil.rmtree(demucs_dir, ignore_errors=True)
 
         # 6단계: 템포 보정
@@ -557,7 +573,6 @@ def main():
             print(f"{'=' * 60}")
 
             import librosa
-            import shutil as _shutil
 
             for f in mr_files:
                 path = os.path.join(mr_dir, f)
@@ -572,7 +587,7 @@ def main():
                 src_label = "원곡" if bpm_src == orig_path else "MR"
 
                 if bpm <= target_bpm:
-                    _shutil.copy2(path, out_path)
+                    shutil.copy2(path, out_path)
                     print(f"  {f[:2]}. {name:30s} {bpm:5.0f} BPM [{src_label}]  (유지)")
                     continue
 
