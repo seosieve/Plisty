@@ -27,6 +27,11 @@ from generate import (
     TEXT_X, TEXT_MARGIN_TOP, TITLE_MAX_WIDTH,
     SUB_FONT_PATH, SUB_FONT_SIZE, SUB_COLOR, SUB_ALPHA, SUB_MARGIN_BOTTOM,
     AUDIO_EXTENSIONS, SCALE,
+    GRAIN_STRENGTH, GRAIN_SIZE, GRAIN_COLOR,
+    VIS_NUM_BARS, VIS_BAR_WIDTH, VIS_BAR_GAP,
+    VIS_BAR_MAX_HEIGHT, VIS_BAR_MIN_HEIGHT,
+    VIS_BAR_ALPHA, VIS_BAR_COLOR, VIS_MARGIN_BOTTOM,
+    SUB_FONT_WEIGHT, make_grain,
 )
 
 
@@ -51,12 +56,6 @@ def main():
     ep_num = int(re.search(r'EP(\d+)', ep_name).group(1))
     loop_name = os.path.splitext(os.path.basename(loop_file))[0]
     SUB_TEXT = f"{ep_num} {loop_name}"
-    if '-y' not in sys.argv:
-        print(f"\n📝 부제: {SUB_TEXT}")
-        confirm = input("   이대로 진행할까요? (y/n): ").strip().lower()
-        if confirm != 'y':
-            print("❌ 취소되었습니다. 루프 파일명을 부제에 맞게 변경해주세요.")
-            sys.exit(1)
 
     print(f"🔁 루프 영상: {os.path.basename(loop_file)}")
     print(f"📝 부제: {SUB_TEXT}")
@@ -139,29 +138,16 @@ def main():
                    fill=(*TITLE_COLOR, int(TITLE_ALPHA * 255)), spacing=20 * SCALE)
 
     # 인공 그레인 합성
-    from generate import GRAIN_STRENGTH, GRAIN_SIZE
     b = np.array(canvas, dtype=np.float32) / 255.0
     l = np.array(text_layer, dtype=np.float32) / 255.0
     b_rgb, l_rgb, l_a = b[:, :, :3], l[:, :, :3], l[:, :, 3:4]
     h, w = b_rgb.shape[:2]
-    from generate import GRAIN_COLOR
-    if GRAIN_SIZE > 1:
-        mono = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 1).astype(np.float32)
-        color = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 3).astype(np.float32)
-        small = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
-        grain = np.repeat(np.repeat(small, GRAIN_SIZE, axis=0), GRAIN_SIZE, axis=1)[:h, :w]
-    else:
-        mono = np.random.randn(h, w, 1).astype(np.float32)
-        color = np.random.randn(h, w, 3).astype(np.float32)
-        grain = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
+    grain = make_grain(h, w)
     text_with_grain = (l_rgb + grain * GRAIN_STRENGTH).clip(0, 1)
     b[:, :, :3] = b_rgb * (1 - l_a) + text_with_grain * l_a
     canvas = Image.fromarray((b * 255).clip(0, 255).astype(np.uint8), canvas.mode)
 
     # 비주얼라이저 바 (정적 미리보기 - 랜덤 높이, 그레인 적용)
-    from generate import (VIS_NUM_BARS, VIS_BAR_WIDTH, VIS_BAR_GAP,
-                          VIS_BAR_MAX_HEIGHT, VIS_BAR_MIN_HEIGHT,
-                          VIS_BAR_ALPHA, VIS_BAR_COLOR, VIS_MARGIN_BOTTOM)
     canvas_np = np.array(canvas, dtype=np.float32) / 255.0
     vis_y_bottom = height - VIS_MARGIN_BOTTOM
     np.random.seed(42)
@@ -183,15 +169,7 @@ def main():
                         if 0 <= cy < height and 0 <= cx < width:
                             corners[(cy, cx)] = canvas_np[cy, cx, :3].copy()
             bh_r, bw_r = by_bot - by_top, VIS_BAR_WIDTH
-            if GRAIN_SIZE > 1:
-                mono = np.random.randn(bh_r // GRAIN_SIZE + 1, bw_r // GRAIN_SIZE + 1, 1).astype(np.float32)
-                color = np.random.randn(bh_r // GRAIN_SIZE + 1, bw_r // GRAIN_SIZE + 1, 3).astype(np.float32)
-                small = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
-                grain = np.repeat(np.repeat(small, GRAIN_SIZE, axis=0), GRAIN_SIZE, axis=1)[:bh_r, :bw_r]
-            else:
-                mono = np.random.randn(bh_r, bw_r, 1).astype(np.float32)
-                color = np.random.randn(bh_r, bw_r, 3).astype(np.float32)
-                grain = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
+            grain = make_grain(bh_r, bw_r)
             bar_with_grain = (bar_color + grain * GRAIN_STRENGTH).clip(0, 1)
             region = canvas_np[by_top:by_bot, bx:bx+VIS_BAR_WIDTH, :3]
             canvas_np[by_top:by_bot, bx:bx+VIS_BAR_WIDTH, :3] = region * (1 - bar_alpha) + bar_with_grain * bar_alpha
@@ -199,7 +177,6 @@ def main():
                 canvas_np[cy, cx, :3] = orig * (1 - half_alpha) + bar_color * half_alpha
 
     # 부제 (그레인 적용)
-    from generate import SUB_FONT_WEIGHT
     sub_font = ImageFont.truetype(SUB_FONT_PATH, SUB_FONT_SIZE)
     sub_font.set_variation_by_axes([SUB_FONT_WEIGHT])
     sub_layer = Image.new('RGBA', (width, height), (0, 0, 0, 0))
@@ -219,15 +196,7 @@ def main():
     sub_rgb = sub_arr[sy1:sy2+1, sx1:sx2+1, :3]
     sub_a = sub_arr[sy1:sy2+1, sx1:sx2+1, 3:4]
     sh_r, sw_r = sub_a.shape[:2]
-    if GRAIN_SIZE > 1:
-        mono = np.random.randn(sh_r // GRAIN_SIZE + 1, sw_r // GRAIN_SIZE + 1, 1).astype(np.float32)
-        color = np.random.randn(sh_r // GRAIN_SIZE + 1, sw_r // GRAIN_SIZE + 1, 3).astype(np.float32)
-        small = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
-        grain = np.repeat(np.repeat(small, GRAIN_SIZE, axis=0), GRAIN_SIZE, axis=1)[:sh_r, :sw_r]
-    else:
-        mono = np.random.randn(sh_r, sw_r, 1).astype(np.float32)
-        color = np.random.randn(sh_r, sw_r, 3).astype(np.float32)
-        grain = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
+    grain = make_grain(sh_r, sw_r)
     sub_with_grain = (sub_rgb + grain * GRAIN_STRENGTH).clip(0, 1)
     s_region = canvas_np[sy1:sy2+1, sx1:sx2+1, :3]
     canvas_np[sy1:sy2+1, sx1:sx2+1, :3] = s_region * (1 - sub_a) + sub_with_grain * sub_a

@@ -5,3 +5,5 @@ node_modules/
 .DS_Store
 __pycache__/
 suno-api/
+client_secret.json
+token.pickle

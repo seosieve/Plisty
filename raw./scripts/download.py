@@ -162,10 +162,9 @@ def suggest_sequence(results, first_idx):
 
 def main():
     if len(sys.argv) < 2:
-        print("사용법: python3 download.py <SUNO 플레이리스트 URL 또는 ID> [EP 폴더] [첫곡 번호]")
+        print("사용법: python3 download.py <SUNO 플레이리스트 URL 또는 ID> [EP 폴더]")
         print("  EP 폴더 지정 시 해당 EP의 songs/ 폴더에 저장")
         print("  EP 폴더 미지정 시 ~/Downloads/에 저장")
-        print("  첫곡 번호: 시퀀싱 시작 곡 (미지정 시 대화형 선택)")
         sys.exit(1)
 
     arg = sys.argv[1]
@@ -205,30 +204,18 @@ def main():
     print()
     results = analyze_songs(download_dir, song_titles)
 
-    if results:
-        # 첫곡 번호: CLI 인자 또는 대화형 입력
-        first_arg = sys.argv[3] if len(sys.argv) >= 4 else None
-        if first_arg:
-            choice = int(first_arg) - 1
-        else:
-            print()
-            print("🎵 첫 번째 곡을 선택하세요:")
-            for i, track in enumerate(results):
-                print(f"  {i+1}. {track['title']} ({track['bpm']:.0f}BPM, {track['key']})")
-            while True:
-                try:
-                    choice = int(input("\n번호 입력: ")) - 1
-                    if 0 <= choice < len(results):
-                        break
-                    print("올바른 번호를 입력해주세요.")
-                except ValueError:
-                    print("숫자를 입력해주세요.")
+    if results and len(results) > 2:
+        # 01, 02는 고정, 나머지를 시퀀싱
+        fixed = results[:2]
+        rest = results[2:]
 
-        sequence = suggest_sequence(results, choice)
+        sequence = suggest_sequence(rest, 0)
+        final = fixed + sequence
+
         print()
-        print(f"🎶 시퀀싱 결과 (첫 곡: {sequence[0]['title']})")
+        print("🎶 시퀀싱 결과 (01~02 고정)")
         print("=" * 50)
-        for i, track in enumerate(sequence):
+        for i, track in enumerate(final):
             dur_m = int(track['duration'] // 60)
             dur_s = int(track['duration'] % 60)
             print(f"  {i+1:2d}. {track['title']}")
@@ -237,12 +224,16 @@ def main():
 
         print()
         print("📝 파일명 트랙 번호 적용 중...")
-        for i, track in enumerate(sequence):
+        import re
+        for i, track in enumerate(final):
             old_path = os.path.join(download_dir, f"{track['title']}.wav")
-            new_path = os.path.join(download_dir, f"{i+1:02d}_{track['title']}.wav")
+            # 원래 제목에서 앞의 번호 접두사 제거 (예: "03_프론티어 랜더스" → "프론티어 랜더스")
+            clean_title = re.sub(r'^\d+_', '', track['title'])
+            new_name = f"{i+1:02d}_{clean_title}.wav"
+            new_path = os.path.join(download_dir, new_name)
             if os.path.exists(old_path):
                 os.rename(old_path, new_path)
-                print(f"  {track['title']} → {i+1:02d}_{track['title']}.wav")
+                print(f"  {track['title']} → {new_name}")
 
     print()
     print(f"🎉 완료! 저장 위치: {download_dir}")

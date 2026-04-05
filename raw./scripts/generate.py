@@ -4,12 +4,17 @@ raw. Playlist Video Generator
 루프 영상 배경 + 곡 번호 텍스트 (PIL) + 노래 순차 재생 (곡 전환 시 볼륨 페이드)
 """
 
-import subprocess
 import os
-import sys
 import re
-import tempfile
 import shutil
+import subprocess
+import sys
+import tempfile
+
+# caffeinate 자동 적용 (잠자기 방지)
+if not os.environ.get("CAFFEINATED"):
+    os.environ["CAFFEINATED"] = "1"
+    os.execvp("caffeinate", ["caffeinate", "-dims", sys.executable] + sys.argv)
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -23,15 +28,12 @@ GRAIN_INTERVAL = 15  # 그레인 변경 주기 (프레임 수, 15=초당 2회)
 # ============================================================
 # 설정
 # ============================================================
-AUTO_CONFIRM = '-y' in sys.argv
-args = [a for a in sys.argv[1:] if a != '-y']
+args = sys.argv[1:]
 
 if not args:
-    print("사용법: python3 generate.py <EP 폴더 경로> [곡 수 제한] [반복 횟수] [-y]")
+    print("사용법: python3 generate.py <EP 폴더 경로> [곡 수 제한]")
     print("예: python3 generate.py ../EP01_260401")
     print("    python3 generate.py ../EP01_260401 3  # 1~3곡만")
-    print("    python3 generate.py ../EP01_260401 0 2  # 전곡 2회 반복")
-    print("    -y: 부제 확인 생략")
     sys.exit(1)
 
 EP_DIR = os.path.abspath(args[0])
@@ -152,6 +154,19 @@ def precompute_bar_heights(audio_path, total_frames):
     return smoothed
 
 
+def make_grain(h, w):
+    """그레인 노이즈 생성"""
+    if GRAIN_SIZE > 1:
+        mono = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 1).astype(np.float32)
+        color = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 3).astype(np.float32)
+        small = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
+        return np.repeat(np.repeat(small, GRAIN_SIZE, axis=0), GRAIN_SIZE, axis=1)[:h, :w]
+    else:
+        mono = np.random.randn(h, w, 1).astype(np.float32)
+        color = np.random.randn(h, w, 3).astype(np.float32)
+        return mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
+
+
 def get_duration(filepath):
     """ffprobe로 오디오/영상 길이 반환"""
     result = subprocess.run(
@@ -230,11 +245,9 @@ def main():
     track_limit = int(args[1]) if len(args) >= 2 and int(args[1]) > 0 else len(song_files)
     song_files = song_files[:track_limit]
 
-    # 반복 횟수 (플레이리스트를 N번 재생)
-    repeat_count = int(args[2]) if len(args) >= 3 else 1
-    if repeat_count > 1:
-        song_files = song_files * repeat_count
-        print(f"🔄 {repeat_count}회 반복 → 총 {len(song_files)}트랙")
+    # 2회 반복 (플레이리스트를 2번 재생)
+    song_files = song_files * 2
+    print(f"🔄 2회 반복 → 총 {len(song_files)}트랙")
 
     # loops/ 폴더에서 루프 영상 찾기
     loop_file = None
@@ -251,12 +264,6 @@ def main():
     ep_num = int(re.search(r'EP(\d+)', EP_NAME).group(1))
     loop_name = os.path.splitext(os.path.basename(loop_file))[0]
     SUB_TEXT = f"{ep_num} {loop_name}"
-    if not AUTO_CONFIRM:
-        print(f"\n📝 부제: {SUB_TEXT}")
-        confirm = input("   이대로 진행할까요? (y/n): ").strip().lower()
-        if confirm != 'y':
-            print("❌ 취소되었습니다. 루프 파일명을 부제에 맞게 변경해주세요.")
-            sys.exit(1)
 
     print(f"📂 EP: {EP_NAME}")
     print(f"🔁 루프 영상: {os.path.basename(loop_file)}")
@@ -444,18 +451,6 @@ def main():
     del loop_frames
     print(f"  ✅ {len(loop_np)}프레임 변환 완료")
 
-    # 그레인 생성 헬퍼
-    def make_grain(h, w):
-        if GRAIN_SIZE > 1:
-            mono = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 1).astype(np.float32)
-            color = np.random.randn(h // GRAIN_SIZE + 1, w // GRAIN_SIZE + 1, 3).astype(np.float32)
-            small = mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
-            return np.repeat(np.repeat(small, GRAIN_SIZE, axis=0), GRAIN_SIZE, axis=1)[:h, :w]
-        else:
-            mono = np.random.randn(h, w, 1).astype(np.float32)
-            color = np.random.randn(h, w, 3).astype(np.float32)
-            return mono * (1 - GRAIN_COLOR) + color * GRAIN_COLOR
-
     cached_grain = {}
     bar_color_f = np.array(VIS_BAR_COLOR, dtype=np.float32) / 255.0
 
@@ -597,23 +592,6 @@ def main():
 
     # 정리
     shutil.rmtree(temp_dir)
-
-    # 타임라인 생성
-    timeline_path = os.path.join(OUTPUT_DIR, f"{EP_NAME}_timeline.txt")
-    seen = set()
-    with open(timeline_path, 'w', encoding='utf-8') as tf:
-        for i in range(len(song_files)):
-            t = track_starts[i]
-            m, s = int(t // 60), int(t % 60)
-            title = strip_track_prefix(os.path.splitext(song_files[i])[0])
-            # 반복 구간이면 REPEAT 표시 후 중단
-            key = (track_nums[i], title)
-            if key in seen:
-                tf.write(f"{m:02d}:{s:02d} REPEAT\n")
-                break
-            seen.add(key)
-            tf.write(f"{m:02d}:{s:02d} {title}\n")
-    print(f"\n📋 타임라인 저장: {timeline_path}")
 
     size = os.path.getsize(OUTPUT_FILE) / (1024 * 1024)
     print("")
